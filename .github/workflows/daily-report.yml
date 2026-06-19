@@ -3,8 +3,9 @@ name: Ranní report
 # Spouští se každý všední den ráno + ručně tlačítkem "Run workflow".
 on:
   schedule:
-    # 05:30 UTC = 07:30 Praha (léto) / 06:30 (zima), po–pá. Časy v cronu jsou v UTC.
-    - cron: "30 5 * * 1-5"
+    # 2× denně, po–pá (časy v UTC):
+    - cron: "30 5 * * 1-5"    # ~07:30 Praha — ranní přehled před otevřením EU
+    - cron: "30 14 * * 1-5"   # ~16:30 Praha — odpolední update po otevření US trhu
   workflow_dispatch: {}   # umožní ruční spuštění z GitHubu (na otestování)
 
 permissions:
