@@ -1,140 +1,660 @@
 {
- "date": "19. června 2026",
- "summary": "REÁLNÝ report z živých dat (Yahoo Finance + StockAnalysis, 19. 6. 2026). Cena u každého titulu ověřena ze dvou nezávislých zdrojů (shoda na cent). 'Fair value' = konsensuální cíl analytiků, NE garance. Doporučení je odvozeno strojově z prostoru k cíli + ratingu analytiků: Koupit = upside ≥10 % a rating Buy/Strong Buy (nebo upside ≥15 %), jinak Držet/Sledovat. 6 z 10 vychází na Koupit. Největší prostor k cíli: Adobe (+45 %, ale rating jen Hold – kontrariánská AI sázka), Stryker (+26 %, Buy, defenzivní), Chevron (+24 %, Buy, div 4 %). Nejvyšší kvalita: Visa (Strong Buy, marže 51 %). Ověření starého reportu ze stejného dne: většina cen seděla do ~4 %, ale u dvou titulů byly velké chyby – NVO mělo nadsazený cíl ($70 vs reálných $47) a TSM zastaralou cenu ($203 vs reálných $462). Bez ověřeného datového kanálu nepoznáš, kterému číslu věřit. Toto je orientační vodítko, ne investiční doporučení.",
- "sources": [
-  "Yahoo Finance (ceny, 52t rozpětí)",
-  "StockAnalysis.com (P/E, marže, beta, dividenda, cíl analytiků, rating)"
- ],
- "firms": [
-  {
-   "name": "Adobe", "ticker": "ADBE", "region": "usa", "sector": "tech",
-   "recommendation": "Koupit",
-   "price": {"current": "$195.16", "fair_value": "$282.27", "discount": "+44.6% upside", "signal": "Silný potenciál růstu", "signal_reason": "Cílová cena analytiků je o 44,6 % výše než aktuální cena, akcie se obchoduje poblíž 52týdenního minima.", "buy_zone": {"low": "$190.12", "high": "$220.00"}},
-   "moat": {"score": "8", "verdict": "Široký moat", "summary": "Dominantní postavení v kreativním softwaru (Photoshop, Acrobat) s vysokými náklady na přechod a předplatným modelem."},
-   "intrinsic": {"annual_return": "+10%", "verdict": "orientační odhad", "summary": "Při marži přes 28 % a růstu tržeb ~11,5 % nabízí silný free cash flow; nízké ocenění (P/E 11) zvyšuje očekávaný výnos.", "risk": "3"},
-   "metrics": {"Aktuální cena": "$195.16", "Fair value (cíl analytiků)": "$282.27", "P/E": "11.16", "Beta": "1.40", "52t max/min": "$392.58 / $190.12"},
-   "indicators": {"P/E": {"value": "11.16", "note": "Levné"}, "Beta": {"value": "1.40", "note": "Volatilní"}, "Div. yield": {"value": "n/a", "note": "Bez dividendy"}, "Net Margin": {"value": "28.64%", "note": "Vysoce zisková"}},
-   "analysis": "Adobe se obchoduje poblíž svého 52týdenního minima (190,12 USD) navzdory silné ziskovosti s čistou marží přes 28 % a růstem tržeb kolem 11,5 %. Ocenění je historicky nízké (P/E 11,16; forward P/E 7,53), což odráží obavy z konkurence v oblasti generativní AI. Cílová cena analytiků 282,27 USD implikuje výrazný potenciál +44,6 %, avšak je poctivé dodat, že konsensus analytiků je pouze 'Hold' (Držet), tedy zdrženlivý. Vysoká beta (1,40) značí nadprůměrnou volatilitu.",
-   "pros": ["Vysoká čistá marže (28,6 %) a silné cash flow", "Velmi nízké ocenění (P/E 11,16, forward P/E 7,53) vůči historii", "Široký konkurenční příkop díky ekosystému Creative Cloud a Acrobatu"],
-   "cons": ["Konsensus analytiků je pouze 'Hold' navzdory vysoké cílové ceně", "Tlak konkurence v generativní AI a vysoká volatilita (beta 1,40)"],
-   "_raw": {"price": 195.16, "yahoo_price": 195.16, "analyst_target": 282.27, "pe": 11.16, "beta": 1.40, "div_yield": null, "net_margin": 28.64, "rev_growth": 11.5, "rating": "Hold", "currency": "USD", "wk52_high": 392.58, "wk52_low": 190.12}
-  },
-  {
-   "name": "Stryker", "ticker": "SYK", "region": "usa", "sector": "healthcare",
-   "recommendation": "Koupit",
-   "price": {"current": "$307.80", "fair_value": "$386.80", "discount": "+25.7% upside", "signal": "Podhodnocená", "signal_reason": "Cílová cena analytiků leží zhruba 26 % nad aktuální cenou.", "buy_zone": {"low": "$281.00", "high": "$310.00"}},
-   "moat": {"score": "8", "verdict": "Široký moat", "summary": "Stryker patří mezi lídry v medicínských technologiích (ortopedie, chirurgie, neurotechnologie) s vysokými bariérami vstupu a stabilní poptávkou."},
-   "intrinsic": {"annual_return": "+8%", "verdict": "orientační odhad", "summary": "Při růstu tržeb kolem 9 % a postupné expanzi marží lze očekávat dlouhodobý jednociferný roční výnos; ocenění je však již vyšší.", "risk": "2"},
-   "metrics": {"Aktuální cena": "$307.80", "Fair value (cíl analytiků)": "$386.80", "P/E": "35.63", "Beta": "0.78", "52t max/min": "$404.87 / $281.00"},
-   "indicators": {"P/E": {"value": "35.63", "note": "Drahé"}, "Beta": {"value": "0.78", "note": "Defenzivní"}, "Div. yield": {"value": "1.14%", "note": "Dividenda"}, "Net Margin": {"value": "13.21%", "note": "Solidní zisková marže"}},
-   "analysis": "Stryker se obchoduje kolem 308 USD, tedy zhruba 24 % pod svým 52týdenním maximem a blízko spodní hranice ročního rozpětí. Trailing P/E přes 35 je relativně vysoké, avšak forward P/E kolem 19,7 naznačuje očekávaný růst zisků. Konsensus 27 analytiků je 'Buy' s průměrnou cílovou cenou 386,80 USD, což implikuje zhruba 26% potenciál růstu; je ale férové dodat, že cílové ceny analytiků bývají optimistické a skutečný vývoj závisí na plnění růstu tržeb a marží. Nízká beta (0,78) řadí akcii mezi defenzivnější tituly.",
-   "pros": ["Silná tržní pozice v medicínských technologiích se širokým moatem", "Stabilní růst tržeb (~9 %) a defenzivní charakter (beta 0,78)", "Konsensus analytiků 'Buy' s ~26% potenciálem k cílové ceně"],
-   "cons": ["Vysoké ocenění (trailing P/E přes 35) zvyšuje citlivost na zklamání", "Nízký dividendový výnos (~1,1 %) a cena blízko spodní části ročního rozpětí signalizuje slabší momentum"],
-   "_raw": {"price": 307.80, "yahoo_price": 307.8, "analyst_target": 386.80, "pe": 35.63, "beta": 0.78, "div_yield": 1.14, "net_margin": 13.21, "rev_growth": 8.8, "rating": "Buy", "currency": "USD", "wk52_high": 404.87, "wk52_low": 281.00}
-  },
-  {
-   "name": "Chevron", "ticker": "CVX", "region": "usa", "sector": "energy",
-   "recommendation": "Koupit",
-   "price": {"current": "$173.63", "fair_value": "$216.04", "discount": "+24% upside", "signal": "Podhodnocená", "signal_reason": "Cílová cena analytiků leží zhruba 24 % nad aktuální cenou.", "buy_zone": {"low": "$142.40", "high": "$173.63"}},
-   "moat": {"score": "7", "verdict": "Silný", "summary": "Integrovaný energetický gigant s rozsáhlými aktivy, nízkými těžebními náklady a silnou bilancí."},
-   "intrinsic": {"annual_return": "+8%", "verdict": "orientační odhad", "summary": "Kombinace dividendy přes 4 % a růstu ceny k cíli analytiků naznačuje slušný celkový výnos, závisí však na cenách ropy.", "risk": "3"},
-   "metrics": {"Aktuální cena": "$173.63", "Fair value (cíl analytiků)": "$216.04", "P/E": "30.20", "Beta": "0.47", "52t max/min": "$214.71 / $142.40"},
-   "indicators": {"P/E": {"value": "30.20", "note": "Drahé"}, "Beta": {"value": "0.47", "note": "Defenzivní"}, "Div. yield": {"value": "4.10%", "note": "Dividenda"}, "Net Margin": {"value": "n/a", "note": "Nedostupné ze zdroje"}},
-   "analysis": "Chevron se obchoduje kolem $173,63, výrazně pod konsensuálním cílem analytiků $216,04, což implikuje upside zhruba +24 %. Akcie nabízí defenzivní profil (beta 0,47) a atraktivní dividendu přes 4 %, tržby ale za posledních 12 měsíců klesly o zhruba 4,8 % kvůli nižším cenám ropy. Aktuální P/E 30,2 je opticky vysoké, zatímco forward P/E 10,47 ukazuje očekávané zotavení zisků. Poctivě: konsensus 25 analytiků je 'Buy', jde však o odhad, nikoli jistotu, a silně závisí na vývoji cen energií.",
-   "pros": ["Cíl analytiků (konsensus 25 analytiků, rating Buy) leží zhruba 24 % nad aktuální cenou", "Vysoká a stabilní dividenda kolem 4,1 %", "Nízká beta 0,47 a defenzivní charakter integrované energetiky"],
-   "cons": ["Pokles tržeb o cca 4,8 % a citlivost zisků na ceny ropy a plynu", "Vysoké aktuální P/E 30,2 odráží stlačené zisky v cyklickém odvětví"],
-   "_raw": {"price": 173.63, "yahoo_price": 173.63, "analyst_target": 216.04, "pe": 30.20, "beta": 0.47, "div_yield": 4.10, "net_margin": null, "rev_growth": -4.8, "rating": "Buy", "currency": "USD", "wk52_high": 214.71, "wk52_low": 142.40}
-  },
-  {
-   "name": "Lockheed Martin", "ticker": "LMT", "region": "usa", "sector": "industry",
-   "recommendation": "Koupit",
-   "price": {"current": "$510.95", "fair_value": "$625.16", "discount": "+22% upside", "signal": "Koupit", "signal_reason": "Cílová cena analytiků leží 22 % nad aktuálním kurzem.", "buy_zone": {"low": "$460.00", "high": "$511.00"}},
-   "moat": {"score": "8", "verdict": "Silná konkurenční výhoda", "summary": "Klíčový dodavatel obrany USA s dlouhodobými vládními kontrakty a vysokými bariérami vstupu."},
-   "intrinsic": {"annual_return": "+8%", "verdict": "orientační odhad", "summary": "Mírný růst tržeb (~4,6 %) doplněný dividendou kolem 2,7 %.", "risk": "2"},
-   "metrics": {"Aktuální cena": "$510.95", "Fair value (cíl analytiků)": "$625.16", "P/E": "24.78", "Beta": "0.11", "52t max/min": "$692.00 / $410.11"},
-   "indicators": {"P/E": {"value": "24.78", "note": "Drahé"}, "Beta": {"value": "0.11", "note": "Defenzivní"}, "Div. yield": {"value": "2.70%", "note": "Dividenda"}, "Net Margin": {"value": "n/a", "note": "nedostupné"}},
-   "analysis": "Lockheed Martin se obchoduje za 510,95 USD, výrazně pod 52týdenním maximem 692 USD. Konsenzus 21 analytiků je přitom pouze 'Hold', byť s průměrnou cílovou cenou 625,16 USD, což znamená zhruba 22% potenciál růstu. Velmi nízká beta (0,11) činí akcii defenzivní a málo citlivou na pohyby trhu. Poctivě je nutné dodat, že navzdory atraktivnímu cílovému kurzu je samotné hodnocení analytiků jen neutrální 'Držet'.",
-   "pros": ["Defenzivní profil s velmi nízkou betou 0,11", "Stabilní dividenda kolem 2,7 %", "Cílová cena analytiků leží 22 % nad kurzem"],
-   "cons": ["Konsenzus analytiků je pouze neutrální 'Hold'", "Vyšší P/E 24,78 a kurz hluboko pod 52t maximem signalizují nedávný pokles"],
-   "_raw": {"price": 510.95, "yahoo_price": 510.95, "analyst_target": 625.16, "pe": 24.78, "beta": 0.11, "div_yield": 2.70, "net_margin": null, "rev_growth": 4.6, "rating": "Hold", "currency": "USD", "wk52_high": 692.00, "wk52_low": 410.11}
-  },
-  {
-   "name": "Visa", "ticker": "V", "region": "usa", "sector": "finance",
-   "recommendation": "Koupit",
-   "price": {"current": "$327.24", "fair_value": "$398.83", "discount": "+21.9% upside", "signal": "Koupit", "signal_reason": "Cíl analytiků je 21,9 % nad aktuální cenou při konsensu Strong Buy.", "buy_zone": {"low": "$294.00", "high": "$330.00"}},
-   "moat": {"score": "9", "verdict": "Velmi široký", "summary": "Globální duopol v platebních sítích s obrovskými síťovými efekty a vysokou bariérou vstupu."},
-   "intrinsic": {"annual_return": "+10%", "verdict": "orientační odhad", "summary": "Dvouciferný růst tržeb (~14 %) plus skromná dividenda kolem 0,8 %.", "risk": "2"},
-   "metrics": {"Aktuální cena": "$327.24", "Fair value (cíl analytiků)": "$398.83", "P/E": "28.53", "Beta": "0.76", "52t max/min": "$359.66 / $293.89"},
-   "indicators": {"P/E": {"value": "28.53", "note": "Férové"}, "Beta": {"value": "0.76", "note": "Defenzivní"}, "Div. yield": {"value": "0.82%", "note": "Dividenda"}, "Net Margin": {"value": "51.25%", "note": "Mimořádně vysoká marže"}},
-   "analysis": "Visa zůstává jedním z nejkvalitnějších byznysů na trhu díky mimořádné ziskové marži přes 51 % a stabilnímu dvoucifernému růstu tržeb. Aktuální cena 327 USD nabízí podle konsensu 39 analytiků zhruba 22% prostor k cíli 399 USD s hodnocením Strong Buy. Je ale férové dodat, že cíle analytiků bývají optimistické a P/E kolem 28,5 už zohledňuje vysoká očekávání. Defenzivní beta 0,76 dělá z akcie relativně stabilní držbu.",
-   "pros": ["Globální duopol s obrovskými síťovými efekty a vysokou bariérou vstupu", "Mimořádná čistá marže přes 51 % a stabilní dvouciferný růst tržeb", "Silný konsensus analytiků Strong Buy s ~22% prostorem k cíli"],
-   "cons": ["Valuace P/E ~28,5 zohledňuje vysoká očekávání, prostor pro zklamání", "Regulační tlak na výši poplatků a hrozba alternativních platebních metod"],
-   "_raw": {"price": 327.24, "yahoo_price": 327.24, "analyst_target": 398.83, "pe": 28.53, "beta": 0.76, "div_yield": 0.82, "net_margin": 51.25, "rev_growth": 14.4, "rating": "Strong Buy", "currency": "USD", "wk52_high": 359.66, "wk52_low": 293.89}
-  },
-  {
-   "name": "Mondelez International", "ticker": "MDLZ", "region": "usa", "sector": "consumer",
-   "recommendation": "Koupit",
-   "price": {"current": "$60.12", "fair_value": "$67.21", "discount": "+11.8% upside", "signal": "Koupit", "signal_reason": "Cílová cena analytiků leží zhruba 12 % nad aktuální cenou při konsensu Buy.", "buy_zone": {"low": "$51.20", "high": "$60.12"}},
-   "moat": {"score": "8", "verdict": "Silný", "summary": "Globální portfolio značek (Oreo, Cadbury, Milka) s cenovou silou a širokou distribucí tvoří odolnou konkurenční výhodu."},
-   "intrinsic": {"annual_return": "+8%", "verdict": "orientační odhad", "summary": "Defenzivní spotřební titul s nízkou betou; očekávaný výnos kombinuje mírný růst tržeb (~8 %) a dividendu kolem 3,3 %.", "risk": "2"},
-   "metrics": {"Aktuální cena": "$60.12", "Fair value (cíl analytiků)": "$67.21", "P/E": "29.74", "Beta": "0.40", "52t max/min": "$71.15 / $51.20"},
-   "indicators": {"P/E": {"value": "29.74", "note": "Drahé"}, "Beta": {"value": "0.40", "note": "Defenzivní"}, "Div. yield": {"value": "3.33%", "note": "Dividenda"}, "Net Margin": {"value": "n/a", "note": "Údaj nebyl v reálných datech dostupný"}},
-   "analysis": "Mondelez se obchoduje na $60.12, tedy zhruba 12 % pod konsensuálním cílem analytiků $67.21 s ratingem Buy. Titul je výrazně defenzivní (beta 0.40) a nabízí dividendu 3,33 %, zatímco tržby rostly o 7,8 %. P/E 29.74 je relativně vysoké, byť forwardové P/E (~18.8) naznačuje očekávané zlepšení zisků. Konsensus 25 analytiků je nicméně jen orientační a nezaručuje budoucí vývoj.",
-   "pros": ["Silné globální značky a cenová síla (Oreo, Cadbury, Milka)", "Nízká beta 0.40 a slušná dividenda 3,33 % – defenzivní charakter", "Růst tržeb 7,8 % a konsensus analytiků Buy s ~12% upside"],
-   "cons": ["Vysoké P/E 29.74 a tlak na marže (čistý zisk meziročně klesl)", "Citlivost na ceny komodit (kakao) a měnové výkyvy"],
-   "_raw": {"price": 60.12, "yahoo_price": 60.12, "analyst_target": 67.21, "pe": 29.74, "beta": 0.40, "div_yield": 3.33, "net_margin": null, "rev_growth": 7.8, "rating": "Buy", "currency": "USD", "wk52_high": 71.15, "wk52_low": 51.20}
-  },
-  {
-   "name": "Novo Nordisk", "ticker": "NVO", "region": "europe", "sector": "healthcare",
-   "recommendation": "Držet",
-   "price": {"current": "$43.19", "fair_value": "$47.44", "discount": "+9.8% upside", "signal": "Mírný potenciál", "signal_reason": "Cílová cena analytiků je jen ~10 % nad aktuální cenou, tedy mírný prostor k růstu.", "buy_zone": {"low": "$38.00", "high": "$43.00"}},
-   "moat": {"score": "8", "verdict": "Silný moat", "summary": "Nízká beta 0.35 a dominance v léčbě diabetu/obezity (GLP-1) značí defenzivní a obtížně napodobitelný byznys."},
-   "intrinsic": {"annual_return": "+9%", "verdict": "orientační odhad", "summary": "Růst tržeb ~8 % ročně plus dividendový výnos ~3 % dává orientačně kolem 9 % p.a.", "risk": "2"},
-   "metrics": {"Aktuální cena": "$43.19", "Fair value (cíl analytiků)": "$47.44", "P/E": "10.58", "Beta": "0.35", "52t max/min": "$74.82 / $35.12"},
-   "indicators": {"P/E": {"value": "10.58", "note": "Levné"}, "Beta": {"value": "0.35", "note": "Defenzivní"}, "Div. yield": {"value": "2.98%", "note": "Dividenda"}, "Net Margin": {"value": "n/a", "note": "Údaj nedostupný"}},
-   "analysis": "Novo Nordisk je dánská farmaceutická firma s vedoucím postavením v léčbě diabetu a obezity (přípravky na bázi GLP-1 jako Ozempic a Wegovy). Aktuální cena $43.19 je zhruba 9,8 % pod konsensuálním cílem analytiků $47.44. Akcie se obchoduje za nízké P/E 10.58 a má velmi nízkou betu 0.35, což svědčí o defenzivním charakteru a aktuálně stlačeném ocenění po výrazném propadu z 52týdenního maxima $74.82. Cílová cena $47.44 je však pouze konsensus analytiků, nikoli záruka budoucího vývoje.",
-   "pros": ["Nízké P/E 10.58 a defenzivní beta 0.35 naznačují atraktivní ocenění s nižší volatilitou", "Solidní dividendový výnos 2.98 % doplňuje růst tržeb cca 8.1 %", "Konsensus analytiků zní Buy s cílem ~10 % nad aktuální cenou"],
-   "cons": ["Akcie ztratila přes 40 % z 52týdenního maxima $74.82, což odráží zhoršený sentiment a tlak konkurence v GLP-1", "Upside k cíli analytiků je jen ~10 %, tedy omezený prostor a riziko dalších revizí dolů"],
-   "_raw": {"price": 43.19, "yahoo_price": 43.19, "analyst_target": 47.44, "pe": 10.58, "beta": 0.35, "div_yield": 2.98, "net_margin": null, "rev_growth": 8.1, "rating": "Buy", "currency": "USD", "wk52_high": 74.82, "wk52_low": 35.12}
-  },
-  {
-   "name": "Linde", "ticker": "LIN", "region": "europe", "sector": "industry",
-   "recommendation": "Držet",
-   "price": {"current": "$512.15", "fair_value": "$545.44", "discount": "+6.5% upside", "signal": "Držet", "signal_reason": "Cílová cena analytiků je jen mírně nad aktuální cenou, prostor pro růst je omezený.", "buy_zone": {"low": "$430.00", "high": "$470.00"}},
-   "moat": {"score": "9", "verdict": "Velmi široký", "summary": "Globální lídr v průmyslových plynech s dlouhodobými kontrakty a vysokými bariérami vstupu."},
-   "intrinsic": {"annual_return": "+8%", "verdict": "orientační odhad", "summary": "Stabilní růst zisku v jednotkách procent plus dividenda kolem 1,3 %.", "risk": "2"},
-   "metrics": {"Aktuální cena": "$512.15", "Fair value (cíl analytiků)": "$545.44", "P/E": "33.96", "Beta": "0.73", "52t max/min": "$525.87 / $387.78"},
-   "indicators": {"P/E": {"value": "33.96", "note": "Drahé"}, "Beta": {"value": "0.73", "note": "Defenzivní"}, "Div. yield": {"value": "1.25%", "note": "Dividenda"}, "Net Margin": {"value": "20.41%", "note": "Vysoká ziskovost"}},
-   "analysis": "Linde je nejhodnotnější světový výrobce průmyslových plynů s defenzivním profilem (beta 0,73) a vysokou ziskovou marží přes 20 %. Akcie se aktuálně obchoduje poblíž svého 52týdenního maxima a při P/E téměř 34 je oceněna nadprůměrně. Konsensus 27 analytiků je 'Koupit' s cílovou cenou $545,44, což ale znamená jen +6,5 % prostor k růstu. Růst tržeb je nyní spíše mírný (cca 3 %), takže ocenění už odráží kvalitu firmy a větší výnos by musel přijít z dalšího růstu zisků a dividend.",
-   "pros": ["Široký konkurenční příkop a stabilní poptávka po průmyslových plynech", "Nízká beta 0,73 a vysoká čistá marže přes 20 % = defenzivní kvalita", "Konsensus analytiků 'Koupit' a pravidelně rostoucí dividenda"],
-   "cons": ["Vysoké ocenění (P/E ~34) a cena u 52týdenního maxima omezují prostor k růstu", "Pomalý růst tržeb (cca 3 %) může zklamat při zhoršení průmyslové konjunktury"],
-   "_raw": {"price": 512.15, "yahoo_price": 512.15, "analyst_target": 545.44, "pe": 33.96, "beta": 0.73, "div_yield": 1.25, "net_margin": 20.41, "rev_growth": 2.97, "rating": "Buy", "currency": "USD", "wk52_high": 525.87, "wk52_low": 387.78}
-  },
-  {
-   "name": "Berkshire Hathaway", "ticker": "BRK.B", "region": "usa", "sector": "finance",
-   "recommendation": "Držet",
-   "price": {"current": "$489.46", "fair_value": "$520.33", "discount": "+6% upside", "signal": "Držet", "signal_reason": "Cílová cena analytiků je jen mírně nad aktuální cenou, potenciál růstu nedosahuje prahu pro nákup.", "buy_zone": {"low": "$455.19", "high": "$489.46"}},
-   "moat": {"score": "9", "verdict": "velmi široký", "summary": "Diverzifikovaný konglomerát s pojišťovacím float, silnými značkami a kapitálovou disciplínou."},
-   "intrinsic": {"annual_return": "+7%", "verdict": "orientační odhad", "summary": "Při nízké volatilitě a stabilním růstu hodnoty firmy lze očekávat spíše konzervativní dlouhodobý výnos.", "risk": "2"},
-   "metrics": {"Aktuální cena": "$489.46", "Fair value (cíl analytiků)": "$520.33", "P/E": "14.56", "Beta": "0.62", "52t max/min": "$516.85 / $455.19"},
-   "indicators": {"P/E": {"value": "14.56", "note": "Férové"}, "Beta": {"value": "0.62", "note": "Defenzivní"}, "Net Margin": {"value": "n/a", "note": "data nedostupná ve zdroji"}},
-   "analysis": "Berkshire Hathaway se obchoduje za $489.46 s konzervativním P/E 14.56 a nízkou betou 0.62, což odpovídá defenzivnímu profilu konglomerátu. Cílová cena analytiků $520.33 implikuje jen zhruba +6% potenciál, takže navzdory konsensuálnímu ratingu 'Buy' nedosahuje upside prahu pro nákupní doporučení. Konsensus analytiků je tedy mírně pozitivní, ale prostor pro růst je omezený a akcie se pohybuje blízko svého 52týdenního maxima. Firma nevyplácí dividendu, výnos plyne z růstu vnitřní hodnoty.",
-   "pros": ["Nízká beta 0.62 a defenzivní charakter snižují volatilitu portfolia", "Konzervativní valuace s P/E 14.56 a širokým konkurenčním příkopem", "Diverzifikované zdroje příjmů a silná kapitálová pozice"],
-   "cons": ["Omezený potenciál růstu (cíl analytiků jen ~6% nad cenou)", "Žádná dividenda, výnos závisí výhradně na zhodnocení akcie"],
-   "_raw": {"price": 489.46, "yahoo_price": 489.46, "analyst_target": 520.33, "pe": 14.56, "beta": 0.62, "div_yield": 0, "net_margin": null, "rev_growth": 0.00, "rating": "Buy", "currency": "USD", "wk52_high": 516.85, "wk52_low": 455.19}
-  },
-  {
-   "name": "TSMC", "ticker": "TSM", "region": "asia", "sector": "tech",
-   "recommendation": "Držet",
-   "price": {"current": "$462.12", "fair_value": "$473.40", "discount": "+2.4% upside", "signal": "Drahé", "signal_reason": "Cena je už téměř na cíli analytiků, prostor pro růst je jen malý.", "buy_zone": {"low": "$380.00", "high": "$420.00"}},
-   "moat": {"score": "9", "verdict": "Velmi silný", "summary": "TSMC je dominantní světový výrobce čipů na zakázku s technologickým náskokem a obří úsporou z rozsahu."},
-   "intrinsic": {"annual_return": "+8%", "verdict": "orientační odhad", "summary": "Silný růst tržeb (~31 %) plus malá dividenda (0,6 %), ale ocenění už hodně předbíhá.", "risk": "3"},
-   "metrics": {"Aktuální cena": "$462.12", "Fair value (cíl analytiků)": "$473.40", "P/E": "33.14", "Beta": "1.25", "52t max/min": "$465.22 / $206.20"},
-   "indicators": {"P/E": {"value": "33.14", "note": "Drahé"}, "Beta": {"value": "1.25", "note": "Volatilní"}, "Div. yield": {"value": "0.60%", "note": "Dividenda"}, "Net Margin": {"value": "46.97%", "note": "Výjimečně vysoká"}},
-   "analysis": "TSMC je největší světová zakázková slévárna polovodičů, vyrábí nejpokročilejší čipy pro Apple, Nvidii a další technologické giganty. Akcie se obchoduje za $462.12, zatímco konsenzuální cíl analytiků je $473.40, tedy upside jen +2,4 % – cena je prakticky na maximu (52t max $465.22). P/E 33,1 je vysoké, ale čistá marže 46,97 % a růst tržeb ~31 % to částečně ospravedlňují, beta 1,25 značí nadprůměrnou volatilitu. Analytici dávají rating Strong Buy, je ale třeba poctivě dodat, že většina očekávaného růstu je už v ceně zahrnuta.",
-   "pros": ["Dominantní pozice a technologický náskok ve výrobě nejpokročilejších čipů", "Vynikající ziskovost – čistá marže téměř 47 % a růst tržeb přes 30 %", "Silná poptávka tažená AI a high-performance computingem"],
-   "cons": ["Vysoké ocenění (P/E 33) a cena těsně pod 52týdenním maximem – malý prostor pro růst", "Geopolitické riziko kvůli koncentraci výroby na Tchaj-wanu a napětí s Čínou"],
-   "_raw": {"price": 462.12, "yahoo_price": 462.12, "analyst_target": 473.40, "pe": 33.14, "beta": 1.25, "div_yield": 0.60, "net_margin": 46.97, "rev_growth": 30.7, "rating": "Strong Buy", "currency": "USD", "wk52_high": 465.22, "wk52_low": 206.20}
-  }
- ]
+  "date": "19. června 2026",
+  "summary": "Trh dnes drží mírně optimistickou náladu, ale je rozkročený mezi rekordně drahými technologiemi (ASML, Caterpillar u maxim) a hluboce zlevněnými defenzivními tituly. Výběr záměrně míchá odvětví a regiony – od zaostávajícího Novo Nordisku a kvalitního Thermo Fisheru po stabilní Visa a Nestlé – aby ukázal jak příležitosti, tak přepálené valuace. Uvedená fair value odpovídá KONSENSU analytiků (průměrný cílový kurz), což je pouze orientační vodítko, nikoli záruka ani investiční rada. Doporučení vychází z jednoduché heuristiky (upside + rating) a každý investor by si měl udělat vlastní analýzu.",
+  "sources": [
+    "Investing.com",
+    "S&P Global / StockAnalysis.com",
+    "Benzinga",
+    "TipRanks",
+    "CNBC",
+    "Yahoo Finance",
+    "Google Finance",
+    "GuruFocus",
+    "MarketBeat",
+    "ChartMill",
+    "MacroTrends"
+  ],
+  "firms": [
+    {
+      "name": "Novo Nordisk",
+      "ticker": "NVO",
+      "region": "europe",
+      "sector": "healthcare",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$42.91",
+        "fair_value": "$65.56",
+        "discount": "+52.8% upside",
+        "signal": "Hluboká korekce",
+        "signal_reason": "Cena u 52t minima po obavách z konkurence v GLP-1.",
+        "buy_zone": {
+          "low": "$38",
+          "high": "$46"
+        }
+      },
+      "moat": {
+        "score": "8",
+        "verdict": "Široký",
+        "summary": "Lídr v inzulinu a GLP-1 lécích (Ozempic, Wegovy) s vysokými maržemi."
+      },
+      "intrinsic": {
+        "annual_return": "+12%",
+        "verdict": "orientační odhad",
+        "summary": "Odhad vychází z konsensu analytiků a aktuálního ocenění.",
+        "risk": "4"
+      },
+      "metrics": {
+        "Aktuální cena": "$42.91",
+        "Fair value (cíl analytiků)": "$65.56",
+        "P/E": "~13",
+        "Beta": "n/a",
+        "52t max/min": "$74.38 / $35.12"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "~13",
+          "note": "Levné"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "n/a"
+        },
+        "Div. yield": {
+          "value": "n/a",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "n/a"
+        }
+      },
+      "analysis": "Novo Nordisk je dánský farmaceutický gigant dominující trhu s léky na cukrovku a obezitu (Ozempic, Wegovy). Akcie se po dramatickém propadu obchoduje u 52týdenního minima kolem 43 USD, zatímco konsensuální cíl analytiků (~66 USD) implikuje výrazný potenciál; cíle se ale extrémně liší (41–160 USD). Nízké P/E kolem 13 a Buy rating odrážejí levné ocenění, ale zároveň velkou nejistotu ohledně konkurence (Eli Lilly) a tlaku na ceny v USA. Fair value je pouhým konsensem analytiků a vzhledem k obrovskému rozptylu cílů jde jen o orientační vodítko.",
+      "pros": [
+        "Globální lídr v lukrativním trhu obezity a diabetu",
+        "Nízké ocenění (P/E ~13) po hlubokém propadu",
+        "Silné marže a generování hotovosti"
+      ],
+      "cons": [
+        "Sílící konkurence (Eli Lilly) a riziko ztráty podílu",
+        "Tlak na ceny léků v USA a politická nejistota"
+      ]
+    },
+    {
+      "name": "Coinbase Global",
+      "ticker": "COIN",
+      "region": "usa",
+      "sector": "crypto",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$158.57",
+        "fair_value": "$230.34",
+        "discount": "+45.3% upside",
+        "signal": "Vysoký potenciál, vysoké riziko",
+        "signal_reason": "Cíl o ~45 % výš, ale beta 2,64 a navázání na krypto.",
+        "buy_zone": {
+          "low": "$135",
+          "high": "$160"
+        }
+      },
+      "moat": {
+        "score": "5",
+        "verdict": "Úzký",
+        "summary": "Největší regulovaná krypto burza v USA, ale s nízkými bariérami a regulačním rizikem."
+      },
+      "intrinsic": {
+        "annual_return": "+15%",
+        "verdict": "orientační odhad",
+        "summary": "Odhad vychází z konsensu analytiků a aktuálního ocenění.",
+        "risk": "5"
+      },
+      "metrics": {
+        "Aktuální cena": "$158.57",
+        "Fair value (cíl analytiků)": "$230.34",
+        "P/E": "62.01",
+        "Beta": "2.64",
+        "52t max/min": "n/a / n/a"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "62.01",
+          "note": "Drahé"
+        },
+        "Beta": {
+          "value": "2.64",
+          "note": "Volatilní"
+        },
+        "Div. yield": {
+          "value": "0%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "n/a"
+        }
+      },
+      "analysis": "Coinbase je největší americká krypto burza, jejíž tržby silně závisí na objemech obchodování a cenách kryptoměn. Při ceně ~159 USD je konsensuální cíl ~230 USD, tedy potenciál přes 45 %, rating Buy. Vysoké P/E (62) a extrémní beta (2,64) ale signalizují velkou volatilitu a spekulativní charakter. Fair value je konsensus analytiků – u tak cyklického titulu jde o velmi nejisté, čistě orientační číslo.",
+      "pros": [
+        "Lídr regulovaného krypto trhu v USA",
+        "Páka na růst cen kryptoměn",
+        "Rozšiřování o staking a institucionální služby"
+      ],
+      "cons": [
+        "Extrémní volatilita (beta 2,64) a vysoké P/E",
+        "Regulační nejistota a závislost na cenách krypta"
+      ]
+    },
+    {
+      "name": "Thermo Fisher Scientific",
+      "ticker": "TMO",
+      "region": "usa",
+      "sector": "healthcare",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$472",
+        "fair_value": "$602.76",
+        "discount": "+27.7% upside",
+        "signal": "Kvalita ve slevě",
+        "signal_reason": "Stabilní byznys hluboko pod cílem a 25 % pod 52t maximem.",
+        "buy_zone": {
+          "low": "$440",
+          "high": "$475"
+        }
+      },
+      "moat": {
+        "score": "8",
+        "verdict": "Široký",
+        "summary": "Globální lídr ve vědeckém vybavení a laboratorních službách se silnou loajalitou zákazníků."
+      },
+      "intrinsic": {
+        "annual_return": "+11%",
+        "verdict": "orientační odhad",
+        "summary": "Odhad vychází z konsensu analytiků a aktuálního ocenění.",
+        "risk": "2"
+      },
+      "metrics": {
+        "Aktuální cena": "$472",
+        "Fair value (cíl analytiků)": "$602.76",
+        "P/E": "24.3",
+        "Beta": "0.83",
+        "52t max/min": "$643.99 / $385.46"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "24.3",
+          "note": "Férové"
+        },
+        "Beta": {
+          "value": "0.83",
+          "note": "Defenzivní"
+        },
+        "Div. yield": {
+          "value": "0.4%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "n/a"
+        }
+      },
+      "analysis": "Thermo Fisher je globální dodavatel laboratorních přístrojů, reagencií a služeb pro vědu a farmacii. Akcie kolem 472 USD se obchoduje výrazně pod konsensuálním cílem ~603 USD (potenciál ~28 %) a zhruba 25 % pod 52týdenním maximem, s ratingem Strong Buy. Rozumné P/E (24), nízká beta (0,83) a defenzivní profil dělají z titulu kvalitní jádro. Fair value odpovídá konsensu analytiků a je orientačním vodítkem, ne zárukou.",
+      "pros": [
+        "Diverzifikovaný a defenzivní byznys model",
+        "Silná pozice ve farmaceutickém i akademickém sektoru",
+        "Atraktivní vstupní cena pod cílem analytiků"
+      ],
+      "cons": [
+        "Slabší poptávka po laboratorním vybavení a financování výzkumu",
+        "Tlak na marže a citlivost na rozpočty zákazníků"
+      ]
+    },
+    {
+      "name": "ConocoPhillips",
+      "ticker": "COP",
+      "region": "usa",
+      "sector": "energy",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$115.55",
+        "fair_value": "$142.88",
+        "discount": "+23.7% upside",
+        "signal": "Levná energetika",
+        "signal_reason": "P/E 19, beta 0,62 a cíl o ~24 % výš.",
+        "buy_zone": {
+          "low": "$105",
+          "high": "$118"
+        }
+      },
+      "moat": {
+        "score": "6",
+        "verdict": "Střední",
+        "summary": "Nízkonákladový těžař s kvalitními aktivy, ale vázaný na ceny ropy."
+      },
+      "intrinsic": {
+        "annual_return": "+10%",
+        "verdict": "orientační odhad",
+        "summary": "Odhad vychází z konsensu analytiků a aktuálního ocenění.",
+        "risk": "3"
+      },
+      "metrics": {
+        "Aktuální cena": "$115.55",
+        "Fair value (cíl analytiků)": "$142.88",
+        "P/E": "19.23",
+        "Beta": "0.62",
+        "52t max/min": "$135.87 / $84.28"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "19.23",
+          "note": "Férové"
+        },
+        "Beta": {
+          "value": "0.62",
+          "note": "Defenzivní"
+        },
+        "Div. yield": {
+          "value": "~2.9%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "12.58%",
+          "note": "Solidní"
+        }
+      },
+      "analysis": "ConocoPhillips je jeden z největších nezávislých těžařů ropy a plynu s nízkonákladovým portfoliem. Při ceně ~116 USD nabízí konsensuální cíl ~143 USD potenciál kolem 24 %, rating Buy, a to při P/E 19 a dividendě kolem 2,9 %. Nízká beta (0,62) a čistá marže přes 12 % ukazují solidní disciplínu, výsledky ale kolísají s cenou komodit. Fair value je konsensus analytiků – orientační, nikoli závazné číslo.",
+      "pros": [
+        "Nízkonákladová těžební aktiva a silný cash flow",
+        "Atraktivní dividenda a zpětné odkupy",
+        "Levné ocenění (P/E ~19)"
+      ],
+      "cons": [
+        "Vysoká závislost na ceně ropy a plynu",
+        "Cykličnost zisků a regulační/ESG rizika"
+      ]
+    },
+    {
+      "name": "Visa",
+      "ticker": "V",
+      "region": "usa",
+      "sector": "finance",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$327.24",
+        "fair_value": "$398.74",
+        "discount": "+21.8% upside",
+        "signal": "Defenzivní růst se slevou",
+        "signal_reason": "Strong Buy, beta 0,68 a cíl o ~22 % výš.",
+        "buy_zone": {
+          "low": "$300",
+          "high": "$330"
+        }
+      },
+      "moat": {
+        "score": "10",
+        "verdict": "Velmi široký",
+        "summary": "Globální platební síť s efektem sítě a marží přes 50 %."
+      },
+      "intrinsic": {
+        "annual_return": "+12%",
+        "verdict": "orientační odhad",
+        "summary": "Odhad vychází z konsensu analytiků a aktuálního ocenění.",
+        "risk": "2"
+      },
+      "metrics": {
+        "Aktuální cena": "$327.24",
+        "Fair value (cíl analytiků)": "$398.74",
+        "P/E": "28.34",
+        "Beta": "0.68",
+        "52t max/min": "$359.66 / $293.89"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "28.34",
+          "note": "Férové"
+        },
+        "Beta": {
+          "value": "0.68",
+          "note": "Defenzivní"
+        },
+        "Div. yield": {
+          "value": "0.82%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "51.68%",
+          "note": "Vysoká"
+        }
+      },
+      "analysis": "Visa provozuje největší globální platební síť a profituje z růstu bezhotovostních plateb. Akcie kolem 327 USD se obchoduje pod konsensuálním cílem ~399 USD (potenciál ~22 %) s ratingem Strong Buy. Čistá marže přes 51 %, nízká beta (0,68) a stabilní růst dělají z Visa kvalitní defenzivní titul, byť P/E 28 není levné. Fair value vychází z konsensu analytiků a slouží jen jako orientační vodítko.",
+      "pros": [
+        "Dominantní platební síť s extrémními maržemi (51 %)",
+        "Stabilní růst a nízká volatilita (beta 0,68)",
+        "Silné generování hotovosti a odkupy"
+      ],
+      "cons": [
+        "Regulační riziko poplatků a konkurence fintech řešení",
+        "Vyšší ocenění (P/E ~28)"
+      ]
+    },
+    {
+      "name": "PepsiCo",
+      "ticker": "PEP",
+      "region": "usa",
+      "sector": "consumer",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$148.28",
+        "fair_value": "$170.57",
+        "discount": "+15.0% upside",
+        "signal": "Dividendový aristokrat na minimu",
+        "signal_reason": "Cíl +15 %, dividenda ~4 %, beta jen 0,14.",
+        "buy_zone": {
+          "low": "$140",
+          "high": "$150"
+        }
+      },
+      "moat": {
+        "score": "8",
+        "verdict": "Široký",
+        "summary": "Silné značky nápojů a snacků s globální distribucí."
+      },
+      "intrinsic": {
+        "annual_return": "+9%",
+        "verdict": "orientační odhad",
+        "summary": "Odhad vychází z konsensu analytiků a aktuálního ocenění.",
+        "risk": "2"
+      },
+      "metrics": {
+        "Aktuální cena": "$148.28",
+        "Fair value (cíl analytiků)": "$170.57",
+        "P/E": "23.42",
+        "Beta": "0.14",
+        "52t max/min": "n/a / n/a"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "23.42",
+          "note": "Férové"
+        },
+        "Beta": {
+          "value": "0.14",
+          "note": "Defenzivní"
+        },
+        "Div. yield": {
+          "value": "~4.0%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "9.21%",
+          "note": "Nízká"
+        }
+      },
+      "analysis": "PepsiCo je globální výrobce nápojů a snacků (Pepsi, Lay's, Gatorade, Quaker) se silnou distribuční sítí. Při ceně ~148 USD je konsensuální cíl ~171 USD, tedy potenciál ~15 %, rating je ale spíše Hold. Velmi nízká beta (0,14) a dividenda kolem 4 % dělají z akcie defenzivní příjmový titul, čistá marže (9 %) je nižší a P/E 23 férové. Fair value je konsensus analytiků – orientační vodítko, nikoli investiční doporučení.",
+      "pros": [
+        "Defenzivní byznys a velmi nízká volatilita (beta 0,14)",
+        "Atraktivní a rostoucí dividenda (~4 %)",
+        "Silné značky a globální distribuce"
+      ],
+      "cons": [
+        "Slabší růst objemů a tlak na marže",
+        "Spotřebitelský přechod ke zdravějším produktům"
+      ]
+    },
+    {
+      "name": "Nestlé",
+      "ticker": "NSRGY",
+      "region": "europe",
+      "sector": "consumer",
+      "recommendation": "Držet",
+      "price": {
+        "current": "$98.20",
+        "fair_value": "$108",
+        "discount": "+10.0% upside",
+        "signal": "Stabilita, omezený potenciál",
+        "signal_reason": "Smíšený konsensus a potenciál jen ~10 %.",
+        "buy_zone": {
+          "low": "$90",
+          "high": "$99"
+        }
+      },
+      "moat": {
+        "score": "8",
+        "verdict": "Široký",
+        "summary": "Největší potravinářská firma světa se silným portfoliem značek."
+      },
+      "intrinsic": {
+        "annual_return": "+7%",
+        "verdict": "orientační odhad",
+        "summary": "Odhad vychází z konsensu analytiků a aktuálního ocenění.",
+        "risk": "2"
+      },
+      "metrics": {
+        "Aktuální cena": "$98.20",
+        "Fair value (cíl analytiků)": "$108",
+        "P/E": "22.22",
+        "Beta": "0.50",
+        "52t max/min": "$109.59 / $86.98"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "22.22",
+          "note": "Férové"
+        },
+        "Beta": {
+          "value": "0.50",
+          "note": "Defenzivní"
+        },
+        "Div. yield": {
+          "value": "3.94%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "n/a"
+        }
+      },
+      "analysis": "Nestlé je největší světová potravinářská a nápojová společnost s diverzifikovaným portfoliem (Nescafé, KitKat, Purina). Akcie (ADR) kolem 98 USD se obchoduje blízko konsensuálního cíle ~108 USD, potenciál je tedy jen kolem 10 % a rating analytiků je smíšený (převážně Hold). Defenzivní profil, nízká beta (0,50) a dividenda téměř 4 % lákají na příjem, růst je ale pomalý. Fair value je pouhým konsensem analytiků a má jen orientační charakter.",
+      "pros": [
+        "Defenzivní portfolio a stabilní dividenda (~3,9 %)",
+        "Globální značky a diverzifikace",
+        "Nízká volatilita (beta 0,50)"
+      ],
+      "cons": [
+        "Pomalý růst a tlak na objemy po zdražování",
+        "Smíšený názor analytiků a omezený potenciál"
+      ]
+    },
+    {
+      "name": "Caterpillar",
+      "ticker": "CAT",
+      "region": "usa",
+      "sector": "industry",
+      "recommendation": "Držet",
+      "price": {
+        "current": "$985.82",
+        "fair_value": "$936.99",
+        "discount": "-5.0% upside",
+        "signal": "Plně oceněno po růstu",
+        "signal_reason": "Cena u 52t maxima mírně nad cílem analytiků.",
+        "buy_zone": {
+          "low": "$880",
+          "high": "$940"
+        }
+      },
+      "moat": {
+        "score": "7",
+        "verdict": "Široký",
+        "summary": "Lídr stavebních strojů se silnou dealerskou sítí."
+      },
+      "intrinsic": {
+        "annual_return": "+5%",
+        "verdict": "orientační odhad",
+        "summary": "Odhad vychází z konsensu analytiků a aktuálního ocenění.",
+        "risk": "3"
+      },
+      "metrics": {
+        "Aktuální cena": "$985.82",
+        "Fair value (cíl analytiků)": "$936.99",
+        "P/E": "49.04",
+        "Beta": "1.58",
+        "52t max/min": "$985.82 / $352.26"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "49.04",
+          "note": "Drahé"
+        },
+        "Beta": {
+          "value": "1.58",
+          "note": "Volatilní"
+        },
+        "Div. yield": {
+          "value": "0.66%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "13.17%",
+          "note": "Solidní"
+        }
+      },
+      "analysis": "Caterpillar je největší výrobce stavebních a těžebních strojů s rozsáhlou dealerskou a servisní sítí. Akcie po silném růstu uzavřela u 52týdenního maxima (~986 USD), čímž se dostala mírně nad konsensuální cíl ~937 USD – potenciál je tedy lehce záporný i přes Buy rating. Vysoké P/E (49) a beta 1,58 naznačují, že trh už započítal hodně optimismu, marže (13 %) jsou solidní. Fair value je konsensus analytiků a slouží jen jako orientační vodítko.",
+      "pros": [
+        "Dominantní pozice a silná servisní/dealerská síť",
+        "Těžba z investic do infrastruktury a energetiky",
+        "Solidní marže a dividenda"
+      ],
+      "cons": [
+        "Cena nad cílem analytiků a vysoké P/E (49)",
+        "Cykličnost a citlivost na globální poptávku"
+      ]
+    },
+    {
+      "name": "Qualcomm",
+      "ticker": "QCOM",
+      "region": "usa",
+      "sector": "tech",
+      "recommendation": "Sledovat",
+      "price": {
+        "current": "$214",
+        "fair_value": "$190",
+        "discount": "-11.2% upside",
+        "signal": "Bez potenciálu dle konsensu",
+        "signal_reason": "Cena nad cílem, rating jen Hold.",
+        "buy_zone": {
+          "low": "$180",
+          "high": "$205"
+        }
+      },
+      "moat": {
+        "score": "7",
+        "verdict": "Široký",
+        "summary": "Lídr mobilních modemů a držitel klíčových patentů."
+      },
+      "intrinsic": {
+        "annual_return": "+4%",
+        "verdict": "orientační odhad",
+        "summary": "Odhad vychází z konsensu analytiků a aktuálního ocenění.",
+        "risk": "3"
+      },
+      "metrics": {
+        "Aktuální cena": "$214",
+        "Fair value (cíl analytiků)": "$190",
+        "P/E": "23.17",
+        "Beta": "1.70",
+        "52t max/min": "$260.00 / $122.00"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "23.17",
+          "note": "Férové"
+        },
+        "Beta": {
+          "value": "1.70",
+          "note": "Volatilní"
+        },
+        "Div. yield": {
+          "value": "1.57%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "n/a"
+        }
+      },
+      "analysis": "Qualcomm je přední dodavatel čipů a modemů pro chytré telefony a držitel rozsáhlého patentového portfolia. Akcie kolem 214 USD se obchoduje nad konsensuálním cílem (~190 USD), potenciál je tedy záporný a rating analytiků je převážně Hold. Rozumné P/E (23) a dividenda 1,6 % jsou plusem, vysoká beta (1,7) a závislost na cyklu smartphonů ale přidávají riziko. Fair value je konsensus analytiků – pouze orientační, ne investiční doporučení.",
+      "pros": [
+        "Silné patentové portfolio a licenční příjmy",
+        "Expanze do automotive a IoT",
+        "Rozumné P/E (23) a dividenda"
+      ],
+      "cons": [
+        "Cena nad cílem analytiků, rating jen Hold",
+        "Závislost na cyklu smartphonů a riziko ztráty zákazníků (Apple)"
+      ]
+    },
+    {
+      "name": "ASML Holding",
+      "ticker": "ASML",
+      "region": "europe",
+      "sector": "tech",
+      "recommendation": "Sledovat",
+      "price": {
+        "current": "$1,929.68",
+        "fair_value": "$1,707",
+        "discount": "-11.5% upside",
+        "signal": "Drahé na maximu",
+        "signal_reason": "Cena u rekordu, cíl o ~12 % níž navzdory Strong Buy.",
+        "buy_zone": {
+          "low": "$1,500",
+          "high": "$1,750"
+        }
+      },
+      "moat": {
+        "score": "10",
+        "verdict": "Velmi široký",
+        "summary": "Monopol na EUV litografii kritickou pro výrobu nejmodernějších čipů."
+      },
+      "intrinsic": {
+        "annual_return": "+6%",
+        "verdict": "orientační odhad",
+        "summary": "Odhad vychází z konsensu analytiků a aktuálního ocenění.",
+        "risk": "3"
+      },
+      "metrics": {
+        "Aktuální cena": "$1,929.68",
+        "Fair value (cíl analytiků)": "$1,707",
+        "P/E": "64.89",
+        "Beta": "1.82",
+        "52t max/min": "$1,942.87 / $683.48"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "64.89",
+          "note": "Drahé"
+        },
+        "Beta": {
+          "value": "1.82",
+          "note": "Volatilní"
+        },
+        "Div. yield": {
+          "value": "0.39%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "26.79%",
+          "note": "Vysoká"
+        }
+      },
+      "analysis": "ASML je nizozemský monopolní dodavatel EUV litografických strojů nezbytných pro výrobu nejpokročilejších čipů. Akcie se obchoduje u rekordních ~1 930 USD, tedy zhruba 12 % nad konsensuálním cílem ~1 707 USD, přestože rating zůstává Strong Buy – cíle prostě nedohnaly prudký růst. Velmi vysoké P/E (65) a beta 1,82 znamenají, že ocenění je napjaté a citlivé na sentiment, byť marže (~27 %) a postavení firmy jsou výjimečné. Fair value je konsensus analytiků a je třeba ho brát jako orientační, nikoli závazné vodítko.",
+      "pros": [
+        "Technologický monopol na EUV litografii",
+        "Vysoké marže a obrovský objednávkový backlog",
+        "Klíčový hráč pro AI a pokročilé čipy"
+      ],
+      "cons": [
+        "Cena nad cílem analytiků a extrémní P/E (65)",
+        "Geopolitická a exportní rizika (Čína), vysoká volatilita"
+      ]
+    }
+  ],
+  "generated_at": "2026-06-19"
 }
