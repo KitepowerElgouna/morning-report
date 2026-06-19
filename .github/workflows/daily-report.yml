@@ -1,0 +1,49 @@
+name: Ranní report
+
+# Spouští se každý všední den ráno + ručně tlačítkem "Run workflow".
+on:
+  schedule:
+    # 05:30 UTC = 07:30 Praha (léto) / 06:30 (zima), po–pá. Časy v cronu jsou v UTC.
+    - cron: "30 5 * * 1-5"
+  workflow_dispatch: {}   # umožní ruční spuštění z GitHubu (na otestování)
+
+permissions:
+  contents: write          # aby workflow mohl commitnout nový report
+
+concurrency:
+  group: daily-report
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Generate report
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          REPORT_MODEL: ${{ vars.REPORT_MODEL || 'claude-opus-4-8' }}
+          REPORT_NUM_STOCKS: ${{ vars.REPORT_NUM_STOCKS || '10' }}
+        run: python generate_report.py
+
+      - name: Commit & push report
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/report-*.json
+          if git diff --staged --quiet; then
+            echo "Žádná změna reportu."
+          else
+            git commit -m "Ranní report $(date -u +%Y-%m-%d)"
+            git push
+          fi
