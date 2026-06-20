@@ -1,0 +1,39 @@
+name: Hlídač stop-lossů
+
+on:
+  schedule:
+    # každých 30 min během US obchodních hodin (UTC), po–pá. Časy jsou v UTC.
+    - cron: "*/30 14-21 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stop-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Kontrola stop-lossů
+        env:
+          POSITIONS: ${{ secrets.POSITIONS }}
+          NTFY_TOPIC: ${{ vars.NTFY_TOPIC }}
+        run: python stop_watch.py
+      - name: Ulož stav
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/stop-state.json || true
+          if git diff --staged --quiet; then
+            echo "Beze změny stavu."
+          else
+            git commit -m "stop-watch: stav $(date -u +%H:%M)"
+            git push
+          fi
