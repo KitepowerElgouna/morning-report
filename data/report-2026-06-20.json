@@ -1,773 +1,773 @@
 {
-  "date": "19. června 2026",
-  "summary": "Wall Street vstupuje do páteční pauzy — burzy NYSE i Nasdaq jsou dnes (19. 6.) zavřené kvůli svátku Juneteenth, přičemž ve čtvrtek S&P 500 vzrostl ~1,1 % a Nasdaq ~2 % díky podpisu prozatímní mírové dohody USA–Írán (znovuotevření Hormuzského průlivu, klesající ropa) a navzdory jestřábímu Fedu, který ponechal sazby na 3,50–3,75 % a v dot-plotu naznačil možné zvýšení v roce 2026 (10letý výnos 4,45 %). Vybrané tipy jsou KRÁTKODOBÉ RIZIKOVÉ příležitosti se zřetelným katalyzátorem (výsledky, fúze, AI/obranné zakázky, klinická data) napříč sektory — určené pro 'satelitní' peníze, kde je nutné držet stop-lossy, hlídat velikost pozice a vyhnout se přetrádování, které dlouhodobě škodí. Uváděná fair value = konsensuální cíl analytiků, jde o orientační vodítko, NIKOLIV investiční radu; ceny jsou křížově ověřené, u rozporů byla zvolena konzervativnější hodnota.",
-  "sources": [
-    "Yahoo Finance",
-    "StockAnalysis.com",
-    "Investing.com",
-    "Finviz",
-    "MarketBeat",
-    "TipRanks",
-    "Benzinga",
-    "CNBC",
-    "CNN",
-    "Simply Wall St",
-    "StockStory",
-    "S&P Global",
-    "FRED / Trading Economics (Fed)",
-    "StocksToTrade"
-  ],
-  "firms": [
-    {
-      "name": "Netflix",
-      "ticker": "NFLX",
-      "region": "usa",
-      "sector": "tech",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$77.63",
-        "fair_value": "$114.15",
-        "discount": "+47% upside",
-        "signal": "Hodnotová příležitost",
-        "signal_reason": "Akcie na ~4letém valuačním minimu, konsensus Buy s cílem výrazně nad cenou.",
-        "buy_zone": {
-          "low": "$72",
-          "high": "$82"
-        }
-      },
-      "moat": {
-        "score": "8",
-        "verdict": "Silný",
-        "summary": "Globální lídr streamingu s cenovou silou a rostoucím reklamním byznysem."
-      },
-      "intrinsic": {
-        "annual_return": "+15%",
-        "verdict": "orientační odhad",
-        "summary": "Při návratu k cíli analytiků nadprůměrný výnos, ale s vyšší volatilitou.",
-        "risk": "3"
-      },
-      "metrics": {
-        "Aktuální cena": "$77.63",
-        "Fair value (cíl analytiků)": "$114.15",
-        "P/E": "~30",
-        "Beta": "~1.3",
-        "52t max/min": "n/a"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "~30",
-          "note": "Férové"
-        },
-        "Beta": {
-          "value": "~1.3",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "~22%",
-          "note": "Vysoce zisková"
-        }
-      },
-      "analysis": "Netflix provozuje největší globální streamovací platformu a posílil ziskovost reklamním tarifem. Do hledáčku se dostal po propadu na ~4leté valuační minimum a po rozhodnutí odejít od aktiv Warner Bros., které analytici vnímají jako pozitivní pro marže; konsensus 50 analytiků zní Buy s cílem $114.",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "2–6 týdnů",
-        "entry": "$74–80",
-        "stop_loss": "$70",
-        "target": "$95",
-        "position_size": "max 5 % satelitu",
-        "risk_level": "3",
-        "catalyst": "Odchod od akvizice aktiv Warner Bros. + valuace na víceletém dně, blížící se čtvrtletní výsledky.",
-        "action_note": "Po znovuotevření trhu zahájit poloviční pozici v pásmu $74–80, doplnit při potvrzení obratu."
-      },
-      "pros": [
-        "Konsensus Buy a vysoký upside k cíli",
-        "Cenová síla a růst reklamního byznysu",
-        "Valuace blízko víceletého minima"
-      ],
-      "cons": [
-        "Vysoká citlivost na sentiment k růstovým akciím",
-        "Konkurence ve streamingu tlačí na obsahové náklady"
-      ]
-    },
-    {
-      "name": "Ouster",
-      "ticker": "OUST",
-      "region": "usa",
-      "sector": "tech",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$42.80",
-        "fair_value": "$47.50",
-        "discount": "+11% upside",
-        "signal": "Momentum + obranný katalyzátor",
-        "signal_reason": "Buy rating, analytici zvedají cíle, akcie u 52t maxima.",
-        "buy_zone": {
-          "low": "$39",
-          "high": "$43"
-        }
-      },
-      "moat": {
-        "score": "5",
-        "verdict": "Rostoucí",
-        "summary": "Lídr digitálního lidaru s expanzí do obrany a AI aplikací."
-      },
-      "intrinsic": {
-        "annual_return": "+10%",
-        "verdict": "orientační odhad",
-        "summary": "Růstový příběh s vysokou volatilitou a dosud zápornými maržemi.",
-        "risk": "4"
-      },
-      "metrics": {
-        "Aktuální cena": "$42.80",
-        "Fair value (cíl analytiků)": "$47.50",
-        "P/E": "n/a (ztráta)",
-        "Beta": "n/a",
-        "52t max/min": "$49.39 / $16.40"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "Ztrátová firma"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Záporné, předzisková fáze"
-        }
-      },
-      "analysis": "Ouster vyrábí digitální lidarové senzory pro průmysl, robotiku a stále více pro obranný sektor. Akcie jsou v hledáčku po vlně navyšování cílů (Rosenblatt Buy, cíl $53) a obranných/AI zakázkách; titul vyrostl ~310 % za 12 měsíců a tlačí na 52t maximum před odhadovanými výsledky 6. 8.",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "1–4 týdny",
-        "entry": "$39–43",
-        "stop_loss": "$36",
-        "target": "$49",
-        "position_size": "max 3 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Navyšování cílů analytiků + obranné/AI zakázky, momentum u 52t maxima.",
-        "action_note": "Nakupovat na zpětných korekcích k $39–41, nehonit prudké výstřely nahoru."
-      },
-      "pros": [
-        "Buy konsensus a rostoucí cíle",
-        "Silné momentum a obranný katalyzátor",
-        "Expanze do AI a robotiky"
-      ],
-      "cons": [
-        "Dosud záporné marže a riziko ředění",
-        "Akcie u 52t maxima = riziko korekce"
-      ]
-    },
-    {
-      "name": "EPAM Systems",
-      "ticker": "EPAM",
-      "region": "usa",
-      "sector": "tech",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$89.94",
-        "fair_value": "$146.71",
-        "discount": "+63% upside",
-        "signal": "Hluboká hodnota u 52t minima",
-        "signal_reason": "Akcie na 52t dně při P/E ~13 a Buy ratingu, prostor k mean-reversion.",
-        "buy_zone": {
-          "low": "$88",
-          "high": "$96"
-        }
-      },
-      "moat": {
-        "score": "6",
-        "verdict": "Solidní",
-        "summary": "Kvalitní dodavatel softwarového inženýrství a AI služeb pro velké klienty."
-      },
-      "intrinsic": {
-        "annual_return": "+12%",
-        "verdict": "orientační odhad",
-        "summary": "Při stabilizaci poptávky výrazný prostor k přecenění z nízkého P/E.",
-        "risk": "3"
-      },
-      "metrics": {
-        "Aktuální cena": "$89.94",
-        "Fair value (cíl analytiků)": "$146.71",
-        "P/E": "~13",
-        "Beta": "1.45",
-        "52t max/min": "$222.53 / $89.25"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "~13",
-          "note": "Levné"
-        },
-        "Beta": {
-          "value": "1.45",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "6.96%",
-          "note": "Zisková, ale stlačené marže"
-        }
-      },
-      "analysis": "EPAM poskytuje vývoj softwaru a digitální/AI inženýrské služby globálním korporacím. Akcie spadly na 52t minimum (-46 % za rok) kvůli slabší poptávce, ale analytici (Guggenheim Buy, cíl $200) drží Buy s tezí, že firma je kvalitní vendor pro realizaci AI cílů klientů; konzervativní konsensuální cíl ~$147 dává velký upside.",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "3–6 týdnů",
-        "entry": "$88–96",
-        "stop_loss": "$83",
-        "target": "$115",
-        "position_size": "max 4 % satelitu",
-        "risk_level": "3",
-        "catalyst": "Odraz od 52t minima, nízké P/E a sázka na AI služby; výsledky ~5. 8.",
-        "action_note": "Budovat pozici poblíž $88–92 se stop-lossem pod 52t minimem."
-      },
-      "pros": [
-        "Nízké P/E ~13 a velký upside k cíli",
-        "Buy rating napříč domy",
-        "Pozice v AI/softwarových službách"
-      ],
-      "cons": [
-        "Slabší poptávkové prostředí a riziko Q2/26",
-        "Padající trend, nutná potvrzená stabilizace"
-      ]
-    },
-    {
-      "name": "Tango Therapeutics",
-      "ticker": "TNGX",
-      "region": "usa",
-      "sector": "healthcare",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$31.56",
-        "fair_value": "$35.22",
-        "discount": "+12% upside",
-        "signal": "Klinický katalyzátor",
-        "signal_reason": "Strong Buy a vlna navýšených cílů po pozitivním klinickém momentu.",
-        "buy_zone": {
-          "low": "$28",
-          "high": "$32"
-        }
-      },
-      "moat": {
-        "score": "4",
-        "verdict": "Spekulativní",
-        "summary": "Klinická firma precizní onkologie závislá na úspěchu programů."
-      },
-      "intrinsic": {
-        "annual_return": "n/a",
-        "verdict": "orientační odhad",
-        "summary": "Binární biotech příběh – vysoký potenciál i riziko propadu.",
-        "risk": "5"
-      },
-      "metrics": {
-        "Aktuální cena": "$31.56",
-        "Fair value (cíl analytiků)": "$35.22",
-        "P/E": "n/a (ztráta)",
-        "Beta": "n/a",
-        "52t max/min": "n/a"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "Předzisková biotech"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Záporné, klinická fáze"
-        }
-      },
-      "analysis": "Tango Therapeutics je klinická firma precizní onkologie zaměřená na syntetickou letalitu. Akcie vyskočily ~65 % na klíčovém katalyzátoru a sérii navýšených cílů (H.C. Wainwright $66, Leerink $69), zároveň ale oznámila ředící úpis akcií za $500 mil.; cíle se silně rozcházejí (Investing.com $22 vs. S&P Global $40), proto volím konzervativní konsensus ~$35.",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "1–3 týdny",
-        "entry": "$28–32",
-        "stop_loss": "$25",
-        "target": "$40",
-        "position_size": "max 2 % satelitu",
-        "risk_level": "5",
-        "catalyst": "Pozitivní klinický katalyzátor + vlna navýšených cílů; pozor na úpis $500 mil.",
-        "action_note": "Pouze malá spekulativní pozice na korekci k $28–30, tvrdý stop-loss."
-      },
-      "pros": [
-        "Strong Buy a prudce navýšené cíle",
-        "Silný klinický katalyzátor a momentum",
-        "Vysoký potenciál při úspěchu programu"
-      ],
-      "cons": [
-        "Ředění z úpisu za $500 mil.",
-        "Široký rozptyl cílů, binární klinické riziko"
-      ]
-    },
-    {
-      "name": "Intel",
-      "ticker": "INTC",
-      "region": "usa",
-      "sector": "tech",
-      "recommendation": "Sledovat",
-      "price": {
-        "current": "$133.99",
-        "fair_value": "$93.97",
-        "discount": "-30% upside",
-        "signal": "Přestřelené momentum",
-        "signal_reason": "Cena výrazně nad konsensuálním cílem analytiků po prudkém rally.",
-        "buy_zone": {
-          "low": "$95",
-          "high": "$110"
-        }
-      },
-      "moat": {
-        "score": "6",
-        "verdict": "Obnovující se",
-        "summary": "Návrat do hry díky 18A procesu a strategickým zakázkám, ale finančně křehký."
-      },
-      "intrinsic": {
-        "annual_return": "-10%",
-        "verdict": "orientační odhad",
-        "summary": "Po raketovém růstu je dle analytiků prostor spíš dolů než nahoru.",
-        "risk": "4"
-      },
-      "metrics": {
-        "Aktuální cena": "$133.99",
-        "Fair value (cíl analytiků)": "$93.97",
-        "P/E": "n/a (záporné EPS)",
-        "Beta": "2.23",
-        "52t max/min": "$135.48 / $18.97"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "fwd ~114",
-          "note": "Drahé"
-        },
-        "Beta": {
-          "value": "2.23",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Záporné (ztráta za 12M)"
-        }
-      },
-      "analysis": "Intel je integrovaný výrobce čipů uprostřed nákladného obratu (foundry, proces 18A). Titul vystřelil přes +540 % za rok a aktuálně se obchoduje s ~$134 výrazně nad konsensuálním cílem $93.97 po zprávách o spolupráci s Apple a zahájení výroby 18A-P; momentum je silné, ale valuace napjatá a EPS záporné.",
-      "trade": {
-        "action": "Držet",
-        "horizon": "1–4 týdny",
-        "entry": "vyčkat na korekci k $95–110",
-        "stop_loss": "$118 (pro stávající pozice)",
-        "target": "$150 (horní cíl analytiků)",
-        "position_size": "max 2 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Spolupráce s Apple na čipech + náběh procesu 18A-P, ale cena nad cíli.",
-        "action_note": "Novou pozici neotevírat na maximech; sledovat zpětný test a brát zisky u stávajících pozic."
-      },
-      "pros": [
-        "Silné momentum a strategická zakázka s Apple",
-        "Náběh výroby 18A-P jako katalyzátor",
-        "Výrazné zlepšení tržního příběhu"
-      ],
-      "cons": [
-        "Cena ~30 % nad konsensuálním cílem",
-        "Záporný zisk a vysoká beta 2.23"
-      ]
-    },
-    {
-      "name": "Wolfspeed",
-      "ticker": "WOLF",
-      "region": "usa",
-      "sector": "tech",
-      "recommendation": "Sledovat",
-      "price": {
-        "current": "$36.60",
-        "fair_value": "$14.33",
-        "discount": "-61% upside",
-        "signal": "Spekulativní rally",
-        "signal_reason": "Cena u 52t maxima daleko nad konsensem 'Reduce'.",
-        "buy_zone": {
-          "low": "n/a",
-          "high": "n/a"
-        }
-      },
-      "moat": {
-        "score": "4",
-        "verdict": "Křehký",
-        "summary": "Výrobce SiC čipů s technologickým náskokem, ale slabou rozvahou."
-      },
-      "intrinsic": {
-        "annual_return": "-30%",
-        "verdict": "orientační odhad",
-        "summary": "Konsensus vidí výrazný downside navzdory aktuálnímu momentu.",
-        "risk": "5"
-      },
-      "metrics": {
-        "Aktuální cena": "$36.60",
-        "Fair value (cíl analytiků)": "$14.33",
-        "P/E": "n/a (ztráta)",
-        "Beta": "n/a",
-        "52t max/min": "$36.60 / $0.39"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "Ztrátová firma"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Záporné (-14% hrubá marže)"
-        }
-      },
-      "analysis": "Wolfspeed je výrobce karbid-křemíkových (SiC) polovodičů pro elektromobilitu a průmysl. Akcie po restrukturalizaci dluhu a zprávách o AI/aerospace zakázkách vystřelily na 52t maximum ~$36.60, ale analytici drží konsensus 'Reduce' s cílem jen $14.33 — jde o čistě momentový/spekulativní obchod.",
-      "trade": {
-        "action": "Držet",
-        "horizon": "dny",
-        "entry": "nevstupovat dlouze nad cíli",
-        "stop_loss": "$31 (pro spekulativní pozice)",
-        "target": "n/a",
-        "position_size": "max 1 % satelitu",
-        "risk_level": "5",
-        "catalyst": "Restrukturalizace dluhu + AI/aerospace zakázky pohánějí krátký squeeze.",
-        "action_note": "Nezakládat nové dlouhé pozice; momentové pozice řídit těsným stop-lossem."
-      },
-      "pros": [
-        "Silné krátkodobé momentum a squeeze potenciál",
-        "Technologický náskok v SiC",
-        "Restrukturalizace dluhu zlepšila bilanci"
-      ],
-      "cons": [
-        "Konsensus 'Reduce', cíl ~60 % pod cenou",
-        "Záporné marže a vysoké riziko prudkého propadu"
-      ]
-    },
-    {
-      "name": "Butterfly Network",
-      "ticker": "BFLY",
-      "region": "usa",
-      "sector": "healthcare",
-      "recommendation": "Sledovat",
-      "price": {
-        "current": "$8.90",
-        "fair_value": "$5.69",
-        "discount": "-36% upside",
-        "signal": "Přestřelený spike",
-        "signal_reason": "Cena po +56 % skoku výrazně nad cíli analytiků.",
-        "buy_zone": {
-          "low": "n/a",
-          "high": "n/a"
-        }
-      },
-      "moat": {
-        "score": "5",
-        "verdict": "Inovativní",
-        "summary": "Průkopník přenosného ultrazvuku na čipu s AI potenciálem."
-      },
-      "intrinsic": {
-        "annual_return": "-20%",
-        "verdict": "orientační odhad",
-        "summary": "Po spike je dle analytiků prostor dolů, příběh je ale zajímavý.",
-        "risk": "5"
-      },
-      "metrics": {
-        "Aktuální cena": "$8.90",
-        "Fair value (cíl analytiků)": "$5.69",
-        "P/E": "n/a (ztráta)",
-        "Beta": "n/a",
-        "52t max/min": "n/a"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "Ztrátová firma"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Záporné"
-        }
-      },
-      "analysis": "Butterfly Network vyrábí přenosné ultrazvukové sondy na bázi polovodičového čipu. Akcie dva dny po sobě vedly NYSE jako top gainer a vyskočily ~56 % na zprávách, že její technologie pohání celotělový skener Midjourney; po skoku na ~$8.90 je ale cena výrazně nad mediánovým cílem $5.5–5.69 (rating Strong Buy).",
-      "trade": {
-        "action": "Držet",
-        "horizon": "dny",
-        "entry": "vyčkat na zchlazení k $6–7",
-        "stop_loss": "$7 (pro spekulativní pozice)",
-        "target": "n/a",
-        "position_size": "max 1 % satelitu",
-        "risk_level": "5",
-        "catalyst": "Partnerství s Midjourney (celotělový ultrazvukový skener) + virální sentiment.",
-        "action_note": "Nehonit spike; čekat na konsolidaci, případně vybrat zisky ze stávajících pozic."
-      },
-      "pros": [
-        "Silný katalyzátor a momentum (AI partnerství)",
-        "Inovativní technologie ultrazvuku na čipu",
-        "Vysoká pozornost retailu a objem"
-      ],
-      "cons": [
-        "Cena ~36 % nad cílem analytiků",
-        "Ztrátová firma, riziko rychlého splasknutí spike"
-      ]
-    },
-    {
-      "name": "Roku",
-      "ticker": "ROKU",
-      "region": "usa",
-      "sector": "tech",
-      "recommendation": "Držet",
-      "price": {
-        "current": "$140.90",
-        "fair_value": "$147.83",
-        "discount": "+5% upside",
-        "signal": "Fúzní arbitráž",
-        "signal_reason": "Cena se blíží nabídce Foxu $160; další růst je limitovaný.",
-        "buy_zone": {
-          "low": "$132",
-          "high": "$142"
-        }
-      },
-      "moat": {
-        "score": "6",
-        "verdict": "Silný v TV OS",
-        "summary": "Lídr streamovacích platforem, nově cíl akvizice Foxem."
-      },
-      "intrinsic": {
-        "annual_return": "+8%",
-        "verdict": "orientační odhad",
-        "summary": "Omezený, ale relativně jistý výnos navázaný na uzavření fúze.",
-        "risk": "2"
-      },
-      "metrics": {
-        "Aktuální cena": "$140.90",
-        "Fair value (cíl analytiků)": "$147.83",
-        "P/E": "~103 (trailing)",
-        "Beta": "n/a",
-        "52t max/min": "$148.88 / $51.65"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "~103",
-          "note": "Drahé"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "~3%",
-          "note": "Nově lehce zisková"
-        }
-      },
-      "analysis": "Roku provozuje přední TV operační systém a streamovací platformu. Do hledáčku se dostalo po dohodě o akvizici Foxem za $160 na akcii ($96 v hotovosti + 0,9693 akcie FOXA); řada domů (Jefferies, Piper, Rosenblatt) srovnala cíle s nabídkou — jde o nízkorizikový fúzně-arbitrážní obchod s omezeným prostorem nahoru.",
-      "trade": {
-        "action": "Držet",
-        "horizon": "do uzavření fúze",
-        "entry": "$132–142",
-        "stop_loss": "$128",
-        "target": "$160 (cena dohody)",
-        "position_size": "max 3 % satelitu",
-        "risk_level": "2",
-        "catalyst": "Akvizice Foxem za $160/akcii; arbitrážní spread do uzavření obchodu.",
-        "action_note": "Kdo drží, může počkat na uzavření dohody; nové pozice jen jako arbitráž s vědomím limitovaného upside."
-      },
-      "pros": [
-        "Nabídka Foxu $160 ukotvuje cenu (nízké riziko)",
-        "Možný 'beatable' headline dle Rosenblattu",
-        "Lídr v TV OS s reklamním potenciálem"
-      ],
-      "cons": [
-        "Omezený prostor nahoru, downgrady na Hold",
-        "Riziko zdržení/úprav podmínek fúze"
-      ]
-    },
-    {
-      "name": "Smith & Wesson Brands",
-      "ticker": "SWBI",
-      "region": "usa",
-      "sector": "consumer",
-      "recommendation": "Držet",
-      "price": {
-        "current": "$16.00",
-        "fair_value": "$16.00",
-        "discount": "0% upside",
-        "signal": "Po výsledcích bez rezervy",
-        "signal_reason": "Akcie po skoku na výsledky obchodují blízko konsensuálního cíle.",
-        "buy_zone": {
-          "low": "$14",
-          "high": "$15"
-        }
-      },
-      "moat": {
-        "score": "5",
-        "verdict": "Stabilní značka",
-        "summary": "Silná značka palných zbraní s cyklickou poptávkou."
-      },
-      "intrinsic": {
-        "annual_return": "+5%",
-        "verdict": "orientační odhad",
-        "summary": "Defenzivní titul s dividendou, ale omezeným krátkodobým upside.",
-        "risk": "3"
-      },
-      "metrics": {
-        "Aktuální cena": "$16.00",
-        "Fair value (cíl analytiků)": "$16.00",
-        "P/E": "~65",
-        "Beta": "0.86",
-        "52t max/min": "$17.56 / $7.73"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "~65",
-          "note": "Drahé na nízkém zisku"
-        },
-        "Beta": {
-          "value": "0.86",
-          "note": "Defenzivní"
-        },
-        "Div. yield": {
-          "value": "~3%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "~2.2%",
-          "note": "Tenké marže"
-        }
-      },
-      "analysis": "Smith & Wesson je výrobce palných zbraní se silnou značkou a stabilní dividendou. Akcie vyskočily ~14 % po lepších kvartálních výsledcích (tržby +27 % na $178,4 mil., upravený zisk $0.36 nad konsensem); po skoku na ~$16 ale obchodují blízko (široce rozptýleného) cíle analytiků, krátkodobý prostor je tak omezený.",
-      "trade": {
-        "action": "Držet",
-        "horizon": "1–4 týdny",
-        "entry": "$14–15 (na korekci)",
-        "stop_loss": "$13",
-        "target": "$17.5",
-        "position_size": "max 3 % satelitu",
-        "risk_level": "3",
-        "catalyst": "Silné kvartální výsledky (tržby +27 %, zisk nad konsensem) hnaly akcii +14 %.",
-        "action_note": "Nehonit po-výsledkový skok; přikupovat jen na zpětné korekci k $14–15."
-      },
-      "pros": [
-        "Silné výsledky a beat zisku",
-        "Defenzivní beta 0.86 a dividenda ~3 %",
-        "Blízko 52t maxima s momentem"
-      ],
-      "cons": [
-        "Cena u konsensuálního cíle, omezený upside",
-        "Vysoké P/E na tenkých maržích, cyklická poptávka"
-      ]
-    },
-    {
-      "name": "FreeCast",
-      "ticker": "CAST",
-      "region": "usa",
-      "sector": "tech",
-      "recommendation": "Sledovat",
-      "price": {
-        "current": "$14.90",
-        "fair_value": "n/a",
-        "discount": "n/a",
-        "signal": "Spekulativní mikrocap spike",
-        "signal_reason": "Bez pokrytí analytiků; jednorázový skok +170 % na zprávě.",
-        "buy_zone": {
-          "low": "n/a",
-          "high": "n/a"
-        }
-      },
-      "moat": {
-        "score": "2",
-        "verdict": "Žádný",
-        "summary": "Malá mediální/streamovací firma bez prokázané škálovatelnosti."
-      },
-      "intrinsic": {
-        "annual_return": "n/a",
-        "verdict": "orientační odhad",
-        "summary": "Čistá spekulace na jednu zprávu, bez fundamentální opory.",
-        "risk": "5"
-      },
-      "metrics": {
-        "Aktuální cena": "$14.90",
-        "Fair value (cíl analytiků)": "n/a",
-        "P/E": "n/a",
-        "Beta": "n/a",
-        "52t max/min": "n/a"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "n/a"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "n/a"
-        }
-      },
-      "analysis": "FreeCast je malá firma kombinující streamovací a mediální služby. Akcie vystřelily ~170 % během jediné seance po oznámení reseller partnerství pro Starlink Business (satelitní širokopásmové připojení); jde o mikrocap bez pokrytí analytiků — extrémně rizikový, čistě momentový/zpravodajský obchod.",
-      "trade": {
-        "action": "Držet",
-        "horizon": "dny",
-        "entry": "nevstupovat na vrcholu spike",
-        "stop_loss": "$11 (pro spekulativní pozice)",
-        "target": "n/a",
-        "position_size": "max 1 % satelitu",
-        "risk_level": "5",
-        "catalyst": "Reseller dohoda na Starlink Business pohnala akcií +170 % za den.",
-        "action_note": "Pouze pro nejagresivnější satelit a v minimální velikosti; jinak jen sledovat."
-      },
-      "pros": [
-        "Silný jednorázový katalyzátor (Starlink)",
-        "Extrémní krátkodobé momentum a objem",
-        "Nový byznysový směr s upside příběhem"
-      ],
-      "cons": [
-        "Bez pokrytí analytiků a fundamentu",
-        "Mikrocap, riziko rychlého kolapsu po spike"
-      ]
+ "date": "20. června 2026",
+ "summary": "Wall Street vstupuje do páteční pauzy — burzy NYSE i Nasdaq jsou dnes (19. 6.) zavřené kvůli svátku Juneteenth, přičemž ve čtvrtek S&P 500 vzrostl ~1,1 % a Nasdaq ~2 % díky podpisu prozatímní mírové dohody USA–Írán (znovuotevření Hormuzského průlivu, klesající ropa) a navzdory jestřábímu Fedu, který ponechal sazby na 3,50–3,75 % a v dot-plotu naznačil možné zvýšení v roce 2026 (10letý výnos 4,45 %). Vybrané tipy jsou KRÁTKODOBÉ RIZIKOVÉ příležitosti se zřetelným katalyzátorem (výsledky, fúze, AI/obranné zakázky, klinická data) napříč sektory — určené pro 'satelitní' peníze, kde je nutné držet stop-lossy, hlídat velikost pozice a vyhnout se přetrádování, které dlouhodobě škodí. Uváděná fair value = konsensuální cíl analytiků, jde o orientační vodítko, NIKOLIV investiční radu; ceny jsou křížově ověřené, u rozporů byla zvolena konzervativnější hodnota.",
+ "sources": [
+  "Yahoo Finance",
+  "StockAnalysis.com",
+  "Investing.com",
+  "Finviz",
+  "MarketBeat",
+  "TipRanks",
+  "Benzinga",
+  "CNBC",
+  "CNN",
+  "Simply Wall St",
+  "StockStory",
+  "S&P Global",
+  "FRED / Trading Economics (Fed)",
+  "StocksToTrade"
+ ],
+ "firms": [
+  {
+   "name": "Netflix",
+   "ticker": "NFLX",
+   "region": "usa",
+   "sector": "tech",
+   "recommendation": "Koupit",
+   "price": {
+    "current": "$77.63",
+    "fair_value": "$114.15",
+    "discount": "+47% upside",
+    "signal": "Hodnotová příležitost",
+    "signal_reason": "Akcie na ~4letém valuačním minimu, konsensus Buy s cílem výrazně nad cenou.",
+    "buy_zone": {
+     "low": "$72",
+     "high": "$82"
     }
-  ],
-  "generated_at": "2026-06-20"
+   },
+   "moat": {
+    "score": "8",
+    "verdict": "Silný",
+    "summary": "Globální lídr streamingu s cenovou silou a rostoucím reklamním byznysem."
+   },
+   "intrinsic": {
+    "annual_return": "+15%",
+    "verdict": "orientační odhad",
+    "summary": "Při návratu k cíli analytiků nadprůměrný výnos, ale s vyšší volatilitou.",
+    "risk": "3"
+   },
+   "metrics": {
+    "Aktuální cena": "$77.63",
+    "Fair value (cíl analytiků)": "$114.15",
+    "P/E": "~30",
+    "Beta": "~1.3",
+    "52t max/min": "n/a"
+   },
+   "indicators": {
+    "P/E": {
+     "value": "~30",
+     "note": "Férové"
+    },
+    "Beta": {
+     "value": "~1.3",
+     "note": "Volatilní"
+    },
+    "Div. yield": {
+     "value": "0%",
+     "note": "Dividenda"
+    },
+    "Net Margin": {
+     "value": "~22%",
+     "note": "Vysoce zisková"
+    }
+   },
+   "analysis": "Netflix provozuje největší globální streamovací platformu a posílil ziskovost reklamním tarifem. Do hledáčku se dostal po propadu na ~4leté valuační minimum a po rozhodnutí odejít od aktiv Warner Bros., které analytici vnímají jako pozitivní pro marže; konsensus 50 analytiků zní Buy s cílem $114.",
+   "trade": {
+    "action": "Koupit",
+    "horizon": "2–6 týdnů",
+    "entry": "$74–80",
+    "stop_loss": "$70",
+    "target": "$95",
+    "position_size": "max 5 % satelitu",
+    "risk_level": "3",
+    "catalyst": "Odchod od akvizice aktiv Warner Bros. + valuace na víceletém dně, blížící se čtvrtletní výsledky.",
+    "action_note": "Po znovuotevření trhu zahájit poloviční pozici v pásmu $74–80, doplnit při potvrzení obratu."
+   },
+   "pros": [
+    "Konsensus Buy a vysoký upside k cíli",
+    "Cenová síla a růst reklamního byznysu",
+    "Valuace blízko víceletého minima"
+   ],
+   "cons": [
+    "Vysoká citlivost na sentiment k růstovým akciím",
+    "Konkurence ve streamingu tlačí na obsahové náklady"
+   ]
+  },
+  {
+   "name": "Ouster",
+   "ticker": "OUST",
+   "region": "usa",
+   "sector": "tech",
+   "recommendation": "Koupit",
+   "price": {
+    "current": "$42.80",
+    "fair_value": "$47.50",
+    "discount": "+11% upside",
+    "signal": "Momentum + obranný katalyzátor",
+    "signal_reason": "Buy rating, analytici zvedají cíle, akcie u 52t maxima.",
+    "buy_zone": {
+     "low": "$39",
+     "high": "$43"
+    }
+   },
+   "moat": {
+    "score": "5",
+    "verdict": "Rostoucí",
+    "summary": "Lídr digitálního lidaru s expanzí do obrany a AI aplikací."
+   },
+   "intrinsic": {
+    "annual_return": "+10%",
+    "verdict": "orientační odhad",
+    "summary": "Růstový příběh s vysokou volatilitou a dosud zápornými maržemi.",
+    "risk": "4"
+   },
+   "metrics": {
+    "Aktuální cena": "$42.80",
+    "Fair value (cíl analytiků)": "$47.50",
+    "P/E": "n/a (ztráta)",
+    "Beta": "n/a",
+    "52t max/min": "$49.39 / $16.40"
+   },
+   "indicators": {
+    "P/E": {
+     "value": "n/a",
+     "note": "Ztrátová firma"
+    },
+    "Beta": {
+     "value": "n/a",
+     "note": "Volatilní"
+    },
+    "Div. yield": {
+     "value": "0%",
+     "note": "Dividenda"
+    },
+    "Net Margin": {
+     "value": "n/a",
+     "note": "Záporné, předzisková fáze"
+    }
+   },
+   "analysis": "Ouster vyrábí digitální lidarové senzory pro průmysl, robotiku a stále více pro obranný sektor. Akcie jsou v hledáčku po vlně navyšování cílů (Rosenblatt Buy, cíl $53) a obranných/AI zakázkách; titul vyrostl ~310 % za 12 měsíců a tlačí na 52t maximum před odhadovanými výsledky 6. 8.",
+   "trade": {
+    "action": "Koupit",
+    "horizon": "1–4 týdny",
+    "entry": "$39–43",
+    "stop_loss": "$36",
+    "target": "$49",
+    "position_size": "max 3 % satelitu",
+    "risk_level": "4",
+    "catalyst": "Navyšování cílů analytiků + obranné/AI zakázky, momentum u 52t maxima.",
+    "action_note": "Nakupovat na zpětných korekcích k $39–41, nehonit prudké výstřely nahoru."
+   },
+   "pros": [
+    "Buy konsensus a rostoucí cíle",
+    "Silné momentum a obranný katalyzátor",
+    "Expanze do AI a robotiky"
+   ],
+   "cons": [
+    "Dosud záporné marže a riziko ředění",
+    "Akcie u 52t maxima = riziko korekce"
+   ]
+  },
+  {
+   "name": "EPAM Systems",
+   "ticker": "EPAM",
+   "region": "usa",
+   "sector": "tech",
+   "recommendation": "Koupit",
+   "price": {
+    "current": "$89.94",
+    "fair_value": "$146.71",
+    "discount": "+63% upside",
+    "signal": "Hluboká hodnota u 52t minima",
+    "signal_reason": "Akcie na 52t dně při P/E ~13 a Buy ratingu, prostor k mean-reversion.",
+    "buy_zone": {
+     "low": "$88",
+     "high": "$96"
+    }
+   },
+   "moat": {
+    "score": "6",
+    "verdict": "Solidní",
+    "summary": "Kvalitní dodavatel softwarového inženýrství a AI služeb pro velké klienty."
+   },
+   "intrinsic": {
+    "annual_return": "+12%",
+    "verdict": "orientační odhad",
+    "summary": "Při stabilizaci poptávky výrazný prostor k přecenění z nízkého P/E.",
+    "risk": "3"
+   },
+   "metrics": {
+    "Aktuální cena": "$89.94",
+    "Fair value (cíl analytiků)": "$146.71",
+    "P/E": "~13",
+    "Beta": "1.45",
+    "52t max/min": "$222.53 / $89.25"
+   },
+   "indicators": {
+    "P/E": {
+     "value": "~13",
+     "note": "Levné"
+    },
+    "Beta": {
+     "value": "1.45",
+     "note": "Volatilní"
+    },
+    "Div. yield": {
+     "value": "0%",
+     "note": "Dividenda"
+    },
+    "Net Margin": {
+     "value": "6.96%",
+     "note": "Zisková, ale stlačené marže"
+    }
+   },
+   "analysis": "EPAM poskytuje vývoj softwaru a digitální/AI inženýrské služby globálním korporacím. Akcie spadly na 52t minimum (-46 % za rok) kvůli slabší poptávce, ale analytici (Guggenheim Buy, cíl $200) drží Buy s tezí, že firma je kvalitní vendor pro realizaci AI cílů klientů; konzervativní konsensuální cíl ~$147 dává velký upside.",
+   "trade": {
+    "action": "Koupit",
+    "horizon": "3–6 týdnů",
+    "entry": "$88–96",
+    "stop_loss": "$83",
+    "target": "$115",
+    "position_size": "max 4 % satelitu",
+    "risk_level": "3",
+    "catalyst": "Odraz od 52t minima, nízké P/E a sázka na AI služby; výsledky ~5. 8.",
+    "action_note": "Budovat pozici poblíž $88–92 se stop-lossem pod 52t minimem."
+   },
+   "pros": [
+    "Nízké P/E ~13 a velký upside k cíli",
+    "Buy rating napříč domy",
+    "Pozice v AI/softwarových službách"
+   ],
+   "cons": [
+    "Slabší poptávkové prostředí a riziko Q2/26",
+    "Padající trend, nutná potvrzená stabilizace"
+   ]
+  },
+  {
+   "name": "Tango Therapeutics",
+   "ticker": "TNGX",
+   "region": "usa",
+   "sector": "healthcare",
+   "recommendation": "Koupit",
+   "price": {
+    "current": "$31.56",
+    "fair_value": "$35.22",
+    "discount": "+12% upside",
+    "signal": "Klinický katalyzátor",
+    "signal_reason": "Strong Buy a vlna navýšených cílů po pozitivním klinickém momentu.",
+    "buy_zone": {
+     "low": "$28",
+     "high": "$32"
+    }
+   },
+   "moat": {
+    "score": "4",
+    "verdict": "Spekulativní",
+    "summary": "Klinická firma precizní onkologie závislá na úspěchu programů."
+   },
+   "intrinsic": {
+    "annual_return": "n/a",
+    "verdict": "orientační odhad",
+    "summary": "Binární biotech příběh – vysoký potenciál i riziko propadu.",
+    "risk": "5"
+   },
+   "metrics": {
+    "Aktuální cena": "$31.56",
+    "Fair value (cíl analytiků)": "$35.22",
+    "P/E": "n/a (ztráta)",
+    "Beta": "n/a",
+    "52t max/min": "n/a"
+   },
+   "indicators": {
+    "P/E": {
+     "value": "n/a",
+     "note": "Předzisková biotech"
+    },
+    "Beta": {
+     "value": "n/a",
+     "note": "Volatilní"
+    },
+    "Div. yield": {
+     "value": "0%",
+     "note": "Dividenda"
+    },
+    "Net Margin": {
+     "value": "n/a",
+     "note": "Záporné, klinická fáze"
+    }
+   },
+   "analysis": "Tango Therapeutics je klinická firma precizní onkologie zaměřená na syntetickou letalitu. Akcie vyskočily ~65 % na klíčovém katalyzátoru a sérii navýšených cílů (H.C. Wainwright $66, Leerink $69), zároveň ale oznámila ředící úpis akcií za $500 mil.; cíle se silně rozcházejí (Investing.com $22 vs. S&P Global $40), proto volím konzervativní konsensus ~$35.",
+   "trade": {
+    "action": "Koupit",
+    "horizon": "1–3 týdny",
+    "entry": "$28–32",
+    "stop_loss": "$25",
+    "target": "$40",
+    "position_size": "max 2 % satelitu",
+    "risk_level": "5",
+    "catalyst": "Pozitivní klinický katalyzátor + vlna navýšených cílů; pozor na úpis $500 mil.",
+    "action_note": "Pouze malá spekulativní pozice na korekci k $28–30, tvrdý stop-loss."
+   },
+   "pros": [
+    "Strong Buy a prudce navýšené cíle",
+    "Silný klinický katalyzátor a momentum",
+    "Vysoký potenciál při úspěchu programu"
+   ],
+   "cons": [
+    "Ředění z úpisu za $500 mil.",
+    "Široký rozptyl cílů, binární klinické riziko"
+   ]
+  },
+  {
+   "name": "Intel",
+   "ticker": "INTC",
+   "region": "usa",
+   "sector": "tech",
+   "recommendation": "Sledovat",
+   "price": {
+    "current": "$133.99",
+    "fair_value": "$93.97",
+    "discount": "-30% upside",
+    "signal": "Přestřelené momentum",
+    "signal_reason": "Cena výrazně nad konsensuálním cílem analytiků po prudkém rally.",
+    "buy_zone": {
+     "low": "$95",
+     "high": "$110"
+    }
+   },
+   "moat": {
+    "score": "6",
+    "verdict": "Obnovující se",
+    "summary": "Návrat do hry díky 18A procesu a strategickým zakázkám, ale finančně křehký."
+   },
+   "intrinsic": {
+    "annual_return": "-10%",
+    "verdict": "orientační odhad",
+    "summary": "Po raketovém růstu je dle analytiků prostor spíš dolů než nahoru.",
+    "risk": "4"
+   },
+   "metrics": {
+    "Aktuální cena": "$133.99",
+    "Fair value (cíl analytiků)": "$93.97",
+    "P/E": "n/a (záporné EPS)",
+    "Beta": "2.23",
+    "52t max/min": "$135.48 / $18.97"
+   },
+   "indicators": {
+    "P/E": {
+     "value": "fwd ~114",
+     "note": "Drahé"
+    },
+    "Beta": {
+     "value": "2.23",
+     "note": "Volatilní"
+    },
+    "Div. yield": {
+     "value": "0%",
+     "note": "Dividenda"
+    },
+    "Net Margin": {
+     "value": "n/a",
+     "note": "Záporné (ztráta za 12M)"
+    }
+   },
+   "analysis": "Intel je integrovaný výrobce čipů uprostřed nákladného obratu (foundry, proces 18A). Titul vystřelil přes +540 % za rok a aktuálně se obchoduje s ~$134 výrazně nad konsensuálním cílem $93.97 po zprávách o spolupráci s Apple a zahájení výroby 18A-P; momentum je silné, ale valuace napjatá a EPS záporné.",
+   "trade": {
+    "action": "Držet",
+    "horizon": "1–4 týdny",
+    "entry": "vyčkat na korekci k $95–110",
+    "stop_loss": "$118 (pro stávající pozice)",
+    "target": "$150 (horní cíl analytiků)",
+    "position_size": "max 2 % satelitu",
+    "risk_level": "4",
+    "catalyst": "Spolupráce s Apple na čipech + náběh procesu 18A-P, ale cena nad cíli.",
+    "action_note": "Novou pozici neotevírat na maximech; sledovat zpětný test a brát zisky u stávajících pozic."
+   },
+   "pros": [
+    "Silné momentum a strategická zakázka s Apple",
+    "Náběh výroby 18A-P jako katalyzátor",
+    "Výrazné zlepšení tržního příběhu"
+   ],
+   "cons": [
+    "Cena ~30 % nad konsensuálním cílem",
+    "Záporný zisk a vysoká beta 2.23"
+   ]
+  },
+  {
+   "name": "Wolfspeed",
+   "ticker": "WOLF",
+   "region": "usa",
+   "sector": "tech",
+   "recommendation": "Sledovat",
+   "price": {
+    "current": "$36.60",
+    "fair_value": "$14.33",
+    "discount": "-61% upside",
+    "signal": "Spekulativní rally",
+    "signal_reason": "Cena u 52t maxima daleko nad konsensem 'Reduce'.",
+    "buy_zone": {
+     "low": "n/a",
+     "high": "n/a"
+    }
+   },
+   "moat": {
+    "score": "4",
+    "verdict": "Křehký",
+    "summary": "Výrobce SiC čipů s technologickým náskokem, ale slabou rozvahou."
+   },
+   "intrinsic": {
+    "annual_return": "-30%",
+    "verdict": "orientační odhad",
+    "summary": "Konsensus vidí výrazný downside navzdory aktuálnímu momentu.",
+    "risk": "5"
+   },
+   "metrics": {
+    "Aktuální cena": "$36.60",
+    "Fair value (cíl analytiků)": "$14.33",
+    "P/E": "n/a (ztráta)",
+    "Beta": "n/a",
+    "52t max/min": "$36.60 / $0.39"
+   },
+   "indicators": {
+    "P/E": {
+     "value": "n/a",
+     "note": "Ztrátová firma"
+    },
+    "Beta": {
+     "value": "n/a",
+     "note": "Volatilní"
+    },
+    "Div. yield": {
+     "value": "0%",
+     "note": "Dividenda"
+    },
+    "Net Margin": {
+     "value": "n/a",
+     "note": "Záporné (-14% hrubá marže)"
+    }
+   },
+   "analysis": "Wolfspeed je výrobce karbid-křemíkových (SiC) polovodičů pro elektromobilitu a průmysl. Akcie po restrukturalizaci dluhu a zprávách o AI/aerospace zakázkách vystřelily na 52t maximum ~$36.60, ale analytici drží konsensus 'Reduce' s cílem jen $14.33 — jde o čistě momentový/spekulativní obchod.",
+   "trade": {
+    "action": "Držet",
+    "horizon": "dny",
+    "entry": "nevstupovat dlouze nad cíli",
+    "stop_loss": "$31 (pro spekulativní pozice)",
+    "target": "n/a",
+    "position_size": "max 1 % satelitu",
+    "risk_level": "5",
+    "catalyst": "Restrukturalizace dluhu + AI/aerospace zakázky pohánějí krátký squeeze.",
+    "action_note": "Nezakládat nové dlouhé pozice; momentové pozice řídit těsným stop-lossem."
+   },
+   "pros": [
+    "Silné krátkodobé momentum a squeeze potenciál",
+    "Technologický náskok v SiC",
+    "Restrukturalizace dluhu zlepšila bilanci"
+   ],
+   "cons": [
+    "Konsensus 'Reduce', cíl ~60 % pod cenou",
+    "Záporné marže a vysoké riziko prudkého propadu"
+   ]
+  },
+  {
+   "name": "Butterfly Network",
+   "ticker": "BFLY",
+   "region": "usa",
+   "sector": "healthcare",
+   "recommendation": "Sledovat",
+   "price": {
+    "current": "$8.90",
+    "fair_value": "$5.69",
+    "discount": "-36% upside",
+    "signal": "Přestřelený spike",
+    "signal_reason": "Cena po +56 % skoku výrazně nad cíli analytiků.",
+    "buy_zone": {
+     "low": "n/a",
+     "high": "n/a"
+    }
+   },
+   "moat": {
+    "score": "5",
+    "verdict": "Inovativní",
+    "summary": "Průkopník přenosného ultrazvuku na čipu s AI potenciálem."
+   },
+   "intrinsic": {
+    "annual_return": "-20%",
+    "verdict": "orientační odhad",
+    "summary": "Po spike je dle analytiků prostor dolů, příběh je ale zajímavý.",
+    "risk": "5"
+   },
+   "metrics": {
+    "Aktuální cena": "$8.90",
+    "Fair value (cíl analytiků)": "$5.69",
+    "P/E": "n/a (ztráta)",
+    "Beta": "n/a",
+    "52t max/min": "n/a"
+   },
+   "indicators": {
+    "P/E": {
+     "value": "n/a",
+     "note": "Ztrátová firma"
+    },
+    "Beta": {
+     "value": "n/a",
+     "note": "Volatilní"
+    },
+    "Div. yield": {
+     "value": "0%",
+     "note": "Dividenda"
+    },
+    "Net Margin": {
+     "value": "n/a",
+     "note": "Záporné"
+    }
+   },
+   "analysis": "Butterfly Network vyrábí přenosné ultrazvukové sondy na bázi polovodičového čipu. Akcie dva dny po sobě vedly NYSE jako top gainer a vyskočily ~56 % na zprávách, že její technologie pohání celotělový skener Midjourney; po skoku na ~$8.90 je ale cena výrazně nad mediánovým cílem $5.5–5.69 (rating Strong Buy).",
+   "trade": {
+    "action": "Držet",
+    "horizon": "dny",
+    "entry": "vyčkat na zchlazení k $6–7",
+    "stop_loss": "$7 (pro spekulativní pozice)",
+    "target": "n/a",
+    "position_size": "max 1 % satelitu",
+    "risk_level": "5",
+    "catalyst": "Partnerství s Midjourney (celotělový ultrazvukový skener) + virální sentiment.",
+    "action_note": "Nehonit spike; čekat na konsolidaci, případně vybrat zisky ze stávajících pozic."
+   },
+   "pros": [
+    "Silný katalyzátor a momentum (AI partnerství)",
+    "Inovativní technologie ultrazvuku na čipu",
+    "Vysoká pozornost retailu a objem"
+   ],
+   "cons": [
+    "Cena ~36 % nad cílem analytiků",
+    "Ztrátová firma, riziko rychlého splasknutí spike"
+   ]
+  },
+  {
+   "name": "Roku",
+   "ticker": "ROKU",
+   "region": "usa",
+   "sector": "tech",
+   "recommendation": "Držet",
+   "price": {
+    "current": "$140.90",
+    "fair_value": "$147.83",
+    "discount": "+5% upside",
+    "signal": "Fúzní arbitráž",
+    "signal_reason": "Cena se blíží nabídce Foxu $160; další růst je limitovaný.",
+    "buy_zone": {
+     "low": "$132",
+     "high": "$142"
+    }
+   },
+   "moat": {
+    "score": "6",
+    "verdict": "Silný v TV OS",
+    "summary": "Lídr streamovacích platforem, nově cíl akvizice Foxem."
+   },
+   "intrinsic": {
+    "annual_return": "+8%",
+    "verdict": "orientační odhad",
+    "summary": "Omezený, ale relativně jistý výnos navázaný na uzavření fúze.",
+    "risk": "2"
+   },
+   "metrics": {
+    "Aktuální cena": "$140.90",
+    "Fair value (cíl analytiků)": "$147.83",
+    "P/E": "~103 (trailing)",
+    "Beta": "n/a",
+    "52t max/min": "$148.88 / $51.65"
+   },
+   "indicators": {
+    "P/E": {
+     "value": "~103",
+     "note": "Drahé"
+    },
+    "Beta": {
+     "value": "n/a",
+     "note": "Volatilní"
+    },
+    "Div. yield": {
+     "value": "0%",
+     "note": "Dividenda"
+    },
+    "Net Margin": {
+     "value": "~3%",
+     "note": "Nově lehce zisková"
+    }
+   },
+   "analysis": "Roku provozuje přední TV operační systém a streamovací platformu. Do hledáčku se dostalo po dohodě o akvizici Foxem za $160 na akcii ($96 v hotovosti + 0,9693 akcie FOXA); řada domů (Jefferies, Piper, Rosenblatt) srovnala cíle s nabídkou — jde o nízkorizikový fúzně-arbitrážní obchod s omezeným prostorem nahoru.",
+   "trade": {
+    "action": "Držet",
+    "horizon": "do uzavření fúze",
+    "entry": "$132–142",
+    "stop_loss": "$128",
+    "target": "$160 (cena dohody)",
+    "position_size": "max 3 % satelitu",
+    "risk_level": "2",
+    "catalyst": "Akvizice Foxem za $160/akcii; arbitrážní spread do uzavření obchodu.",
+    "action_note": "Kdo drží, může počkat na uzavření dohody; nové pozice jen jako arbitráž s vědomím limitovaného upside."
+   },
+   "pros": [
+    "Nabídka Foxu $160 ukotvuje cenu (nízké riziko)",
+    "Možný 'beatable' headline dle Rosenblattu",
+    "Lídr v TV OS s reklamním potenciálem"
+   ],
+   "cons": [
+    "Omezený prostor nahoru, downgrady na Hold",
+    "Riziko zdržení/úprav podmínek fúze"
+   ]
+  },
+  {
+   "name": "Smith & Wesson Brands",
+   "ticker": "SWBI",
+   "region": "usa",
+   "sector": "consumer",
+   "recommendation": "Držet",
+   "price": {
+    "current": "$16.00",
+    "fair_value": "$16.00",
+    "discount": "0% upside",
+    "signal": "Po výsledcích bez rezervy",
+    "signal_reason": "Akcie po skoku na výsledky obchodují blízko konsensuálního cíle.",
+    "buy_zone": {
+     "low": "$14",
+     "high": "$15"
+    }
+   },
+   "moat": {
+    "score": "5",
+    "verdict": "Stabilní značka",
+    "summary": "Silná značka palných zbraní s cyklickou poptávkou."
+   },
+   "intrinsic": {
+    "annual_return": "+5%",
+    "verdict": "orientační odhad",
+    "summary": "Defenzivní titul s dividendou, ale omezeným krátkodobým upside.",
+    "risk": "3"
+   },
+   "metrics": {
+    "Aktuální cena": "$16.00",
+    "Fair value (cíl analytiků)": "$16.00",
+    "P/E": "~65",
+    "Beta": "0.86",
+    "52t max/min": "$17.56 / $7.73"
+   },
+   "indicators": {
+    "P/E": {
+     "value": "~65",
+     "note": "Drahé na nízkém zisku"
+    },
+    "Beta": {
+     "value": "0.86",
+     "note": "Defenzivní"
+    },
+    "Div. yield": {
+     "value": "~3%",
+     "note": "Dividenda"
+    },
+    "Net Margin": {
+     "value": "~2.2%",
+     "note": "Tenké marže"
+    }
+   },
+   "analysis": "Smith & Wesson je výrobce palných zbraní se silnou značkou a stabilní dividendou. Akcie vyskočily ~14 % po lepších kvartálních výsledcích (tržby +27 % na $178,4 mil., upravený zisk $0.36 nad konsensem); po skoku na ~$16 ale obchodují blízko (široce rozptýleného) cíle analytiků, krátkodobý prostor je tak omezený.",
+   "trade": {
+    "action": "Držet",
+    "horizon": "1–4 týdny",
+    "entry": "$14–15 (na korekci)",
+    "stop_loss": "$13",
+    "target": "$17.5",
+    "position_size": "max 3 % satelitu",
+    "risk_level": "3",
+    "catalyst": "Silné kvartální výsledky (tržby +27 %, zisk nad konsensem) hnaly akcii +14 %.",
+    "action_note": "Nehonit po-výsledkový skok; přikupovat jen na zpětné korekci k $14–15."
+   },
+   "pros": [
+    "Silné výsledky a beat zisku",
+    "Defenzivní beta 0.86 a dividenda ~3 %",
+    "Blízko 52t maxima s momentem"
+   ],
+   "cons": [
+    "Cena u konsensuálního cíle, omezený upside",
+    "Vysoké P/E na tenkých maržích, cyklická poptávka"
+   ]
+  },
+  {
+   "name": "FreeCast",
+   "ticker": "CAST",
+   "region": "usa",
+   "sector": "tech",
+   "recommendation": "Sledovat",
+   "price": {
+    "current": "$14.90",
+    "fair_value": "n/a",
+    "discount": "n/a",
+    "signal": "Spekulativní mikrocap spike",
+    "signal_reason": "Bez pokrytí analytiků; jednorázový skok +170 % na zprávě.",
+    "buy_zone": {
+     "low": "n/a",
+     "high": "n/a"
+    }
+   },
+   "moat": {
+    "score": "2",
+    "verdict": "Žádný",
+    "summary": "Malá mediální/streamovací firma bez prokázané škálovatelnosti."
+   },
+   "intrinsic": {
+    "annual_return": "n/a",
+    "verdict": "orientační odhad",
+    "summary": "Čistá spekulace na jednu zprávu, bez fundamentální opory.",
+    "risk": "5"
+   },
+   "metrics": {
+    "Aktuální cena": "$14.90",
+    "Fair value (cíl analytiků)": "n/a",
+    "P/E": "n/a",
+    "Beta": "n/a",
+    "52t max/min": "n/a"
+   },
+   "indicators": {
+    "P/E": {
+     "value": "n/a",
+     "note": "n/a"
+    },
+    "Beta": {
+     "value": "n/a",
+     "note": "Volatilní"
+    },
+    "Div. yield": {
+     "value": "0%",
+     "note": "Dividenda"
+    },
+    "Net Margin": {
+     "value": "n/a",
+     "note": "n/a"
+    }
+   },
+   "analysis": "FreeCast je malá firma kombinující streamovací a mediální služby. Akcie vystřelily ~170 % během jediné seance po oznámení reseller partnerství pro Starlink Business (satelitní širokopásmové připojení); jde o mikrocap bez pokrytí analytiků — extrémně rizikový, čistě momentový/zpravodajský obchod.",
+   "trade": {
+    "action": "Držet",
+    "horizon": "dny",
+    "entry": "nevstupovat na vrcholu spike",
+    "stop_loss": "$11 (pro spekulativní pozice)",
+    "target": "n/a",
+    "position_size": "max 1 % satelitu",
+    "risk_level": "5",
+    "catalyst": "Reseller dohoda na Starlink Business pohnala akcií +170 % za den.",
+    "action_note": "Pouze pro nejagresivnější satelit a v minimální velikosti; jinak jen sledovat."
+   },
+   "pros": [
+    "Silný jednorázový katalyzátor (Starlink)",
+    "Extrémní krátkodobé momentum a objem",
+    "Nový byznysový směr s upside příběhem"
+   ],
+   "cons": [
+    "Bez pokrytí analytiků a fundamentu",
+    "Mikrocap, riziko rychlého kolapsu po spike"
+   ]
+  }
+ ],
+ "generated_at": "2026-06-20"
 }
