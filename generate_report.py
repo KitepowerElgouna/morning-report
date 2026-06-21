@@ -178,6 +178,11 @@ def main():
     print(f"Generuji report ({MODEL}, {NUM_STOCKS} firem)…", file=sys.stderr)
     report = generate()
     report.setdefault("generated_at", today)
+    # Vždy oraziítkuj report SKUTEČNÝM dnešním datem (Claude občas píše staré z webu).
+    _cz = {1: "ledna", 2: "února", 3: "března", 4: "dubna", 5: "května", 6: "června",
+           7: "července", 8: "srpna", 9: "září", 10: "října", 11: "listopadu", 12: "prosince"}
+    _d = datetime.date.today()
+    report["date"] = f"{_d.day}. {_cz[_d.month]} {_d.year}"
 
     dated = os.path.join(OUT_DIR, f"report-{today}.json")
     latest = os.path.join(OUT_DIR, "report-latest.json")
