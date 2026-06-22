@@ -1,93 +1,94 @@
 {
   "date": "22. června 2026",
-  "summary": "Wall Street je dnes v útlumu před klíčovým inflačním údajem PCE (čtvrtek) – futures lehce v mínusu, trh tráví pokrok v mírovém rámci USA–Írán (otevření Hormuzu sráží ropu) a jestřábí obrat Fedu pod novým guvernérem Warshem, kde se sázky na zvýšení sazeb posunuly už na říjen. Tyto tipy cílí na tituly s katalyzátorem právě tento týden (výsledky MU 24.6., FDX a CCL 23.6., NKE 30.6., Investor Day QCOM) a na pohyb v energetice po dohodě s Íránem. Jde o KRÁTKODOBÉ RIZIKOVÉ tipy pro 'satelitní' peníze – fair value = konsensus cílů analytiků, tedy jen orientační vodítko, NE investiční rada. Důsledně držte stop-lossy a velikost pozice; časté přetrádování dlouhodobě škodí.",
+  "summary": "Trhy začínají týden smíšeně: Dow drží zisky díky Caterpillaru, zatímco S&P 500 a Nasdaq tlačí dolů výprodej AI hyperscalerů (Alphabet -6 %) a obavy z jestřábího Fedu před středeční inflací (PCE); ropa klesá na nadějích z jednání USA–Írán. Tyto tipy jsou KRÁTKODOBÉ RIZIKOVÉ příležitosti pro 'satelitní' peníze – počítej s vysokou volatilitou, drž STOP-LOSSy a malou velikost pozice, časté přetrádování ničí výnos. Fair value zde = konsensus cílů analytiků, jde pouze o orientační vodítko, NE o investiční radu; ceny i cíle se napříč zdroji liší, proto bereme konzervativnější hodnotu.",
   "sources": [
     "Yahoo Finance",
     "StockAnalysis.com",
     "MarketBeat",
     "TipRanks",
-    "Public.com",
     "CNBC",
-    "CNN",
-    "Reuters",
-    "Al Jazeera",
-    "Google Finance",
-    "Unusual Whales"
+    "Reuters/Trading Economics",
+    "Finviz",
+    "Investing.com",
+    "SEC EDGAR",
+    "Simply Wall St",
+    "TradingView",
+    "Google Finance"
   ],
   "firms": [
     {
-      "name": "Carnival Corporation",
-      "ticker": "CCL",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
       "region": "usa",
-      "sector": "consumer",
+      "sector": "tech",
       "recommendation": "Koupit",
       "price": {
-        "current": "$31.18",
-        "fair_value": "$35.05",
-        "discount": "+12% upside",
-        "signal": "Momentum + výsledky na spadnutí",
-        "signal_reason": "Akcie +21 % od posledního reportu, levné P/E a Buy konsensus těsně pod 52t maximem.",
+        "current": "$356",
+        "fair_value": "$432.83",
+        "discount": "+22% upside",
+        "signal": "Nákup propadu (buy-the-dip)",
+        "signal_reason": "Kvalitní titul spadl ~6 % na obavách z odchodu AI talentů, fundament beze změny.",
         "buy_zone": {
-          "low": "$30.50",
-          "high": "$31.20"
+          "low": "$340",
+          "high": "$360"
         }
       },
       "moat": {
-        "score": "5",
-        "verdict": "Střední",
-        "summary": "Globální duopol v zámořských plavbách s velkou flotilou a značkami, ale kapitálově náročný a cyklický."
+        "score": "9",
+        "verdict": "Široký příkop",
+        "summary": "Dominance ve vyhledávání, YouTube, Android a Google Cloud."
       },
       "intrinsic": {
         "annual_return": "+12%",
         "verdict": "orientační odhad",
-        "summary": "Při naplnění cíle analytiků ~35 $ dává krátkodobě dvouciferný prostor.",
-        "risk": "4"
+        "summary": "Při návratu k cíli analytiků dvouciferný potenciál během měsíců.",
+        "risk": "3"
       },
       "metrics": {
-        "Aktuální cena": "$31.18",
-        "Fair value (cíl analytiků)": "$35.05",
-        "P/E": "13.84",
-        "Beta": "2.33",
-        "52t max/min": "$34.03 / $22.58"
+        "Aktuální cena": "$356",
+        "Fair value (cíl analytiků)": "$432.83",
+        "P/E": "28",
+        "Beta": "1.24",
+        "52t max/min": "$408.61 / $162.00"
       },
       "indicators": {
         "P/E": {
-          "value": "13.84",
-          "note": "Levné"
+          "value": "28",
+          "note": "Férové"
         },
         "Beta": {
-          "value": "2.33",
-          "note": "Volatilní"
+          "value": "1.24",
+          "note": "Mírně volatilní"
         },
         "Div. yield": {
-          "value": "1.94%",
-          "note": "Dividenda $0.60"
+          "value": "0.24%",
+          "note": "Dividenda"
         },
         "Net Margin": {
-          "value": "n/a",
-          "note": "V reportu neověřeno"
+          "value": "37.9%",
+          "note": "Vysoce zisková"
         }
       },
-      "analysis": "Carnival je největší světový provozovatel okružních plaveb a po pandemii jede v režimu rekordních rezervací a oddlužování. Do hledáčku se dostal kvůli výsledkům Q2 ráno 23.6. – trh oceňuje pohyb ±6,6 % – a po představení plánu PROPEL s buybackem 2,5 mld. $.",
+      "analysis": "Alphabet provozuje Google Search, YouTube, Android a cloud a patří mezi lídry AI. Akcie dnes míří k nejhoršímu dni za rok po odchodu klíčových AI výzkumníků a obavách z rostoucího AI capexu – konsensus 63 analytiků ('Strong Buy', cíl ~$433) přitom zůstává výrazně nad cenou; konzervativnější MarketBeat udává $413.",
       "trade": {
         "action": "Koupit",
-        "horizon": "1–4 týdny",
-        "entry": "$30.50–31.20",
-        "stop_loss": "$28.50",
-        "target": "$35.00",
-        "position_size": "max 4 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Výsledky Q2 ráno 23.6. (oceněn pohyb ±6,6 %), rekordní rezervace, plán PROPEL a buyback 2,5 mld. $.",
-        "action_note": "Menší vstup před reportem nebo počkat na reakci po číslech; povinně stop pod 28,5 $."
+        "horizon": "2–6 týdnů",
+        "entry": "$340–360",
+        "stop_loss": "$330",
+        "target": "$400",
+        "position_size": "max 5 % satelitu",
+        "risk_level": "3",
+        "catalyst": "Výprodej kvůli odchodu AI talentů a obavám z capexu = příležitost; výsledky 28. července jako další katalyzátor.",
+        "action_note": "Dnes založit první polovinu pozice v pásmu $340–360, druhou až při stabilizaci nad $360."
       },
       "pros": [
-        "Levné P/E 13,8 a Buy konsensus s ~12 % upside",
-        "Momentum +21 % od posledních výsledků",
-        "Rekordní rezervace + nový buyback 2,5 mld. $"
+        "Konsensus 'Strong Buy', ~22 % upside k cíli",
+        "Levné P/E ~28 na kvalitu a růst",
+        "Silný cash flow a hotovost na AI investice"
       ],
       "cons": [
-        "Binární riziko výsledků (oceněn pohyb ±6,6 %)",
-        "Vysoká beta 2,33 a blízkost 52t maxima/odporu 34 $"
+        "Odliv AI talentů a regulační/antitrustová rizika",
+        "Rostoucí AI capex tlačí na marže"
       ]
     },
     {
@@ -95,374 +96,374 @@
       "ticker": "MU",
       "region": "usa",
       "sector": "tech",
-      "recommendation": "Sledovat",
+      "recommendation": "Držet",
       "price": {
-        "current": "$1,108",
-        "fair_value": "$945.60",
-        "discount": "-15% upside",
-        "signal": "Přehřáté – cíl pod cenou",
-        "signal_reason": "Extrémní momentum (až 10× za rok) vyhnalo kurz nad konsensuální cíl analytiků.",
+        "current": "$1,170",
+        "fair_value": "$1,186",
+        "discount": "+1% upside",
+        "signal": "Silné momentum, blízko fér hodnoty",
+        "signal_reason": "Cena vyběhla na rekord, konsensus cílů je rozkročený a rychle se reviduje nahoru.",
         "buy_zone": {
-          "low": "$950",
-          "high": "$1,000"
+          "low": "$1,050",
+          "high": "$1,130"
         }
       },
       "moat": {
-        "score": "6",
+        "score": "7",
         "verdict": "Solidní",
-        "summary": "Jeden ze tří globálních hráčů v DRAM/NAND s klíčovou pozicí v HBM pamětech pro AI."
+        "summary": "Jeden ze tří hráčů na DRAM/NAND, profituje z AI poptávky po paměti."
       },
       "intrinsic": {
-        "annual_return": "-15%",
+        "annual_return": "+5%",
         "verdict": "orientační odhad",
-        "summary": "Konsensuální cíl ~946 $ je pod aktuální cenou – krátkodobě nadhodnoceno.",
+        "summary": "Po raketovém růstu omezený prostor k cíli, vše závisí na výsledcích.",
         "risk": "5"
       },
       "metrics": {
-        "Aktuální cena": "$1,108",
-        "Fair value (cíl analytiků)": "$945.60",
-        "P/E": "53.35",
-        "Beta": "2.17",
-        "52t max/min": "$1,149.43 / $103.38"
+        "Aktuální cena": "$1,170",
+        "Fair value (cíl analytiků)": "$1,186",
+        "P/E": "53.5 (fwd 10.9)",
+        "Beta": "2.15",
+        "52t max/min": "$1,204.50 / $103.38"
       },
       "indicators": {
         "P/E": {
-          "value": "53.35",
-          "note": "Drahé"
+          "value": "53.5",
+          "note": "Drahé (fwd 10.9 levné)"
         },
         "Beta": {
-          "value": "2.17",
+          "value": "2.15",
           "note": "Volatilní"
         },
         "Div. yield": {
-          "value": "≈0.1%",
-          "note": "Symbolická dividenda"
+          "value": "0.05%",
+          "note": "Dividenda"
         },
         "Net Margin": {
           "value": "n/a",
-          "note": "V reportu neověřeno"
+          "note": "Cyklicky kolísá"
         }
       },
-      "analysis": "Micron vyrábí paměti DRAM/NAND a je hlavním profitérem AI cyklu díky HBM pamětem. V hledáčku je kvůli výsledkům 24.6. a extrémnímu momentu – kurz se drží těsně pod 52t maximem 1 149 $, ale konsensuální cíl analytiků (~946 $) je výrazně pod cenou, takže jde spíše o sledování než honbu.",
+      "analysis": "Micron vyrábí paměti DRAM a NAND, jejichž ceny letos rostou ~20 % díky AI/datacentrům. Titul je dnešní hvězdou (+5 %) po dodavatelské dohodě s Anthropic a před výsledky FQ3 ve středu 24. 6. po uzávěrce; pozor – konsensus cílů je rozkročený od $945 (StockAnalysis, zastaralý) po $1 186 (MarketBeat), Rosenblatt i Wedbush jdou k $1 200–1 300.",
       "trade": {
-        "action": "Ubrat",
-        "horizon": "1–2 týdny (kolem výsledků 24.6.)",
-        "entry": "Nový nákup až po korekci k $950–1,000",
-        "stop_loss": "$1,020",
-        "target": "$1,149 (52t max)",
-        "position_size": "max 2 % satelitu",
+        "action": "Držet",
+        "horizon": "1–2 týdny",
+        "entry": "Bez nákupu před výsledky; nové vstupy až $1,050–1,130",
+        "stop_loss": "$1,050",
+        "target": "$1,300",
+        "position_size": "max 3 % satelitu",
         "risk_level": "5",
-        "catalyst": "Výsledky 24.6.; AI/HBM paměťový supercyklus; kurz +cca 10× za rok těsně pod 52t maximem 1 149 $.",
-        "action_note": "Nehonit nahoře; u držené pozice zvážit částečný odprodej před výsledky a stop pod 1 020 $."
+        "catalyst": "Výsledky FQ3 ve středu 24. 6. (binární událost) + dohoda s Anthropic a růst cen pamětí.",
+        "action_note": "Dnes nepřikupovat těsně před earnings; kdo drží, utáhnout stop na $1,050 a vzít část zisku."
       },
       "pros": [
-        "Rating Strong Buy a tahoun AI/HBM poptávky",
-        "Extrémní momentum, lídr trhu pamětí",
-        "Silný ziskový supercyklus"
+        "Silné momentum a růst cen DRAM/NAND ~20 %",
+        "Dohoda s Anthropic, AI poptávka po HBM",
+        "Konsensus 'Strong Buy', forward P/E jen ~10.9"
       ],
       "cons": [
-        "Cíl analytiků ~15 % POD cenou – přehřáté",
-        "Drahé P/E 53 a beta 2,17, vysoké riziko 'sell the news'"
+        "Cena u 52t maxima, binární riziko výsledků",
+        "Vysoká beta 2.15 a cykličnost odvětví"
       ]
     },
     {
-      "name": "NIKE, Inc.",
-      "ticker": "NKE",
-      "region": "usa",
-      "sector": "consumer",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$44.41",
-        "fair_value": "$59.58",
-        "discount": "+32% upside",
-        "signal": "Oversold / hluboká hodnota",
-        "signal_reason": "Kurz u 52t minima 41,35 $, zatímco Buy konsensus míří k ~60 $.",
-        "buy_zone": {
-          "low": "$44.00",
-          "high": "$45.50"
-        }
-      },
-      "moat": {
-        "score": "8",
-        "verdict": "Široký",
-        "summary": "Nejsilnější globální sportovní značka s obrovským měřítkem a marketingovou silou."
-      },
-      "intrinsic": {
-        "annual_return": "+32%",
-        "verdict": "orientační odhad",
-        "summary": "Asymetrie blízko dna: konsensuální cíl ~60 $ nabízí výrazný prostor při úspěšném turnaroundu.",
-        "risk": "4"
-      },
-      "metrics": {
-        "Aktuální cena": "$44.41",
-        "Fair value (cíl analytiků)": "$59.58",
-        "P/E": "29.80",
-        "Beta": "1.12",
-        "52t max/min": "$80.17 / $41.35"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "29.80",
-          "note": "Drahé (stlačené zisky)"
-        },
-        "Beta": {
-          "value": "1.12",
-          "note": "Mírně volatilní"
-        },
-        "Div. yield": {
-          "value": "n/a",
-          "note": "V reportu neověřeno"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "V reportu neověřeno"
-        }
-      },
-      "analysis": "Nike je globální lídr sportovního oblečení a obuvi uprostřed turnaroundu po slabém období. Do hledáčku se dostal jako oversold sázka u 52t minima (41,35 $) před výsledky 30.6. – konsensus zůstává Buy s cílem kolem 60 $ (cíle MarketBeat ~60,9 $ a Public ~61,4 $ to potvrzují).",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "2–6 týdnů (do výsledků 30.6.)",
-        "entry": "$44.00–45.50",
-        "stop_loss": "$41.00",
-        "target": "$50.00",
-        "position_size": "max 4 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Oversold u 52t minima 41,35 $, turnaround story a výsledky 30.6.; Buy konsensus s cílem ~60 $.",
-        "action_note": "Postupný vstup u dna; stop těsně pod 52t minimem (41 $), první cíl 50 $."
-      },
-      "pros": [
-        "Buy konsensus s ~32 % upside",
-        "Cena těsně nad 52t minimem = asymetrie",
-        "Nejsilnější značka v oboru, prostor pro turnaround"
-      ],
-      "cons": [
-        "Slabé momentum / sestupný trend",
-        "Tlak na spotřebitelský sektor a binární výsledky"
-      ]
-    },
-    {
-      "name": "Exxon Mobil",
-      "ticker": "XOM",
+      "name": "Alamos Gold",
+      "ticker": "AGI",
       "region": "usa",
       "sector": "energy",
       "recommendation": "Koupit",
       "price": {
-        "current": "$137.81",
-        "fair_value": "$165.70",
-        "discount": "+20% upside",
-        "signal": "Hodnota, ale padající ropa = riziko",
-        "signal_reason": "Energetika padá po dohodě USA–Írán a otevření Hormuzu, analytici ale drží Buy s cílem ~166 $.",
+        "current": "$36",
+        "fair_value": "$44.33",
+        "discount": "+23% upside",
+        "signal": "Korekce v rámci 'Buy' konsensu",
+        "signal_reason": "Akcie klesá s ochlazením poptávky po bezpečném přístavu, cíle analytiků míří nahoru.",
         "buy_zone": {
-          "low": "$135.00",
-          "high": "$138.00"
+          "low": "$34",
+          "high": "$37"
         }
       },
       "moat": {
-        "score": "7",
-        "verdict": "Široký",
-        "summary": "Integrovaný ropný gigant s nízkonákladovou produkcí, škálou a silnou bilancí."
+        "score": "5",
+        "verdict": "Komoditní",
+        "summary": "Producent zlata s nízkými náklady a rostoucí těžbou."
       },
       "intrinsic": {
-        "annual_return": "+20%",
+        "annual_return": "+15%",
         "verdict": "orientační odhad",
-        "summary": "Konzervativní cíl ~166 $ dává ~20 % prostor, pokud se ropa stabilizuje.",
+        "summary": "Vysoké marže a prostor k cílům, závisí na ceně zlata.",
         "risk": "4"
       },
       "metrics": {
-        "Aktuální cena": "$137.81",
-        "Fair value (cíl analytiků)": "$165.70",
-        "P/E": "n/a",
-        "Beta": "n/a",
-        "52t max/min": "n/a"
+        "Aktuální cena": "$36",
+        "Fair value (cíl analytiků)": "$44.33",
+        "P/E": "14.5",
+        "Beta": "1.25",
+        "52t max/min": "$55.41 / $23.92"
       },
       "indicators": {
         "P/E": {
-          "value": "n/a",
-          "note": "V reportu neověřeno"
+          "value": "14.5",
+          "note": "Levné"
         },
         "Beta": {
-          "value": "n/a",
-          "note": "V reportu neověřeno"
+          "value": "1.25",
+          "note": "Mírně volatilní"
         },
         "Div. yield": {
-          "value": "≈2.9%",
-          "note": "Orientační, vysoký výnos"
+          "value": "0.4%",
+          "note": "Dividenda"
         },
         "Net Margin": {
-          "value": "n/a",
-          "note": "V reportu neověřeno"
+          "value": "49.0%",
+          "note": "Velmi vysoká marže"
         }
       },
-      "analysis": "Exxon je integrovaný ropný a plynárenský koncern (těžba, rafinace, chemie). Do hledáčku se dostal jako kontrariánská sázka: ropa prudce padá po rámci míru USA–Írán a otevření Hormuzu, což srazilo energetiku, ale analytici drží Buy. POZOR: TipRanks uváděl cenu 146,44 $, zatímco Google/StockAnalysis ~137,8 $ – rozdíl >3 %, vzal jsem konzervativně nižší cenu, stejně jako nejnižší z cílů (165,70 $).",
+      "analysis": "Alamos Gold je středně velký producent zlata s nízkými náklady a marží přes 48 %. Titul dnes klesá ~3 %, protože pokrok v jednání USA–Írán tlumí poptávku po zlatě jako bezpečném přístavu; analytici (konsensus 'Buy', Scotiabank zvedl cíl 55→60) přesto vidí prostor – konzervativní cíl $44.33, optimistický TipRanks $47.89.",
       "trade": {
         "action": "Koupit",
-        "horizon": "2–6 týdnů",
-        "entry": "$135.00–138.00",
-        "stop_loss": "$128.00",
-        "target": "$150.00",
-        "position_size": "max 4 % satelitu",
+        "horizon": "3–8 týdnů",
+        "entry": "$34–37",
+        "stop_loss": "$33",
+        "target": "$44",
+        "position_size": "max 3 % satelitu",
         "risk_level": "4",
-        "catalyst": "Prudký pád ropy po dohodě USA–Írán a otevření Hormuzu → energetika pod tlakem; kontrariánsky oversold s cílem ~166 $.",
-        "action_note": "Postupný vstup na splátky kvůli padající ropě (chytání nože); stop pod 128 $."
+        "catalyst": "Zvyšování cílů analytiků a hodnota; krátkodobě protivítr z klesající ceny zlata po deeskalaci.",
+        "action_note": "Dnes nakoupit jen menší tranši kolem $35–36 a počkat na stabilizaci ceny zlata před doplněním."
       },
       "pros": [
-        "~20 % upside a Buy konsensus",
-        "Vysoká dividenda (~2,9 %) a silná bilance",
-        "Kontrariánská příležitost po výprodeji"
+        "~23 % upside ke konzervativnímu cíli, 'Buy' konsensus",
+        "Nízké P/E 14.5 a marže ~49 %",
+        "Zvyšování cílů (Scotiabank 55→60)"
       ],
       "cons": [
-        "Padající ropa je krátkodobý protivítr (chytání padajícího nože)",
-        "P/E/beta/52t v reportu neověřeny; cena se mezi zdroji lišila"
+        "Citlivé na cenu zlata, jež dnes klesá",
+        "Komoditní/operativní rizika těžby"
       ]
     },
     {
-      "name": "FedEx Corporation",
-      "ticker": "FDX",
+      "name": "Super Micro Computer",
+      "ticker": "SMCI",
+      "region": "usa",
+      "sector": "tech",
+      "recommendation": "Držet",
+      "price": {
+        "current": "$34.5",
+        "fair_value": "$38.57",
+        "discount": "+12% upside",
+        "signal": "Momentum, ale smíšený rating",
+        "signal_reason": "Akcie skočila ~10 %+, konsensus je ale převážně 'Hold'.",
+        "buy_zone": {
+          "low": "$30",
+          "high": "$33"
+        }
+      },
+      "moat": {
+        "score": "4",
+        "verdict": "Úzký příkop",
+        "summary": "Montáž AI serverů s nízkou marží a silnou konkurencí."
+      },
+      "intrinsic": {
+        "annual_return": "+8%",
+        "verdict": "orientační odhad",
+        "summary": "Růst tažený AI poptávkou, ale tenké marže a ředění akcií.",
+        "risk": "5"
+      },
+      "metrics": {
+        "Aktuální cena": "$34.5",
+        "Fair value (cíl analytiků)": "$38.57",
+        "P/E": "16.7 (fwd 10.6)",
+        "Beta": "1.93",
+        "52t max/min": "$62.36 / $19.48"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "16.7",
+          "note": "Férové"
+        },
+        "Beta": {
+          "value": "1.93",
+          "note": "Volatilní"
+        },
+        "Div. yield": {
+          "value": "0%",
+          "note": "Bez dividendy"
+        },
+        "Net Margin": {
+          "value": "~3.5%",
+          "note": "Tenká marže"
+        }
+      },
+      "analysis": "Super Micro staví servery a kompletní řešení pro AI/cloud a profituje z boomu poptávky po výpočetním výkonu. Akcie dnes vyskočila o víc než 10 % na AI optimismu, nedávno ale firma upsala 7 mld. USD v akciích/ekvivalentech (ředění) na financování AI zakázek; rating je rozdělený (~23 % 'Strong Buy', většina 'Hold'), cíle $38.57 (MarketBeat) až $45 (Raymond James).",
+      "trade": {
+        "action": "Držet",
+        "horizon": "1–4 týdny",
+        "entry": "Nové vstupy $30–33 po vychladnutí",
+        "stop_loss": "$30",
+        "target": "$40",
+        "position_size": "max 2 % satelitu",
+        "risk_level": "5",
+        "catalyst": "AI server momentum a +10% skok; protiváhou ředění z emise 7 mld. USD.",
+        "action_note": "Nehonit dnešní výskok; kdo drží, posunout stop na $30 a část zisku zajistit."
+      },
+      "pros": [
+        "AI poptávka a silné momentum (+10 %+)",
+        "Nízké forward P/E ~10.6",
+        "~12 % upside ke konsenznímu cíli"
+      ],
+      "cons": [
+        "Tenké marže (~3.5 %) a ředění emisí 7 mld. USD",
+        "Historie účetních pochybností, volatilní (beta 1.93)"
+      ]
+    },
+    {
+      "name": "Caterpillar",
+      "ticker": "CAT",
       "region": "usa",
       "sector": "industry",
       "recommendation": "Držet",
       "price": {
-        "current": "$325.93",
-        "fair_value": "$327.96",
-        "discount": "+1% upside",
-        "signal": "Férově oceněno, cíl ≈ cena",
-        "signal_reason": "Konsensuální cíl je prakticky na ceně; rozhodne až outlook ve výsledcích.",
+        "current": "$985.82",
+        "fair_value": "$945.64",
+        "discount": "-4% upside",
+        "signal": "Nad fér hodnotou, silné momentum",
+        "signal_reason": "Cena u 52t maxima a nad konsensem, analytici varují před přepáleností.",
         "buy_zone": {
-          "low": "$310.00",
-          "high": "$320.00"
+          "low": "$900",
+          "high": "$945"
         }
       },
       "moat": {
-        "score": "7",
-        "verdict": "Široký",
-        "summary": "Globální logistická síť s vysokými bariérami vstupu a hustou doručovací infrastrukturou."
+        "score": "8",
+        "verdict": "Široký příkop",
+        "summary": "Globální lídr stavebních a těžebních strojů se silnou značkou a sítí dealerů."
       },
       "intrinsic": {
-        "annual_return": "+1%",
+        "annual_return": "+3%",
         "verdict": "orientační odhad",
-        "summary": "Cíl analytiků ≈ cena – bez výrazného krátkodobého prostoru bez pozitivního překvapení.",
+        "summary": "Kvalitní cyklický titul, ale cena už předbíhá konsensus.",
         "risk": "3"
       },
       "metrics": {
-        "Aktuální cena": "$325.93",
-        "Fair value (cíl analytiků)": "$327.96",
-        "P/E": "17.36",
-        "Beta": "1.30",
-        "52t max/min": "$413.87 / $216.10"
+        "Aktuální cena": "$985.82",
+        "Fair value (cíl analytiků)": "$945.64",
+        "P/E": "~16.2",
+        "Beta": "n/a",
+        "52t max/min": "$994.49 / $357.73"
       },
       "indicators": {
         "P/E": {
-          "value": "17.36",
+          "value": "16.2",
           "note": "Férové"
         },
         "Beta": {
-          "value": "1.30",
-          "note": "Mírně volatilní"
+          "value": "n/a",
+          "note": "n/a"
         },
         "Div. yield": {
           "value": "n/a",
-          "note": "V reportu neověřeno"
+          "note": "Dividenda"
         },
         "Net Margin": {
-          "value": "n/a",
-          "note": "V reportu neověřeno"
+          "value": "13.1%",
+          "note": "Solidní"
         }
       },
-      "analysis": "FedEx je globální kurýrní a logistická firma, jejíž čísla slouží jako barometr ekonomiky. V hledáčku je kvůli výsledkům Q4 ráno 23.6. – akcie se obchoduje hluboko pod 52t maximem 413 $ a klíčový bude výhled na FY27 a komentář k freightu.",
+      "analysis": "Caterpillar je největší výrobce stavebních a těžebních strojů a dnes je tahounem Dow (+3 %, ~180 bodů indexu). Žene ho infrastrukturní a energetický capex a naděje na poválečnou obnovu na Blízkém východě; cena ale stojí u 52t maxima a nad konsensem $945.64 (Buy), takže near-term riziko korekce roste – Evercore přitom drží cíl $1 103.",
       "trade": {
         "action": "Držet",
-        "horizon": "1–2 týdny (výsledky 23.6.)",
-        "entry": "Počkat na reakci po výsledcích ($310–320)",
-        "stop_loss": "$310.00",
-        "target": "$345.00",
+        "horizon": "1–4 týdny",
+        "entry": "Nové vstupy až při návratu na $900–945",
+        "stop_loss": "$920",
+        "target": "$1,050",
         "position_size": "max 3 % satelitu",
         "risk_level": "3",
-        "catalyst": "Výsledky Q4 ráno 23.6.; akcie hluboko pod 52t maximem 413 $; rozhodne outlook a freight.",
-        "action_note": "Nový vstup nezahajovat před čísly; reagovat až na výhled, případný nákup k 310–320 $."
+        "catalyst": "Dnešní průraz a vedení Dow (+3 %), naděje na infra/energy capex a obnovu Blízkého východu.",
+        "action_note": "Dnes nehonit u 52t maxima; kdo drží, nechat běžet se stopem $920."
       },
       "pros": [
-        "Levné P/E 17,4 a Buy rating",
-        "Hluboko pod 52t maximem (prostor při dobrém outlooku)",
-        "Logistický moat a barometr ekonomiky"
+        "Silné momentum, lídr Dow (+3 %)",
+        "Solidní marže 13.1 % a kvalitní příkop",
+        "Tah z infrastruktury a energetického capexu"
       ],
       "cons": [
-        "Cíl analytiků ≈ cena (~0 % upside)",
-        "Binární výsledky a slabost ve freight/transportu"
+        "Cena u 52t maxima, ~4 % nad konsensem",
+        "Cyklická citlivost na ekonomiku a sazby"
       ]
     },
     {
-      "name": "QUALCOMM Incorporated",
-      "ticker": "QCOM",
+      "name": "SpaceX (Space Exploration Technologies)",
+      "ticker": "SPCX",
       "region": "usa",
-      "sector": "tech",
+      "sector": "industry",
       "recommendation": "Sledovat",
       "price": {
-        "current": "$220.71",
-        "fair_value": "$183.83",
-        "discount": "-17% upside",
-        "signal": "Nadhodnoceno vs. konsensus",
-        "signal_reason": "Akcie se obchoduje ~17 % NAD cílem analytiků s ratingem jen Hold.",
+        "current": "$165.78",
+        "fair_value": "n/a",
+        "discount": "n/a",
+        "signal": "Negativní momentum po IPO",
+        "signal_reason": "Třetí pokles v řadě, žádný ustálený konsensus cílů (čerstvé IPO).",
         "buy_zone": {
-          "low": "n/a",
-          "high": "n/a"
+          "low": "$150",
+          "high": "$160"
         }
       },
       "moat": {
-        "score": "7",
-        "verdict": "Široký",
-        "summary": "Lídr v mobilních čipech a patentech (licence), expanduje do AI a datacenter."
+        "score": "8",
+        "verdict": "Široký příkop",
+        "summary": "Dominance v nosných raketách (Starship/Falcon) a Starlink, vstup do AI compute."
       },
       "intrinsic": {
-        "annual_return": "-17%",
+        "annual_return": "n/a",
         "verdict": "orientační odhad",
-        "summary": "Konsensuální cíl ~184 $ je pod cenou – krátkodobě nadhodnoceno.",
-        "risk": "3"
+        "summary": "Extrémní valuace a chybějící pokrytí analytiků brání odhadu.",
+        "risk": "5"
       },
       "metrics": {
-        "Aktuální cena": "$220.71",
-        "Fair value (cíl analytiků)": "$183.83",
-        "P/E": "24.70",
-        "Beta": "1.60",
-        "52t max/min": "$259.92 / $121.99"
+        "Aktuální cena": "$165.78",
+        "Fair value (cíl analytiků)": "n/a",
+        "P/E": "n/a",
+        "Beta": "n/a",
+        "52t max/min": "$225.64 / $135.00"
       },
       "indicators": {
         "P/E": {
-          "value": "24.70",
-          "note": "Férové až drahé"
+          "value": "n/a",
+          "note": "Bez zisku/údaje"
         },
         "Beta": {
-          "value": "1.60",
-          "note": "Volatilní"
+          "value": "n/a",
+          "note": "Krátká historie"
         },
         "Div. yield": {
-          "value": "1.63%",
-          "note": "Dividenda $3.68"
+          "value": "0%",
+          "note": "Bez dividendy"
         },
         "Net Margin": {
           "value": "n/a",
-          "note": "V reportu neověřeno"
+          "note": "Neuvedeno"
         }
       },
-      "analysis": "Qualcomm je lídr mobilních čipů a licencí, který se tlačí do AI a datových center. Akcii žene tento týden Investor Day a nadšení z datacenter, jenže kurz se obchoduje ~17 % NAD konsensuálním cílem (rating jen Hold) – hrozí klasické 'sell the news'.",
+      "analysis": "SpaceX (ticker SPCX) je raketová a satelitní firma (Starlink) s nově rozjížděným AI compute byznysem, na burze od 12. 6. 2026 po rekordním IPO. Akcie dnes padá ~10 % (třetí pokles v řadě) po oznámení nové emise dluhopisů, přesto zůstává ~31 % nad upisovací cenou; pozor – ceny se mezi zdroji liší ($165.78 Investing.com vs ~$185 TradingView), bereme konzervativní $165.78 a pokrytí analytiků prakticky chybí.",
       "trade": {
-        "action": "Ubrat",
-        "horizon": "1–3 týdny (kolem Investor Day)",
-        "entry": "Nový nákup nezahajovat – pouze sledovat",
-        "stop_loss": "$210.00",
-        "target": "$184.00 (cíl konsensu)",
-        "position_size": "max 2 % satelitu",
-        "risk_level": "3",
-        "catalyst": "Investor Day tento týden (naděje na AI datacentra) hnal kurz; akcie ~17 % NAD cílem analytiků → riziko 'sell the news'.",
-        "action_note": "Nové pozice neotevírat; u držené zvážit částečné vybrání zisku, stop 210 $."
+        "action": "Držet",
+        "horizon": "1–3 týdny",
+        "entry": "Žádný vstup; čekat na uklidnění a první cíle analytiků",
+        "stop_loss": "$150",
+        "target": "n/a",
+        "position_size": "max 1 % satelitu (spekulativní)",
+        "risk_level": "5",
+        "catalyst": "Emise dluhopisů a doznívání IPO hype tlačí cenu dolů; dohoda o AI compute s Reflection jako protiváha.",
+        "action_note": "Dnes pouze sledovat z povzdálí; bez ověřitelného cíle a po IPO volatilitě nevstupovat."
       },
       "pros": [
-        "Expanze do AI a datacenter, momentum",
-        "Dividenda 1,63 % a silné licenční byznys",
-        "Investor Day jako krátkodobý katalyzátor"
+        "Unikátní příkop (rakety, Starlink, AI compute)",
+        "~31 % nad upisovací cenou IPO",
+        "Vysoký zájem investorů a likvidita"
       ],
       "cons": [
-        "Kurz ~17 % NAD cílem analytiků (rating jen Hold)",
-        "Riziko 'sell the news' po Investor Day, beta 1,6"
+        "Extrémní valuace a chybějící cíle analytiků",
+        "Silná volatilita a nová emise dluhopisů (negativní momentum)"
       ]
     }
   ],
