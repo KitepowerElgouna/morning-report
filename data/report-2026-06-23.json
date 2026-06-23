@@ -1,95 +1,321 @@
 {
   "date": "23. června 2026",
-  "summary": "Trh je v defenzivě: nový šéf Fedu Kevin Warsh ponechal minulou středu sazby beze změny, ale 'dot plot' posunul medián sazby na konec 2026 na 3,8 % a otevřel dveře alespoň jednomu zvýšení – akcie pak klesly (Nasdaq a S&P 500 přes 1 %). Dnes (pondělí) trh stagnuje mimo technologie, ropa padá poté, co USA a Írán oznámily rámec k ukončení války (cestovní mapa do 60 dní), což tlumí energetiku. Tyto tipy jsou krátkodobé a RIZIKOVÉ příležitosti pro 'satelitní' peníze (katalyzátory: výsledky, FDA schválení, zařazení do indexu, momentum) – nutné držet stop-lossy a malou velikost pozice, časté přetrádování škodí. POCTIVĚ: 'fair value' = konsensuální cíl analytiků, jde o orientační vodítko, NE investiční radu; část cílů navíc zaostává za prudkým růstem kurzů, takže ber je s rezervou.",
+  "summary": "Trh je dnes v defenzivním režimu: globální výprodej polovodičů srazil index SOX o ~7,3 %, Micron -12 % a SanDisk -13 %, protože investoři pochybují o dluhem financovaných AI investicích hyperscalerů; k tomu jestřábí Fed (červnový dot plot vidí sazbu ke konci 2026 v pásmu 3,6–4,1 %, „higher for longer“) a ropa cca -21 % za měsíc (~74 USD WTI / ~77 USD Brent) na pokroku v jednání USA–Írán. Vybrané tituly mají AKTUÁLNÍ katalyzátor (výsledky dnes, FDA, vládní financování, výprodej v sektoru) napříč odvětvími. Upozornění: „fair value“ = konsensuální cíl analytiků, jde o orientační vodítko, NE investiční radu. Jde o KRÁTKODOBÉ RIZIKOVÉ tipy pro „satelitní“ peníze – důsledně držte stop-lossy a velikost pozice, časté přetrádování škodí.",
   "sources": [
+    "CNBC",
     "Yahoo Finance",
-    "StockAnalysis.com",
-    "Finviz / CNBC",
+    "Robinhood (kotace)",
     "MarketBeat",
-    "TipRanks",
-    "Robinhood",
+    "Public.com",
+    "WallStreetZen",
     "Investing.com",
-    "GuruFocus",
-    "Simply Wall St",
-    "Schwab Market Update",
-    "Al Jazeera (makro)",
-    "SEC EDGAR (8-K Arvinas, Caterpillar)",
-    "Federal Reserve / FOMC"
+    "Benzinga",
+    "MarketScreener",
+    "StocksToTrade",
+    "Alphastreet",
+    "TheStreet",
+    "FRED / Fed H.15 + červnový dot plot",
+    "TradingEconomics (ropa)"
   ],
   "firms": [
     {
-      "name": "Astera Labs",
-      "ticker": "ALAB",
+      "name": "Energy Fuels",
+      "ticker": "UUUU",
       "region": "usa",
-      "sector": "tech",
-      "recommendation": "Sledovat",
+      "sector": "energy",
+      "recommendation": "Koupit",
       "price": {
-        "current": "$413",
-        "fair_value": "$244",
-        "discount": "-41% upside",
-        "signal": "Přehřáté / momentum z indexu",
-        "signal_reason": "Kurz po parabolickém růstu obchoduje hluboko nad průměrným cílem analytiků (~$244).",
+        "current": "$15,90",
+        "fair_value": "$25,40",
+        "discount": "+60% upside",
+        "signal": "Vládní katalyzátor + Strong Buy",
+        "signal_reason": "Cena hluboko pod konsensuálním cílem po zafinancování rozšíření těžby kritických minerálů.",
         "buy_zone": {
-          "low": "$240",
-          "high": "$270"
+          "low": "$14,50",
+          "high": "$16,50"
         }
       },
       "moat": {
-        "score": "7",
-        "verdict": "Silná nika",
-        "summary": "Konektivita (retimery PCIe/CXL) pro AI servery s vysokými maržemi."
+        "score": "5",
+        "verdict": "Strategická nika",
+        "summary": "Domácí producent uranu a vzácných zemin s vládní podporou, ale komoditně cyklický."
       },
       "intrinsic": {
-        "annual_return": "-5%",
+        "annual_return": "+25%",
         "verdict": "orientační odhad",
-        "summary": "Valuace daleko před fundamenty, dlouhodobý výnos z této úrovně rizikový.",
+        "summary": "Vysoký potenciál, ale extrémně volatilní a citlivý na ceny komodit.",
         "risk": "5"
       },
       "metrics": {
-        "Aktuální cena": "$413",
-        "Fair value (cíl analytiků)": "$244",
-        "P/E": "~281",
-        "Beta": "2.78",
-        "52t max/min": "$440.99 / $84.78"
+        "Aktuální cena": "$15,90",
+        "Fair value (cíl analytiků)": "$25,40",
+        "P/E": "n/a",
+        "Beta": "n/a (vysoká)",
+        "52t max/min": "$27,90 / $5,41"
       },
       "indicators": {
         "P/E": {
-          "value": "~281",
-          "note": "Drahé"
+          "value": "n/a",
+          "note": "Často ztrátová/cyklická"
         },
         "Beta": {
-          "value": "2.78",
-          "note": "Velmi volatilní"
+          "value": "n/a",
+          "note": "Volatilní"
         },
         "Div. yield": {
           "value": "0%",
           "note": "Dividenda"
         },
         "Net Margin": {
-          "value": "~20%",
-          "note": "Ziskové, ale extrémní valuace"
+          "value": "n/a",
+          "note": "Kolísavá ziskovost"
         }
       },
-      "analysis": "Astera Labs dodává propojovací čipy (retimery) pro AI datacentra. Dnes je v hledáčku kvůli zařazení do indexu Nasdaq-100 s účinností od 22. 6. a tržbám +93 % – kurz vyskočil ~11 %, ale obchoduje výrazně nad cíli analytiků.",
+      "analysis": "Energy Fuels těží uran a buduje zpracování vzácných zemin a kritických minerálů v USA. Do hledáčku se dostal po podmíněném příslibu zajištěného dluhu 725 mil. USD od US Office of Strategic Capital (akcie 18. 6. vyskočila ~10 %); konsensus je Buy/Strong Buy s mediánovým cílem kolem 25–27 USD, byť Goldman cíl snížil na 21 USD (ponechal Buy).",
       "trade": {
-        "action": "Ubrat",
-        "horizon": "1–3 týdny",
-        "entry": "Nový nákup nedoporučen na těchto úrovních",
-        "stop_loss": "$370",
-        "target": "$441 (52t maximum)",
+        "action": "Koupit",
+        "horizon": "1–4 týdny",
+        "entry": "$14,50–16,50",
+        "stop_loss": "$13,20",
+        "target": "$19,50",
         "position_size": "max 2 % satelitu",
         "risk_level": "5",
-        "catalyst": "Zařazení do Nasdaq-100 od 22. 6. + tržby +93 % – momentum z indexové poptávky, které může rychle vyprchat.",
-        "action_note": "Dnes nehonit; držitelům utáhnout stop a část zisku z momenta inkasovat."
+        "catalyst": "Vládní příslib financování 725 mil. USD na rozšíření vzácných zemin/kritických minerálů; politické téma domácí soběstačnosti.",
+        "action_note": "Vstupovat na zpětných tazích k 15–16 USD malou pozicí, ihned nastavit stop pod 13,20 USD."
       },
       "pros": [
-        "Silný růst tržeb a dominance v AI konektivitě",
-        "Indexová poptávka (vstup do Nasdaq-100)",
-        "Silný sektorový sentiment v polovodičích"
+        "Čerstvý vládní katalyzátor (725 mil. USD)",
+        "Strong Buy konsensus, velký upside k cíli",
+        "Strategická expozice na vzácné zeminy a uran"
       ],
       "cons": [
-        "Extrémní valuace (P/E ~281), kurz daleko nad cíli",
-        "Beta 2.78 – při korekci trhu prudké propady"
+        "Extrémní volatilita a komoditní cykličnost",
+        "Goldman snížil cílovou cenu (29→21 USD)"
+      ]
+    },
+    {
+      "name": "FedEx",
+      "ticker": "FDX",
+      "region": "usa",
+      "sector": "industry",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$329,00",
+        "fair_value": "$381,37",
+        "discount": "+16% upside",
+        "signal": "Výsledky dnes + průraz k 52t maximu",
+        "signal_reason": "Buy konsensus a cena blízko 52t maxima před dnešními výsledky a spin-offem Freight.",
+        "buy_zone": {
+          "low": "$320",
+          "high": "$332"
+        }
+      },
+      "moat": {
+        "score": "7",
+        "verdict": "Silná logistická síť",
+        "summary": "Globální doručovací síť s nákladovým programem Network 2.0 a probíhajícím spin-offem Freight."
+      },
+      "intrinsic": {
+        "annual_return": "+12%",
+        "verdict": "orientační odhad",
+        "summary": "Strukturální úspory a spin-off mohou odemknout hodnotu.",
+        "risk": "3"
+      },
+      "metrics": {
+        "Aktuální cena": "$329,00",
+        "Fair value (cíl analytiků)": "$381,37",
+        "P/E": "n/a",
+        "Beta": "n/a",
+        "52t max/min": "$345,37 / $177,00"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "n/a",
+          "note": "Neověřeno"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "Cyklický"
+        },
+        "Div. yield": {
+          "value": "n/a",
+          "note": "Dividenda (nedávno zvýšena)"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "Neověřeno"
+        }
+      },
+      "analysis": "FedEx je globální logistická a doručovací firma; dnes 23. 6. po závěru reportuje Q4 FY2026 (konsensus ~5,91 USD EPS, ~24,18 mld. USD tržeb). Titulem hýbe blížící se spin-off divize Freight, nákladový program Network 2.0 a fakt, že akcie je +40 % YTD blízko 52t maxima 345,37 USD; konsensus Buy s cílem 381 USD.",
+      "trade": {
+        "action": "Držet",
+        "horizon": "1–4 týdny",
+        "entry": "Počkat na reakci po výsledcích; nad $345 (52t max) potvrzení síly",
+        "stop_loss": "$305",
+        "target": "$360",
+        "position_size": "max 3 % satelitu",
+        "risk_level": "4",
+        "catalyst": "Výsledky Q4 FY2026 DNES po závěru + chystaný spin-off FedEx Freight = binární událost.",
+        "action_note": "Nehazardovat do výsledků velkou pozicí; vstupovat až na reakci, ideálně na průrazu nad 345 USD."
+      },
+      "pros": [
+        "Buy konsensus, +16 % k cíli",
+        "Spin-off Freight a úspory Network 2.0",
+        "Silný trend, +40 % YTD"
+      ],
+      "cons": [
+        "Výsledky dnes = binární riziko gapu",
+        "Cyklická citlivost na globální poptávku po dopravě"
+      ]
+    },
+    {
+      "name": "Carnival",
+      "ticker": "CCL",
+      "region": "usa",
+      "sector": "consumer",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$29,72",
+        "fair_value": "$33,30",
+        "discount": "+12% upside",
+        "signal": "Výsledky překonány, akcie přesto klesla",
+        "signal_reason": "Buy konsensus a propad po jinak dobrých výsledcích nabízí vstup pod cílem.",
+        "buy_zone": {
+          "low": "$28,50",
+          "high": "$30,50"
+        }
+      },
+      "moat": {
+        "score": "5",
+        "verdict": "Lídr výletních plaveb",
+        "summary": "Největší provozovatel výletních lodí, ale s vysokým dluhem."
+      },
+      "intrinsic": {
+        "annual_return": "+10%",
+        "verdict": "orientační odhad",
+        "summary": "Rekordní výnosy a předprodej 2027 podporují obrat zisku.",
+        "risk": "4"
+      },
+      "metrics": {
+        "Aktuální cena": "$29,72",
+        "Fair value (cíl analytiků)": "$33,30",
+        "P/E": "n/a",
+        "Beta": "n/a (vysoká)",
+        "52t max/min": "n/a"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "n/a",
+          "note": "Neověřeno"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "Volatilní"
+        },
+        "Div. yield": {
+          "value": "n/a",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "4,5%",
+          "note": "Q1 FY2026"
+        }
+      },
+      "analysis": "Carnival je největší světový provozovatel výletních plaveb. Dnes 23. 6. reportoval Q2 FY2026 – výsledky překonal, ale akcie klesla; vedení přitom hlásí rekordní výnosy ve 2. pololetí a předprodej na 2027 nad úrovní 2026 za vyšší ceny. Pokles ropy navíc snižuje palivové náklady; konsensus Buy (59 % Strong Buy) s cílem ~33 USD.",
+      "trade": {
+        "action": "Koupit",
+        "horizon": "1–4 týdny",
+        "entry": "$28,50–30,50",
+        "stop_loss": "$27,00",
+        "target": "$33,30",
+        "position_size": "max 3 % satelitu",
+        "risk_level": "4",
+        "catalyst": "Q2 výsledky DNES nad očekáváním + rekordní výnosy/předprodej 2027; nižší ropa = úleva na palivu.",
+        "action_note": "Nakoupit malou pozici na výprodeji po výsledcích se stopem pod 27 USD."
+      },
+      "pros": [
+        "Buy konsensus, +12 % k cíli",
+        "Rekordní výnosy a předprodej 2027",
+        "Levnější ropa snižuje palivové náklady"
+      ],
+      "cons": [
+        "Vysoký dluh a citlivost na spotřebitele",
+        "Akcie po dobrých výsledcích přesto klesla – slabší momentum"
+      ]
+    },
+    {
+      "name": "Moderna",
+      "ticker": "MRNA",
+      "region": "usa",
+      "sector": "healthcare",
+      "recommendation": "Držet",
+      "price": {
+        "current": "$58,80",
+        "fair_value": "$52,00",
+        "discount": "-12% upside",
+        "signal": "Horké momentum nad férovou hodnotou",
+        "signal_reason": "FDA katalyzátor žene cenu nad konsensuální cíl – čistě momentová, riziková sázka.",
+        "buy_zone": {
+          "low": "$57,00",
+          "high": "$59,00"
+        }
+      },
+      "moat": {
+        "score": "6",
+        "verdict": "mRNA platforma",
+        "summary": "Inovativní vakcínová platforma, zatím ale ztrátová s nejistou poptávkou."
+      },
+      "intrinsic": {
+        "annual_return": "n/a",
+        "verdict": "orientační odhad",
+        "summary": "Hodnota závisí na schválení a komercializaci pipeline.",
+        "risk": "5"
+      },
+      "metrics": {
+        "Aktuální cena": "$58,80",
+        "Fair value (cíl analytiků)": "$52,00 (konsensus Hold; rozptyl ~$36–$69)",
+        "P/E": "-7,28",
+        "Beta": "n/a",
+        "52t max/min": "n/a"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "-7,28",
+          "note": "Ztrátová"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "Volatilní"
+        },
+        "Div. yield": {
+          "value": "0%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "záporná",
+          "note": "Ztrátové hospodaření"
+        }
+      },
+      "analysis": "Moderna vyvíjí vakcíny a léčiva na bázi mRNA. Titul je v hledáčku, protože poradní výbor FDA jednomyslně podpořil chřipkovou vakcínu mRNA-1010 (PDUFA 5. 8. 2026) a 25. 6. se koná Investor Science Day – akcie +~34 % za měsíc (z ~47 na ~63 USD). Pozor: konsensus analytiků je Hold a férová hodnota leží POD aktuální cenou, takže jde o čistě momentovou sázku.",
+      "trade": {
+        "action": "Držet",
+        "horizon": "do 25. 6. (Investor Day) / 5. 8. (PDUFA)",
+        "entry": "$57,00–59,00 (nehonit nad $63)",
+        "stop_loss": "$52,00",
+        "target": "$69,00",
+        "position_size": "max 2 % satelitu",
+        "risk_level": "5",
+        "catalyst": "Jednomyslná podpora FDA adcom pro chřipkovou vakcínu + Investor Science Day 25. 6.",
+        "action_note": "Pouze malá momentová pozice, nehonit po růstu; tvrdý stop na 52 USD."
+      },
+      "pros": [
+        "Silný momentum a jasné FDA katalyzátory",
+        "Investor Day 25. 6. může přinést pozitivní zprávy",
+        "Jednomyslná podpora poradního výboru FDA"
+      ],
+      "cons": [
+        "Obchoduje se NAD konsensuálním cílem (Hold)",
+        "Ztrátová firma, binární a volatilní"
       ]
     },
     {
@@ -99,371 +325,146 @@
       "sector": "tech",
       "recommendation": "Sledovat",
       "price": {
-        "current": "$1196",
-        "fair_value": "$1009",
-        "discount": "-16% upside",
-        "signal": "Přehřáté před výsledky",
-        "signal_reason": "Po růstu ~300 % YTD obchoduje nad konzervativním konsensem (~$1009 dle StockAnalysis/S&P Global), cíle zaostávají.",
+        "current": "$1100,00",
+        "fair_value": "$1008,00",
+        "discount": "-8% upside",
+        "signal": "Padající nůž v sektorovém výprodeji",
+        "signal_reason": "Strong Buy rating, ale průměrný cíl je pod cenou a SOX dnes -7,3 %.",
         "buy_zone": {
           "low": "$1000",
-          "high": "$1070"
+          "high": "$1050"
         }
       },
       "moat": {
-        "score": "6",
-        "verdict": "Oligopol DRAM/HBM",
-        "summary": "Jeden ze tří hráčů v paměťových čipech, tah na AI/HBM, ale komoditní cykličnost."
-      },
-      "intrinsic": {
-        "annual_return": "+5%",
-        "verdict": "orientační odhad",
-        "summary": "Páka na AI paměti, ale kurz už hodně předbíhá konsensus.",
-        "risk": "5"
-      },
-      "metrics": {
-        "Aktuální cena": "$1196",
-        "Fair value (cíl analytiků)": "$1009",
-        "P/E": "57.19 (TTM) / 11.63 (fwd)",
-        "Beta": "2.15",
-        "52t max/min": "$1213.56 / $103.38"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "57.19",
-          "note": "Drahé dle TTM, fwd ~12"
-        },
-        "Beta": {
-          "value": "2.15",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "0.05%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "ROE 39.8 %"
-        }
-      },
-      "analysis": "Micron vyrábí paměti DRAM/NAND a profituje z poptávky po HBM pro AI (i dohoda s Anthropic). V hledáčku je kvůli výsledkům Q3 FY26 ve středu 24. 6. – binární událost, do níž kurz dorazil přehřátý a nad cíli (různé cíle: StockAnalysis ~$1009, TipRanks ~$1202, MarketBeat ~$913 – beru konzervativní).",
-      "trade": {
-        "action": "Držet",
-        "horizon": "do/po výsledcích 24. 6. (1–2 týdny)",
-        "entry": "Bez honění; případně malý vstup na poklesu $1130–1170",
-        "stop_loss": "$1090",
-        "target": "$1300 (jen při silném beatu a výhledu)",
-        "position_size": "max 2 % satelitu",
-        "risk_level": "5",
-        "catalyst": "Výsledky Q3 FY26 ve středu 24. 6.; zvyšování cílů (Wedbush +136 %), HBM/AI poptávka.",
-        "action_note": "Před výsledky nenavyšovat; držitelé mohou ubrat do síly, nové pozice až po reportu."
-      },
-      "pros": [
-        "Páka na AI/HBM cyklus, nízké fwd P/E (~12)",
-        "Strong Buy konsensus a vlna zvyšování cílů",
-        "Konkrétní katalyzátor (výsledky 24. 6.)"
-      ],
-      "cons": [
-        "Kurz nad konsensuálními cíli – přehřátí",
-        "Vysoká cykličnost a beta 2.15, riziko po výsledcích"
-      ]
-    },
-    {
-      "name": "Arvinas",
-      "ticker": "ARVN",
-      "region": "usa",
-      "sector": "healthcare",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$9.03",
-        "fair_value": "$15.42",
-        "discount": "+71% upside",
-        "signal": "Katalyzátor: FDA schválení",
-        "signal_reason": "Cíl ~$15.42 (MarketBeat, 19 analytiků; Citi až $24) výrazně nad kurzem po regulatorním milníku.",
-        "buy_zone": {
-          "low": "$8.40",
-          "high": "$9.40"
-        }
-      },
-      "moat": {
-        "score": "6",
-        "verdict": "Platforma PROTAC + Pfizer",
-        "summary": "Cílená degradace proteinů s partnerstvím Pfizer; první lék schválen."
-      },
-      "intrinsic": {
-        "annual_return": "+35%",
-        "verdict": "orientační odhad",
-        "summary": "Vysoká potenciální návratnost, ale typické binární riziko malého biotechu.",
-        "risk": "5"
-      },
-      "metrics": {
-        "Aktuální cena": "$9.03",
-        "Fair value (cíl analytiků)": "$15.42",
-        "P/E": "n/a",
-        "Beta": "n/a",
-        "52t max/min": "$60.70 / $7.67"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "Ztrátová firma"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Záporná ziskovost"
-        }
-      },
-      "analysis": "Arvinas je biotech vyvíjející cílenou degradaci proteinů (platforma PROTAC). V hledáčku po FDA schválení léku VEPPANU (vepdegestrant) na ESR1m ER+/HER2- pokročilý karcinom prsu a po dohodě Arvinas+Pfizer s Rigelem o globálních právech ($85 mil. upfront). Akcie je za rok -81 %, takže jde o obrat po milníku.",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "2–6 týdnů",
-        "entry": "$8.40–9.40",
-        "stop_loss": "$7.40",
-        "target": "$13",
-        "position_size": "max 2 % satelitu (vysoké riziko)",
-        "risk_level": "5",
-        "catalyst": "FDA schválení VEPPANU + komercializační/licenční dohoda s Rigelem (upfront $85 mil.).",
-        "action_note": "Malá spekulativní pozice s pevným stopem pod $7.40, nepřikupovat při propadu."
-      },
-      "pros": [
-        "Schválený lék (VEPPANU) + příjem z dohody s Rigelem/Pfizer",
-        "Konsensus Buy s cílem výrazně nad kurzem",
-        "Po -81 % za rok prostor pro obrat sentimentu"
-      ],
-      "cons": [
-        "Ztrátová firma, binární riziko komercializace",
-        "Velmi vysoká volatilita malého biotechu"
-      ]
-    },
-    {
-      "name": "Caterpillar",
-      "ticker": "CAT",
-      "region": "usa",
-      "sector": "industry",
-      "recommendation": "Držet",
-      "price": {
-        "current": "$970",
-        "fair_value": "$946",
-        "discount": "-2% upside",
-        "signal": "Rekordní maxima / momentum",
-        "signal_reason": "Po +60 % YTD je kurz těsně nad starším průměrným cílem $945.64 (novější cíle, např. Evercore $1103, jsou výš).",
-        "buy_zone": {
-          "low": "$920",
-          "high": "$950"
-        }
-      },
-      "moat": {
-        "score": "9",
-        "verdict": "Dominantní značka",
-        "summary": "Globální lídr ve stavebních strojích s dealerskou sítí; Dividend Aristocrat."
-      },
-      "intrinsic": {
-        "annual_return": "+6%",
-        "verdict": "orientační odhad",
-        "summary": "Kvalitní cyklik na maximech, prostor nahoru omezený, sázka na momentum.",
-        "risk": "3"
-      },
-      "metrics": {
-        "Aktuální cena": "$970",
-        "Fair value (cíl analytiků)": "$946",
-        "P/E": "~44 (odhad z Q1 EPS)",
-        "Beta": "n/a",
-        "52t max/min": "$970.99 / n/a"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "~44",
-          "note": "Drahé (odhad)"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "Cyklik"
-        },
-        "Div. yield": {
-          "value": "~0.7%",
-          "note": "Dividenda (Aristocrat)"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Q1 tržby +22 %"
-        }
-      },
-      "analysis": "Caterpillar vyrábí stavební a těžební stroje. V hledáčku po zvýšení čtvrtletní dividendy o 8 % na $1.63 (10. 6.), díky čemuž drží status Dividend Aristocrat, a po sérii rekordních maxim (+60 % YTD, +12 % za měsíc, +3 % v pondělí). Q1 tržby +22 % na $17.4 mld.",
-      "trade": {
-        "action": "Držet",
-        "horizon": "1–4 týdny",
-        "entry": "$920–950 (na poklesu)",
-        "stop_loss": "$900",
-        "target": "$1030",
-        "position_size": "max 3 % satelitu",
-        "risk_level": "3",
-        "catalyst": "Zvýšení dividendy o 8 % (10. 6.), rekordní maxima a silný sell-side sentiment.",
-        "action_note": "Nehonit na maximech; nakupovat až na zdravém zpětném otestování okolo $930–950."
-      },
-      "pros": [
-        "Kvalitní lídr s Dividend Aristocrat statusem",
-        "Silné momentum a růst tržeb (Q1 +22 %)",
-        "Defenzivnější profil než spekulativní tipy"
-      ],
-      "cons": [
-        "Kurz na maximech, blízko/nad průměrným cílem",
-        "Cyklik citlivý na zpomalení ekonomiky a sazby"
-      ]
-    },
-    {
-      "name": "Diamondback Energy",
-      "ticker": "FANG",
-      "region": "usa",
-      "sector": "energy",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$184",
-        "fair_value": "$233",
-        "discount": "+27% upside",
-        "signal": "Protisměr – ropa padá na příměří",
-        "signal_reason": "Konsensus ~$233 (Buy, 18 analytiků) je nad kurzem, ale krátkodobě tlačí dolů klesající ropa.",
-        "buy_zone": {
-          "low": "$172",
-          "high": "$182"
-        }
-      },
-      "moat": {
-        "score": "6",
-        "verdict": "Nízkonákladový těžař",
-        "summary": "Efektivní producent v Permské pánvi s vysokou návratností hotovosti."
-      },
-      "intrinsic": {
-        "annual_return": "+12%",
-        "verdict": "orientační odhad",
-        "summary": "Levné fwd P/E a dividenda, ale výsledek řídí cena ropy.",
-        "risk": "4"
-      },
-      "metrics": {
-        "Aktuální cena": "$184",
-        "Fair value (cíl analytiků)": "$233",
-        "P/E": "207 (TTM) / 8.65 (fwd)",
-        "Beta": "0.39",
-        "52t max/min": "$214.51 / $134.30"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "8.65 (fwd)",
-          "note": "Levné dle fwd, TTM zkresleno"
-        },
-        "Beta": {
-          "value": "0.39",
-          "note": "Defenzivní vůči trhu"
-        },
-        "Div. yield": {
-          "value": "2.26%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Závisí na ceně ropy"
-        }
-      },
-      "analysis": "Diamondback je nízkonákladový těžař ropy a plynu v Permské pánvi. V hledáčku kvůli prudkému poklesu ropy poté, co USA a Írán oznámily rámec k ukončení války – krátkodobý protivítr pro energetiku, zatímco cíle analytiků (~$233, +27 %) zůstávají nad kurzem. Příští výsledky 4. 8.",
-      "trade": {
-        "action": "Držet",
-        "horizon": "2–6 týdnů",
-        "entry": "$172–182 (až po stabilizaci ropy)",
-        "stop_loss": "$168",
-        "target": "$210",
-        "position_size": "max 3 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Pokles ropy na rámec USA–Írán (protivítr) vs. konsensus s 27% prostorem a dividenda 2.26 %.",
-        "action_note": "Nechytat padající nůž – počkat na stabilizaci ropy, pak vstup do pásma $172–182 se stopem $168."
-      },
-      "pros": [
-        "Levné fwd P/E (~8.65) a dividenda 2.26 %",
-        "Konsensus Buy s cílem +27 %",
-        "Nízká beta (0.39) tlumí pohyby trhu"
-      ],
-      "cons": [
-        "Krátkodobě klesající ropa po příměří USA–Írán",
-        "Zisk plně závislý na ceně komodity"
-      ]
-    },
-    {
-      "name": "Five Below",
-      "ticker": "FIVE",
-      "region": "usa",
-      "sector": "consumer",
-      "recommendation": "Sledovat",
-      "price": {
-        "current": "$163",
-        "fair_value": "$260.68",
-        "discount": "+60% upside (cíl zastaralý)",
-        "signal": "Smíšené: lepší výhled vs. tlak na spotřebitele",
-        "signal_reason": "Cíl $260.68 je z března (zastaralý); akcie nedávno -16 % po varování o tlaku na spotřebitele – nutno ověřit aktuální kurz.",
-        "buy_zone": {
-          "low": "$155",
-          "high": "$172"
-        }
-      },
-      "moat": {
-        "score": "5",
-        "verdict": "Slabší příkop",
-        "summary": "Diskontní řetězec pro mládež, citlivý na spotřebu a cla."
+        "score": "7",
+        "verdict": "Paměťový lídr",
+        "summary": "Jeden z mála výrobců DRAM/HBM pamětí těžících z AI, ale silně cyklický."
       },
       "intrinsic": {
         "annual_return": "n/a",
         "verdict": "orientační odhad",
-        "summary": "Mix lepšího výhledu a nákladového tlaku; cíl analytiků zastaralý.",
-        "risk": "4"
+        "summary": "Po raketovém růstu je ocenění napjaté a cyklus paměti riskantní.",
+        "risk": "5"
       },
       "metrics": {
-        "Aktuální cena": "$163 (ověřit)",
-        "Fair value (cíl analytiků)": "$260.68 (březen, zastaralý)",
-        "P/E": "n/a",
+        "Aktuální cena": "$1100,00 (rozpětí 23.6.: $1054,98–$1144,44)",
+        "Fair value (cíl analytiků)": "$1008,00",
+        "P/E": "57,19",
+        "Beta": "n/a",
+        "52t max/min": "$1149,43 / $103,38"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "57,19",
+          "note": "Drahé"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "Volatilní"
+        },
+        "Div. yield": {
+          "value": "0,04%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "Hrubá marže ~45,3 %"
+        }
+      },
+      "analysis": "Micron vyrábí paměťové čipy DRAM a HBM, klíčové pro AI servery. Dnes je v centru dění kvůli globálnímu výprodeji polovodičů (SOX -7,3 %, MU ~-12 %) na obavách ze zpomalení AI investic; navíc kolem 24. 6. reportuje čtvrtletní výsledky. Konsensus zůstává Strong Buy, ale po obrovském růstu leží průměrný cíl (~1008 USD) pod aktuální cenou – konzervativně proto sledovat, ne chytat padající nůž (zdroje se v ceně liší, brán nižší odhad).",
+      "trade": {
+        "action": "Držet",
+        "horizon": "1–2 týdny (kolem výsledků)",
+        "entry": "Vyčkat na stabilizaci; zájem až na kapitulaci k $1000–1050 nebo zpětném zisku nad $1150",
+        "stop_loss": "$980",
+        "target": "$1150",
+        "position_size": "max 2 % satelitu",
+        "risk_level": "5",
+        "catalyst": "Sektorový výprodej čipů (AI obavy) + čtvrtletní výsledky kolem 24. 6. = vysoká volatilita.",
+        "action_note": "Dnes nekupovat do výprodeje; čekat na stabilizaci ceny a počkat na reakci po výsledcích."
+      },
+      "pros": [
+        "Strong Buy konsensus, lídr v AI pamětech (HBM)",
+        "Silná hrubá marže ~45,3 %",
+        "Možná příležitost po kapitulaci"
+      ],
+      "cons": [
+        "Průměrný cíl pod aktuální cenou, P/E 57",
+        "Padající nůž v -7,3% sektorovém výprodeji + výsledky = binární riziko"
+      ]
+    },
+    {
+      "name": "First Bancorp",
+      "ticker": "FBNC",
+      "region": "usa",
+      "sector": "finance",
+      "recommendation": "Sledovat",
+      "price": {
+        "current": "n/a (intradenní cena neověřena)",
+        "fair_value": "$65,75",
+        "discount": "n/a",
+        "signal": "Zacks upgrade vs. férové ocenění",
+        "signal_reason": "Neutral rating a cíl 65,75 USD značí férové ocenění – nutno ověřit cenu před vstupem.",
+        "buy_zone": {
+          "low": "n/a",
+          "high": "n/a"
+        }
+      },
+      "moat": {
+        "score": "5",
+        "verdict": "Regionální banka",
+        "summary": "Stabilní regionální banka těžící z prostředí vyšších sazeb."
+      },
+      "intrinsic": {
+        "annual_return": "n/a",
+        "verdict": "orientační odhad",
+        "summary": "Férově oceněná; bez výrazného upside dle konsensu.",
+        "risk": "3"
+      },
+      "metrics": {
+        "Aktuální cena": "n/a",
+        "Fair value (cíl analytiků)": "$65,75",
+        "P/E": "20,23",
         "Beta": "n/a",
         "52t max/min": "n/a"
       },
       "indicators": {
         "P/E": {
-          "value": "n/a",
-          "note": "Nutno ověřit"
+          "value": "20,23",
+          "note": "Spíše drahé pro banku"
         },
         "Beta": {
           "value": "n/a",
-          "note": "Spotřební cyklik"
+          "note": "Neověřeno"
         },
         "Div. yield": {
-          "value": "0%",
+          "value": "n/a",
           "note": "Dividenda"
         },
         "Net Margin": {
           "value": "n/a",
-          "note": "Tlak z cel a nákladů"
+          "note": "Neověřeno"
         }
       },
-      "analysis": "Five Below je diskontní řetězec se zbožím pro mladé. V hledáčku poté, co zvýšil výhled na 2026, ale zároveň varoval před tlakem na spotřebitele – akcie klesla ~16 %. Konsensus je Buy, ale průměrný cíl ($260.68) je z března a před nákupem je nutné ověřit aktuální kurz i cíle.",
+      "analysis": "First Bancorp je americká regionální banka. Do hledáčku se dostala díky upgradu na Zacks Rank #2 (revize odhadů zisku směrem nahoru) a rallye regionálních bank v prostředí „higher for longer“ sazeb; proti tomu ale stojí insider prodeje (~2,6 mil. USD) a vyšší valuace. Konsensus je Neutral s cílem 65,75 USD a aktuální cenu se nepodařilo dnes spolehlivě křížově ověřit – proto pouze sledovat.",
       "trade": {
         "action": "Držet",
-        "horizon": "2–6 týdnů",
-        "entry": "Až po průrazu a potvrzení nad ~$175",
-        "stop_loss": "$148",
-        "target": "$200",
+        "horizon": "1–4 týdny",
+        "entry": "Nejdříve ověřit aktuální kurz; vstup jen na poklesu pod férovou hodnotu",
+        "stop_loss": "ke stanovení po ověření ceny (cca -7 % od vstupu)",
+        "target": "$65,75",
         "position_size": "max 2 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Zvýšený výhled 2026 vs. varování o tlaku na spotřebitele/cla; po -16 % hledání dna.",
-        "action_note": "Dnes jen sledovat a ověřit aktuální kurz/cíle; vstup až na potvrzeném obratu nad $175."
+        "risk_level": "3",
+        "catalyst": "Upgrade na Zacks Rank #2 + rallye regionálních bank díky vyšším sazbám.",
+        "action_note": "Dnes neobchodovat naslepo – nejprve ověřit aktuální cenu a teprve pak rozhodnout o vstupu."
       },
       "pros": [
-        "Zvýšený výhled na FY2026 (tržby/zisk)",
-        "Konsensus Buy s velkým (i když zastaralým) cílem"
+        "Zacks Rank #2 upgrade, revize zisku nahoru",
+        "Profituje z prostředí vyšších sazeb"
       ],
       "cons": [
-        "Tlak z cel, mezd a expanze na marže",
-        "Citlivost na oslabení spotřebitele; data o kurzu/cíli nutno ověřit"
+        "Neutral rating, férově oceněno (P/E 20)",
+        "Insider prodeje ~2,6 mil. USD; aktuální cena neověřena"
       ]
     }
   ],
