@@ -1,20 +1,320 @@
 {
   "date": "24. června 2026",
-  "summary": "Trh dnes otevírá v defenzivním módu: nový šéf Fedu Kevin Warsh udeřil jestřábím tónem a trh vyceňuje možné zvýšení sazeb do konce roku 2026, výnosy rostou a probíhá výprodej AI/čipových titulů (Nvidia, Micron, AMD); zároveň deeskalace s Íránem tlačí ropu a sentiment je rozkolísaný. Tyto tipy míří na KRÁTKODOBÉ RIZIKOVÉ příležitosti pro 'satelitní' peníze, kde právě teď běží konkrétní katalyzátor (výsledky, klinická data, IPO-volatilita, makro). Fair value zde = konsensus cílů analytiků, jde o orientační vodítko, NE investiční radu — důsledně držte stop-lossy a velikost pozice, časté přetrádování ničí výnos.",
+  "summary": "Trh se po hawkish obratu nového šéfa Fedu Kevina Warshe (sazby drženy, ale FOMC signalizuje možné zvýšení do konce roku při tříleté maximální inflaci) dnes mírně zelená — S&P 500 ~7 409 (+0,6 %), Nasdaq ~25 750 (+0,6 %), VIX klesá k 18, ropa padá k ~70 USD po podpisu příměří s Íránem a otevření Hormuzu. Vybíráme 6 KRÁTKODOBÝCH RIZIKOVÝCH tipů s živým katalyzátorem (obezitní data, AI-energetika, hypoteční pákový příběh, levnější palivo, paměťové čipy, meme-squeeze) napříč odvětvími jen pro 'satelitní' peníze. Pozn.: fair value zde = KONSENSUS cílů analytiků, jde o orientační vodítko, NE investiční radu; držte stop-lossy a velikost pozice, časté přetrádování škodí.",
   "sources": [
     "Yahoo Finance",
     "StockAnalysis.com",
+    "CNBC",
+    "Bloomberg",
+    "TipRanks",
     "MarketBeat",
     "Investing.com",
-    "TipRanks",
     "CNN Markets",
-    "Fortune",
-    "TheStreet",
-    "Schwab Market Update",
-    "Zacks",
-    "Benzinga"
+    "Edward Jones Market Recap",
+    "Robinhood/TradingView (ceny)",
+    "Fast Company (Wendy's)"
   ],
   "firms": [
+    {
+      "name": "Viking Therapeutics",
+      "ticker": "VKTX",
+      "region": "usa",
+      "sector": "healthcare",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$32.40",
+        "fair_value": "$88.00",
+        "discount": "+172% upside",
+        "signal": "Silné momentum + katalyzátor",
+        "signal_reason": "Strong Buy konsensus 10 analytiků, cíl výrazně nad cenou na obezitní pipeline.",
+        "buy_zone": {
+          "low": "$30.00",
+          "high": "$33.00"
+        }
+      },
+      "moat": {
+        "score": "3",
+        "verdict": "Slabý (klinická fáze)",
+        "summary": "Hodnota stojí na pipeline VK2735, zatím bez tržeb a bez bariér."
+      },
+      "intrinsic": {
+        "annual_return": "+30%",
+        "verdict": "orientační odhad",
+        "summary": "Binární biotech – obrovský potenciál i riziko propadu na datech.",
+        "risk": "5"
+      },
+      "metrics": {
+        "Aktuální cena": "$32.40",
+        "Fair value (cíl analytiků)": "$88.00",
+        "P/E": "n/a",
+        "Beta": "0.71",
+        "52t max/min": "n/a / $22.90"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "n/a",
+          "note": "Ztrátová (klinická fáze)"
+        },
+        "Beta": {
+          "value": "0.71",
+          "note": "Defenzivní vs. trh, ale akcie skáče na zprávách"
+        },
+        "Div. yield": {
+          "value": "0%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "Bez tržeb z produktů"
+        }
+      },
+      "analysis": "Klinická biofarma vyvíjející léčbu metabolických poruch, vlajkový obezitní kandidát VK2735. V hledáčku kvůli chystanému krytí anti-obezitních léků Medicare, optimismu kolem pipeline, spekulacím o převzetí a jmenování nového CMO – analytici zvedají sázky.",
+      "trade": {
+        "action": "Koupit",
+        "horizon": "1–4 týdny",
+        "entry": "$30–33",
+        "stop_loss": "$27.00",
+        "target": "$40.00",
+        "position_size": "max 2 % satelitu",
+        "risk_level": "5",
+        "catalyst": "Medicare krytí obezitních léků, data VK2735, spekulace o akvizici, nový CMO.",
+        "action_note": "Vstup po malém zaváhání ceny, ne na vrcholu; striktní stop kvůli binárnímu riziku."
+      },
+      "pros": [
+        "Strong Buy konsensus s cílem hluboko nad cenou",
+        "Silný tematický vítr (obezita + Medicare)",
+        "Cíl převzetí – prémiový potenciál"
+      ],
+      "cons": [
+        "Bez tržeb a zisku, ocenění napjaté",
+        "Negativní data nebo zpoždění mohou srazit kurz o desítky %"
+      ]
+    },
+    {
+      "name": "Sunrun",
+      "ticker": "RUN",
+      "region": "usa",
+      "sector": "energy",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$13.62",
+        "fair_value": "$19.11",
+        "discount": "+40% upside",
+        "signal": "Průraz na zprávě",
+        "signal_reason": "Buy konsensus, cíl ~40 % nad cenou; akcie dnes vyskočila na partnerství.",
+        "buy_zone": {
+          "low": "$13.00",
+          "high": "$14.50"
+        }
+      },
+      "moat": {
+        "score": "5",
+        "verdict": "Střední (lídr soláru)",
+        "summary": "Největší rezidenční solár v USA s rozsahem, ale silná konkurence a citlivost na sazby."
+      },
+      "intrinsic": {
+        "annual_return": "+20%",
+        "verdict": "orientační odhad",
+        "summary": "Vysoká páka a citlivost na sazby zvyšují volatilitu obou směrů.",
+        "risk": "4"
+      },
+      "metrics": {
+        "Aktuální cena": "$13.62",
+        "Fair value (cíl analytiků)": "$19.11",
+        "P/E": "6.43",
+        "Beta": "2.30",
+        "52t max/min": "n/a / $5.98"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "6.43",
+          "note": "Levné (účetní zisk volatilní)"
+        },
+        "Beta": {
+          "value": "2.30",
+          "note": "Velmi volatilní"
+        },
+        "Div. yield": {
+          "value": "0%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "Kolísavá, historicky pod tlakem"
+        }
+      },
+      "analysis": "Lídr rezidenční solární energie a domácích baterií v USA. Teď v hledáčku, protože akcie vyskočila na partnerství s Teslou a Renew Home, které posiluje příběh dodávek energie pro AI datacentra; pomáhá i ústup regulačních překážek.",
+      "trade": {
+        "action": "Přikoupit",
+        "horizon": "1–4 týdny",
+        "entry": "$13–14.5",
+        "stop_loss": "$11.50",
+        "target": "$17.00",
+        "position_size": "max 3 % satelitu",
+        "risk_level": "4",
+        "catalyst": "Partnerství Tesla/Renew Home – příběh napájení AI datacenter; pozitivní reset cílů (UBS, TD Cowen, RBC).",
+        "action_note": "Vstup do pásma na potvrzení průrazu, stop pod nedávné dno."
+      },
+      "pros": [
+        "Cíl analytiků ~40 % nad cenou, Buy konsensus",
+        "Nový katalyzátor (AI energetika) přitahuje kapitál",
+        "Nízké P/E vůči sektoru"
+      ],
+      "cons": [
+        "Beta 2,3 a vysoká páka – prudké výkyvy",
+        "Citlivost na vyšší sazby Fedu (hawkish Warsh)"
+      ]
+    },
+    {
+      "name": "Rocket Companies",
+      "ticker": "RKT",
+      "region": "usa",
+      "sector": "finance",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$13.47",
+        "fair_value": "$20.14",
+        "discount": "+50% upside",
+        "signal": "Hluboký diskont u dna pásma",
+        "signal_reason": "Buy konsensus, cena u spodní hrany 52t rozpětí a pod 200denním průměrem.",
+        "buy_zone": {
+          "low": "$12.50",
+          "high": "$14.00"
+        }
+      },
+      "moat": {
+        "score": "5",
+        "verdict": "Střední (značka + tech)",
+        "summary": "Silná značka v hypotékách a datová platforma, ale cyklický a citlivý na sazby."
+      },
+      "intrinsic": {
+        "annual_return": "+25%",
+        "verdict": "orientační odhad",
+        "summary": "Páka na pokles sazeb – při obratu Fedu velký pákový efekt, jinak tlak.",
+        "risk": "4"
+      },
+      "metrics": {
+        "Aktuální cena": "$13.47",
+        "Fair value (cíl analytiků)": "$20.14",
+        "P/E": "5.35",
+        "Beta": "2.19",
+        "52t max/min": "$24.36 / $11.08"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "5.35",
+          "note": "Levné"
+        },
+        "Beta": {
+          "value": "2.19",
+          "note": "Velmi volatilní"
+        },
+        "Div. yield": {
+          "value": "0%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "Cyklicky kolísavá"
+        }
+      },
+      "analysis": "Poskytovatel hypoték a služeb kolem vlastnictví bydlení s datovou/tech platformou. V hledáčku po prodloužení dluhu a využití dat z Redfinu; cena je u dna 52t rozpětí, takže analytici vidí výrazný prostor nahoru – ale příběh je sázka na obrat sazeb.",
+      "trade": {
+        "action": "Koupit",
+        "horizon": "2–6 týdnů",
+        "entry": "$12.5–14",
+        "stop_loss": "$11.50",
+        "target": "$17.00",
+        "position_size": "max 3 % satelitu",
+        "risk_level": "4",
+        "catalyst": "Prodloužení dluhu + integrace dat z Redfinu; cena u 52t dna, asymetrie nahoru.",
+        "action_note": "Akumulace u dna pásma, stop těsně pod 52t minimum $11.08."
+      },
+      "pros": [
+        "Cíl analytiků ~50 % nad cenou, Buy konsensus",
+        "Nízké P/E a hluboce u dna 52t rozpětí",
+        "Pákový hráč na případný obrat sazeb"
+      ],
+      "cons": [
+        "Beta 2,19, citlivost na hypoteční sazby",
+        "Hawkish Fed (možné zvýšení) drží hypotéky pod tlakem"
+      ]
+    },
+    {
+      "name": "American Airlines",
+      "ticker": "AAL",
+      "region": "usa",
+      "sector": "industry",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$13.51",
+        "fair_value": "$15.15",
+        "discount": "+12% upside",
+        "signal": "Makro tailwind (levná ropa)",
+        "signal_reason": "Buy konsensus; pokles ropy po íránském příměří zlevňuje palivo.",
+        "buy_zone": {
+          "low": "$12.50",
+          "high": "$14.00"
+        }
+      },
+      "moat": {
+        "score": "3",
+        "verdict": "Slabý (aerolinka)",
+        "summary": "Komoditní byznys s vysokým dluhem a nízkými maržemi, slabé bariéry."
+      },
+      "intrinsic": {
+        "annual_return": "+12%",
+        "verdict": "orientační odhad",
+        "summary": "Cyklická páka na ceny paliva a poptávku po cestování.",
+        "risk": "4"
+      },
+      "metrics": {
+        "Aktuální cena": "$13.51",
+        "Fair value (cíl analytiků)": "$15.15",
+        "P/E": "52.58",
+        "Beta": "1.36",
+        "52t max/min": "n/a / $10.09"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "52.58",
+          "note": "Drahé (slabé zisky)"
+        },
+        "Beta": {
+          "value": "1.36",
+          "note": "Volatilní"
+        },
+        "Div. yield": {
+          "value": "0%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "Tenká, vysoký dluh"
+        }
+      },
+      "analysis": "Jedna z největších amerických aerolinek. Teď v hledáčku kvůli prudkému poklesu cen ropy (WTI ~70 USD) po podpisu příměří s Íránem a znovuotevření Hormuzu – nižší palivové náklady přímo podporují zisky aerolinek; Buy konsensus s cílem nad cenou.",
+      "trade": {
+        "action": "Koupit",
+        "horizon": "1–4 týdny",
+        "entry": "$12.5–14",
+        "stop_loss": "$11.50",
+        "target": "$15.50",
+        "position_size": "max 3 % satelitu",
+        "risk_level": "4",
+        "catalyst": "Propad ropy po íránském příměří → nižší palivo; Buy konsensus, cíl ~$15.",
+        "action_note": "Vstup do pásma, stop pod $11.50; sleduj cenu ropy jako spouštěč."
+      },
+      "pros": [
+        "Přímý profitér levnější ropy",
+        "Buy konsensus s ~12% prostorem k cíli",
+        "Letní sezona cestování"
+      ],
+      "cons": [
+        "Vysoký dluh a tenké marže",
+        "Drahé P/E; hawkish Fed může brzdit poptávku"
+      ]
+    },
     {
       "name": "Micron Technology",
       "ticker": "MU",
@@ -22,447 +322,147 @@
       "sector": "tech",
       "recommendation": "Držet",
       "price": {
-        "current": "$1051.77",
-        "fair_value": "$1008.82",
-        "discount": "-4%",
-        "signal": "Binární událost dnes večer",
-        "signal_reason": "Výsledky FQ3 po zavírání trhu jsou klíčový test po výprodeji čipů.",
+        "current": "$1,051.77",
+        "fair_value": "$1,023.00",
+        "discount": "-3% upside",
+        "signal": "Cena nad konsensem, výsledky za dveřmi",
+        "signal_reason": "Strong Buy rating, ale akcie už předběhla průměrný cíl; zítra výsledky.",
         "buy_zone": {
-          "low": "$980",
-          "high": "$1020"
-        }
-      },
-      "moat": {
-        "score": "6",
-        "verdict": "Cyklický lídr",
-        "summary": "Jeden ze tří hráčů v DRAM/HBM paměti pro AI, ale silně cyklický."
-      },
-      "intrinsic": {
-        "annual_return": "+8%",
-        "verdict": "orientační odhad",
-        "summary": "Forward P/E ~10 je levné, pokud AI poptávka po HBM vydrží.",
-        "risk": "5"
-      },
-      "metrics": {
-        "Aktuální cena": "$1051.77",
-        "Fair value (cíl analytiků)": "$1008.82",
-        "P/E": "10 (fwd) / 49 (ttm)",
-        "Beta": "~1.2",
-        "52t max/min": "$1213.56 / $103.38"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "10 (fwd)",
-          "note": "Levné na fwd"
-        },
-        "Beta": {
-          "value": "~1.2",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "~0.2%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Cyklicky kolísá"
-        }
-      },
-      "analysis": "Micron vyrábí paměti DRAM a NAND a stal se hvězdou AI vlny díky HBM pro datacentra (nově i dohoda s Anthropic). Akcie je dnes v hledáčku, protože výsledky FQ3 přijdou po zavření trhu a přicházejí uprostřed výprodeje čipů; konsensus je Buy, ale cena se obchoduje mírně NAD cílem $1008.",
-      "trade": {
-        "action": "Držet",
-        "horizon": "1–4 týdny",
-        "entry": "$980–$1020 (až po výsledcích)",
-        "stop_loss": "$940",
-        "target": "$1150",
-        "position_size": "max 3 % satelitu",
-        "risk_level": "5",
-        "catalyst": "Výsledky FQ3 dnes po zavření + AI/HBM poptávka vs. výprodej čipů a růst výnosů.",
-        "action_note": "Nevstupovat velkou pozicí před binárními výsledky; reagovat až na reakci po číslech."
-      },
-      "pros": [
-        "Lídr v HBM pamětech pro AI servery",
-        "Levné forward ocenění (~10x)",
-        "Silný katalyzátor – výsledky dnes večer"
-      ],
-      "cons": [
-        "Cena nad cílem analytiků (záporný upside)",
-        "Vysoká volatilita a cyklické riziko paměťového trhu"
-      ]
-    },
-    {
-      "name": "Space Exploration Technologies (SpaceX)",
-      "ticker": "SPCX",
-      "region": "usa",
-      "sector": "industry",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$164.64",
-        "fair_value": "$221.20",
-        "discount": "+34%",
-        "signal": "Hluboká korekce po IPO",
-        "signal_reason": "Pád ~27 % z ATH otevírá velký rozdíl vůči konsensu, ale extrémní volatilita.",
-        "buy_zone": {
-          "low": "$150",
-          "high": "$162"
-        }
-      },
-      "moat": {
-        "score": "8",
-        "verdict": "Dominance v kosmu",
-        "summary": "Starlink a vypouštěcí monopol dávají silnou pozici, ocenění je však napjaté."
-      },
-      "intrinsic": {
-        "annual_return": "n/a",
-        "verdict": "orientační odhad",
-        "summary": "Ziskovost zatím záporná, příběh stojí na růstu Starlinku a Starship.",
-        "risk": "5"
-      },
-      "metrics": {
-        "Aktuální cena": "$164.64",
-        "Fair value (cíl analytiků)": "$221.20",
-        "P/E": "n/a",
-        "Beta": "n/a",
-        "52t max/min": "$225.64 / $135.00"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "Ztrátová na čistém zisku"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "Nový titul po IPO"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Záporná marže, P/S ~105x"
-        }
-      },
-      "analysis": "SpaceX je po blockbuster IPO z 12. června (otevření $150) a po prudkém růstu spadla o ~27 % z maxima $225,64. Dnes je v centru pozornosti kvůli výprodeji okolo emise dluhopisů za $20 mld. a obavám z prodeje insiderů; konsensus cíl $221 ale naznačuje výrazný prostor nahoru (rozpětí targetů je obří, $62–$310).",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "1–4 týdny",
-        "entry": "průraz nad $161 nebo dip k $150",
-        "stop_loss": "$149 (pod ATL $149,34)",
-        "target": "$185, dále $200",
-        "position_size": "max 2 % satelitu",
-        "risk_level": "5",
-        "catalyst": "Volatilita po IPO, emise dluhopisů $20 mld., obavy z insider prodejů; velký rozdíl ceny vs. konsensus.",
-        "action_note": "Jen malá pozice; vstup na potvrzený odraz nad $161 s těsným stopem pod $149."
-      },
-      "pros": [
-        "Konsensus cíl naznačuje ~+34 % upside",
-        "Starlink: 12M zákazníků, $100 mld. v hotovosti",
-        "Dominantní postavení ve vypouštění"
-      ],
-      "cons": [
-        "Extrémní ocenění (P/S ~105x) a záporná marže",
-        "Riziko převisu z insider prodejů a vysoká volatilita"
-      ]
-    },
-    {
-      "name": "Definium Therapeutics",
-      "ticker": "DFTX",
-      "region": "usa",
-      "sector": "healthcare",
-      "recommendation": "Držet",
-      "price": {
-        "current": "$36.67",
-        "fair_value": "$38.38",
-        "discount": "+5%",
-        "signal": "Skok po Phase 3 datech",
-        "signal_reason": "Úspěšná studie Emerge vystřelila akcii o desítky procent k 52t maximu.",
-        "buy_zone": {
-          "low": "$30",
-          "high": "$34"
-        }
-      },
-      "moat": {
-        "score": "4",
-        "verdict": "Klinické stádium",
-        "summary": "Hodnota stojí na jediném aktivu (DT120), široká neurčitost."
-      },
-      "intrinsic": {
-        "annual_return": "n/a",
-        "verdict": "orientační odhad",
-        "summary": "Bez tržeb; hodnota závisí na schválení a komercializaci DT120.",
-        "risk": "5"
-      },
-      "metrics": {
-        "Aktuální cena": "$36.67",
-        "Fair value (cíl analytiků)": "$38.38",
-        "P/E": "n/a",
-        "Beta": "n/a",
-        "52t max/min": "$39.16 / n/a"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "Pre-revenue biotech"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "Vysoce volatilní"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Bez tržeb"
-        }
-      },
-      "analysis": "Definium je klinická biotech firma vyvíjející DT120 (na bázi LSD) proti těžké depresi (MDD). Akcie je dnes v hledáčku, protože Phase 3 studie Emerge splnila primární cíle – titul vyskočil o 50–64 % k 52t maximu, Needham i Oppenheimer zvedli cíle; konsensus ~$38 je ale už blízko ceny (rozpětí $25–$70).",
-      "trade": {
-        "action": "Držet",
-        "horizon": "1–4 týdny",
-        "entry": "dip $30–$34",
-        "stop_loss": "$27",
-        "target": "$45",
-        "position_size": "max 2 % satelitu",
-        "risk_level": "5",
-        "catalyst": "Pozitivní Phase 3 Emerge (DT120/MDD), zvyšování cílů; další čtení VOYAGE/PANORAMA ve 3Q.",
-        "action_note": "Nechat zápal vychladnout, kupovat až na pullbacku, ne na úvodním skoku."
-      },
-      "pros": [
-        "Splněné primární cíle Phase 3 (MDD)",
-        "Zvyšování cílů od Needham/Oppenheimer",
-        "Další katalyzátory (VOYAGE/PANORAMA) ve 3Q"
-      ],
-      "cons": [
-        "Hodnota závisí na jediném aktivu a schválení FDA",
-        "Extrémní volatilita, cena už u 52t maxima"
-      ]
-    },
-    {
-      "name": "ICICI Bank (ADR)",
-      "ticker": "IBN",
-      "region": "asia",
-      "sector": "finance",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$30.23",
-        "fair_value": "$35.38",
-        "discount": "+17%",
-        "signal": "Strong Buy u rekordu",
-        "signal_reason": "Konsensus Strong Buy a blízkost rekordního maxima při solidních fundamentech.",
-        "buy_zone": {
-          "low": "$29.5",
-          "high": "$30.5"
+          "low": "$980.00",
+          "high": "$1,040.00"
         }
       },
       "moat": {
         "score": "7",
-        "verdict": "Silná franšíza",
-        "summary": "Jedna z předních indických soukromých bank s kvalitními aktivy."
+        "verdict": "Silný (oligopol pamětí)",
+        "summary": "Jeden ze tří hráčů na DRAM/NAND, vysoká kapitálová bariéra, ale cyklický."
       },
       "intrinsic": {
-        "annual_return": "+15%",
+        "annual_return": "+10%",
         "verdict": "orientační odhad",
-        "summary": "Růst úvěrů a uvolňování rezerv podporuje zisky.",
-        "risk": "3"
-      },
-      "metrics": {
-        "Aktuální cena": "$30.23",
-        "Fair value (cíl analytiků)": "$35.38",
-        "P/E": "~19",
-        "Beta": "~0.85",
-        "52t max/min": "n/a / n/a"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "~19",
-          "note": "Férové"
-        },
-        "Beta": {
-          "value": "~0.85",
-          "note": "Defenzivní"
-        },
-        "Div. yield": {
-          "value": "~0.7%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Vysoká ziskovost banky"
-        }
-      },
-      "analysis": "ICICI Bank je přední indická soukromá banka; ADR se obchoduje na NYSE. Titul je dnes v hledáčku, protože se blíží rekordnímu maximu a brokeři zůstávají optimističtí – katalyzátorem je očekávaný impuls do zisků z uvolňování přebytečných rezerv; konsensus je Strong Buy s cílem ~$35.",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "1–4 týdny",
-        "entry": "$29.5–$30.5",
-        "stop_loss": "$28",
-        "target": "$34",
-        "position_size": "max 4 % satelitu",
-        "risk_level": "3",
-        "catalyst": "Blízkost rekordu + býčí výhledy brokerů a tailwind z uvolnění rezerv.",
-        "action_note": "Otevřít pozici v pásmu $29,5–30,5 se stopem pod $28."
-      },
-      "pros": [
-        "Strong Buy konsensus, ~+17 % upside",
-        "Defenzivní profil (nižší beta)",
-        "Pozitivní impuls do zisků z uvolnění rezerv"
-      ],
-      "cons": [
-        "Měnové riziko INR/USD u ADR",
-        "Opatrnost banky k růstu úvěrů v 1H"
-      ]
-    },
-    {
-      "name": "Bloom Energy",
-      "ticker": "BE",
-      "region": "usa",
-      "sector": "energy",
-      "recommendation": "Držet",
-      "price": {
-        "current": "$280.88",
-        "fair_value": "$263.65",
-        "discount": "-6%",
-        "signal": "Přehřáté momentum",
-        "signal_reason": "Po +1098 % za rok se cena obchoduje nad konsensem cílů.",
-        "buy_zone": {
-          "low": "$245",
-          "high": "$260"
-        }
-      },
-      "moat": {
-        "score": "5",
-        "verdict": "Niche v palivových článcích",
-        "summary": "Profituje z poptávky datacenter po energii, ocenění je ale extrémní."
-      },
-      "intrinsic": {
-        "annual_return": "n/a",
-        "verdict": "orientační odhad",
-        "summary": "Forward P/E přes 130 vyceňuje dokonalé pokračování růstu.",
+        "summary": "AI poptávka po paměti vs. cykličnost a riziko vrcholu marží.",
         "risk": "5"
       },
       "metrics": {
-        "Aktuální cena": "$280.88",
-        "Fair value (cíl analytiků)": "$263.65",
-        "P/E": "~135 (fwd)",
-        "Beta": "~2.5",
-        "52t max/min": "$349.99 / $18.12"
+        "Aktuální cena": "$1,051.77",
+        "Fair value (cíl analytiků)": "$1,023.00",
+        "P/E": "49.66",
+        "Beta": "2.17",
+        "52t max/min": "$1,105.00 / $103.38"
       },
       "indicators": {
         "P/E": {
-          "value": "~135 (fwd)",
-          "note": "Drahé"
+          "value": "49.66",
+          "note": "Drahé na trailing, levné na forward (9.9x)"
         },
         "Beta": {
-          "value": "~2.5",
-          "note": "Volatilní"
+          "value": "2.17",
+          "note": "Velmi volatilní"
         },
         "Div. yield": {
-          "value": "0%",
+          "value": "0.05%",
           "note": "Dividenda"
         },
         "Net Margin": {
           "value": "n/a",
-          "note": "Marže tenká/proměnlivá"
+          "note": "Prudce rostoucí v paměťovém cyklu"
         }
       },
-      "analysis": "Bloom Energy dodává palivové články pro stacionární výrobu elektřiny a stal se hráčem na napájení AI datacenter. Akcie je dnes v hledáčku kvůli sérii energetických AI dohod a po raketovém +1098 % za rok; cena se ale obchoduje NAD konsensem cílů (~$264), Barclays má $276 a Bernstein zahájil Market Perform na $276.",
+      "analysis": "Výrobce paměťových čipů DRAM a NAND, klíčový dodavatel HBM pamětí pro AI. V hledáčku před zítřejšími výsledky (očekává se obří růst zisku) a kvůli AI paměťovému supercyklu; dnes ale spadla v rámci čipového výprodeje a kurz už předběhl průměrný cíl analytiků.",
       "trade": {
         "action": "Držet",
-        "horizon": "1–4 týdny",
-        "entry": "dip $245–$260",
-        "stop_loss": "$235",
-        "target": "$320",
+        "horizon": "1–2 týdny (kolem výsledků)",
+        "entry": "$980–1,040 (ideálně až po výsledcích)",
+        "stop_loss": "$940.00",
+        "target": "$1,150.00",
         "position_size": "max 2 % satelitu",
         "risk_level": "5",
-        "catalyst": "Hromadící se AI/energetické dohody a poptávka datacenter po napájení.",
-        "action_note": "Nehonit nad cíl; přikupovat jen na výrazném pullbacku se stopem pod $235."
+        "catalyst": "Čtvrtletní výsledky cca za 48 h + AI HBM supercyklus; BofA býčí na čipy.",
+        "action_note": "Nepřikupovat před binárními výsledky; čekat na reakci kurzu, pak teprve vstup."
       },
       "pros": [
-        "Silný tematický tah – napájení AI datacenter",
-        "Rekordní Q1 (růst tržeb ~130 %)",
-        "Široké pokrytí a zvyšování cílů"
+        "Strong Buy konsensus, AI paměťový supercyklus",
+        "Nízké forward P/E (~10x)",
+        "Oligopolní postavení v DRAM/NAND"
       ],
       "cons": [
-        "Cena nad konsensem cílů (záporný upside)",
-        "Extrémní ocenění (fwd P/E ~135) a vysoká beta"
+        "Cena už nad průměrným cílem, omezený prostor",
+        "Binární riziko výsledků + beta 2,17 a čipová rotace"
       ]
     },
     {
-      "name": "Moderna",
-      "ticker": "MRNA",
+      "name": "The Wendy's Company",
+      "ticker": "WEN",
       "region": "usa",
-      "sector": "healthcare",
-      "recommendation": "Sledovat",
+      "sector": "consumer",
+      "recommendation": "Držet",
       "price": {
-        "current": "$62.00",
-        "fair_value": "$43.30",
-        "discount": "-30%",
-        "signal": "Drahé i přes katalyzátor",
-        "signal_reason": "FDA momentum vytlačilo cenu výrazně nad konsensus cílů.",
+        "current": "$8.22",
+        "fair_value": "$8.54",
+        "discount": "+4% upside",
+        "signal": "Meme-squeeze, přepáleno",
+        "signal_reason": "Hold konsensus, cena po +30-42% skoku těsně pod cílem; pohyb řídí dav, ne fundament.",
         "buy_zone": {
-          "low": "$40",
-          "high": "$45"
+          "low": "$6.80",
+          "high": "$7.50"
         }
       },
       "moat": {
-        "score": "6",
-        "verdict": "mRNA platforma",
-        "summary": "Silná technologie, ale po covidu nejistá komerční trajektorie."
+        "score": "4",
+        "verdict": "Slabší (značka ve fast foodu)",
+        "summary": "Známá značka, ale tvrdá konkurence a tlak na marže a tržby."
       },
       "intrinsic": {
-        "annual_return": "n/a",
+        "annual_return": "+5%",
         "verdict": "orientační odhad",
-        "summary": "Ztrátovost a závislost na nových schváleních zvyšují nejistotu.",
-        "risk": "4"
+        "summary": "Hodnota stojí na obratu provozu; meme-pohyb fundament ignoruje.",
+        "risk": "5"
       },
       "metrics": {
-        "Aktuální cena": "$62.00",
-        "Fair value (cíl analytiků)": "$43.30",
-        "P/E": "n/a",
-        "Beta": "~1.1",
-        "52t max/min": "$64.28 / n/a"
+        "Aktuální cena": "$8.22",
+        "Fair value (cíl analytiků)": "$8.54",
+        "P/E": "8.25",
+        "Beta": "0.41",
+        "52t max/min": "$13.55 / $6.36"
       },
       "indicators": {
         "P/E": {
-          "value": "n/a",
-          "note": "Ztrátová"
+          "value": "8.25",
+          "note": "Opticky levné"
         },
         "Beta": {
-          "value": "~1.1",
-          "note": "Volatilní"
+          "value": "0.41",
+          "note": "Defenzivní (ale teď extrémně rozkolísané meme)"
         },
         "Div. yield": {
-          "value": "0%",
+          "value": "n/a",
           "note": "Dividenda"
         },
         "Net Margin": {
           "value": "n/a",
-          "note": "Záporná"
+          "note": "Pod tlakem klesajících tržeb"
         }
       },
-      "analysis": "Moderna staví na mRNA platformě (vakcíny, onkologie). Akcie je dnes v hledáčku, protože poradní panel FDA jednomyslně podpořil chřipkovou vakcínu mRNA-1010 (finální rozhodnutí FDA do 5. srpna 2026) a titul prorazil 52t maximum; cena ~$62 je ale ~30 % NAD konsensem cílů (~$43), BofA dokonce drží cíl jen $34.",
+      "analysis": "Řetězec rychlého občerstvení (Frosty, Dave's burgery). Akcie se proměnila v nový meme titul – vyskočila o 30-42 % (s přerušením obchodování) po jmenování nového finančního a strategického šéfa Steva Cirulise, který se znovu spojuje s novým CEO; dav na WallStreetBets tlačí short-squeeze.",
       "trade": {
-        "action": "Ubrat",
-        "horizon": "1–4 týdny (swing)",
-        "entry": "bez nákupu nad cílem; sledovat pullback k $43–45",
-        "stop_loss": "$54 (pro stávající držitele)",
-        "target": "n/a (nad cílem analytiků)",
-        "position_size": "max 2 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Jednomyslná podpora FDA panelu pro mRNA-1010, rozhodnutí FDA do 5. 8. 2026.",
-        "action_note": "Nehonit; momentum-tradeři zajistit zisk, dlouhodobě počkat na korekci k fair value."
+        "action": "Držet",
+        "horizon": "dny (spekulativní)",
+        "entry": "pouze na pullbacku $6.80–7.50, NE honit vrchol",
+        "stop_loss": "$6.30",
+        "target": "$9.00",
+        "position_size": "max 1 % satelitu",
+        "risk_level": "5",
+        "catalyst": "Meme/short-squeeze + nový CFO/CSO Steve Cirulis (znovuspojení 'Potbelly dua').",
+        "action_note": "Nehonit po skoku; squeeze se rychle obrací – jen malá pozice nebo počkat na korekci."
       },
       "pros": [
-        "Silný regulatorní katalyzátor (FDA panel)",
-        "Průraz 52t maxima, momentum",
-        "Diverzifikace pipeline mimo covid"
+        "Silné momentum a short-squeeze potenciál",
+        "Nízké P/E a defenzivní byznys jako základ",
+        "Katalyzátor (nový management) přitahuje pozornost"
       ],
       "cons": [
-        "Cena ~30 % nad konsensem cílů",
-        "Ztrátovost a nejistá komerční trajektorie"
+        "Cena řízená davem, cíl analytiků prakticky dosažen",
+        "Klesající tržby; po vyčerpání squeeze hrozí prudký návrat dolů"
       ]
     }
   ],
