@@ -1,245 +1,316 @@
 {
   "date": "25. června 2026",
-  "summary": "Wall Street se po několika nervózních dnech kolem AI valuací odráží: futures rostou poté, co Micron předložil rekordní výsledky a Qualcomm oznámil expanzi do datacenter, trh přitom čeká na klíčový PCE index inflace a stále řeší ropný šok z konfliktu s Íránem a riziko vyšších sazeb Fedu (10letý výnos kolem 4,4 %). Tyto tipy jsou KRÁTKODOBÉ a RIZIKOVÉ příležitosti pro 'satelitní' peníze – tituly v pohybu na čerstvých katalyzátorech (výsledky, partnerství, meme squeeze, propady). Důsledně drž stop-lossy a velikost pozic, časté přetrádování škodí. Uvedená 'fair value' = konsensus cílů analytiků, jde o orientační vodítko, NE investiční radu.",
+  "summary": "Wall Street zůstává rozdělená: Dow se drží u rekordů díky průmyslu, financím a zdravotnictví, zatímco Nasdaq a S&P 500 kolísají kvůli obavám z vysokých valuací AI a horkému květnovému PCE, které znovu otevřelo debatu o možném zvýšení sazeb Fedu; ropa přitom padá s uvolněním Hormuzského průlivu. Tyto tipy míří na čerstvé katalyzátory (výsledky pamětí, soudní verdikt, pivot do datacenter), takže nabízejí krátkodobý pohyb, ale i vyšší riziko. Fair value zde znamená KONSENZUS cílových cen analytiků — jde o orientační vodítko, NIKOLI investiční doporučení. Jsou to KRÁTKODOBÉ rizikové tipy pro „satelitní“ peníze, proto důsledně držte stop-lossy a velikost pozice; časté přetrádování škodí.",
   "sources": [
     "Yahoo Finance",
     "StockAnalysis.com",
-    "MarketBeat",
-    "TipRanks",
-    "Public.com",
-    "CNN Markets",
     "CNBC",
-    "TheStreet",
-    "Robinhood",
-    "Investing.com",
-    "StockStory",
     "Bloomberg",
-    "24/7 Wall St"
+    "Investing.com",
+    "TradingKey",
+    "Edward Jones",
+    "MarketBeat",
+    "TipRanks"
   ],
   "firms": [
-    {
-      "name": "Sunrun",
-      "ticker": "RUN",
-      "region": "usa",
-      "sector": "energy",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$14.66",
-        "fair_value": "$18.92",
-        "discount": "+29% upside",
-        "signal": "Průraz na objemu",
-        "signal_reason": "Akcie vyletěly ~22 % na partnerství s Teslou a Renew Home pro největší virtuální elektrárnu v USA.",
-        "buy_zone": {
-          "low": "$12.50",
-          "high": "$14.66"
-        }
-      },
-      "moat": {
-        "score": "4",
-        "verdict": "Slabší příkop",
-        "summary": "Lídr v rezidenční solární energetice, ale kapitálově náročný a citlivý na sazby."
-      },
-      "intrinsic": {
-        "annual_return": "+24%",
-        "verdict": "orientační odhad",
-        "summary": "Při splnění konsensu cíle ~$18-19 je krátkodobý potenciál výrazný, ale volatilní.",
-        "risk": "4"
-      },
-      "metrics": {
-        "Aktuální cena": "$14.66",
-        "Fair value (cíl analytiků)": "$18.92",
-        "P/E": "6.8",
-        "Beta": "2.30",
-        "52t max/min": "$22.44 / $7.23"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "6.8",
-          "note": "Levné"
-        },
-        "Beta": {
-          "value": "2.30",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "n/a",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "-32.4%",
-          "note": "Stále ztrátová na čisté úrovni"
-        }
-      },
-      "analysis": "Sunrun navrhuje, instaluje a provozuje rezidenční solární systémy v USA. V hledáčku je dnes kvůli novému partnerství s Teslou a Renew Home na agregaci domácích baterií do obří virtuální elektrárny – příběh s napojením na poptávku po energii pro AI datacentra. Konsensus je 'Koupit' s cílem ~$18-19.",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "1–4 týdny",
-        "entry": "$12.50–14.66 (ideálně na zpětném testu průrazu)",
-        "stop_loss": "$11.50",
-        "target": "$18.00",
-        "position_size": "max 3 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Partnerství Tesla + Renew Home (největší VPP v USA), prudký nárůst objemu.",
-        "action_note": "Nakoupit menší pozici na zpětném testu průrazu, stop pod $11.50."
-      },
-      "pros": [
-        "Silný čerstvý katalyzátor s napojením na AI/energetiku",
-        "Nízké P/E a konsensus 'Koupit' s ~29% potenciálem",
-        "Vysoký objem potvrzuje zájem"
-      ],
-      "cons": [
-        "Záporná čistá marže a vysoké zadlužení",
-        "Beta 2,3 = prudké výkyvy, citlivost na sazby"
-      ]
-    },
-    {
-      "name": "Shift4 Payments",
-      "ticker": "FOUR",
-      "region": "usa",
-      "sector": "finance",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$40.00",
-        "fair_value": "$52.00",
-        "discount": "+30% upside",
-        "signal": "Obrat u dna",
-        "signal_reason": "Po propadu ~59 % od maxima firma proaktivně refinancuje dluh; přidává se katalyzátor MS 2026 (objemy v cestování/hospitalitě).",
-        "buy_zone": {
-          "low": "$36.00",
-          "high": "$40.00"
-        }
-      },
-      "moat": {
-        "score": "6",
-        "verdict": "Slušný příkop",
-        "summary": "Rychle rostoucí zpracovatel plateb s integrovaným softwarem pro restaurace, hospitality a stadiony."
-      },
-      "intrinsic": {
-        "annual_return": "+25%",
-        "verdict": "orientační odhad",
-        "summary": "Pokud se obavy o dluh rozplynou, návrat k cílům ~$52 dává slušný prostor.",
-        "risk": "3"
-      },
-      "metrics": {
-        "Aktuální cena": "$40.00 (rozpětí zdrojů $38–44, brán konzervativní)",
-        "Fair value (cíl analytiků)": "$52.00",
-        "P/E": "50.8",
-        "Beta": "1.42",
-        "52t max/min": "$108.50 / $34.56"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "50.8",
-          "note": "Drahé na ziscích, levné na růstu"
-        },
-        "Beta": {
-          "value": "1.42",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "n/a",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Tenká, růstová fáze"
-        }
-      },
-      "analysis": "Shift4 je nezávislý poskytovatel platebních a softwarových řešení. Akcie se odrážejí od ročního dna poté, co firma navrhla nový term loan $750 mil. na předfinancování konvertibilů 2027 a S&P potvrdila rating BB-; analytici vidí solidní Q2. Katalyzátorem je i MS 2026 – platební objemy z cestování a stadionů. Konsensus 'Koupit' (cíle $46–61).",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "2–6 týdnů",
-        "entry": "$36–40",
-        "stop_loss": "$33.50 (pod 52t minimem $34.56)",
-        "target": "$52.00",
-        "position_size": "max 4 % satelitu",
-        "risk_level": "3",
-        "catalyst": "Refinancování dluhu + potvrzený rating, World Cup objemy, důvěra analytiků v Q2.",
-        "action_note": "Nakoupit v pásmu $36–40 s těsným stopem pod 52t minimem."
-      },
-      "pros": [
-        "Konsensus 'Koupit' s potenciálem ~30 %",
-        "Vyřešená nejistota kolem dluhu (term loan, rating BB-)",
-        "Sezónní katalyzátor (World Cup objemy)"
-      ],
-      "cons": [
-        "Vysoké P/E a tenké marže",
-        "Pohyb proti dlouhodobě klesajícímu trendu (–59 % od maxima)"
-      ]
-    },
     {
       "name": "Micron Technology",
       "ticker": "MU",
       "region": "usa",
       "sector": "tech",
-      "recommendation": "Sledovat",
+      "recommendation": "Koupit",
       "price": {
-        "current": "$1228.00",
-        "fair_value": "$1044.00",
-        "discount": "-15% upside",
-        "signal": "Předtržní gap nahoru",
-        "signal_reason": "Rekordní výsledky vyhnaly akcii ~17 % předtržně NAD průměrné cíle analytiků (jsou ještě před revizí) – riziko honby za gapem.",
+        "current": "$1204.70",
+        "fair_value": "$1353.83",
+        "discount": "+12% upside",
+        "signal": "Silné momentum po výsledcích",
+        "signal_reason": "Rekordní čtvrtletí a silný výhled poptávky po AI paměti vystřelily akcii o ~15 %.",
         "buy_zone": {
-          "low": "$1050.00",
-          "high": "$1100.00"
+          "low": "$1140",
+          "high": "$1210"
         }
       },
       "moat": {
         "score": "7",
-        "verdict": "Silný v cyklu",
-        "summary": "Jeden ze tří hráčů paměťového trhu (DRAM/HBM), profitující z AI poptávky po HBM."
+        "verdict": "Solidní",
+        "summary": "Jeden ze tří hráčů na trhu DRAM/HBM s rostoucí cenovou silou v éře AI."
       },
       "intrinsic": {
-        "annual_return": "+5%",
+        "annual_return": "+10%",
         "verdict": "orientační odhad",
-        "summary": "Po +250 % YTD a předtržním gapu je krátkodobě nad konsensem; potenciál je v revizi cílů nahoru.",
-        "risk": "5"
+        "summary": "Cyklický titul s vysokou pákou na AI paměť, návratnost kolísá s cenami čipů.",
+        "risk": "4"
       },
       "metrics": {
-        "Aktuální cena": "$1228 (předtržně +17 %; předchozí close ~$1047)",
-        "Fair value (cíl analytiků)": "$1044 (cíle před výsledky)",
-        "P/E": "~50 (TTM, klesající)",
+        "Aktuální cena": "$1204.70",
+        "Fair value (cíl analytiků)": "$1353.83",
+        "P/E": "27.16",
         "Beta": "2.17",
-        "52t max/min": "$1228 (nové max) / n/a"
+        "52t max/min": "$1255.00 / $103.38"
       },
       "indicators": {
         "P/E": {
-          "value": "~50",
-          "note": "Drahé na TTM, forwardově nižší"
+          "value": "27.16",
+          "note": "Férové"
         },
         "Beta": {
           "value": "2.17",
           "note": "Volatilní"
         },
         "Div. yield": {
-          "value": "~0.05%",
-          "note": "Dividenda $0.15/Q"
+          "value": "0.05%",
+          "note": "Dividenda"
         },
         "Net Margin": {
-          "value": "~68%",
-          "note": "Rekordní marže (čistý zisk $28.2B na $41.5B tržbách)"
+          "value": "~55%",
+          "note": "Odhad, špička cyklu AI paměti"
         }
       },
-      "analysis": "Micron je výrobce pamětí DRAM/NAND a HBM pro AI akcelerátory. Vykázal rekordní Q3 FY26 (EPS $25.11 vs $20.28 odhad, tržby $41.5 mld., hrubá marže ~85 %) a guidance Q4 ~$50 mld. Akcie předtržně skočily ~17 %, čímž se dostaly nad dosavadní konsensus cílů – ty jsou ale ještě před revizí a nejspíš porostou. Pro krátkodobý vstup je gap rizikový.",
+      "analysis": "Micron vyrábí paměťové čipy DRAM a NAND a je hlavním dodavatelem HBM pro AI akcelerátory. Po reportu, který výrazně překonal odhady (tržby ~41,5 mld. $), akcie skočily a táhly celý paměťový sektor; titul je teď v centru pozornosti jako barometr AI poptávky.",
       "trade": {
-        "action": "Držet",
-        "horizon": "1–3 týdny",
-        "entry": "Nehonit gap; čekat na korekci do $1050–1100",
-        "stop_loss": "$980",
-        "target": "$1300 (po revizi cílů analytiků nahoru)",
+        "action": "Koupit",
+        "horizon": "1–4 týdny",
+        "entry": "$1140–$1210",
+        "stop_loss": "$1075",
+        "target": "$1320",
         "position_size": "max 3 % satelitu",
-        "risk_level": "5",
-        "catalyst": "Rekordní výsledky a guidance, HBM poptávka pro AI; momentum nejsilnější v koši.",
-        "action_note": "Dnes nekupovat do síly – nasadit alert na korekci k $1050–1100."
+        "risk_level": "4",
+        "catalyst": "Rekordní fiskální Q3 výsledky a zvýšený výhled poptávky po HBM/AI paměti.",
+        "action_note": "Kupovat na zpětných poklesech do pásma, ne honit prudký výstřel; ihned nastavit stop."
       },
       "pros": [
-        "Rekordní výsledky a silná guidance (Q4 ~$50 mld.)",
-        "Klíčový dodavatel HBM pro AI – strukturální poptávka",
-        "Mimořádně vysoké marže a cash flow"
+        "Rekordní výsledky a silný výhled AI poptávky",
+        "Konsenzus Strong Buy s cílem nad trhem",
+        "Klíčový dodavatel HBM pamětí"
       ],
       "cons": [
-        "Předtržně NAD průměrnými cíli – riziko honby za gapem",
-        "Cyklický titul s betou 2,2; citlivý na AI sentiment a sazby"
+        "Beta 2.17 = vysoká volatilita a cykličnost",
+        "Akcie už po +250% letošní rallye, riziko korekce"
+      ]
+    },
+    {
+      "name": "Bayer AG (ADR)",
+      "ticker": "BAYRY",
+      "region": "europe",
+      "sector": "healthcare",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$10.96",
+        "fair_value": "$14.19",
+        "discount": "+29% upside",
+        "signal": "Soudní katalyzátor",
+        "signal_reason": "Verdikt Nejvyššího soudu ohledně Roundupu odlehčil dlouholetému právnímu tlaku.",
+        "buy_zone": {
+          "low": "$10.70",
+          "high": "$11.20"
+        }
+      },
+      "moat": {
+        "score": "5",
+        "verdict": "Průměrný",
+        "summary": "Diverzifikovaný farma/agro koncern, ale zatížený dluhem a právními spory."
+      },
+      "intrinsic": {
+        "annual_return": "+12%",
+        "verdict": "orientační odhad",
+        "summary": "Hodnotová sázka na odeznění právních rizik a oživení pipeline.",
+        "risk": "3"
+      },
+      "metrics": {
+        "Aktuální cena": "$10.96",
+        "Fair value (cíl analytiků)": "$14.19",
+        "P/E": "n/a",
+        "Beta": "0.85",
+        "52t max/min": "$14.85 / $7.19"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "n/a",
+          "note": "Záporný zisk (ztráta)"
+        },
+        "Beta": {
+          "value": "0.85",
+          "note": "Defenzivní"
+        },
+        "Div. yield": {
+          "value": "0.22%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "Čistá ztráta za posledních 12 měsíců"
+        }
+      },
+      "analysis": "Bayer je německý koncern v oblasti léčiv, OTC zdraví a zemědělství (Monsanto/Roundup). Akcie prudce vyskočily poté, co Nejvyšší soud USA rozhodl ve prospěch firmy ohledně varování u herbicidu Roundup, což omezuje tisíce žalob. POZN.: zdroje hlásí intradenní skok ~18–20 % u frankfurtské akcie, zatímco málo likvidní ADR kvotace ukazovala menší pohyb — beru konzervativnější aktuální cenu.",
+      "trade": {
+        "action": "Koupit",
+        "horizon": "2–6 týdnů",
+        "entry": "$10.70–$11.20",
+        "stop_loss": "$9.80",
+        "target": "$12.80",
+        "position_size": "max 3 % satelitu",
+        "risk_level": "3",
+        "catalyst": "Příznivý verdikt Nejvyššího soudu USA k žalobám kvůli Roundupu.",
+        "action_note": "Otevřít menší pozici, počítat s kolísáním ADR a širším spreadem; držet stop."
+      },
+      "pros": [
+        "Odstranění klíčového právního tlaku po verdiktu",
+        "Nízká beta 0.85, defenzivní profil",
+        "Výrazný upside ke konsenzu (+29 %)"
+      ],
+      "cons": [
+        "Vysoký dluh a stále probíhající další spory",
+        "Záporný zisk, ADR je málo likvidní"
+      ]
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL",
+      "region": "usa",
+      "sector": "consumer",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$277.61",
+        "fair_value": "$314.42",
+        "discount": "+13% upside",
+        "signal": "Nákup propadu",
+        "signal_reason": "Akcie spadly ~6 % po oznámení zdražení MacBooků a iPadů kvůli dražším komponentám.",
+        "buy_zone": {
+          "low": "$272",
+          "high": "$282"
+        }
+      },
+      "moat": {
+        "score": "9",
+        "verdict": "Široký",
+        "summary": "Silný ekosystém, značka a rostoucí příjmy ze služeb dávají Applu mimořádnou cenovou sílu."
+      },
+      "intrinsic": {
+        "annual_return": "+9%",
+        "verdict": "orientační odhad",
+        "summary": "Stabilní generátor hotovosti, růst tažený službami a obměnou hardwaru.",
+        "risk": "2"
+      },
+      "metrics": {
+        "Aktuální cena": "$277.61",
+        "Fair value (cíl analytiků)": "$314.42",
+        "P/E": "35.53",
+        "Beta": "1.09",
+        "52t max/min": "$317.40 / $199.26"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "35.53",
+          "note": "Drahé"
+        },
+        "Beta": {
+          "value": "1.09",
+          "note": "Mírně volatilní"
+        },
+        "Div. yield": {
+          "value": "0.37%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "~27%",
+          "note": "Vysoká marže, tažená službami"
+        }
+      },
+      "analysis": "Apple prodává iPhone, Mac, iPad a rychle rostoucí služby. Akcie dnes táhly Nasdaq dolů poté, co firma zdražila MacBooky a iPady s odkazem na vyšší ceny čipů, což vzbudilo obavy o marže. Pro analytiky s konsenzem Buy a cílem $314 jde o příležitost nakoupit kvalitu na propadu.",
+      "trade": {
+        "action": "Koupit",
+        "horizon": "2–6 týdnů",
+        "entry": "$272–$282",
+        "stop_loss": "$262",
+        "target": "$300",
+        "position_size": "max 4 % satelitu",
+        "risk_level": "2",
+        "catalyst": "Výprodej po oznámení zdražení hardwaru — možnost nákupu propadu.",
+        "action_note": "Postupně otevírat pozici v nákupním pásmu, stop pod $262."
+      },
+      "pros": [
+        "Konsenzus Buy s ~13% upside",
+        "Nejnižší beta v sestavě, kvalitní firma",
+        "Silné služby a cash flow"
+      ],
+      "cons": [
+        "Vysoké P/E 35.5 = drahá valuace",
+        "Tlak na marže z dražších komponent"
+      ]
+    },
+    {
+      "name": "Coinbase Global",
+      "ticker": "COIN",
+      "region": "usa",
+      "sector": "crypto",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$148.67",
+        "fair_value": "$229.74",
+        "discount": "+55% upside",
+        "signal": "Vysoké riziko, velký upside",
+        "signal_reason": "Obchoduje se u 52t minima; konsenzus cílů zaostává a sází na oživení rizikové nálady v kryptu.",
+        "buy_zone": {
+          "low": "$144",
+          "high": "$152"
+        }
+      },
+      "moat": {
+        "score": "5",
+        "verdict": "Úzký",
+        "summary": "Vedoucí regulovaná krypto burza v USA, ale příjmy silně závisí na cyklu kryptoměn."
+      },
+      "intrinsic": {
+        "annual_return": "+15%",
+        "verdict": "orientační odhad",
+        "summary": "Extrémně cyklický titul navázaný na cenu a objem obchodů s kryptem.",
+        "risk": "5"
+      },
+      "metrics": {
+        "Aktuální cena": "$148.67",
+        "Fair value (cíl analytiků)": "$229.74",
+        "P/E": "51.92",
+        "Beta": "3.32",
+        "52t max/min": "$444.65 / $139.36"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "51.92",
+          "note": "Drahé"
+        },
+        "Beta": {
+          "value": "3.32",
+          "note": "Velmi volatilní"
+        },
+        "Div. yield": {
+          "value": "n/a",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "~12%",
+          "note": "Odhad, kolísá s objemem obchodů"
+        }
+      },
+      "analysis": "Coinbase je největší regulovaná krypto burza v USA s příjmy z poplatků a custody. Akcie spadly k 52týdennímu minimu po výprodeji kryptoměn, ale bitcoin se stabilizoval kolem $60k a riziková nálada se vrací k digitálním aktivům. Velký rozdíl mezi cenou a cíli analytiků (+55 %) odráží buď podhodnocení, nebo zaostávající cíle — vysoce rizikový rebound.",
+      "trade": {
+        "action": "Koupit",
+        "horizon": "1–3 týdny",
+        "entry": "$144–$152",
+        "stop_loss": "$132",
+        "target": "$180",
+        "position_size": "max 2 % satelitu",
+        "risk_level": "5",
+        "catalyst": "Stabilizace bitcoinu u $60k a návrat rizikové nálady ke krypto akciím.",
+        "action_note": "Pouze malá spekulativní pozice, těsný stop pod 52t minimem; nepřisazovat při dalším propadu."
+      },
+      "pros": [
+        "Obrovský upside ke konsenzu (+55 %)",
+        "Lídr trhu, profituje z oživení kryptu",
+        "Konsenzus Buy"
+      ],
+      "cons": [
+        "Beta 3.32 a obchod u 52t minima = falling knife",
+        "Zisk silně závislý na cyklu kryptoměn"
       ]
     },
     {
@@ -249,220 +320,147 @@
       "sector": "tech",
       "recommendation": "Držet",
       "price": {
-        "current": "$197.41",
-        "fair_value": "$185.00",
-        "discount": "-6% upside",
-        "signal": "Zpráva-driven pop",
-        "signal_reason": "Akcie reagovaly na vstup do datacenter (CPU dohoda s Meta a nasazení u Microsoftu), ale konsensus zůstává 'Držet' s cíli pod cenou.",
+        "current": "$211.37",
+        "fair_value": "$208.33",
+        "discount": "-1% upside",
+        "signal": "Momentum vs. férová cena",
+        "signal_reason": "Akcie přidaly ~6 % na vstupu do datacenter, ale cena už dohnala konsenzus cílů.",
         "buy_zone": {
-          "low": "$170.00",
-          "high": "$182.00"
+          "low": "$200",
+          "high": "$206"
         }
       },
       "moat": {
-        "score": "7",
-        "verdict": "Silný v mobilech",
-        "summary": "Dominantní v čipech a licencích pro smartphony, nově tlačí do serverových CPU."
+        "score": "8",
+        "verdict": "Široký",
+        "summary": "Dominantní patenty a čipy pro mobily, nově expanze do datacenter."
       },
       "intrinsic": {
-        "annual_return": "+3%",
+        "annual_return": "+7%",
         "verdict": "orientační odhad",
-        "summary": "Příběh datacenter je dlouhodobý (výnosy až 2028+), krátkodobě cena nad konsensem.",
+        "summary": "Stabilní licenční byznys plus nová růstová sázka na AI datacentra.",
         "risk": "3"
       },
       "metrics": {
-        "Aktuální cena": "$197.41 (close; po zprávě růst předtržně)",
-        "Fair value (cíl analytiků)": "$185.00",
-        "P/E": "21.4",
-        "Beta": "n/a",
+        "Aktuální cena": "$211.37",
+        "Fair value (cíl analytiků)": "$208.33",
+        "P/E": "21.57",
+        "Beta": "1.60",
         "52t max/min": "$259.92 / $121.99"
       },
       "indicators": {
         "P/E": {
-          "value": "21.4",
-          "note": "Férové až mírně drahé"
+          "value": "21.57",
+          "note": "Férové"
         },
         "Beta": {
-          "value": "n/a",
-          "note": "n/a"
-        },
-        "Div. yield": {
-          "value": "~1.74%",
-          "note": "Dividenda $0.92/Q"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "n/a"
-        }
-      },
-      "analysis": "Qualcomm vyvíjí čipy a licencuje technologie pro mobilní zařízení a nově se tlačí do datacenter. Dnes hýbe titulem víceletá dohoda na dodávky serverových CPU (Dragonfly C1000) pro Meta od 2028 a nasazení u Microsoftu, s cílem $15 mld. tržeb z datacenter do 2029. Analytici jsou ale neutrální ('Držet') a cíle ~$180–195 leží pod aktuální cenou.",
-      "trade": {
-        "action": "Držet",
-        "horizon": "1–4 týdny",
-        "entry": "Spíše na korekci do $170–182",
-        "stop_loss": "$165",
-        "target": "$225",
-        "position_size": "max 3 % satelitu",
-        "risk_level": "3",
-        "catalyst": "Dohoda na datacentrové CPU s Meta a Microsoftem – diverzifikace mimo mobily.",
-        "action_note": "Nechat doběhnout euforii; vstup zvážit až na zpětném testu $170–182."
-      },
-      "pros": [
-        "Konkrétní katalyzátor – vstup do AI datacenter (Meta, Microsoft)",
-        "Rozumné P/E ~21 a dividenda",
-        "Daleko od 52t maxima – prostor nahoru"
-      ],
-      "cons": [
-        "Konsensus 'Držet', cíle pod cenou – krátkodobě nadhodnoceno",
-        "Výnosy z datacenter až od 2028 – riziko zklamání mezitím"
-      ]
-    },
-    {
-      "name": "The Wendy's Company",
-      "ticker": "WEN",
-      "region": "usa",
-      "sector": "consumer",
-      "recommendation": "Sledovat",
-      "price": {
-        "current": "$7.86",
-        "fair_value": "$7.84",
-        "discount": "0% upside",
-        "signal": "Meme squeeze",
-        "signal_reason": "Akcie +26 % (obchodování dočasně zastaveno) na meme/short-squeeze vlně a jmenování nového CFO – pohyb sentimentem, ne fundamenty.",
-        "buy_zone": {
-          "low": "n/a",
-          "high": "n/a"
-        }
-      },
-      "moat": {
-        "score": "4",
-        "verdict": "Slabší příkop",
-        "summary": "Zavedená síť rychlého občerstvení, ale silná konkurence a zralý trh."
-      },
-      "intrinsic": {
-        "annual_return": "0%",
-        "verdict": "orientační odhad",
-        "summary": "U fair value ~$7.8 je squeeze rally rizikem prudké korekce.",
-        "risk": "5"
-      },
-      "metrics": {
-        "Aktuální cena": "$7.86 (close, +25.7 %)",
-        "Fair value (cíl analytiků)": "$7.84",
-        "P/E": "n/a",
-        "Beta": "n/a",
-        "52t max/min": "$12.33 / $6.07"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "n/a"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "n/a"
-        },
-        "Div. yield": {
-          "value": "~8%",
-          "note": "Vysoká, ale payout ~79 % = riziko"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "n/a"
-        }
-      },
-      "analysis": "Wendy's provozuje a franšízuje síť rychlého občerstvení. Dnes je v hledáčku jako nový meme titul – akcie vyskočily ~26 % na vlně retailového short-squeeze a po jmenování nového CFO (Steven Cirulis, ex-Potbelly), objem 207 mil. vs 8 mil. průměr. Konsensus analytiků je ale 'Držet' a cena se obchoduje na úrovni fair value.",
-      "trade": {
-        "action": "Ubrat",
-        "horizon": "dny",
-        "entry": "Nehonit squeeze; bez nové pozice do síly",
-        "stop_loss": "$6.00",
-        "target": "$9.50 (jen spekulativně na momentu)",
-        "position_size": "max 1–2 % satelitu (spekulace)",
-        "risk_level": "5",
-        "catalyst": "Meme/short-squeeze + nový CFO; čistě sentimentový pohyb.",
-        "action_note": "Pokud držíš ze zisku, ubrat/zajistit; nové nákupy do +26 % nehonit."
-      },
-      "pros": [
-        "Vysoká dividenda a stabilní značka",
-        "Silné momentum a objem v krátkém okně"
-      ],
-      "cons": [
-        "Meme squeeze – riziko prudkého obratu",
-        "Konsensus 'Držet', cena na fair value, vysoký payout dividendy"
-      ]
-    },
-    {
-      "name": "Hertz Global Holdings",
-      "ticker": "HTZ",
-      "region": "usa",
-      "sector": "consumer",
-      "recommendation": "Sledovat",
-      "price": {
-        "current": "$3.00",
-        "fair_value": "$4.90",
-        "discount": "+63% upside (cíle ZASTARALÉ, před propadem)",
-        "signal": "Padající nůž",
-        "signal_reason": "Akcie –41 % (nejhorší den) po snížení výhledu EBITDA a oznámení emise akcií i dluhu (ředění).",
-        "buy_zone": {
-          "low": "n/a",
-          "high": "n/a"
-        }
-      },
-      "moat": {
-        "score": "3",
-        "verdict": "Slabý příkop",
-        "summary": "Globální autopůjčovna (Hertz/Dollar/Thrifty), kapitálově náročná, vysoké zadlužení."
-      },
-      "intrinsic": {
-        "annual_return": "n/a",
-        "verdict": "orientační odhad",
-        "summary": "Cíle ~$4.9-5.25 jsou před propadem a budou revidovány dolů – upside je iluzorní.",
-        "risk": "5"
-      },
-      "metrics": {
-        "Aktuální cena": "$3.00 (–40.7 %)",
-        "Fair value (cíl analytiků)": "$4.90 (zastaralé, před propadem)",
-        "P/E": "n/a (ztrátová, EPS -2.05)",
-        "Beta": "2.12",
-        "52t max/min": "$8.44 / $2.95"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "Ztrátová"
-        },
-        "Beta": {
-          "value": "2.12",
+          "value": "1.60",
           "note": "Volatilní"
         },
         "Div. yield": {
-          "value": "n/a",
+          "value": "1.74%",
           "note": "Dividenda"
         },
         "Net Margin": {
-          "value": "n/a",
-          "note": "Záporná, EPS -2.05"
+          "value": "~22%",
+          "note": "Odhad, silná licenční marže"
         }
       },
-      "analysis": "Hertz provozuje autopůjčovny pod značkami Hertz, Dollar a Thrifty. Dnes je v hledáčku negativně – akcie se zhroutily o ~41 % poté, co firma snížila výhled Q2 EBITDA na $50-80 mil. (slabost trhu ojetin) a oznámila emisi akcií ($100 mil.) i vyměnitelných PIK dluhopisů, tedy ředění. Cíle analytiků (~$4.9-5.25) jsou ještě před propadem a nejspíš klesnou.",
+      "analysis": "Qualcomm dodává mobilní procesory a inkasuje licenční poplatky z patentů. Akcie vyskočily poté, co firma oznámila vstup do datacenter (čipy a servery) s cílem $15 mld. nových tržeb. Momentum je pozitivní, ale cena už dosáhla konsenzu cílů — proto Držet.",
       "trade": {
-        "action": "Prodat",
-        "horizon": "vyčkat na stabilizaci",
-        "entry": "Nechytat padající nůž – zatím bez vstupu",
-        "stop_loss": "n/a (žádná pozice)",
-        "target": "Sledovat stabilizaci kolem $2.50–3.00",
-        "position_size": "0 % (max 1 % čistá spekulace pro odvážné)",
-        "risk_level": "5",
-        "catalyst": "Snížení výhledu EBITDA + emise akcií/dluhu = ředění a slabá poptávka po ojetinách.",
-        "action_note": "Dnes nekupovat; počkat na potvrzené dno a revizi cílů, případně zavřít stávající pozice."
+        "action": "Držet",
+        "horizon": "1–4 týdny",
+        "entry": "$200–$206 (na poklesu)",
+        "stop_loss": "$192",
+        "target": "$222",
+        "position_size": "max 3 % satelitu",
+        "risk_level": "3",
+        "catalyst": "Oznámení expanze do datacenter s cílem $15 mld. nových tržeb.",
+        "action_note": "Nehonit; čekat na zpětný pokles do pásma, jinak jen sledovat."
       },
       "pros": [
-        "Optisticky velký papírový upside k zastaralým cílům",
-        "Vysoká volatilita = velké pohyby pro krátké spekulanty"
+        "Pozitivní momentum z datacenter pivotu",
+        "Rozumné P/E 21.6 a dividenda 1.7 %",
+        "Silná patentová pozice"
       ],
       "cons": [
-        "Ředění akcionářů emisí akcií a dluhu",
-        "Snížený výhled, ztrátovost, padající nůž – cíle půjdou dolů"
+        "Cena už dohnala cíle analytiků (rating Hold)",
+        "Slábnoucí EPS a závislost na mobilním trhu"
+      ]
+    },
+    {
+      "name": "Caterpillar",
+      "ticker": "CAT",
+      "region": "usa",
+      "sector": "industry",
+      "recommendation": "Držet",
+      "price": {
+        "current": "$994.74",
+        "fair_value": "$949.68",
+        "discount": "-5% upside",
+        "signal": "Rotace do průmyslu",
+        "signal_reason": "Táhne Dow na rekordy v rámci rotace z techu, ale obchoduje se nad konsenzem cílů.",
+        "buy_zone": {
+          "low": "$955",
+          "high": "$985"
+        }
+      },
+      "moat": {
+        "score": "8",
+        "verdict": "Široký",
+        "summary": "Globální lídr ve stavebních a těžebních strojích se silnou dealerskou sítí."
+      },
+      "intrinsic": {
+        "annual_return": "+6%",
+        "verdict": "orientační odhad",
+        "summary": "Cyklický průmyslový lídr profitující z infrastruktury a rotace z techu.",
+        "risk": "3"
+      },
+      "metrics": {
+        "Aktuální cena": "$994.74",
+        "Fair value (cíl analytiků)": "$949.68",
+        "P/E": "49.01",
+        "Beta": "1.60",
+        "52t max/min": "$1023.29 / $367.92"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "49.01",
+          "note": "Drahé"
+        },
+        "Beta": {
+          "value": "1.60",
+          "note": "Volatilní"
+        },
+        "Div. yield": {
+          "value": "0.61%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "~13%",
+          "note": "Odhad, typické pro průmysl"
+        }
+      },
+      "analysis": "Caterpillar vyrábí stavební a těžební techniku a motory. Akcie dnes přidaly přes 5 % a pomohly Dow na rekord v rámci rotace z drahého techu do průmyslu, financí a zdravotnictví. Titul je ale těsně pod 52t maximem a nad konsenzem cílů — momentum trvá, valuace je napjatá.",
+      "trade": {
+        "action": "Držet",
+        "horizon": "1–4 týdny",
+        "entry": "$955–$985 (na poklesu)",
+        "stop_loss": "$935",
+        "target": "$1020",
+        "position_size": "max 3 % satelitu",
+        "risk_level": "3",
+        "catalyst": "Rotace z techu do průmyslu žene Dow i CAT na rekordy.",
+        "action_note": "Nepřikupovat na maximech; přidat jen při zpětném poklesu do pásma."
+      },
+      "pros": [
+        "Pozitivní momentum a rotace do průmyslu",
+        "Široký moat a silná dealerská síť",
+        "Blízko 52t maxima"
+      ],
+      "cons": [
+        "Drahé P/E 49 a cena nad cíli analytiků",
+        "Cyklická citlivost na ekonomiku"
       ]
     }
   ],
