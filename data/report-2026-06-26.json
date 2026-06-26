@@ -1,22 +1,21 @@
 {
   "date": "26. června 2026",
-  "summary": "Páteční nálada je rizikově averzní: globální výprodej technologií kvůli obavám z nákladů na AI infrastrukturu zesílil (korejský Kospi spustil circuit breaker, Samsung a SK Hynix padají), zatímco rotace do zdravotnictví, financí a průmyslu drží Dow blízko rekordů; květnové PCE vyskočilo na 4,1 % (nejvýše za tři roky) a debata o případném zvýšení sazeb Fedu je opět ve hře. Výjimkou je paměťový sektor, který táhne nahoru blowout výsledek Micronu. Tyto tipy míří na krátkodobé katalyzátory (výsledky, M&A, regulace, výprodej ropy) napříč odvětvími. Pozn.: 'fair value' = průměrný cíl analytiků (konsensus), tedy jen orientační vodítko, NE investiční rada. Jde o KRÁTKODOBÉ, RIZIKOVÉ tipy pro 'satelitní' peníze – důsledně držte stop-lossy a velikost pozice, časté přetrádování dlouhodobě škodí.",
+  "summary": "Trh je v defenzivě: Nasdaq i S&P 500 klesly pod 50denní průměr a technologie/čipy zažívají několikadenní výprodej, zatímco Fed pod novým šéfem Kevinem Warshem sazby ponechal, ale 9 z 18 členů FOMC nově počítá s jejich zvýšením do konce roku (10letý výnos kolem 4,5 %, zlato pod 4000 USD). Tyto tipy jsou vybrané kvůli AKTUÁLNÍMU katalyzátoru (výsledky, akvizice, upgrade) a vyšší volatilitě napříč odvětvími. Důležité: jde o KRÁTKODOBÉ RIZIKOVÉ nápady pro 'satelitní' peníze – fair value zde = konsensus cílů analytiků, tedy jen orientační vodítko, NE investiční rada; držte stop-lossy a velikost pozice, časté přetrádování škodí.",
   "sources": [
     "Yahoo Finance",
     "StockAnalysis.com",
+    "CNBC",
+    "CNN Business",
     "MarketBeat",
     "TipRanks",
-    "CNBC",
-    "Reuters/TradingView",
-    "Benzinga",
     "Investing.com",
+    "Robinhood",
+    "TradingView",
+    "Benzinga",
     "Simply Wall St",
-    "Schwab Market Update",
-    "Bloomberg",
-    "TheStreet",
-    "GuruFocus",
-    "ChartMill",
-    "Public.com"
+    "Kraken",
+    "Quiver Quantitative",
+    "Fortune/Reuters"
   ],
   "firms": [
     {
@@ -24,343 +23,343 @@
       "ticker": "MU",
       "region": "usa",
       "sector": "tech",
-      "recommendation": "Koupit",
+      "recommendation": "Držet",
       "price": {
-        "current": "$1210",
-        "fair_value": "$1339",
-        "discount": "+10.6% upside",
-        "signal": "Silné momentum po blowout výsledcích",
-        "signal_reason": "Rekordní Q3 a velmi vysoký výhled na paměti pro AI vyhnaly akcii o ~16 %.",
+        "current": "$1162",
+        "fair_value": "$1250",
+        "discount": "+8% upside",
+        "signal": "Silné momentum, ale překoupeno na ATH",
+        "signal_reason": "Rekordní výsledky a vlna zvyšování cílů, akcie ale tře 52t maximum při výprodeji čipů.",
         "buy_zone": {
-          "low": "$1120",
-          "high": "$1190"
+          "low": "$1000",
+          "high": "$1080"
         }
       },
       "moat": {
-        "score": "7",
-        "verdict": "Cyklický lídr",
-        "summary": "Jeden ze tří hráčů v DRAM/HBM s navázáním na AI datacentra."
+        "score": "6",
+        "verdict": "Oligopol v paměti",
+        "summary": "Jeden ze tří hráčů v DRAM/HBM, ale byznys je cyklický."
       },
       "intrinsic": {
-        "annual_return": "+10%",
+        "annual_return": "+8%",
         "verdict": "orientační odhad",
-        "summary": "Konsensus vidí dvouciferný prostor, část cílů ale po růstu zaostává za cenou.",
-        "risk": "4"
-      },
-      "metrics": {
-        "Aktuální cena": "$1210",
-        "Fair value (cíl analytiků)": "$1339",
-        "P/E": "49.5",
-        "Beta": "2.2",
-        "52t max/min": "$1225 / n/a"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "49.5",
-          "note": "Drahé (trailing; forward výrazně níže)"
-        },
-        "Beta": {
-          "value": "2.2",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "~23%",
-          "note": "Silné marže v cyklickém vrcholu"
-        }
-      },
-      "analysis": "Micron vyrábí paměti DRAM/NAND a HBM pro AI servery. Po rekordním kvartálu a 'velmi vysokém' výhledu zvedla řada bank cíle (RBC $1500, Barclays $2000, DA Davidson $2000); konzervativnější konsensus StockAnalysis je $1339, některé starší/pre-earnings cíle (MarketBeat ~$1177) jsou ale pod cenou – proto bereme opatrnější horní hranici a počítáme s vysokou volatilitou.",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "1–4 týdny",
-        "entry": "$1120–$1190 (na zpětném testu po výstřelu)",
-        "stop_loss": "$1075",
-        "target": "$1340",
-        "position_size": "max 4 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Blowout Q3 výsledky a výhled na AI paměti, vlna zvyšování cílů analytiků.",
-        "action_note": "Nehonit cenu nahoře; čekat na pullback do nákupního pásma a vstup po stabilizaci."
-      },
-      "pros": [
-        "Rekordní výsledky a velmi silný výhled",
-        "Strukturální poptávka po HBM/AI pamětích",
-        "Vlna upgradů a zvyšování cílů"
-      ],
-      "cons": [
-        "Vysoce cyklické odvětví – riziko obratu cyklu",
-        "Beta >2, prudké výkyvy během tech výprodeje"
-      ]
-    },
-    {
-      "name": "Nuvation Bio",
-      "ticker": "NUVB",
-      "region": "usa",
-      "sector": "healthcare",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$5.81",
-        "fair_value": "$12.33",
-        "discount": "+112% upside",
-        "signal": "Propad na emisi konvertibilních dluhopisů",
-        "signal_reason": "Oznámení emise $200M konvertibilních seniorních dluhopisů srazilo akcii o ~10 %.",
-        "buy_zone": {
-          "low": "$5.40",
-          "high": "$6.10"
-        }
-      },
-      "moat": {
-        "score": "5",
-        "verdict": "Úzká, produktová",
-        "summary": "Onkologie ROS1+ NSCLC – lék IBTROZI (taletrectinib) v rané, ale rostoucí komercializaci."
-      },
-      "intrinsic": {
-        "annual_return": "orientačně vysoký dle cílů",
-        "verdict": "orientační odhad",
-        "summary": "Konsensus Strong Buy s velkým prostorem, ale ohromný rozptyl ($7–$20).",
+        "summary": "Po vertikálním růstu je další výnos závislý na udržení vrcholu cyklu pamětí.",
         "risk": "5"
       },
       "metrics": {
-        "Aktuální cena": "$5.81",
-        "Fair value (cíl analytiků)": "$12.33",
-        "P/E": "-4.5",
-        "Beta": "n/a (vysoká)",
-        "52t max/min": "~$11 / ~$2.38"
+        "Aktuální cena": "$1162",
+        "Fair value (cíl analytiků)": "$1250",
+        "P/E": "57.3",
+        "Beta": "2.08",
+        "52t max/min": "$1255 / $103.38"
       },
       "indicators": {
         "P/E": {
-          "value": "-4.5",
-          "note": "Ztrátová, klinicko-komerční fáze"
+          "value": "57.3",
+          "note": "Drahé (cyklický vrchol)"
         },
         "Beta": {
-          "value": "n/a",
-          "note": "Volatilní (small/mid-cap biotech)"
+          "value": "2.08",
+          "note": "Volatilní"
         },
         "Div. yield": {
-          "value": "0%",
+          "value": "0.05%",
           "note": "Dividenda"
         },
         "Net Margin": {
-          "value": "n/a",
-          "note": "Záporná, ramp-up tržeb IBTROZI"
+          "value": "41.5%",
+          "note": "Mimořádně vysoká díky cyklu HBM"
         }
       },
-      "analysis": "Nuvation je onkologická firma, jejíž lék IBTROZI (ROS1+ plicní rakovina) rychle nabírá podíl (Q1 tržby $83M nad konsensem). Dnešní pokles žene dilutivní emise konvertibilních dluhopisů $200M. Konsensus je rozkročený: StockAnalysis/TipRanks ~$12–13 (Strong Buy), ale UBS snížil cíl na $7 – proto bereme spíš spodní polovinu a počítáme s vysokým rizikem.",
+      "analysis": "Micron vyrábí paměti DRAM/NAND a HBM pro AI servery. V hledáčku je kvůli ohromujícím výsledkům za fiskální Q3 (tržby ~41,5 mld. USD, EPS 25,11 USD), vyprodané HBM kapacitě a vlně zvyšování cílů (Deutsche Bank $1550, Wedbush $1400, DA Davidson až $2000) – po prudkém růstu na ATH ale akcie v rámci výprodeje čipů koriguje.",
       "trade": {
-        "action": "Koupit",
-        "horizon": "2–4 týdny",
-        "entry": "$5.40–$6.10",
-        "stop_loss": "$4.90",
-        "target": "$7.50",
-        "position_size": "max 2 % satelitu (vysoké riziko)",
+        "action": "Držet",
+        "horizon": "1–4 týdny",
+        "entry": "$1000–1080 (na korekci)",
+        "stop_loss": "$990",
+        "target": "$1300",
+        "position_size": "max 3 % satelitu",
         "risk_level": "5",
-        "catalyst": "Výprodej na emisi konvertibilních dluhopisů $200M – potenciální překoupené dno.",
-        "action_note": "Malá pozice 'na zkoušku' po uklidnění výprodeje; striktní stop kvůli volatilitě biotechu."
+        "catalyst": "Rekordní výsledky Q3, vyprodaná HBM kapacita do 2027 a hromadné zvyšování cílových cen.",
+        "action_note": "Nehonit ATH; připravit limitní příkazy do pásma $1000–1080 a vstupovat až na pullbacku."
       },
       "pros": [
-        "Silný ramp tržeb IBTROZI, konsensus Strong Buy",
-        "Velký teoretický prostor dle cílů",
-        "Emise posiluje hotovost na rozjezd komercializace"
+        "Vyprodaná HBM kapacita a 16 dlouhodobých kontraktů",
+        "Skokový růst tržeb i marží",
+        "Konsensus Buy/Strong Buy, rostoucí cíle"
       ],
       "cons": [
-        "Dilutivní financování a ztrátovost",
-        "Klinicko-komerční riziko a obrovský rozptyl cílů ($7–$20)"
+        "Překoupeno na 52t maximu při výprodeji čipů",
+        "Cyklický byznys – riziko normalizace marží a insider prodeje CEO"
       ]
     },
     {
-      "name": "Occidental Petroleum",
-      "ticker": "OXY",
+      "name": "FuelCell Energy",
+      "ticker": "FCEL",
       "region": "usa",
       "sector": "energy",
       "recommendation": "Koupit",
       "price": {
-        "current": "$52.50",
-        "fair_value": "$65.87",
-        "discount": "+25.4% upside",
-        "signal": "Kontrariánsky po výprodeji ropy",
-        "signal_reason": "Pád ropy po příměří s Íránem srazil ropné akcie o 10–20 % pod cíle analytiků.",
+        "current": "$21.5",
+        "fair_value": "$24",
+        "discount": "+12% upside",
+        "signal": "Průraz na katalyzátoru, extrémní volatilita",
+        "signal_reason": "Upgrade Jefferies na Buy (cíl $24) po prvním kontraktu na napájení datacenter.",
         "buy_zone": {
-          "low": "$50.00",
-          "high": "$54.00"
+          "low": "$18",
+          "high": "$21"
         }
       },
       "moat": {
-        "score": "6",
-        "verdict": "Permian + chemie/CCS",
-        "summary": "Top pozice v Permské pánvi, midstream a rozvíjené přímé záchyty CO2."
+        "score": "3",
+        "verdict": "Slabý / ztrátový",
+        "summary": "Palivové články pro datacentra, ale firma je hluboko ztrátová a soutěží s Bloom/Plug."
       },
       "intrinsic": {
-        "annual_return": "+20%",
+        "annual_return": "n/a",
         "verdict": "orientační odhad",
-        "summary": "Při zotavení ropy a deleveragingu vidí Wall Street citelný prostor.",
-        "risk": "4"
+        "summary": "Spekulativní příběh tažený zakázkami z datacenter, ne ziskovostí.",
+        "risk": "5"
       },
       "metrics": {
-        "Aktuální cena": "$52.50",
-        "Fair value (cíl analytiků)": "$65.87",
-        "P/E": "~19",
-        "Beta": "~1.3",
-        "52t max/min": "~$66 / ~$50"
+        "Aktuální cena": "$21.5",
+        "Fair value (cíl analytiků)": "$24",
+        "P/E": "n/a (ztrátová)",
+        "Beta": "2.52",
+        "52t max/min": "$27.69 / $3.78"
       },
       "indicators": {
         "P/E": {
-          "value": "~19",
-          "note": "Férové (slabší zisk po propadu cen ropy)"
+          "value": "n/a",
+          "note": "Ztrátová firma"
         },
         "Beta": {
-          "value": "~1.3",
-          "note": "Volatilní (komodity)"
-        },
-        "Div. yield": {
-          "value": "~2.0%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "~1%",
-          "note": "Stlačená nízkými cenami ropy v Q1"
-        }
-      },
-      "analysis": "OXY je americký producent ropy a plynu s jádrem v Permu, plus chemie a carbon management. Akcie spadly s ropou na minima od začátku íránského konfliktu; konsensus rating je 'Hold', ale průměrný cíl (~$66) implikuje ~25 % nahoru a několik firem zvedlo cíle ($72–75). Ceny u různých zdrojů se liší (StockAnalysis ~$52,5 vs dřívější červnové ~$59–60) – bereme konzervativnější/nižší úroveň.",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "2–6 týdnů",
-        "entry": "$50.00–$54.00",
-        "stop_loss": "$47.50",
-        "target": "$60.00",
-        "position_size": "max 4 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Washout ropy po příměří + některé banky zvedly sektor na overweight – kontrariánská sázka na odraz.",
-        "action_note": "Budovat pozici po částech v pásmu; respektovat, že další pád ropy je hlavní riziko."
-      },
-      "pros": [
-        "Velký odstup ceny od cílů analytiků",
-        "Pokrok v oddlužení a silný free cash flow",
-        "Dividenda ~2 % během čekání"
-      ],
-      "cons": [
-        "Cena tažená ropou – další propad cen je hlavní riziko",
-        "Rating jen 'Hold', slabé Q1 marže"
-      ]
-    },
-    {
-      "name": "Zalando SE",
-      "ticker": "ZAL",
-      "region": "europe",
-      "sector": "consumer",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "€22.49",
-        "fair_value": "€30.00",
-        "discount": "+33% upside",
-        "signal": "Dip na regulační prověrce BaFin",
-        "signal_reason": "BaFin prověřuje účetní závěrku 2025 (akvizice About You); akcie −8 %.",
-        "buy_zone": {
-          "low": "€21.00",
-          "high": "€23.00"
-        }
-      },
-      "moat": {
-        "score": "6",
-        "verdict": "Lídr e-commerce módy v EU",
-        "summary": "Největší panevropská módní platforma s rozsáhlou logistikou a partnerským programem."
-      },
-      "intrinsic": {
-        "annual_return": "+20%",
-        "verdict": "orientační odhad",
-        "summary": "Pokud jde o čistě formální nález, propad může být přehnaný.",
-        "risk": "4"
-      },
-      "metrics": {
-        "Aktuální cena": "€22.49",
-        "Fair value (cíl analytiků)": "€30.00",
-        "P/E": "~18 (forward)",
-        "Beta": "~1.0",
-        "52t max/min": "~€26 / n/a"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "~18",
-          "note": "Férové až dražší pro retail"
-        },
-        "Beta": {
-          "value": "~1.0",
-          "note": "V souladu s trhem"
+          "value": "2.52",
+          "note": "Velmi volatilní"
         },
         "Div. yield": {
           "value": "0%",
           "note": "Dividenda"
         },
         "Net Margin": {
-          "value": "~0.9%",
-          "note": "Tenká, tlak nákladů"
+          "value": "n/a",
+          "note": "Provozní marže hluboko v záporu (~-135 %)"
         }
       },
-      "analysis": "Zalando je největší panevropská online platforma s módou. BaFin zahájil přezkum účetní závěrky 2025 kvůli možnému opomenutí informací k akvizici About You; firma to označuje za 'čistě formální a materiálně nevýznamné'. Cíle analytiků se hodně liší (Investing.com ~€36 / konsensus Buy, Simply Wall St ~€24) – bereme střed (~€30) a bereme to jako rizikový kontrariánský dip.",
+      "analysis": "FuelCell Energy vyrábí vysokoteplotní palivové články pro čistou výrobu elektřiny. V hledáčku je kvůli dohodě s Fit Energy na až 380 MW pro datacentra a navazujícímu upgradu Jefferies z Hold na Buy s cílem $24 (z $16) – pipeline z 89 % směřuje do datacenter, což je hlavní katalyzátor.",
       "trade": {
         "action": "Koupit",
-        "horizon": "1–4 týdny",
-        "entry": "€21.00–€23.00 (po stabilizaci dne)",
-        "stop_loss": "€20.00",
-        "target": "€26.00",
-        "position_size": "max 3 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Výprodej na zprávě o prověrce BaFin – pokud jde o formální nález, odraz je pravděpodobný.",
-        "action_note": "Nevstupovat do volného pádu; čekat na uklidnění a teprve pak malou pozici."
+        "horizon": "1–3 týdny",
+        "entry": "$18–21",
+        "stop_loss": "$16",
+        "target": "$26",
+        "position_size": "max 2 % satelitu (nejvyšší riziko)",
+        "risk_level": "5",
+        "catalyst": "První kontrakt na napájení datacenter (Fit Energy) + čerstvý upgrade Jefferies na Buy; Canaccord cíl až $30.",
+        "action_note": "Pouze malá spekulativní pozice; nastavit pevný stop $16 a brát zisky po skoku."
       },
       "pros": [
-        "Konsensus 'Buy' s výrazným prostorem nahoru",
-        "Dominantní pozice v EU módě a růst tržeb",
-        "Firma popisuje nález jako nevýznamný"
+        "Konkrétní zakázka pro datacentra a obří pipeline",
+        "Čerstvé upgrady (Jefferies Buy, Canaccord Buy)",
+        "Tržní téma napájení AI datacenter"
       ],
       "cons": [
-        "Regulační/headline riziko (BaFin) může přetrvávat",
-        "Tenké marže a slabší evropská spotřeba"
+        "Firma hluboko ztrátová, riziko ředění a exekuce",
+        "Obrovský rozptyl cílů ($8 Underweight až $30 Buy) a brutální volatilita"
       ]
     },
     {
-      "name": "Synaptics",
-      "ticker": "SYNA",
+      "name": "UnitedHealth Group",
+      "ticker": "UNH",
+      "region": "usa",
+      "sector": "healthcare",
+      "recommendation": "Držet",
+      "price": {
+        "current": "$416",
+        "fair_value": "$445",
+        "discount": "+6% upside",
+        "signal": "Obrat trendu, rotace do zdravotnictví",
+        "signal_reason": "BofA zvýšila cíl na $475 a probíhá rotace z techu do defenzivního zdravotnictví.",
+        "buy_zone": {
+          "low": "$400",
+          "high": "$410"
+        }
+      },
+      "moat": {
+        "score": "8",
+        "verdict": "Široký",
+        "summary": "Obří škála UnitedHealthcare + Optum dává silnou nákladovou a datovou výhodu."
+      },
+      "intrinsic": {
+        "annual_return": "+9%",
+        "verdict": "orientační odhad",
+        "summary": "Zotavení marží v managed care a růst Optum podpírají dvouciferný růst EPS.",
+        "risk": "3"
+      },
+      "metrics": {
+        "Aktuální cena": "$416",
+        "Fair value (cíl analytiků)": "$445",
+        "P/E": "~23 (fwd)",
+        "Beta": "1.35",
+        "52t max/min": "~$420 / $234.60"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "~23 (fwd)",
+          "note": "Férové"
+        },
+        "Beta": {
+          "value": "1.35",
+          "note": "Mírně volatilní"
+        },
+        "Div. yield": {
+          "value": "2.18%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "Marže zdravotního pojistitele (jednotky %)"
+        }
+      },
+      "analysis": "UnitedHealth je největší americký zdravotní pojistitel s datově-technologickou divizí Optum. V hledáčku je kvůli sérii upgradů – BofA zvedla rating na Buy a cíl postupně na $475, Morgan Stanley na $453 – tažených zlepšujícími se trendy léčebných nákladů a lepšími Star ratingy; navíc profituje z rotace kapitálu z techu do zdravotnictví.",
+      "trade": {
+        "action": "Držet",
+        "horizon": "2–6 týdnů",
+        "entry": "$400–410",
+        "stop_loss": "$385",
+        "target": "$450",
+        "position_size": "max 4 % satelitu",
+        "risk_level": "3",
+        "catalyst": "Vlna upgradů (BofA cíl $475) a rotace do defenzivního zdravotnictví; výsledky Q2 mid-červenec.",
+        "action_note": "Přidávat jen na pullbacku ke $400–410; pozor na výsledky Q2 jako klíčový spouštěč."
+      },
+      "pros": [
+        "Série upgradů a rostoucí cíle (BofA $475)",
+        "Defenzivní profil + rotace z techu",
+        "Silná škála UnitedHealthcare/Optum"
+      ],
+      "cons": [
+        "Obchoduje se blízko konsensu cílů – malý technický polštář",
+        "Regulační riziko (vyšetřování DOJ) a citlivost na léčebné náklady (MCR)"
+      ]
+    },
+    {
+      "name": "FedEx",
+      "ticker": "FDX",
+      "region": "usa",
+      "sector": "industry",
+      "recommendation": "Držet",
+      "price": {
+        "current": "$328",
+        "fair_value": "$349",
+        "discount": "+7% upside",
+        "signal": "Výprodej po výsledcích jako možná příležitost",
+        "signal_reason": "Akcie spadla ~6 % i přes 'double beat' kvůli zmatku z přechodu na kalendářní vykazování.",
+        "buy_zone": {
+          "low": "$315",
+          "high": "$325"
+        }
+      },
+      "moat": {
+        "score": "7",
+        "verdict": "Solidní",
+        "summary": "Globální logistická síť s vysokými bariérami vstupu."
+      },
+      "intrinsic": {
+        "annual_return": "+8%",
+        "verdict": "orientační odhad",
+        "summary": "Úspory nákladů a růst prémiového segmentu podpírají růst zisku v CY26.",
+        "risk": "3"
+      },
+      "metrics": {
+        "Aktuální cena": "$328",
+        "Fair value (cíl analytiků)": "$349",
+        "P/E": "20.3",
+        "Beta": "n/a",
+        "52t max/min": "$404.03 / $216.10"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "20.3",
+          "note": "Férové"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "Nenalezeno"
+        },
+        "Div. yield": {
+          "value": "n/a",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "4.9%",
+          "note": "Logistika – nižší marže"
+        }
+      },
+      "analysis": "FedEx je globální logistická a doručovací firma. V hledáčku je proto, že akcie po výsledcích Q4 FY26 spadla ~6 % navzdory překonání odhadů (EPS $6,31 vs $5,92, tržby $25 mld.) – propad táhl zmatek kolem přechodu na kalendářní vykazování a přechodové náklady; jeden z analytiků označil výprodej za 'nepochopení' a konsensus zůstává Buy.",
+      "trade": {
+        "action": "Držet",
+        "horizon": "2–5 týdnů",
+        "entry": "$315–325",
+        "stop_loss": "$305",
+        "target": "$355",
+        "position_size": "max 4 % satelitu",
+        "risk_level": "3",
+        "catalyst": "Reakce na výsledky Q4 'double beat' a guidance dvouciferného růstu na CY26; možný technický odraz po přestřelené reakci.",
+        "action_note": "Zvážit malý vstup do pásma $315–325 se stop-lossem $305; sledovat stabilizaci po výsledcích."
+      },
+      "pros": [
+        "Výsledky překonaly odhady, guidance počítá s dvouciferným růstem",
+        "Konsensus Buy, konzervativní cíl ~$349 nad cenou",
+        "Probíhající úspory nákladů"
+      ],
+      "cons": [
+        "Slabý objem v Ground segmentu a přechodové náklady (~$600M)",
+        "Citlivost na zpomalení ekonomiky a vyšší sazby"
+      ]
+    },
+    {
+      "name": "ON Semiconductor (onsemi)",
+      "ticker": "ON",
       "region": "usa",
       "sector": "tech",
       "recommendation": "Držet",
       "price": {
-        "current": "$152.00",
-        "fair_value": "$129.64",
-        "discount": "-15% (proti samostatnému cíli)",
-        "signal": "M&A skok – akviziční cíl",
-        "signal_reason": "ON Semiconductor kupuje SYNA za ~$7 mld. all-stock (1,350 akcie ON za akcii); SYNA +13 %.",
+        "current": "$116.9",
+        "fair_value": "$107.78",
+        "discount": "-8% (downside)",
+        "signal": "Pokles po oznámení akvizice, cíl pod cenou",
+        "signal_reason": "Akcie spadla ~8–9 % po oznámení akvizice Synaptics za 7 mld. USD; konsensus cíl je pod kurzem.",
         "buy_zone": {
-          "low": "$145.00",
-          "high": "$150.00"
+          "low": "$105",
+          "high": "$112"
         }
       },
       "moat": {
         "score": "6",
-        "verdict": "Edge AI / konektivita",
-        "summary": "Lídr v human-machine rozhraní a AI-native MCU (rodina Astra), nově předmět akvizice."
+        "verdict": "Solidní",
+        "summary": "Druhý největší výrobce výkonových čipů, lídr v SiC a senzorech."
       },
       "intrinsic": {
-        "annual_return": "vázaný na akcii ON",
+        "annual_return": "+5%",
         "verdict": "orientační odhad",
-        "summary": "Po oznámení all-stock dealu se cena řídí kurzem ON a spreadem arbitráže.",
-        "risk": "3"
+        "summary": "Obrat cyklu v automotive/industrial, ale ocenění je po raketovém růstu napjaté.",
+        "risk": "4"
       },
       "metrics": {
-        "Aktuální cena": "$152.00",
-        "Fair value (cíl analytiků)": "$129.64",
-        "P/E": "negativní/n/a",
-        "Beta": "~1.4",
-        "52t max/min": "$149.11 / $58.28"
+        "Aktuální cena": "$116.9",
+        "Fair value (cíl analytiků)": "$107.78",
+        "P/E": "84.8",
+        "Beta": "1.98",
+        "52t max/min": "$134.92 / $44.56"
       },
       "indicators": {
         "P/E": {
-          "value": "n/a",
-          "note": "Slabá TTM ziskovost"
+          "value": "84.8",
+          "note": "Drahé"
         },
         "Beta": {
-          "value": "~1.4",
+          "value": "1.98",
           "note": "Volatilní"
         },
         "Div. yield": {
@@ -368,105 +367,105 @@
           "note": "Dividenda"
         },
         "Net Margin": {
-          "value": "n/a",
-          "note": "Záporná TTM"
+          "value": "9.5%",
+          "note": "Po cyklickém dnu"
         }
       },
-      "analysis": "Synaptics dělá čipy pro rozhraní, konektivitu a Edge AI. Včera oznámené převzetí firmou onsemi (all-stock, 1,350 akcie ON za 1 SYNA, ~19% prémie, uzavření v polovině 2027) vyhnalo akcii nad 52t maximum. Cena se teď řídí kurzem ON a arbitrážním spreadem; samostatný cíl analytiků (~$130) je pod kurzem, takže další krátkodobý prostor je omezený.",
+      "analysis": "onsemi vyrábí výkonové a senzorové čipy pro automotive, industrial a AI datacentra (SiC, GaN). V hledáčku je kvůli největší akvizici v historii – all-stock převzetí Synaptics za ~7 mld. USD s cílem expanze do 'physical AI' – které srazilo akcii o ~8–9 %; analytici jsou rozdělení (Stifel Hold $107, Citi Neutral $120, Wells Fargo $140, Mizuho $150) a konsensus cíl leží pod aktuální cenou.",
       "trade": {
-        "action": "Držet",
-        "horizon": "event-driven (do uzavření 2027)",
-        "entry": "bez nákupu nad implikovanou hodnotou",
-        "stop_loss": "$138",
-        "target": "~$155 (implikovaná hodnota dealu)",
-        "position_size": "max 2 % satelitu",
-        "risk_level": "3",
-        "catalyst": "All-stock akvizice onsemi za ~$7 mld. – akcie skočila k ceně dealu.",
-        "action_note": "Nehonit po skoku; pro držitele jen arbitrážní pozice, jinak vyčkat."
+        "action": "Ubrat",
+        "horizon": "1–4 týdny",
+        "entry": "$105–112 (jen na hlubší korekci)",
+        "stop_loss": "$103",
+        "target": "$128",
+        "position_size": "max 3 % satelitu",
+        "risk_level": "4",
+        "catalyst": "All-stock akvizice Synaptics za $7 mld. (ředění + posun do physical AI) – hlavní spouštěč pohybu.",
+        "action_note": "Po raketovém růstu a akvizici spíše ubrat/čekat; nová pozice jen na propadu ke $105–112 s těsným stopem."
       },
       "pros": [
-        "Pevný směnný poměr a 19% prémie zajišťují floor",
-        "Akcie nad 52t maximem na M&A momentu",
-        "Strategický fit v Edge/Physical AI"
+        "Akvizice posiluje pozici v physical AI a AI datacentrech",
+        "Lídr v SiC/GaN a obrat automobilového cyklu",
+        "Silné free cash flow a buybacky"
       ],
       "cons": [
-        "Spread se uzavírá až do poloviny 2027 + regulační riziko",
-        "Cena navázaná na volatilní akcii ON; samostatný cíl je níže"
+        "Konsensus cíl pod aktuální cenou (ředění z all-stock dealu)",
+        "Vysoké P/E a beta ~2 při výprodeji čipů"
       ]
     },
     {
-      "name": "American Airlines",
-      "ticker": "AAL",
+      "name": "KB Home",
+      "ticker": "KBH",
       "region": "usa",
-      "sector": "industry",
+      "sector": "consumer",
       "recommendation": "Sledovat",
       "price": {
-        "current": "$17.93",
-        "fair_value": "$15.86",
-        "discount": "-11.5% (nad cílem)",
-        "signal": "Přepálené momentum, ropa pomohla",
-        "signal_reason": "Pád ropy zvedl aerolinky; AAL +20 % za 2 týdny, ale obchoduje nad konsensem.",
+        "current": "$61.51",
+        "fair_value": "$55.18",
+        "discount": "-10% (downside)",
+        "signal": "Přestřelený skok po výsledcích vs. cíle analytiků",
+        "signal_reason": "Akcie vyskočila ~16 % na guidance, ale konsensus cíl i ratingy (převážně Hold/Sell) jsou pod cenou.",
         "buy_zone": {
-          "low": "$15.00",
-          "high": "$15.90"
+          "low": "$52",
+          "high": "$54"
         }
       },
       "moat": {
-        "score": "4",
-        "verdict": "Slabší, zadlužený",
-        "summary": "Síťový dopravce s největší flotilou, ale vysokým zadlužením vs konkurence."
+        "score": "3",
+        "verdict": "Slabý",
+        "summary": "Stavitel domů s nízkou diferenciací a cykličností dle sazeb hypoték."
       },
       "intrinsic": {
-        "annual_return": "-10%",
+        "annual_return": "+3%",
         "verdict": "orientační odhad",
-        "summary": "Po rallye obchoduje nad průměrným cílem analytiků.",
+        "summary": "Klesající dodávky a tržby; příběh stojí na slibované expanzi marží ve 2. pololetí.",
         "risk": "4"
       },
       "metrics": {
-        "Aktuální cena": "$17.93",
-        "Fair value (cíl analytiků)": "$15.86",
-        "P/E": "~9",
-        "Beta": "~1.3",
-        "52t max/min": "~$18.00 / $10.09"
+        "Aktuální cena": "$61.51",
+        "Fair value (cíl analytiků)": "$55.18",
+        "P/E": "11.9",
+        "Beta": "n/a",
+        "52t max/min": "n/a"
       },
       "indicators": {
         "P/E": {
-          "value": "~9",
-          "note": "Opticky levné, ale vysoké zadlužení"
+          "value": "11.9",
+          "note": "Opticky levné, ale klesající zisky"
         },
         "Beta": {
-          "value": "~1.3",
-          "note": "Volatilní/cyklické"
+          "value": "n/a",
+          "note": "Nenalezeno"
         },
         "Div. yield": {
-          "value": "0%",
+          "value": "~1.6%",
           "note": "Dividenda"
         },
         "Net Margin": {
-          "value": "nízká",
-          "note": "Tenké marže, citlivé na palivo"
+          "value": "6.0%",
+          "note": "Pod tlakem (loni 8,4 %)"
         }
       },
-      "analysis": "American Airlines těží z propadu cen paliva po příměří – akcie vyskočily ~20 % za dva týdny a jsou u 52t maxima. Konsensus je sice 'Buy', ale průměrný cíl (~$15,9) je pod kurzem (~$18), tj. krátkodobě je titul přepálený. Pro nové peníze raději počkat na korekci do nákupního pásma.",
+      "analysis": "KB Home je americký stavitel domů zaměřený na první kupce. V hledáčku je kvůli reakci na Q2 FY26 – mírný miss EPS ($0,43), ale lehké překonání tržeb a silná FY guidance vyhnaly akcii o ~16 %; tržby přitom meziročně klesly o 27 % a konsensus cíl (~$55) i ratingy (4 Buy, 9 Hold, 3 Sell) leží pod aktuální cenou.",
       "trade": {
-        "action": "Ubrat",
+        "action": "Držet",
         "horizon": "1–3 týdny",
-        "entry": "až na pullbacku $15.00–$15.90",
-        "stop_loss": "$16.20 (pro stávající dlouhé pozice)",
-        "target": "$15.90 (návrat k cíli)",
+        "entry": "$52–54 (jen po vychladnutí skoku)",
+        "stop_loss": "$50",
+        "target": "$58",
         "position_size": "max 2 % satelitu",
         "risk_level": "4",
-        "catalyst": "Levnější palivo po příměří + technický průraz; momentum ale zašlo nad cíle.",
-        "action_note": "Nové nákupy nehonit; držitelům zvážit částečný profit-taking a utáhnout stop."
+        "catalyst": "Výsledky Q2 – slabší EPS, ale silná FY guidance a obnova marží; momentum tažené guidance, ne fundamenty.",
+        "action_note": "Zatím jen sledovat – po +16 % skoku je nad konsensem cílů; případný vstup až na poklesu ke $52–54."
       },
       "pros": [
-        "Silné momentum a tailwind levnějšího paliva",
-        "Nejmladší flotila mezi legacy dopravci",
-        "Plán oddlužení ~$6 mld. do 2027"
+        "Silná FY guidance (marže, počet komunit, dodávky)",
+        "Nízké P/E a pokračující buybacky",
+        "Možný cíl akvizice (zmínka analytiků)"
       ],
       "cons": [
-        "Obchoduje nad průměrným cílem analytiků (přepálené)",
-        "Vysoké zadlužení a tlak nízkonákladové konkurence"
+        "Cena nad konsensem cílů, většina ratingů Hold/Sell",
+        "Pokles dodávek i tržeb kvůli vysokým hypotékám a tlaku na marže"
       ]
     }
   ],
