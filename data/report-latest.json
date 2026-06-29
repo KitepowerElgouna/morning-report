@@ -1,473 +1,468 @@
 {
   "date": "29. června 2026",
-  "summary": "Pondělí 29. 6. 2026: trh roste, technologie táhnou indexy nahoru (Nasdaq cca +1,6 %, S&P 500 cca +0,9 %) po uklidnění napětí na Blízkém východě a rozhodnutí Nejvyššího soudu, který nedovolil odvolat guvernérku Fedu Lisu Cookovou; Fed pod novým šéfem Warshem drží sazby na 3,50–3,75 % a zvedl výhled inflace, klíčová bude červnová zpráva o trhu práce ve čtvrtek. Vybrané tituly jedou na čerstvých katalyzátorech (kosmický boom kolem debutu SpaceX, kontrakty Space Force, partnerství se SpaceX, biotech a clean-energy zprávy). Jde o KRÁTKODOBÉ RIZIKOVÉ tipy pro 'satelitní' peníze – důsledně držte stop-lossy a velikost pozice, časté přetrádování škodí. 'Fair value' = konsensus cílů analytiků, jde o orientační vodítko, NE investiční radu.",
+  "summary": "Trhy ve středu 24. 6. skončily smíšeně (S&P 500 –0,10 %, Nasdaq –0,43 %, Dow +0,35 %) — tech táhl dolů, zatímco po zavírací době Micron Technology zveřejnil gigantické výsledky Q3 a výhled Q4 na 50 mld. USD (vs. odhad 42,9 mld.), akcie AH +14,6 %; 10Y výnos klesá na 4,40 %, US–íránský mír otevírá Hormuzský průliv a uklidňuje trhy ropy. Dnešní report soustřeďuje 6 krátkodobých příležitostí s konkrétním katalyzátorem pro satelitní část portfolia — jde o SPEKULATIVNÍ, VYSOCE RIZIKOVÉ tipy; fair value = konsensus analytiků a slouží jen jako ORIENTAČNÍ vodítko, NIKOLI investiční doporučení — dodržuj stop-lossy, drž pozice malé a přetrádování škodí.",
   "sources": [
-    "Yahoo Finance",
-    "StockAnalysis.com",
-    "Finviz",
-    "MarketBeat",
-    "TipRanks",
-    "CNN Markets",
-    "Robinhood",
-    "Google Finance",
-    "Investing.com",
-    "Simply Wall St",
-    "MacroTrends",
-    "Benzinga",
-    "TheStreet",
-    "Reuters/CNBC",
-    "SEC EDGAR",
-    "FRED"
+    "thestreet.com",
+    "cnbc.com",
+    "marketbeat.com",
+    "investing.com",
+    "stockanalysis.com",
+    "tikr.com",
+    "robinhood.com",
+    "quiverpricetrackerprices.com",
+    "stockstotrade.com",
+    "timothysykes.com",
+    "zacks.com",
+    "public.com"
   ],
   "firms": [
     {
-      "name": "Viasat, Inc.",
-      "ticker": "VSAT",
+      "name": "Micron Technology",
+      "ticker": "MU",
       "region": "usa",
       "sector": "tech",
-      "recommendation": "Koupit",
+      "recommendation": "Držet",
       "price": {
-        "current": "$74.36",
-        "fair_value": "$84.11",
-        "discount": "+13% upside",
-        "signal": "Průraz na momentu",
-        "signal_reason": "Výhra prime kontraktu Space Force a zvyšování cílů táhne titul z low $60 na ~$74.",
+        "current": "$1,138",
+        "fair_value": "$1 264",
+        "discount": "+11% upside",
+        "signal": "Post-earnings momentum",
+        "signal_reason": "Megabeat Q3 + Q4 guidance 50 mld. vs. 42,9 mld. USD oček., AH gap +14,6 % — konsensus cíl je blízko, ale dynamika AI-memory pushuje odhady výš.",
         "buy_zone": {
-          "low": "$66",
-          "high": "$73"
+          "low": "$1 140",
+          "high": "$1 200"
         }
       },
       "moat": {
-        "score": "6",
-        "verdict": "Střední",
-        "summary": "Satelitní širokopásmové a obranné SATCOM kapacity s vysokými bariérami vstupu."
+        "score": "8",
+        "verdict": "Silný příkop",
+        "summary": "Micron patří ke třem světovým výrobcům DRAM/NAND; rychlá rampa HBM4 dvakrát rychleji než HBM3E zajišťuje prémiové ceny od hyperscalerů."
       },
       "intrinsic": {
-        "annual_return": "+13%",
+        "annual_return": "+18 %",
         "verdict": "orientační odhad",
-        "summary": "Konzervativní cíl $84 vůči ceně $74 dává cca +13 % prostor.",
+        "summary": "Exponenciální poptávka po AI-paměti (HBM) podpírá marže ~72 % hrubé, odhad 12M návratnosti robustní za předpokladu zachování guidance.",
         "risk": "4"
       },
       "metrics": {
-        "Aktuální cena": "$74.36",
-        "Fair value (cíl analytiků)": "$84.11",
-        "P/E": "n/a (ztrátová, TTM záporné)",
-        "Beta": "n/a",
-        "52t max/min": "$89.79 / $14.00"
+        "Aktuální cena": "$1,138",
+        "Fair value (cíl analytiků)": "$1 264 (MarketBeat konsensus)",
+        "P/E": "n/a (forward ~18× est.)",
+        "Beta": "2,17",
+        "52t max/min": "$1 214 / ~$145 (est. — 725 % za rok)"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "~18× fwd (est.)",
+          "note": "Férové pro růstový AI-chip"
+        },
+        "Beta": {
+          "value": "2,17",
+          "note": "Vysoce volatilní"
+        },
+        "Div. yield": {
+          "value": "<0,1 %",
+          "note": "Symbolická dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "Hrubá marže 72,6 % Q3 (rekord)"
+        }
+      },
+      "analysis": "Micron je americký lídr v DRAM a NAND pamětech; jeho HBM čipy pohání AI-datacentry Nvidie, Microsoftu i AWS. Ve středu po burze vykázal Q3 tržby a zisk výrazně nad odhady a vydal Q4 výhled 50 mld. USD — téměř o 20 % nad konsensem — čímž v AH obchodech smazal ztrátu –13 % z úterý a odskočil na $1 199.",
+      "trade": {
+        "action": "Přikoupit",
+        "horizon": "1–3 týdny",
+        "entry": "$1 160–$1 200 (pullback po otevření)",
+        "stop_loss": "$1 090",
+        "target": "$1 260–$1 300",
+        "position_size": "max 4 % satelitu",
+        "risk_level": "4",
+        "catalyst": "Megabeat Q3 výsledků + Q4 guidance $50 mld. USD (vs. $42,9 mld. konsensus); momentum AI-paměti HBM4 potvrzeno managementem.",
+        "action_note": "Sleduj otevření — pokud MU otevře nad $1 200, čekej na intraday pullback do $1 160–$1 180 a vstup; stop pod $1 090."
+      },
+      "pros": [
+        "Zásadní earnings beat + masivní raise Q4 guidance — AI-memory supercyklus v plném proudu",
+        "HBM4 rampa 2× rychlejší než předchozí gen, prémiové ceny od Nvidie a hyperscalerů",
+        "Silná poptávka institutů — analytici zvyšují cíle, nový range $2 000+ bull-case"
+      ],
+      "cons": [
+        "Akcii předcházel propad –13 % v úterý — volatilita extrémní (beta 2,17–3,0), reálné překmity $100+ za den",
+        "Konsensus cíl $1 264 je jen 5 % nad AH cenou — při ztrátě nadšení rychlý obrat dolů"
+      ]
+    },
+    {
+      "name": "SpaceX",
+      "ticker": "SPCX",
+      "region": "usa",
+      "sector": "tech",
+      "recommendation": "Sledovat",
+      "price": {
+        "current": "$161.93",
+        "fair_value": "n/a",
+        "discount": "cíl neověřen",
+        "signal": "Post-IPO příležitost",
+        "signal_reason": "Největší IPO v historii; akcie po debutu kolísaly, ale konsensus analytiků (6 Buy, 1 Sell) vidí 22% upside k průměrnému cíli $187,80.",
+        "buy_zone": {
+          "low": "$148",
+          "high": "$160"
+        }
+      },
+      "moat": {
+        "score": "9",
+        "verdict": "Extrémně hluboký příkop",
+        "summary": "Znovupoužitelné Falcony + Starship + Starlink + Grok AI = vertikálně integrovaný monopol v komerčním vypouštění a satelitním internetu."
+      },
+      "intrinsic": {
+        "annual_return": "+25 %",
+        "verdict": "orientační odhad",
+        "summary": "Kombinace kosmické infrastruktury a AI/Grok segmentu ospravedlňuje prémiové ocenění; high-risk post-IPO fáze s obrovskou rozptylností cílů ($62–$310).",
+        "risk": "4"
+      },
+      "metrics": {
+        "Aktuální cena": "$161.93",
+        "Fair value (cíl analytiků)": "$187,80 (avg, Investing.com, 7 analytiků)",
+        "P/E": "n/a (nové IPO)",
+        "Beta": "n/a (příliš krátká historie)",
+        "52t max/min": "$225,64 / $135,00"
       },
       "indicators": {
         "P/E": {
           "value": "n/a",
-          "note": "Drahé / ztrátová"
+          "note": "IPO — není hist. P/E"
         },
         "Beta": {
           "value": "n/a",
-          "note": "Volatilní"
+          "note": "Krátká historie"
         },
         "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
+          "value": "0 %",
+          "note": "Žádná dividenda"
         },
         "Net Margin": {
           "value": "n/a",
-          "note": "Záporná marže"
+          "note": "Konsolidované výkazy v přípravě"
         }
       },
-      "analysis": "Viasat poskytuje satelitní širokopásmové připojení a obranné/komerční SATCOM služby. Do hledáčku se dostal po výhře prime kontraktu Space Force v programu Protected Tactical SATCOM-Global a po vlně zvyšování cílů (Deutsche Bank až $97); konsensus je Koupit s cílem cca $84–89.",
+      "analysis": "SpaceX — Elon Muskova raketová a AI společnost — nedávno vstoupila na burzu v jednom z největších IPO v historii. Kombinuje kosmický byznys (Falcon, Starship, Starlink) s AI platformou Grok. Akcie volatilně kolísají po debutu; US–íránský mír snižuje geopolitické riziko pro komerční lety.",
       "trade": {
-        "action": "Koupit",
-        "horizon": "1–4 týdny",
-        "entry": "$70–74 (ideálně pullback do $66–73)",
-        "stop_loss": "$62",
-        "target": "$86",
+        "action": "Sledovat",
+        "horizon": "2–4 týdny",
+        "entry": "$148–$158",
+        "stop_loss": "$138",
+        "target": "$185–$195",
         "position_size": "max 3 % satelitu",
         "risk_level": "4",
-        "catalyst": "Prime kontrakt U.S. Space Force (Protected Tactical SATCOM-Global) + zvyšování cílů analytiků.",
-        "action_note": "Vstoupit na pullbacku do pásma $66–73, stop pod $62; nehoní se za prudkým gapem."
+        "catalyst": "Post-IPO konsolidace nad supportem $135; US–íránský mír = méně geopolitického rizika pro komerční kosmické operace; konsensus Buy, cíl $187,80.",
+        "action_note": "Vstup v dnešní zóně $148–$158; stop pevně pod $138 (těsně nad 52t low $135); u žádné IPO akcie nedávej více než 3 % satelitu."
       },
       "pros": [
-        "Čerstvý vládní/obranný kontrakt jako tvrdý katalyzátor",
-        "Konsensus Koupit, cíle zvyšovány (až $97)",
-        "Silné momentum a relativní objem"
+        "Monopolní pozice v komerčním kosmickém byznysu + Starlink — robustní a rychle rostoucí cash flow",
+        "AI/Grok segment přidává druhý růstový motor nad rámec kosmického byznysu",
+        "22% upside ke konsensus cíli; 6 z 7 analytiků na Buy"
       ],
       "cons": [
-        "Ztrátová firma a vysoké zadlužení",
-        "Po prudkém růstu hrozí korekce"
+        "IPO akcie jsou extrémně volatilní; obrovská rozptylnost cílů ($62–$310) = velká nejistota ocenění",
+        "Politické/reputační riziko spojené s Muskovými aktivitami může ovlivnit sentiment kdykoliv"
       ]
     },
     {
-      "name": "Planet Labs PBC",
-      "ticker": "PL",
-      "region": "usa",
-      "sector": "tech",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$30.00",
-        "fair_value": "$39.80",
-        "discount": "+33% upside",
-        "signal": "Momentum sektoru",
-        "signal_reason": "Patří mezi top zisky dne (+12 %) na kosmickém boomu kolem debutu SpaceX.",
-        "buy_zone": {
-          "low": "$26",
-          "high": "$29"
-        }
-      },
-      "moat": {
-        "score": "6",
-        "verdict": "Střední",
-        "summary": "Unikátní denní snímkování celé Země s rozsáhlým datovým archivem a předplatným."
-      },
-      "intrinsic": {
-        "annual_return": "+33%",
-        "verdict": "orientační odhad",
-        "summary": "Cíl ~$40 (někteří až $50) vůči ceně ~$30 dává výrazný prostor.",
-        "risk": "4"
-      },
-      "metrics": {
-        "Aktuální cena": "$30.00",
-        "Fair value (cíl analytiků)": "$39.80",
-        "P/E": "n/a (ztrátová)",
-        "Beta": "n/a",
-        "52t max/min": "$51.76 / $5.87"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "Drahé / ztrátová"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Záporná marže (ztráta -$247M)"
-        }
-      },
-      "analysis": "Planet Labs provozuje flotilu satelitů pro denní snímkování Země a prodává data a analytiku formou předplatného. Akcie dnes letí (+12 %) v rámci kosmického boomu po obchodním debutu SpaceX; konsensus 10–11 analytiků je Koupit s cílem ~$40, někteří zvedají fair value k $50.",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "1–4 týdny",
-        "entry": "$27–30",
-        "stop_loss": "$24",
-        "target": "$38",
-        "position_size": "max 3 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Vlna nákupů kosmických titulů po debutu SpaceX + Buy ratingy a zvyšování fair value.",
-        "action_note": "Nakoupit menší pozici v pásmu $27–30, stop pod $24, přibírat až na potvrzeném průrazu."
-      },
-      "pros": [
-        "Silné momentum celého kosmického sektoru",
-        "Konsensus Koupit, cíle zvyšovány k $40–50",
-        "Velký prostor do 52t maxima $51.76"
-      ],
-      "cons": [
-        "Stále ztrátová, vysoká volatilita",
-        "Sektorové momentum se může rychle obrátit"
-      ]
-    },
-    {
-      "name": "Charter Communications, Inc.",
-      "ticker": "CHTR",
+      "name": "Take-Two Interactive Software",
+      "ticker": "TTWO",
       "region": "usa",
       "sector": "consumer",
       "recommendation": "Koupit",
       "price": {
-        "current": "$150.46",
-        "fair_value": "$264.83",
-        "discount": "+76% upside",
-        "signal": "Katalyzátor + hluboká hodnota",
-        "signal_reason": "Skok cca +11 % na zprávě o jednání se SpaceX o mobilním provozu; P/E jen 3,6.",
+        "current": "$243",
+        "fair_value": "$281",
+        "discount": "+15,6% upside",
+        "signal": "GTA VI pre-order katalyzátor",
+        "signal_reason": "Předobjednávky GTA VI spuštěny 24. 6. na PS5/Xbox Series X+S, launch 19. 11. 2026 — konsensus 29 analytiků 100% Buy, cíl $281.",
         "buy_zone": {
-          "low": "$124",
-          "high": "$132"
+          "low": "$235",
+          "high": "$250"
         }
       },
       "moat": {
-        "score": "6",
-        "verdict": "Střední",
-        "summary": "Rozsáhlá kabelová/širokopásmová infrastruktura, ale tlak konkurence a odliv zákazníků."
+        "score": "7",
+        "verdict": "Silný herní příkop",
+        "summary": "Take-Two vlastní Rockstar Games (GTA, RDR) a 2K Sports — nenahraditelné IP s globální fan základnou a dosud největším čekatelným launch titlem dekády."
       },
       "intrinsic": {
-        "annual_return": "+96%",
+        "annual_return": "+20 %",
         "verdict": "orientační odhad",
-        "summary": "Konsensus cíl $265 je vysoko nad cenou $135, ale rating je Držet a cíle jsou zřejmě zastaralé.",
-        "risk": "4"
+        "summary": "GTA VI je potenciálně nejprodávanější hra v historii; BofA vidí cíl $368 na základě silnějšího online spending, odhad 12M výnosu robustní.",
+        "risk": "3"
       },
       "metrics": {
-        "Aktuální cena": "$150.46",
-        "Fair value (cíl analytiků)": "$264.83",
-        "P/E": "3.61",
-        "Beta": "~0.9",
-        "52t max/min": "$437.06 / $124.05"
+        "Aktuální cena": "$243 (TIKR, 24. 6.)",
+        "Fair value (cíl analytiků)": "$281 (konsensus TIKR / MarketBeat $292,71)",
+        "P/E": "n/a (záporné EPS — pre-GTA VI)",
+        "Beta": "~1,3 (odhad)",
+        "52t max/min": "n/a (nezjištěno)"
       },
       "indicators": {
         "P/E": {
-          "value": "3.61",
-          "note": "Levné"
+          "value": "n/a (záporné)",
+          "note": "Firma investuje do GTA VI"
         },
         "Beta": {
-          "value": "~0.9",
-          "note": "Defenzivní"
+          "value": "~1,3 est.",
+          "note": "Mírně volatilní"
         },
         "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
+          "value": "0 %",
+          "note": "Žádná dividenda"
         },
         "Net Margin": {
-          "value": "~8.6%",
-          "note": "Zisková (čtvrtletní zisk $1.16B)"
+          "value": "n/a",
+          "note": "Q4 op. margin zlepšen na –1,6 %"
         }
       },
-      "analysis": "Charter (Spectrum) je velký kabelový a širokopásmový operátor; titul letos spadl o cca 36 % kvůli slabému růstu předplatitelů a vysokému dluhu. Dnes vyskočil na zprávě Bloombergu o jednání se SpaceX o partnerství pro mobilní provoz; přes konsensus 'Držet' jsou cíle ($265–290) hluboko nad cenou, akcie je extrémně levná (P/E 3,6).",
+      "analysis": "Take-Two (Rockstar Games) zahájilo 24. 6. předobjednávky GTA VI (cena $80 base / $100 Ultimate Edition), launch 19. 11. 2026. Klasická sell-the-news reakce –3 % nabízí nákupní příležitost; celých 29 analytiků má Buy/Strong Buy s průměrným cílem $281.",
       "trade": {
         "action": "Koupit",
-        "horizon": "1–4 týdny",
-        "entry": "$128–135",
-        "stop_loss": "$118",
-        "target": "$160",
-        "position_size": "max 3 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Zpráva o jednání se SpaceX o mobilním partnerství; reverzní příběh hluboké hodnoty.",
-        "action_note": "Spekulativní vstup v pásmu $128–135 se stopem pod $118; cíle analytiků ber jako orientační (zřejmě zastaralé)."
+        "horizon": "4–8 týdnů (do GTA VI launch)",
+        "entry": "$235–$250",
+        "stop_loss": "$218",
+        "target": "$275–$290",
+        "position_size": "max 4 % satelitu",
+        "risk_level": "3",
+        "catalyst": "GTA VI pre-order otevřen 24. 6.; launch 19. 11. 2026; BofA cíl $368; 100% Buy konsensus 29 analytiků.",
+        "action_note": "Sell-the-news korekce po pre-order announcement = nákupní okno; vstup dnes $235–$250, stop pod $218."
       },
       "pros": [
-        "Tvrdý katalyzátor (SpaceX) a extrémně nízké P/E 3,6",
-        "Stále zisková firma s velkým cash flow",
-        "Konsensus cíle výrazně nad cenou"
+        "GTA VI launch 19. 11. 2026 — potenciálně nejvyšší 1. den prodejů v historii herního průmyslu",
+        "100% Buy konsensus (29 analytiků), BofA cíl $368 — silná analytická podpora",
+        "FY27 cash flow guidance pozitivní, Q4 op. margin se zlepšuje"
       ],
       "cons": [
-        "Konsensus rating jen 'Držet', odliv zákazníků a vysoký dluh",
-        "Cíle analytiků mohou být zastaralé vůči propadu -36 % YTD"
+        "Sell-the-news dynamika po pre-order announcementu — krátkodobě může cenu tlačit dál dolů",
+        "Záporné P/E — firma stále ztrátová, citlivá na zklamání v GTA VI prodejích nebo zpoždění"
       ]
     },
     {
-      "name": "FuelCell Energy, Inc.",
-      "ticker": "FCEL",
+      "name": "Sunrun Inc.",
+      "ticker": "RUN",
       "region": "usa",
       "sector": "energy",
       "recommendation": "Sledovat",
       "price": {
-        "current": "$29.25",
-        "fair_value": "$22.00",
-        "discount": "-25% upside",
-        "signal": "Natažené momentum",
-        "signal_reason": "Předtržní skok +10 % na $49M EXIM financování, ale cena je u 52t maxima a nad částí cílů.",
+        "current": "$13.27",
+        "fair_value": "n/a",
+        "discount": "cíl neověřen",
+        "signal": "Průraz na partnerství",
+        "signal_reason": "16 GW partnerství s Teslou a Renew Home pro VPP agregaci domácí energie pro utility a AI-hyperscalery — nový datacenter power story.",
         "buy_zone": {
-          "low": "$18",
-          "high": "$22"
-        }
-      },
-      "moat": {
-        "score": "4",
-        "verdict": "Slabý",
-        "summary": "Technologie palivových článků s dlouhodobou ztrátovostí a silnou konkurencí."
-      },
-      "intrinsic": {
-        "annual_return": "-15%",
-        "verdict": "orientační odhad",
-        "summary": "Konzervativní konsensus (~$22) je pod cenou ~$26; rozptyl cílů je obrovský ($8,5–32).",
-        "risk": "5"
-      },
-      "metrics": {
-        "Aktuální cena": "$29.25",
-        "Fair value (cíl analytiků)": "$22.00",
-        "P/E": "n/a (ztrátová)",
-        "Beta": "n/a",
-        "52t max/min": "$27.69 / $3.78"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "Drahé / ztrátová"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "Vysoce volatilní"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Hluboce záporná marže"
-        }
-      },
-      "analysis": "FuelCell Energy vyvíjí a dodává systémy palivových článků pro čistou energii. Dnes vyskočil cca +10 % po schválení $49M financování od EXIM pro export do Jižní Koreje, na pozadí 4GW pipeline a sérii upgradů. Cíle jsou ale extrémně rozprostřené ($8,5 medián až $32 B.Riley), konsensus je 'Držet' a cena je hned pod 52t maximem – proto spíš sledovat než honit.",
-      "trade": {
-        "action": "Držet",
-        "horizon": "1–3 týdny",
-        "entry": "Vyčkat na pullback do $18–22",
-        "stop_loss": "$20",
-        "target": "$30 (až po průrazu nad $28)",
-        "position_size": "max 2 % satelitu",
-        "risk_level": "5",
-        "catalyst": "$49M EXIM financování pro export do Jižní Koreje + 4GW pipeline a upgrady analytiků.",
-        "action_note": "Dnes nehonit gap u 52t maxima; čekat na pullback do $18–22, nové nákupy jen na potvrzení."
-      },
-      "pros": [
-        "Čerstvé financování a růst zakázkové pipeline",
-        "Část analytiků zvedá cíle (B.Riley $32, Jefferies/UBS Buy)",
-        "Vysoká volatilita = příležitost pro aktivní trading"
-      ],
-      "cons": [
-        "Konsensus 'Držet', medián cíle hluboko pod cenou",
-        "Chronická ztrátovost a cena u 52t maxima"
-      ]
-    },
-    {
-      "name": "QuidelOrtho Corporation",
-      "ticker": "QDEL",
-      "region": "usa",
-      "sector": "healthcare",
-      "recommendation": "Sledovat",
-      "price": {
-        "current": "$18.69",
-        "fair_value": "$13.00",
-        "discount": "-30% (cena nad cíli po spekulativním skoku)",
-        "signal": "Přehřátý spike",
-        "signal_reason": "+35 % dne na narativu o hantaviru a insider nákupu; cena přeskočila i nedávno snížené cíle analytiků.",
-        "buy_zone": {
-          "low": "$12",
-          "high": "$14"
+          "low": "$14,00",
+          "high": "$16,00"
         }
       },
       "moat": {
         "score": "5",
-        "verdict": "Střední",
-        "summary": "Diagnostické testování (Labs, Point-of-Care, transfuze), ale silná cenová konkurence."
+        "verdict": "Omezený příkop",
+        "summary": "Sunrun je největší americký instalátor residenčních solárních systémů; Tesla/Renew Home VPP partnerství přidává B2B dimenzi, ale konkurence je silná."
       },
       "intrinsic": {
-        "annual_return": "-30%",
+        "annual_return": "+28 %",
         "verdict": "orientační odhad",
-        "summary": "Po skoku na $18,7 je cena nad konzervativním konsensem cílů ($11–13).",
-        "risk": "5"
+        "summary": "Nové Tesla/Renew Home VPP partnerství (16 GW) otvírá B2B kanál pro hyperscalery; upside k cíli $18,24–18,98 je ~24 % ze střední ceny ~$15.",
+        "risk": "4"
       },
       "metrics": {
-        "Aktuální cena": "$18.69",
-        "Fair value (cíl analytiků)": "$13.00",
-        "P/E": "-0.77 (záporné)",
-        "Beta": "n/a",
-        "52t max/min": "$35.58 / $9.92"
+        "Aktuální cena": "$13.27",
+        "Fair value (cíl analytiků)": "$18,24–$18,98 (MarketBeat / Public.com)",
+        "P/E": "n/a (záporné)",
+        "Beta": "n/a (solar — vysoká vol.)",
+        "52t max/min": "$22,44 / $7,23"
       },
       "indicators": {
         "P/E": {
-          "value": "-0.77",
-          "note": "Záporné / ztrátová"
+          "value": "n/a (záporné)",
+          "note": "Growth story, záporné EPS"
         },
         "Beta": {
           "value": "n/a",
-          "note": "Volatilní"
+          "note": "Historicky volatilní solar"
         },
         "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda"
+          "value": "0 %",
+          "note": "Žádná dividenda"
         },
         "Net Margin": {
           "value": "n/a",
-          "note": "Záporná marže"
+          "note": "Záporná — investiční fáze"
         }
       },
-      "analysis": "QuidelOrtho poskytuje diagnostická řešení (laboratoře, point-of-care, transfuzní a molekulární diagnostika). Akcie dnes vyletěla o cca +35 % na kombinaci narativu o vypuknutí hantaviru, insider nákupu od člena vedení a náznaku zotavení zisků. Pozor: po skoku na $18,7 je cena nad nedávno SNÍŽENÝMI cíli (UBS $12, řada cílů $11–13), takže konsensus naznačuje záporný prostor.",
+      "analysis": "Sunrun oznamil 24. 6. partnerství s Teslou a Renew Home, které agreguje přes 16 GW flexibilní domácí energetické kapacity pro utility a hyperscalery — přímé napojení na AI-datacenter poptávku. Akcie skočila +22,6 %; 19 analytiků hodnotí Buy s cílem $18,24.",
       "trade": {
-        "action": "Držet",
-        "horizon": "1–2 týdny",
-        "entry": "Nové nákupy nehonit; jen na pullbacku do $12–14",
-        "stop_loss": "$14",
-        "target": "n/a (spíš fade po spekulativním spiku)",
-        "position_size": "max 2 % satelitu",
-        "risk_level": "5",
-        "catalyst": "Narativ o vypuknutí hantaviru + insider nákup + náznak zotavení zisků; čistě momentový spike.",
-        "action_note": "Dnes nekupovat do prudkého spiku; kdo drží, posune stop na $14 a vybere zisk."
+        "action": "Sledovat",
+        "horizon": "2–4 týdny",
+        "entry": "$14,00–$15,50",
+        "stop_loss": "$12,50",
+        "target": "$18,00–$19,00",
+        "position_size": "max 3 % satelitu",
+        "risk_level": "4",
+        "catalyst": "Partnerství Tesla + Renew Home (16 GW VPP); AI-datacenter power demand; Buy konsensus 19 analytiků, cíl $18,24.",
+        "action_note": "Po +22 % pohybu čekej na pullback do $14,00–$15,50 — ideální vstup; pokud dnes otevře nad $16,50, čekej na intraday retrace před vstupem."
       },
       "pros": [
-        "Silný momentový katalyzátor (hantavirus) a insider nákup",
-        "Velký prostor zpět k 52t maximu $35,58 v případě pokračování příběhu",
-        "Vysoká likvidita a objem"
+        "16 GW partnerství s Teslou = přístup k B2B energetickému trhu hyperscalerů — nový příjmový kanál",
+        "Buy konsensus 19 analytiků s cílem $18,24–18,98 — 24 % upside",
+        "Tailwind od US politiky čisté energie a AI-datacenter power demand"
       ],
       "cons": [
-        "Cena přeskočila snížené cíle analytiků (riziko rychlého návratu)",
-        "Záporné P/E, ztrátovost, spekulativní povaha pohybu"
+        "Záporné marže, vysoký dluh — fundamenty slabé, příběh závisí na přijetí VPP partnerství",
+        "Solar sektor velmi citlivý na úrokové sazby (Fed) a politické změny v solárních daňových pobídkách"
       ]
     },
     {
-      "name": "Strategy Inc (dříve MicroStrategy)",
-      "ticker": "MSTR",
+      "name": "The Wendy's Company",
+      "ticker": "WEN",
       "region": "usa",
-      "sector": "crypto",
+      "sector": "consumer",
       "recommendation": "Sledovat",
       "price": {
-        "current": "$92.48",
+        "current": "$8.27",
         "fair_value": "n/a",
         "discount": "cíl neověřen",
-        "signal": "Pokus o odraz u dna",
-        "signal_reason": "Skok cca +7 % na přechodu k aktivní správě kapitálu, ale titul je u 52t minima po propadu z ~$136.",
+        "signal": "Meme squeeze — spekulativní",
+        "signal_reason": "23 % float shortnutý; nový CFO Steve Cirulis + retail Reddit momentum vynesly WEN +23,7 % — krátkodobá squeeze příležitost, ale fundamenty slabé.",
         "buy_zone": {
-          "low": "$76",
-          "high": "$82"
+          "low": "$7,50",
+          "high": "$8,20"
         }
       },
       "moat": {
         "score": "3",
-        "verdict": "Slabý",
-        "summary": "Pákový proxy na bitcoin; hodnota i riziko stojí a padá s cenou BTC."
+        "verdict": "Slabý příkop",
+        "summary": "Wendy's je třetí největší fast-food řetězec USA, ale trpí pomalým mezinárodním růstem a ztrátou tržního podílu."
       },
       "intrinsic": {
-        "annual_return": "+327%",
+        "annual_return": "–5 %",
         "verdict": "orientační odhad",
-        "summary": "Nominální konsensus cíl $351 je extrémně nad cenou, ale je zjevně zastaralý vůči propadu bitcoinu.",
+        "summary": "Fundamentální odhad návratnosti negativní — stock obchoduje na nebo nad konsensus fair value $8,60; katalyzátor je čistě meme/sentimentový, ne hodnotový.",
         "risk": "5"
       },
       "metrics": {
-        "Aktuální cena": "$92.48",
-        "Fair value (cíl analytiků)": "$351.54",
+        "Aktuální cena": "$8.27",
+        "Fair value (cíl analytiků)": "$8,60 (MarketBeat) / $8,70 (Public.com) — Hold konsensus",
         "P/E": "n/a",
-        "Beta": "3.49",
-        "52t max/min": "$457.22 / $81.81"
+        "Beta": "n/a",
+        "52t max/min": "n/a (nezjištěno)"
       },
       "indicators": {
         "P/E": {
           "value": "n/a",
-          "note": "Ztrátová / účetní vlivy"
+          "note": "Fundamentálně slabé"
         },
         "Beta": {
-          "value": "3.49",
-          "note": "Extrémně volatilní"
+          "value": "n/a",
+          "note": "Post-meme volatilita"
         },
         "Div. yield": {
-          "value": "0%",
-          "note": "Dividenda (kmenové akcie)"
+          "value": "~6 % (est.)",
+          "note": "Tradiční WEN dividenda"
         },
         "Net Margin": {
           "value": "n/a",
-          "note": "Hluboce záporná"
+          "note": "Mezinárodní segment slabý"
         }
       },
-      "analysis": "Strategy (dříve MicroStrategy) je softwarová firma, jejíž akcie funguje hlavně jako pákový proxy na bitcoin – drží obří BTC pozici. Dnes se odrazila o cca +7 % na zprávě o přechodu k aktivní správě kapitálu, ale obchoduje se u 52t minima ($81,8) po propadu z ~$136 v souběhu se slabostí bitcoinu. Nominálně obří konsensus cíl ($351, Strong Buy) je orientační a zjevně zastaralý vůči současné ceně BTC.",
+      "analysis": "Wendy's explodoval +23,7 % ve středu díky kombinaci jmenování nového CFO Steva Cirulise (turnaround signál) a masivní retail/Reddit buzz; 23 % float je shortnutý = potenciál squeeze. Analytici ale mají Hold konsensus s cílem $8,60 — stock je již nad fair value.",
       "trade": {
         "action": "Držet",
-        "horizon": "1–2 týdny",
-        "entry": "Jen spekulativní odraz v pásmu $76–82",
-        "stop_loss": "$74",
-        "target": "$100",
-        "position_size": "max 2 % satelitu",
+        "horizon": "3–5 dní (čistě spekulativní)",
+        "entry": "Neotevírat nové pozice nad $8,75 — čekej pullback pod $8,20",
+        "stop_loss": "$7,40",
+        "target": "$9,50–$10,00 (pokud squeeze pokračuje)",
+        "position_size": "max 2 % satelitu (spekulativní)",
         "risk_level": "5",
-        "catalyst": "Odraz u 52t minima + přechod k aktivní správě kapitálu; pohyb plně závislý na bitcoinu.",
-        "action_note": "Pouze malá spekulace na odraz se stopem pod 52t minimem ($74); sledovat cenu bitcoinu, ne cíle analytiků."
+        "catalyst": "Nový CFO Steve Cirulis; 23 % short float = squeeze potenciál; Reddit/retail momentum (2. nejzmiňovanější akcie na Redditu za 24 h).",
+        "action_note": "Neloví dnes na otevření — meme akcie po +24 % pohybu jsou nebezpečné; čekej pullback pod $8,20 nebo trading halt, pak zvaž max 2 % satelitu s tvrdým stopem $7,40."
       },
       "pros": [
-        "Extrémní upside, pokud se bitcoin odrazí (beta 3,5)",
-        "Pokus o dno u 52t minima + dnešní +7 %",
-        "Vysoká likvidita pro krátkodobý trade"
+        "23 % short float = silný potenciál krátkodobého squeeze při zachování retail momentum",
+        "Nový CFO Cirulis může signalizovat skutečný turnaround, analytici Stephens & Co. sledují",
+        "Tradičně solidní dividendový výnos ~6 % jako základní ochrana"
       ],
       "cons": [
-        "Plná závislost na bitcoinu, který je ve slabosti",
-        "Konsensus cíl je zastaralý; chytání padajícího nože, riziko 5/5"
+        "Fundamenty slabé — cena je již na nebo nad konsensus cílem $8,60; Hold konsensus 19 analytiků",
+        "Meme rally jsou nestabilní: rychlý vzestup = rychlý pád; trading byl krátkodobě zastaven (volatility halt)"
+      ]
+    },
+    {
+      "name": "Hertz Global Holdings",
+      "ticker": "HTZ",
+      "region": "usa",
+      "sector": "industry",
+      "recommendation": "Sledovat",
+      "price": {
+        "current": "$2.31",
+        "fair_value": "n/a",
+        "discount": "n/a (záporné marže, distress)",
+        "signal": "Varování — distress sell-off",
+        "signal_reason": "Slabost trhu s ojetými auty + masivní odpisy EV flotily; EBITDA guidance sražena na $50–80 M; akcie –27 % za den z $5,00 na $3,70.",
+        "buy_zone": {
+          "low": "n/a",
+          "high": "n/a"
+        }
+      },
+      "moat": {
+        "score": "2",
+        "verdict": "Žádný příkop",
+        "summary": "Hertz v distress situaci — záporné marže, obrovský dluh, neúspěšná EV transformace; bez strukturálního příkopu."
+      },
+      "intrinsic": {
+        "annual_return": "n/a",
+        "verdict": "orientační odhad",
+        "summary": "Záporná ziskovost a EBITDA guidance cut k $50–80 M odsuzují Hertz k dalšímu přecenění dolů; odhad fair value není smysluplný bez restruktualizačního plánu.",
+        "risk": "5"
+      },
+      "metrics": {
+        "Aktuální cena": "$2.31",
+        "Fair value (cíl analytiků)": "n/a (záporné marže, distress)",
+        "P/E": "n/a (záporné EPS)",
+        "Beta": "n/a (distress)",
+        "52t max/min": "n/a — breakdown z $5,00 support na $3,70"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "n/a (záporné)",
+          "note": "Ztrátová firma"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "Extrémní volatilita"
+        },
+        "Div. yield": {
+          "value": "0 %",
+          "note": "Dividenda zrušena"
+        },
+        "Net Margin": {
+          "value": "–7 %",
+          "note": "Tržby $8,5 mld., čistá ztráta $333 M (Q)"
+        }
+      },
+      "analysis": "Hertz varoval trh před neočekávanou slabostí trhu s ojetými vozy v květnu, což zhoršilo realizované ztráty z prodeje EV vozidel a srazilo EBITDA guidance na $50–80 M. Akcie prolomila klíčový support $5,00 a propadla –27 % na $3,70 — technicky bearish breakdown.",
+      "trade": {
+        "action": "Prodat",
+        "horizon": "Sledovat — nepouštět se do nových long pozic",
+        "entry": "Nevstupovat long — pouze sledovat pro případný bounce trade",
+        "stop_loss": "$3,20 (pokud přece jen bounce trade)",
+        "target": "$4,20–$4,50 (bounce target — čistě spekulativní)",
+        "position_size": "max 1 % satelitu a jen zkušení tradeři",
+        "risk_level": "5",
+        "catalyst": "Slabost trhu s ojetými auty + EV fleet odpisy; EBITDA guidance cut $50–80 M; technický breakdown pod $5,00 long-term support.",
+        "action_note": "Hertz je dnes určen ke sledování, ne nákupu — zájemci o bounce trade z přeprodanosti čekají na stabilizaci objemu a intraday pivot nad $3,90 s pevným stopem $3,20."
+      },
+      "pros": [
+        "Masivní –27 % propad = technicky přeprodaný; bounce trade $3,70–$4,50 možný pro zkušené spekulanty",
+        "Tržby $8,5 mld. — firma nezkrachovala, restruktualizační announcement by mohl být katalyzátorem odrazu"
+      ],
+      "cons": [
+        "Záporné marže (–7 %), záporný ROA, guidance sražena — fundamenty bez katalyzátoru zůstávají depresivní",
+        "Breakdown z $5,00 long-term supportu je silný bearish signál — technicky otevírá cestu pod $3,00"
       ]
     }
   ],
