@@ -172,11 +172,64 @@ def generate() -> dict:
     return report
 
 
+def _yahoo_price(ticker):
+    import urllib.request
+    ysym = ticker.replace(".", "-")
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ysym}?range=1d&interval=1d"
+    for _ in range(3):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=10) as r:
+                d = json.load(r)
+            return d["chart"]["result"][0]["meta"].get("regularMarketPrice")
+        except Exception:
+            continue
+    return None
+
+
+def _parse_price(s):
+    if not isinstance(s, str):
+        return None
+    t = "".join(c for c in s if c.isdigit() or c == ".")
+    try:
+        return float(t)
+    except ValueError:
+        return None
+
+
+def validate_prices(report):
+    """Deterministická pojistka: ověř ceny proti Yahoo; když se report liší >5 %,
+    oprav cenu na reálnou a přepočítej potenciál. Tím se chytnou Claudovy překlepy."""
+    for f in report.get("firms", []):
+        tk = f.get("ticker", "")
+        if not tk or "/" in tk or tk.upper().startswith("BTC"):
+            continue
+        real = _yahoo_price(tk)
+        if real is None:
+            continue
+        price = f.get("price") or {}
+        cur = _parse_price(price.get("current"))
+        if not cur or abs(cur / real - 1) <= 0.05:
+            continue
+        sym = price["current"][:1] if isinstance(price.get("current"), str) and price["current"][:1] in "$€£" else "$"
+        price["current"] = f"{sym}{real:,.0f}" if real >= 1000 else f"{sym}{real:.2f}"
+        fv = _parse_price(price.get("fair_value"))
+        if fv:
+            up = (fv / real - 1) * 100
+            price["discount"] = f"{'+' if up >= 0 else ''}{up:.0f}% upside"
+        f["price"] = price
+        f.setdefault("metrics", {})["Aktuální cena"] = price["current"]
+        print(f"   ⚠️ {tk}: cena opravena {cur} → {real} (reálná z Yahoo)", file=sys.stderr)
+    return report
+
+
 def main():
     today = datetime.date.today().isoformat()
     os.makedirs(OUT_DIR, exist_ok=True)
     print(f"Generuji report ({MODEL}, {NUM_STOCKS} firem)…", file=sys.stderr)
     report = generate()
+    print("Ověřuji ceny proti Yahoo…", file=sys.stderr)
+    report = validate_prices(report)
     report.setdefault("generated_at", today)
     # Vždy oraziítkuj report SKUTEČNÝM dnešním datem (Claude občas píše staré z webu).
     _cz = {1: "ledna", 2: "února", 3: "března", 4: "dubna", 5: "května", 6: "června",
