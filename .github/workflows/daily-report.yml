@@ -43,8 +43,19 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/report-*.json
           if git diff --staged --quiet; then
-            echo "Žádná změna reportu."
-          else
-            git commit -m "Ranní report $(date -u +%Y-%m-%d)"
-            git push
+            echo "Žádná změna reportu."; exit 0
           fi
+          git commit -m "Ranní report $(date -u +%Y-%m-%d_%H:%M)"
+          # Robustní push: když se remote mezitím pohnul (souběžný běh / ruční commit),
+          # převezmi jeho stav a znovu aplikuj náš report (nejnovější report vítězí).
+          for i in 1 2 3 4 5; do
+            if git push; then echo "pushnuto"; exit 0; fi
+            echo "push odmítnut — srovnávám s remote a zkouším znovu (pokus $i)"
+            git fetch origin main
+            git reset --soft origin/main
+            git add data/report-*.json
+            if git diff --staged --quiet; then echo "nic k pushnutí po srovnání"; exit 0; fi
+            git commit -m "Ranní report $(date -u +%Y-%m-%d_%H:%M)"
+            sleep $((i * 3))
+          done
+          echo "push se nepovedl ani po 5 pokusech"; exit 1
