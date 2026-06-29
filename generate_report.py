@@ -253,6 +253,32 @@ def reconcile_recs(report):
     return report
 
 
+def sanity_targets(report):
+    """Když cíl analytiků implikuje absurdní potenciál (>120 % nebo <-60 %), je to
+    skoro jistě vadné číslo → schovej cíl ('n/a') a nastav Sledovat (tomu nevěříme)."""
+    import re
+    for f in report.get("firms", []):
+        p = f.get("price") or {}
+        d = p.get("discount")
+        if not isinstance(d, str):
+            continue
+        m = re.search(r"[-+]?[0-9]+(\.[0-9]+)?", d.replace(",", "."))
+        if not m:
+            continue
+        up = float(m.group())
+        if up > 120 or up < -60:
+            p["fair_value"] = "n/a"
+            p["discount"] = "cíl neověřen"
+            f["price"] = p
+            f["recommendation"] = "Sledovat"
+            tr = f.get("trade") or {}
+            if tr.get("action") in ("Koupit", "Přikoupit"):
+                tr["action"] = "Sledovat"
+                f["trade"] = tr
+            print(f"   ⚠️ {f.get('ticker')}: absurdní potenciál {up:.0f}% → cíl označen neověřený", file=sys.stderr)
+    return report
+
+
 def main():
     today = datetime.date.today().isoformat()
     os.makedirs(OUT_DIR, exist_ok=True)
@@ -260,6 +286,7 @@ def main():
     report = generate()
     print("Ověřuji ceny proti Yahoo…", file=sys.stderr)
     report = validate_prices(report)
+    report = sanity_targets(report)
     report = reconcile_recs(report)
     report.setdefault("generated_at", today)
     # Vždy oraziítkuj report SKUTEČNÝM dnešním datem (Claude občas píše staré z webu).
