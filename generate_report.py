@@ -217,9 +217,39 @@ def validate_prices(report):
         if fv:
             up = (fv / real - 1) * 100
             price["discount"] = f"{'+' if up >= 0 else ''}{up:.0f}% upside"
+            # sjednoť doporučení s opravenou cenou (ať není „Koupit" se záporným potenciálem)
+            if up <= -8:
+                f["recommendation"] = "Sledovat"
+            elif up < 10:
+                f["recommendation"] = "Držet"
+            trade = f.get("trade") or {}
+            if trade.get("action") in ("Koupit", "Přikoupit") and up < 10:
+                trade["action"] = "Ubrat" if up <= -8 else "Držet"
+                f["trade"] = trade
         f["price"] = price
         f.setdefault("metrics", {})["Aktuální cena"] = price["current"]
         print(f"   ⚠️ {tk}: cena opravena {cur} → {real} (reálná z Yahoo)", file=sys.stderr)
+    return report
+
+
+def reconcile_recs(report):
+    """Sjednoť doporučení s potenciálem: nikdy 'Koupit' se záporným/malým upside."""
+    import re
+    for f in report.get("firms", []):
+        d = (f.get("price") or {}).get("discount")
+        if not isinstance(d, str):
+            continue
+        m = re.search(r"[-+]?[0-9]+(\.[0-9]+)?", d.replace(",", "."))
+        if not m:
+            continue
+        up = float(m.group())
+        if up < 10:
+            if f.get("recommendation") in ("Koupit", "Přikoupit"):
+                f["recommendation"] = "Sledovat" if up <= -8 else "Držet"
+            tr = f.get("trade") or {}
+            if tr.get("action") in ("Koupit", "Přikoupit"):
+                tr["action"] = "Ubrat" if up <= -8 else "Držet"
+                f["trade"] = tr
     return report
 
 
@@ -230,6 +260,7 @@ def main():
     report = generate()
     print("Ověřuji ceny proti Yahoo…", file=sys.stderr)
     report = validate_prices(report)
+    report = reconcile_recs(report)
     report.setdefault("generated_at", today)
     # Vždy oraziítkuj report SKUTEČNÝM dnešním datem (Claude občas píše staré z webu).
     _cz = {1: "ledna", 2: "února", 3: "března", 4: "dubna", 5: "května", 6: "června",
