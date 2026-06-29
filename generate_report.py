@@ -137,9 +137,10 @@ def extract_json(text: str) -> dict:
 
 def generate() -> dict:
     client = anthropic.Anthropic()  # bere ANTHROPIC_API_KEY z prostředí
+    # Šetříme náklady: méně web fetchů (celé stránky = drahé vstupní tokeny).
     tools = [
-        {"type": "web_search_20260209", "name": "web_search", "max_uses": 30},
-        {"type": "web_fetch_20260209", "name": "web_fetch", "max_uses": 30},
+        {"type": "web_search_20260209", "name": "web_search", "max_uses": 12},
+        {"type": "web_fetch_20260209", "name": "web_fetch", "max_uses": 6},
     ]
     messages = [{"role": "user", "content": PROMPT}]
 
@@ -147,8 +148,9 @@ def generate() -> dict:
     for _ in range(8):
         with client.messages.stream(
             model=MODEL,
-            max_tokens=32000,
+            max_tokens=20000,
             thinking={"type": "adaptive"},
+            output_config={"effort": "low"},   # méně přemýšlení = nižší náklady
             tools=tools,
             messages=messages,
         ) as stream:
