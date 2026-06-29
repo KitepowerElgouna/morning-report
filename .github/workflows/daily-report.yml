@@ -1,12 +1,9 @@
 name: Ranní report
 
-# Spouští se každý všední den ráno + ručně tlačítkem "Run workflow".
+# Spouští se z Hostpoint cronu (trigger_report.php) — spolehlivě 2× denně, po–pá.
+# GitHubí vlastní rozvrh je vypnutý, aby se běhy nezdvojovaly (úspora nákladů).
 on:
-  schedule:
-    # 2× denně, po–pá (časy v UTC):
-    - cron: "30 5 * * 1-5"    # ~07:30 Praha — ranní přehled před otevřením EU
-    - cron: "30 14 * * 1-5"   # ~16:30 Praha — odpolední update po otevření US trhu
-  workflow_dispatch: {}   # umožní ruční spuštění z GitHubu (na otestování)
+  workflow_dispatch: {}
 
 permissions:
   contents: write          # aby workflow mohl commitnout nový report
