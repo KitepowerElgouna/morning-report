@@ -1,422 +1,132 @@
 {
   "date": "1. července 2026",
-  "summary": "Trhy dnes pokračují v silném sentimentu – Nasdaq od začátku Q2 vede rally díky AI/chip sektoru, S&P 500 i Dow uzavřely nejlepší první pololetí za několik let, i když ropa a geopolitika (Írán) zůstávají rizikem a zítra přichází klíčová data o zaměstnanosti (NFP). Dnešní tipy kombinují momentum v čipovém sektoru, event-driven situaci po kolapsu fúze a farma titul na all-time high – jde o KRÁTKODOBÉ, RIZIKOVÉ tipy pro 'satelitní' část portfolia. Fair value = průměrný konsensus cílů analytiků, jde o orientační vodítko, NE investiční doporučení – vždy dodržujte stop-lossy a velikost pozice, časté přetrádování škodí výkonnosti.",
+  "summary": "Trh dnes ráno mírně couvá po nejsilnějším čtvrtletí od roku 2020 – S&P 500 i Nasdaq oslabují, zatímco investoři čekají na komentář nového šéfa Fedu Kevina Warshe ze sintrského fóra ECB a na páteční data o pracovních místech. Volatilita se koncentruje v AI/cloudových titulech (Nebius, CoreWeave, Corning) po zprávě, že Meta chce prodávat přebytečný výpočetní výkon, což ohrožuje 'neocloud' byznys model, zatímco obranné tituly jako General Mills a AppLovin naopak dnes rostou po výsledcích a upgradu. Toto jsou KRÁTKODOBÉ, RIZIKOVÉ tipy pro 'satelitní' část portfolia – vždy dodržujte stop-lossy, velikost pozice a nepřetrádujte; fair value = konsenzus analytiků je jen orientační vodítko, nikoli investiční doporučení.",
   "sources": [
-    "CNBC",
-    "TradingEconomics",
-    "StockAnalysis.com",
+    "TheStreet",
+    "Trading Economics",
+    "24/7 Wall St.",
+    "Schwab",
+    "CNN Markets",
     "Yahoo Finance",
+    "StockAnalysis.com",
     "MarketBeat",
-    "TipRanks",
+    "Simply Wall St",
     "Investing.com",
-    "Reuters",
-    "Bloomberg",
-    "SimplyWall.st",
-    "Benzinga",
-    "Zacks"
+    "TipRanks",
+    "Robinhood",
+    "CNBC",
+    "Public.com",
+    "Zacks",
+    "TradingView"
   ],
   "firms": [
     {
-      "name": "SanDisk Corporation",
-      "ticker": "SNDK",
+      "name": "CoreWeave",
+      "ticker": "CRWV",
       "region": "usa",
       "sector": "tech",
-      "recommendation": "Sledovat",
+      "recommendation": "Koupit",
       "price": {
-        "current": "$2280",
-        "fair_value": "$1846",
-        "discount": "-19%",
-        "signal": "Extrémní momentum, ale valuace roztažená",
-        "signal_reason": "Analytici jsou rozpolcení – cíle se pohybují od $1600 do $3250, RSI přes 90 signalizuje překoupenost.",
+        "current": "$89.24",
+        "fair_value": "$143.41",
+        "discount": "+60.7% upside",
+        "signal": "Prudký propad na negativní zprávě, konsenzus zůstává Buy",
+        "signal_reason": "Trh nadměrně reaguje na konkurenční hrozbu, zatímco dlouhodobý kontrakt backlog zůstává masivní.",
         "buy_zone": {
-          "low": "$1900",
-          "high": "$2100"
+          "low": "$85",
+          "high": "$95"
         }
       },
       "moat": {
-        "score": "6",
-        "verdict": "Cyklický lídr v NAND paměti",
-        "summary": "Dominantní hráč v NAND flash s novými víceletými dodavatelskými smlouvami snižujícími cykličnost."
+        "score": "5",
+        "verdict": "Slabší, závislé na klíčových zákaznících",
+        "summary": "Silný růst tržeb, ale vysoká koncentrace zákazníků a zadlužení oslabují konkurenční výhodu."
       },
       "intrinsic": {
-        "annual_return": "n/a",
+        "annual_return": "+45%",
         "verdict": "orientační odhad",
-        "summary": "Extrémní YTD růst přes 800 % zvyšuje riziko korekce po zisku.",
+        "summary": "Model počítá s pokračujícím růstem AI infrastruktury navzdory dnešnímu propadu.",
         "risk": "5"
       },
       "metrics": {
-        "Aktuální cena": "$2280",
-        "Fair value (cíl analytiků)": "$1846",
-        "P/E": "77.8",
+        "Aktuální cena": "$89.24",
+        "Fair value (cíl analytiků)": "$143.41",
+        "P/E": "-31.6 (ztráta)",
         "Beta": "n/a",
-        "52t max/min": "$2354 / $40"
+        "52t max/min": "$166.22 / $63.80"
       },
       "indicators": {
         "P/E": {
-          "value": "77.8",
-          "note": "Drahé"
+          "value": "-31.6",
+          "note": "Firma je ve ztrátě, P/E neaplikovatelné"
         },
         "Beta": {
           "value": "n/a",
-          "note": "Volatilní"
+          "note": "Volatilní (odhad vysoký)"
         },
         "Div. yield": {
           "value": "0%",
-          "note": "Bez dividendy"
+          "note": "Nevyplácí dividendu"
         },
         "Net Margin": {
           "value": "n/a",
-          "note": "Rostoucí marže díky AI poptávce"
+          "note": "Záporná kvůli vysokým capexům"
         }
       },
-      "analysis": "SanDisk vyrábí NAND flash paměti a je jedním z hlavních beneficientů AI datacenter boomu a nedostatku paměťových kapacit.",
+      "analysis": "CoreWeave je jeden z předních poskytovatelů AI cloud infrastruktury na bázi GPU Nvidia. Akcie dnes propadla přes 10 % poté, co Bloomberg informoval, že Meta zvažuje prodej přebytečné výpočetní kapacity externím zákazníkům, což by mohlo ohrozit dlouhodobý 21miliardový kontrakt CoreWeave s Metou.",
       "trade": {
-        "action": "Ubrat/Sledovat",
-        "horizon": "1–2 týdny",
-        "entry": "n/a (nečekat na pullback)",
-        "stop_loss": "$2000",
-        "target": "$2500",
-        "position_size": "max 2 % satelitu",
-        "risk_level": "5",
-        "catalyst": "Extrémní YTD rally (+880 %), Micron výsledky posilují bull case pro memory sektor, ale RSI signalizuje překoupenost.",
-        "action_note": "Pokud již pozici držíte, chraňte zisky tight stopem; nové vstupy pouze na výrazném poklesu."
-      },
-      "pros": [
-        "Rekordní poptávka po AI storage",
-        "Nulový dlouhodobý dluh, nové multi-year kontrakty v hodnotě přes $11 mld."
-      ],
-      "cons": [
-        "Extrémně vysoká volatilita a P/E",
-        "Riziko cyklického obratu v cenách NAND"
-      ]
-    },
-    {
-      "name": "Lam Research",
-      "ticker": "LRCX",
-      "region": "usa",
-      "sector": "tech",
-      "recommendation": "Držet",
-      "price": {
-        "current": "$427",
-        "fair_value": "$323",
-        "discount": "-24%",
-        "signal": "Silné momentum, ale cíle analytiků pod cenou",
-        "signal_reason": "Konsensus 35 analytiků dává cíl $323, což je pod aktuální cenou i přes Buy rating.",
-        "buy_zone": {
-          "low": "$380",
-          "high": "$410"
-        }
-      },
-      "moat": {
-        "score": "8",
-        "verdict": "Klíčový dodavatel wafer fab equipment",
-        "summary": "Lam je jedním z předních dodavatelů etch/deposition zařízení nezbytných pro pokročilou výrobu čipů."
-      },
-      "intrinsic": {
-        "annual_return": "n/a",
-        "verdict": "orientační odhad",
-        "summary": "Vysoký beta koeficient (1.82) znamená nadprůměrnou volatilitu vůči trhu.",
-        "risk": "4"
-      },
-      "metrics": {
-        "Aktuální cena": "$427",
-        "Fair value (cíl analytiků)": "$323",
-        "P/E": "44",
-        "Beta": "1.82",
-        "52t max/min": "$435 / $91"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "44",
-          "note": "Drahé"
-        },
-        "Beta": {
-          "value": "1.82",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "0.36%",
-          "note": "Nízká dividenda"
-        },
-        "Net Margin": {
-          "value": "30.9%",
-          "note": "Silná zisková marže"
-        }
-      },
-      "analysis": "Samsungovo oznámení pokroku ve výrobě 1.4nm čipů rozproudilo rally v celém sektoru výrobců čipové techniky – Lam, KLA i Applied Materials těží ze stejného katalyzátoru.",
-      "trade": {
-        "action": "Držet",
+        "action": "Koupit",
         "horizon": "1–3 týdny",
-        "entry": "n/a",
-        "stop_loss": "$395",
-        "target": "$460",
+        "entry": "$85–95",
+        "stop_loss": "$78",
+        "target": "$110",
         "position_size": "max 3 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Samsungův pokrok v 1.4nm procesu + sled analytických upgradů (Cantor $500, BofA $480) posílil celý WFE sektor na nová 52týdenní maxima.",
-        "action_note": "Sledujte reakci na earnings sezónu – při propadu pod $395 zvažte odchod z pozice."
-      },
-      "pros": [
-        "Rekordní tržby a expanze marží",
-        "Silná analytická podpora (Buy konsensus od 35 analytiků)"
-      ],
-      "cons": [
-        "Valuace nad historickým průměrem sektoru (44x vs 31x)",
-        "Insider prodeje za posledních 12 měsíců"
-      ]
-    },
-    {
-      "name": "KLA Corporation",
-      "ticker": "KLAC",
-      "region": "usa",
-      "sector": "tech",
-      "recommendation": "Držet",
-      "price": {
-        "current": "$298",
-        "fair_value": "$275",
-        "discount": "-8%",
-        "signal": "Nová 52týdenní maxima, ale cíl analytiků nižší",
-        "signal_reason": "Konsensus cílů (StockAnalysis $210 post-split, MarketBeat $274) naznačuje omezený prostor pro další růst po nedávné rally.",
-        "buy_zone": {
-          "low": "$260",
-          "high": "$285"
-        }
-      },
-      "moat": {
-        "score": "9",
-        "verdict": "Kvazi-monopol v procesní kontrole",
-        "summary": "KLA má dominantní postavení v inspekci a metrologii polovodičů s vysokou cenotvorbou."
-      },
-      "intrinsic": {
-        "annual_return": "n/a",
-        "verdict": "orientační odhad",
-        "summary": "Vysoká kvalita byznysu, ale valuace je nad historickým průměrem, riziko korekce po silném růstu.",
-        "risk": "4"
-      },
-      "metrics": {
-        "Aktuální cena": "$298",
-        "Fair value (cíl analytiků)": "$275",
-        "P/E": "39.8",
-        "Beta": "n/a",
-        "52t max/min": "$298 / n/a"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "39.8",
-          "note": "Drahé"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "n/a",
-          "note": "Vyplácí dividendu, 17. rok navýšení"
-        },
-        "Net Margin": {
-          "value": "33.8%",
-          "note": "Vysoká zisková marže"
-        }
-      },
-      "analysis": "KLA je dominantní hráč v procesní kontrole a yield managementu pro výrobu čipů, přímo těží ze Samsungova pokroku k 1.4nm a AI infrastrukturního boomu.",
-      "trade": {
-        "action": "Držet",
-        "horizon": "1–3 týdny",
-        "entry": "n/a",
-        "stop_loss": "$270",
-        "target": "$325",
-        "position_size": "max 3 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Samsung 1.4nm pokrok + upgrady cílů od Cantor Fitzgerald ($325) a Susquehanna posunuly akcii na nové intradenní maximum $298,17.",
-        "action_note": "Krátkodobě sledujte momentum, ale nebuďte agresivní se vstupy vzhledem k vysoké valuaci."
-      },
-      "pros": [
-        "Téměř monopolní postavení v optické inspekci",
-        "Silná podpora analytiků a rostoucí dividenda"
-      ],
-      "cons": [
-        "Vysoká valuace (P/E téměř 40x)",
-        "Riziko exportních omezení do Číny"
-      ]
-    },
-    {
-      "name": "Getty Images Holdings",
-      "ticker": "GETY",
-      "region": "usa",
-      "sector": "consumer",
-      "recommendation": "Sledovat",
-      "price": {
-        "current": "$0.87",
-        "fair_value": "n/a",
-        "discount": "cíl neověřen",
-        "signal": "Extrémně vysoké riziko po kolapsu fúze",
-        "signal_reason": "Cíle analytiků se rozcházejí extrémně (od $0.85 do $7) kvůli nejistotě po zrušení fúze se Shutterstock.",
-        "buy_zone": {
-          "low": "$0.70",
-          "high": "$0.90"
-        }
-      },
-      "moat": {
-        "score": "3",
-        "verdict": "Slabý moat, ohrožen AI generovaným obsahem",
-        "summary": "Getty čelí existenčnímu tlaku od generativní AI, i když má cenné archivy a smlouvy s OpenAI."
-      },
-      "intrinsic": {
-        "annual_return": "n/a",
-        "verdict": "orientační odhad",
-        "summary": "Vysoce riziková, event-driven situace se zadlužením blízko 10x EBITDA.",
-        "risk": "5"
-      },
-      "metrics": {
-        "Aktuální cena": "$0.87",
-        "Fair value (cíl analytiků)": "$3.93",
-        "P/E": "n/a",
-        "Beta": "n/a",
-        "52t max/min": "n/a / $0.58"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "Ztrátová/nejistá"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "Extrémně volatilní"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Bez dividendy"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Vysoké zadlužení, refinanční riziko"
-        }
-      },
-      "analysis": "Getty Images zrušila plánovanou fúzi se Shutterstock kvůli požadavkům britského regulátora, akcie Shutterstock propadly přes 28 %, zatímco Getty hledá strategické financování.",
-      "trade": {
-        "action": "Sledovat",
-        "horizon": "dny (extrémně spekulativní)",
-        "entry": "n/a",
-        "stop_loss": "$0.65",
-        "target": "$1.20",
-        "position_size": "max 1 % satelitu (penny stock riziko)",
         "risk_level": "5",
-        "catalyst": "Kolaps fúze se Shutterstock po zásahu britského CMA regulátora, board hledá refinancování a strategické alternativy.",
-        "action_note": "Pouze pro velmi zkušené spekulanty – čekejte na potvrzení dalších kroků (refinancování dluhu) než vstoupíte."
+        "catalyst": "Propad přes 10 % po zprávě o Meta jako budoucí konkurenci v neocloud segmentu.",
+        "action_note": "Sledovat stabilizaci ceny kolem $85–90 před vstupem, počítat s vysokou volatilitou."
       },
       "pros": [
-        "Partnerství s OpenAI (ChatGPT) ukazuje hodnotu licencovaného obsahu",
-        "Extrémně nízká valuace může lákat spekulanty na odraz"
+        "Obří kontrahovaný backlog (~$100 mld.)",
+        "Podpora od Nvidia (investice + status Exemplar Cloud)",
+        "Zařazení do Nasdaq-100 zvyšuje viditelnost"
       ],
       "cons": [
-        "Vysoké zadlužení a riziko refinancování",
-        "Ukončení fúze zvyšuje nejistotu ohledně budoucí strategie"
+        "Vysoké zadlužení a capex",
+        "Riziko ztráty klíčového zákazníka (Meta)",
+        "Extrémní volatilita"
       ]
     },
     {
-      "name": "Eli Lilly and Company",
-      "ticker": "LLY",
-      "region": "usa",
-      "sector": "healthcare",
-      "recommendation": "Držet",
-      "price": {
-        "current": "$1,199",
-        "fair_value": "$1216",
-        "discount": "+1% upside",
-        "signal": "All-time high s pokračujícím pozitivním katalyzátorem",
-        "signal_reason": "Konsensus 31 analytiků (StockAnalysis) dává cíl $1216 s Buy ratingem, podpořeno silnými daty o retatrutide.",
-        "buy_zone": {
-          "low": "$900",
-          "high": "$950"
-        }
-      },
-      "moat": {
-        "score": "9",
-        "verdict": "Lídr v GLP-1/obesity trhu",
-        "summary": "Eli Lilly má dominantní postavení ve slibném trhu léků na hubnutí a diabetes s bohatým pipeline."
-      },
-      "intrinsic": {
-        "annual_return": "n/a",
-        "verdict": "orientační odhad",
-        "summary": "Silný růst tržeb (+47 % meziročně) podporuje ocenění navzdory vysoké valuaci.",
-        "risk": "3"
-      },
-      "metrics": {
-        "Aktuální cena": "$1,199",
-        "Fair value (cíl analytiků)": "$1216",
-        "P/E": "n/a",
-        "Beta": "0.12",
-        "52t max/min": "$1238 / n/a"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "Vysoké, ale podpořené růstem"
-        },
-        "Beta": {
-          "value": "0.12",
-          "note": "Defenzivní (nízká korelace s trhem)"
-        },
-        "Div. yield": {
-          "value": "0.56%",
-          "note": "Nízká dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "EBITDA marže 48.6%"
-        }
-      },
-      "analysis": "Eli Lilly dosáhla all-time high díky zrychlujícím se tržbám z léků na hubnutí a pozitivním datům z Fáze 3 studie retatrutide, které analytici označují za jasné vítězství.",
-      "trade": {
-        "action": "Držet",
-        "horizon": "2–4 týdny",
-        "entry": "$920–950",
-        "stop_loss": "$870",
-        "target": "$1050",
-        "position_size": "max 4 % satelitu",
-        "risk_level": "3",
-        "catalyst": "All-time high po zrychlení prodejů léků na hubnutí, pozitivní data z Fáze 3 (retatrutide), FDA PreCheck program a akvizice posilující pipeline.",
-        "action_note": "Vstup na krátkodobém dipu k $920–950 s jasným stop-lossem pod $870."
-      },
-      "pros": [
-        "Silný Buy konsensus (Strong Buy od 20+ analytiků)",
-        "Diverzifikovaný pipeline v obezitě, onkologii a neurovědě"
-      ],
-      "cons": [
-        "Vysoká valuace může omezit další růst",
-        "Konkurence v GLP-1 segmentu se zostřuje"
-      ]
-    },
-    {
-      "name": "Applied Materials",
-      "ticker": "AMAT",
+      "name": "AppLovin",
+      "ticker": "APP",
       "region": "usa",
       "sector": "tech",
-      "recommendation": "Sledovat",
+      "recommendation": "Koupit",
       "price": {
-        "current": "$723.00",
-        "fair_value": "n/a",
-        "discount": "cíl neověřen",
-        "signal": "Zapojen do stejné semiconductor equipment rally jako KLA a Lam",
-        "signal_reason": "Wells Fargo a Barclays reiterovali Overweight rating s vyššími cíli díky silné poptávce po čipovém vybavení.",
+        "current": "$570",
+        "fair_value": "$648.1",
+        "discount": "+13.5% upside",
+        "signal": "Momentum po iniciaci Strong Buy od Raymond James",
+        "signal_reason": "Analytici vidí další prostor k růstu díky AI reklamní platformě AXON.",
         "buy_zone": {
-          "low": "$230",
-          "high": "$250"
+          "low": "$560",
+          "high": "$600"
         }
       },
       "moat": {
-        "score": "8",
-        "verdict": "Přední dodavatel výrobního zařízení pro čipy",
-        "summary": "AMAT je jedním z největších dodavatelů zařízení pro výrobu polovodičů s širokým portfoliem technologií."
+        "score": "7",
+        "verdict": "Silná pozice v AI reklamě",
+        "summary": "Dominance v mobilní herní reklamě a expanze do e-commerce přes AXON."
       },
       "intrinsic": {
-        "annual_return": "n/a",
+        "annual_return": "+20%",
         "verdict": "orientační odhad",
-        "summary": "Silný AI-driven capex cyklus podporuje růst tržeb v segmentu WFE.",
+        "summary": "Silný růst tržeb a marží podporuje pozitivní výhled analytiků.",
         "risk": "4"
       },
       "metrics": {
-        "Aktuální cena": "$723.00",
-        "Fair value (cíl analytiků)": "$280",
+        "Aktuální cena": "$570",
+        "Fair value (cíl analytiků)": "$648.1",
         "P/E": "n/a",
         "Beta": "n/a",
         "52t max/min": "n/a"
@@ -424,40 +134,345 @@
       "indicators": {
         "P/E": {
           "value": "n/a",
-          "note": "n/a"
+          "note": "Nedostupné z ověřených zdrojů"
         },
         "Beta": {
           "value": "n/a",
-          "note": "Volatilní (semiconductor sektor)"
+          "note": "Volatilní tech titul"
         },
         "Div. yield": {
-          "value": "n/a",
-          "note": "n/a"
+          "value": "0%",
+          "note": "Nevyplácí dividendu"
         },
         "Net Margin": {
           "value": "n/a",
-          "note": "n/a"
+          "note": "Historicky vysoká rentabilita"
         }
       },
-      "analysis": "CEO Applied Materials uvedl, že polovodičový průmysl zažívá své nejsilnější období vůbec díky AI výpočetní poptávce; Barclays a Wells Fargo reiterovali Overweight rating.",
+      "analysis": "AppLovin poskytuje AI reklamní řešení pro mobilní aplikace a nově expanduje do e-commerce reklamy přes platformu AXON. Akcie dnes vzrostla přes 7 %, mimo jiné poté, co Raymond James zahájil pokrytí s ratingem Strong Buy a cílem $640.",
       "trade": {
-        "action": "Ubrat",
-        "horizon": "1–3 týdny",
-        "entry": "$235–250",
-        "stop_loss": "$220",
-        "target": "$275",
-        "position_size": "max 3 % satelitu",
+        "action": "Koupit",
+        "horizon": "1–4 týdny",
+        "entry": "$560–600",
+        "stop_loss": "$520",
+        "target": "$650",
+        "position_size": "max 4 % satelitu",
         "risk_level": "4",
-        "catalyst": "Samsungův 1.4nm pokrok + silné komentáře CEO o rekordním investičním cyklu v polovodičích, upgrady cílů od Wells Fargo.",
-        "action_note": "Vstup v pásmu $235–250 se stop-lossem pod $220 při krátkodobém pullbacku."
+        "catalyst": "Iniciace Strong Buy od Raymond James (cíl $640) a širší AI reklamní rally.",
+        "action_note": "Vstup na dnešní síle, sledovat objem, jestli momentum vydrží i po otevření trhu."
       },
       "pros": [
-        "Diverzifikované portfolio napříč WFE segmenty",
-        "Silná podpora analytiků v AI capex cyklu"
+        "Silný růst tržeb (Q1 +59 % r/r)",
+        "Strong Buy konsenzus",
+        "Nová e-commerce expanze"
       ],
       "cons": [
-        "Přesná aktuální cena a P/E nebyly ověřeny (n/a)",
-        "Citlivost na exportní restrikce do Číny"
+        "Vysoká volatilita",
+        "Konkurence velkých hráčů (Meta, Google) v mobilní reklamě"
+      ]
+    },
+    {
+      "name": "Nike",
+      "ticker": "NKE",
+      "region": "usa",
+      "sector": "consumer",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$42.53",
+        "fair_value": "$55.22",
+        "discount": "+30% upside",
+        "signal": "Post-earnings propad navzdory lepším číslům",
+        "signal_reason": "Trh trestá opatrný výhled, přestože EPS překonalo odhady.",
+        "buy_zone": {
+          "low": "$38",
+          "high": "$41"
+        }
+      },
+      "moat": {
+        "score": "8",
+        "verdict": "Silná značka, ale slabší momentum",
+        "summary": "Dominantní globální značka, ale čelí tlaku v Číně a slabším maloobchodním tržbám."
+      },
+      "intrinsic": {
+        "annual_return": "+15%",
+        "verdict": "orientační odhad",
+        "summary": "Postupné oživení pod CEO Elliottem Hillem by mělo podpořit návrat k růstu v roce 2027.",
+        "risk": "3"
+      },
+      "metrics": {
+        "Aktuální cena": "$42.53",
+        "Fair value (cíl analytiků)": "$55.22",
+        "P/E": "n/a",
+        "Beta": "1.55",
+        "52t max/min": "n/a"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "n/a",
+          "note": "Nedostupné z ověřených zdrojů"
+        },
+        "Beta": {
+          "value": "1.55",
+          "note": "Volatilní vůči trhu"
+        },
+        "Div. yield": {
+          "value": "~4%",
+          "note": "Solidní dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "Pod tlakem kvůli poklesu tržeb v Číně"
+        }
+      },
+      "analysis": "Nike ve fiskálním Q4 2026 překonalo odhady tržeb i EPS, ale akcie dnes klesá po opatrném výhledu vedení kvůli slabšímu prodeji v Číně a rostoucím nákladům. Akcie je dlouhodobě výrazně pod svými maximy a analytici vidí velký prostor k zotavení.",
+      "trade": {
+        "action": "Koupit",
+        "horizon": "2–6 týdnů",
+        "entry": "$38–41",
+        "stop_loss": "$35",
+        "target": "$48",
+        "position_size": "max 3 % satelitu",
+        "risk_level": "3",
+        "catalyst": "Lepší než očekávané Q4 výsledky (EPS $0.72 vs. konsenzus $0.13), ale opatrná guidance tlačí akcii dolů.",
+        "action_note": "Postupně budovat pozici na slabosti, sledovat stabilizaci nad $38."
+      },
+      "pros": [
+        "Silná globální značka",
+        "EPS překonalo odhady",
+        "Dividendový výnos"
+      ],
+      "cons": [
+        "Slabost v Číně a maloobchodu",
+        "Opatrná guidance vedení",
+        "Akcie klesla přes 35 % YTD"
+      ]
+    },
+    {
+      "name": "General Mills",
+      "ticker": "GIS",
+      "region": "usa",
+      "sector": "consumer",
+      "recommendation": "Držet",
+      "price": {
+        "current": "$37.9",
+        "fair_value": "$37.35",
+        "discount": "-1.4% upside",
+        "signal": "Skok po výsledcích, ale blízko fair value",
+        "signal_reason": "Akcie dnes vyskočila přes 8 % po lepším než očekávaném Q4, ale je už blízko konsenzuálního cíle.",
+        "buy_zone": {
+          "low": "$35",
+          "high": "$38"
+        }
+      },
+      "moat": {
+        "score": "6",
+        "verdict": "Stabilní, ale pod tlakem",
+        "summary": "Silné značky potravin, ale slábnoucí objemy a konkurence v segmentu Pet Food."
+      },
+      "intrinsic": {
+        "annual_return": "+5%",
+        "verdict": "orientační odhad",
+        "summary": "Defenzivní titul s omezeným krátkodobým růstovým potenciálem.",
+        "risk": "2"
+      },
+      "metrics": {
+        "Aktuální cena": "$37.9",
+        "Fair value (cíl analytiků)": "$37.35",
+        "P/E": "~10x forward",
+        "Beta": "n/a",
+        "52t max/min": "n/a"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "~10x",
+          "note": "Levné vůči historickému průměru"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "Defenzivní sektor, nízká volatilita"
+        },
+        "Div. yield": {
+          "value": "~5%",
+          "note": "Vysoká dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "Pod tlakem inflace vstupů"
+        }
+      },
+      "analysis": "General Mills reportoval fiskální Q4 2026 s EPS $0.82, mírně nad odhady, a akcie dnes ráno vyskočila o 8,8 %. Analytici jsou nicméně obecně obezřetní (Hold rating) kvůli tlaku na objemy a segment mazlíčků.",
+      "trade": {
+        "action": "Držet",
+        "horizon": "1–2 týdny",
+        "entry": "$36–38",
+        "stop_loss": "$33.5",
+        "target": "$40",
+        "position_size": "max 2 % satelitu",
+        "risk_level": "2",
+        "catalyst": "Lepší než očekávané Q4 výsledky, potvrzení FY26 guidance.",
+        "action_note": "Krátkodobě lze těžit z momenta, ale po skoku už chybí výrazný upside – realizovat zisky při přiblížení k $40."
+      },
+      "pros": [
+        "Dividendový výnos ~5 %",
+        "Lepší než očekávané výsledky",
+        "Defenzivní sektor"
+      ],
+      "cons": [
+        "Blízko fair value po skoku",
+        "Dlouhodobě slabé objemy",
+        "Časté snižování cílů analytiky"
+      ]
+    },
+    {
+      "name": "Nebius Group",
+      "ticker": "NBIS",
+      "region": "europe",
+      "sector": "tech",
+      "recommendation": "Sledovat",
+      "price": {
+        "current": "$240.32",
+        "fair_value": "$203.25",
+        "discount": "-15.4% upside",
+        "signal": "Prudký propad, cíl analytiků pod aktuální cenou",
+        "signal_reason": "Akcie dnes propadla o 13,4 % a konzervativnější cíl analytiků naznačuje omezený prostor k růstu.",
+        "buy_zone": {
+          "low": "$220",
+          "high": "$240"
+        }
+      },
+      "moat": {
+        "score": "5",
+        "verdict": "Rychle rostoucí, ale rizikový",
+        "summary": "Rychlý růst AI cloud tržeb, ale vysoká konkurence hyperscalerů a rostoucí dluh."
+      },
+      "intrinsic": {
+        "annual_return": "n/a",
+        "verdict": "orientační odhad",
+        "summary": "Vysoká volatilita a rozporuplné cíle analytiků ztěžují krátkodobý odhad.",
+        "risk": "5"
+      },
+      "metrics": {
+        "Aktuální cena": "$240.32",
+        "Fair value (cíl analytiků)": "$203.25",
+        "P/E": "81.4",
+        "Beta": "1.43",
+        "52t max/min": "$299.86 / $43.89"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "81.4",
+          "note": "Drahé"
+        },
+        "Beta": {
+          "value": "1.43",
+          "note": "Volatilní"
+        },
+        "Div. yield": {
+          "value": "0%",
+          "note": "Nevyplácí dividendu"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "Nedávno dosáhla ziskovosti"
+        }
+      },
+      "analysis": "Nebius je nizozemská AI cloud infrastrukturní firma s masivními kontrakty (Meta, Microsoft). Akcie dnes propadla o 13,4 % v rámci širšího výprodeje AI/neocloud titulů po zprávě, že Meta plánuje prodávat přebytečnou výpočetní kapacitu, což vyvolává obavy o poptávku po externí infrastruktuře.",
+      "trade": {
+        "action": "Ubrat",
+        "horizon": "1–2 týdny",
+        "entry": "n/a (nekupovat teď)",
+        "stop_loss": "$215",
+        "target": "n/a",
+        "position_size": "max 2 % satelitu (jen pro stávající pozice)",
+        "risk_level": "5",
+        "catalyst": "Prudký propad po zprávě o konkurenční hrozbě od Meta v neocloud segmentu.",
+        "action_note": "Nekupovat na propadu, sledovat stabilizaci ceny a případné zpřesnění cílů analytiků."
+      },
+      "pros": [
+        "Masivní kontrahovaný backlog ($46 mld.)",
+        "Rychlý růst tržeb",
+        "Nedávná ziskovost"
+      ],
+      "cons": [
+        "Dnešní prudký propad -13 %",
+        "Rozporuplné cíle analytiků",
+        "Rostoucí zadlužení (~$8 mld.)"
+      ]
+    },
+    {
+      "name": "Corning",
+      "ticker": "GLW",
+      "region": "usa",
+      "sector": "industry",
+      "recommendation": "Sledovat",
+      "price": {
+        "current": "$224.56",
+        "fair_value": "$201.73",
+        "discount": "-10% upside",
+        "signal": "Propad po prudkém runupu, ochlazení AI/optického tématu",
+        "signal_reason": "Akcie po silném růstu (i díky Amazon kontraktu a AI/data centrům) dnes klesá a konsenzuální cíl je pod aktuální cenou.",
+        "buy_zone": {
+          "low": "$230",
+          "high": "$250"
+        }
+      },
+      "moat": {
+        "score": "7",
+        "verdict": "Silná pozice v optických vláknech",
+        "summary": "Klíčový dodavatel optických komponent pro datacentra a Apple, ale ocenění je nyní natažené."
+      },
+      "intrinsic": {
+        "annual_return": "n/a",
+        "verdict": "orientační odhad",
+        "summary": "Fundamenty jsou solidní, ale valuace po nedávném růstu vypadá nafouknutě.",
+        "risk": "3"
+      },
+      "metrics": {
+        "Aktuální cena": "$224.56",
+        "Fair value (cíl analytiků)": "$201.73",
+        "P/E": "122.7",
+        "Beta": "n/a",
+        "52t max/min": "$271.78 / $51.32"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "122.7",
+          "note": "Velmi drahé"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "Zvýšená volatilita po růstovém runu"
+        },
+        "Div. yield": {
+          "value": "~0.44%",
+          "note": "Nízká dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "Zlepšuje se díky optickým vláknům pro AI datacentra"
+        }
+      },
+      "analysis": "Corning dodává optická vlákna a komponenty pro datacentra a je součástí AI infrastrukturního tématu (nedávná smlouva s Amazonem). Akcie po silném růstu (+16 % za den v jednu chvíli) dnes klesla o více než 10 % v rámci širšího výprodeje AI/neocloud jmen, a valuace P/E přes 120 je nyní extrémně natažená vůči konsenzuálnímu cíli.",
+      "trade": {
+        "action": "Ubrat",
+        "horizon": "1–2 týdny",
+        "entry": "n/a (nekupovat teď)",
+        "stop_loss": "$225",
+        "target": "n/a",
+        "position_size": "max 2 % satelitu (jen pro stávající pozice)",
+        "risk_level": "4",
+        "catalyst": "Propad -10,4 % dnes v rámci širšího ochlazení AI/optického tématu po zprávách o Meta a neocloud konkurenci.",
+        "action_note": "Sledovat, zda se cena stabilizuje kolem $230–240, než zvažovat nový vstup; valuace je nyní nad fair value."
+      },
+      "pros": [
+        "Klíčový dodavatel pro AI datacentra a Apple",
+        "Nedávný kontrakt s Amazonem",
+        "Silný meziroční růst tržeb"
+      ],
+      "cons": [
+        "Extrémně vysoké P/E (>120)",
+        "Cíl analytiků pod aktuální cenou",
+        "Dnešní prudký propad"
       ]
     }
   ],
