@@ -1,67 +1,68 @@
 {
   "date": "23. července 2026",
-  "summary": "Trh je nervózní, ale odolný: Wall Street sleduje eskalaci konfliktu USA–Írán (ropa Brent přes 94 USD/barel), Fed drží sazby na 3,50–3,75 % s nulovou pravděpodobností snížení letos kvůli inflaci kolem 4 %, a probíhá klíčový týden výsledků velkých technologických firem (Alphabet exceloval v cloudu, Tesla zklamala, IBM propadl o čtvrtinu po varování). Dnešní tipy cílí na krátkodobé katalyzátory z těchto tří témat – jde o RIZIKOVÉ satelitní pozice, ne investiční doporučení: fair value = konsensus analytiků je jen orientační vodítko. Vždy dodržujte stop-loss a velikost pozice, časté přetrádování škodí výkonu.",
+  "summary": "Trh dnes ráno padá – Dow i S&P propadly o cca 0,9 %, Nasdaq o téměř 1,9 % kvůli obavám z AI capexu po výsledcích Alphabetu a Tesly a kvůli prudkému růstu cen ropy po dalším kole útoků na Írán. Fed zůstává jestřábí (sazby 3,50–3,75 %, žádný červencový cut), takže volatilita zůstává vysoká – dnešní tipy jsou KRÁTKODOBÉ, RIZIKOVÉ nápady pro 'satelitní' část portfolia, ne investiční doporučení. Fair value = průměrný konsenzus analytiků, jde jen o orientační vodítko; vždy dodržujte stop-lossy a velikost pozice, časté přetrádování škodí výnosům.",
   "sources": [
-    "Bloomberg",
-    "CNBC",
-    "TheStreet",
     "Yahoo Finance",
     "StockAnalysis.com",
+    "Finviz",
     "MarketBeat",
     "TipRanks",
-    "Benzinga",
-    "Reuters (Polymarket data)",
+    "Bloomberg",
+    "CNBC",
+    "Reuters",
+    "TickerNerd",
+    "Investing.com",
     "Simply Wall St",
-    "24/7 Wall St",
-    "StockTitan"
+    "Benzinga",
+    "FRED"
   ],
   "firms": [
     {
-      "name": "ASML Holding",
-      "ticker": "ASML",
-      "region": "europe",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "region": "usa",
       "sector": "tech",
       "recommendation": "Koupit",
       "price": {
-        "current": "$1,802",
-        "fair_value": "$2200",
-        "discount": "+22% upside",
-        "signal": "AI capex boom + guidance nahoru",
-        "signal_reason": "Blockbuster Q2 a zvýšený výhled na 43-45 mld. EUR tržeb v roce 2026 potvrzují sílu AI investic do čipů.",
+        "current": "$317.48",
+        "fair_value": "$433.55",
+        "discount": "+37% upside",
+        "signal": "Dip po výsledcích",
+        "signal_reason": "Akcie propadla po vyšší než čekané kapexové guidanci, ale cloud a AI byznys akceleruje.",
         "buy_zone": {
-          "low": "$1850",
-          "high": "$1950"
+          "low": "$320",
+          "high": "$345"
         }
       },
       "moat": {
         "score": "9",
-        "verdict": "Monopolní pozice v EUV litografii",
-        "summary": "Jediný dodavatel nejpokročilejších litografických strojů na světě."
+        "verdict": "Velmi silný",
+        "summary": "Dominance ve vyhledávání, YouTube a rostoucí Google Cloud s enormním backlogem."
       },
       "intrinsic": {
         "annual_return": "+15%",
         "verdict": "orientační odhad",
-        "summary": "Analytici vidí potenciál díky boomu paměťových čipů a pokročilé logiky.",
+        "summary": "Konsensus vidí výrazný prostor k růstu i po propadu.",
         "risk": "3"
       },
       "metrics": {
-        "Aktuální cena": "$1,802",
-        "Fair value (cíl analytiků)": "$2200",
-        "P/E": "n/a",
-        "Beta": "1.76",
-        "52t max/min": "n/a / n/a"
+        "Aktuální cena": "$317.48",
+        "Fair value (cíl analytiků)": "$433.55",
+        "P/E": "~18x",
+        "Beta": "n/a",
+        "52t max/min": "$404.47 / $188.70"
       },
       "indicators": {
         "P/E": {
+          "value": "~18x",
+          "note": "Férové"
+        },
+        "Beta": {
           "value": "n/a",
           "note": "n/a"
         },
-        "Beta": {
-          "value": "1.76",
-          "note": "Volatilní"
-        },
         "Div. yield": {
-          "value": "0.5%",
+          "value": "0.26%",
           "note": "Dividenda"
         },
         "Net Margin": {
@@ -69,291 +70,141 @@
           "note": "n/a"
         }
       },
-      "analysis": "ASML dodává litografické stroje nezbytné pro výrobu pokročilých AI čipů a jeho objednávky rostou díky nedostatku paměťových kapacit. Firma zvýšila výhled podruhé letos, což potvrzuje pokračující AI investiční boom napříč dodavatelským řetězcem.",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "1–4 týdny",
-        "entry": "$1850–1950",
-        "stop_loss": "$1750",
-        "target": "$2150",
-        "position_size": "max 4 % satelitu",
-        "risk_level": "3",
-        "catalyst": "AI capex téma zesílené asijským rally čipových akcií (Samsung, SK Hynix +3 %) po silných výsledcích",
-        "action_note": "Vstup do pásma při korekci, sledovat výsledky konkurenčních chipmakerů."
-      },
-      "pros": [
-        "Monopolní pozice v EUV",
-        "Zvýšený výhled tržeb",
-        "Silná poptávka po AI hardwaru"
-      ],
-      "cons": [
-        "Vysoká valuace",
-        "Citlivost na čínská exportní omezení"
-      ]
-    },
-    {
-      "name": "Leidos Holdings",
-      "ticker": "LDOS",
-      "region": "usa",
-      "sector": "industry",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$107.26",
-        "fair_value": "$175.00",
-        "discount": "+63% upside",
-        "signal": "Obranný sektor v centru pozornosti",
-        "signal_reason": "Eskalace konfliktu s Íránem drží poptávku po obranných a bezpečnostních IT službách vysoko.",
-        "buy_zone": {
-          "low": "$148",
-          "high": "$158"
-        }
-      },
-      "moat": {
-        "score": "7",
-        "verdict": "Silná pozice ve vládních IT kontraktech",
-        "summary": "Dlouhodobé kontrakty s americkou vládou a rostoucí backlog přes 69 mld. USD."
-      },
-      "intrinsic": {
-        "annual_return": "+10%",
-        "verdict": "orientační odhad",
-        "summary": "Analytici vidí firmu jako podhodnocenou vzhledem k marži nad konkurencí v Government IT.",
-        "risk": "2"
-      },
-      "metrics": {
-        "Aktuální cena": "$107.26",
-        "Fair value (cíl analytiků)": "$175.00",
-        "P/E": "n/a",
-        "Beta": "n/a",
-        "52t max/min": "n/a / n/a"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "n/a"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "n/a"
-        },
-        "Div. yield": {
-          "value": "n/a",
-          "note": "n/a"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "n/a"
-        }
-      },
-      "analysis": "Leidos poskytuje IT a bezpečnostní řešení pro vládní a obranné zákazníky a těží z rostoucích výdajů na obranu a kybernetickou bezpečnost v kontextu íránského konfliktu.",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "2–6 týdnů",
-        "entry": "$150–158",
-        "stop_loss": "$140",
-        "target": "$172",
-        "position_size": "max 3 % satelitu",
-        "risk_level": "2",
-        "catalyst": "Eskalace útoků USA-Írán zvyšuje poptávku po obranných/kybernetických kontraktech",
-        "action_note": "Otevřít menší pozici, sledovat další price target revize po výsledcích."
-      },
-      "pros": [
-        "Defenzivní vládní kontrakty",
-        "Rostoucí backlog",
-        "Vyšší marže v sektoru"
-      ],
-      "cons": [
-        "Nižší růst než konkurence",
-        "Rozpočtové škrty jako riziko"
-      ]
-    },
-    {
-      "name": "ServiceNow",
-      "ticker": "NOW",
-      "region": "usa",
-      "sector": "tech",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$95.46",
-        "fair_value": "$141.64",
-        "discount": "+48% upside",
-        "signal": "Přeprodaná akcie před/po výsledcích",
-        "signal_reason": "Akcie klesla 31,7 % YTD, přitom má silnou historii překonávání odhadů a AI produktové tempo.",
-        "buy_zone": {
-          "low": "$100",
-          "high": "$108"
-        }
-      },
-      "moat": {
-        "score": "8",
-        "verdict": "Vedoucí pozice v enterprise workflow softwaru",
-        "summary": "Silná expanze do AI a nových vertikál (HR, bezpečnost) s vysokým podílem na trhu."
-      },
-      "intrinsic": {
-        "annual_return": "+20%",
-        "verdict": "orientační odhad",
-        "summary": "Konsensus 48 analytiků vidí velký prostor k zotavení po letošním propadu.",
-        "risk": "3"
-      },
-      "metrics": {
-        "Aktuální cena": "$95.46",
-        "Fair value (cíl analytiků)": "$141.64",
-        "P/E": "61",
-        "Beta": "n/a",
-        "52t max/min": "n/a / n/a"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "61",
-          "note": "Drahé"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "n/a"
-        },
-        "Div. yield": {
-          "value": "0%",
-          "note": "Bez dividendy"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "n/a"
-        }
-      },
-      "analysis": "ServiceNow je leader v cloudovém workflow softwaru s rostoucí AI monetizací, ale letos byl silně přeprodán. Výsledky za Q2 2026 zveřejnila po uzavření trhu ve středu 22.7., reakce trhu bude klíčová pro krátkodobý pohyb.",
+      "analysis": "Alphabet reportoval cloudové tržby výrazně nad očekáváním s backlogem přes 500 mld. USD, ale trh se lekl vyšší kapexové guidance a akcie klesla o cca 5 % před otevřením.",
       "trade": {
         "action": "Koupit",
         "horizon": "1–3 týdny",
-        "entry": "$100–108",
-        "stop_loss": "$92",
-        "target": "$125",
-        "position_size": "max 3 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Výsledky Q2 2026 zveřejněné 22.7. po uzavření trhu, historicky 4 po sobě jdoucí překonání odhadů",
-        "action_note": "Potvrdit reakci na výsledky před navýšením pozice, drž tight stop kvůli volatilitě po earnings."
+        "entry": "$325–$345",
+        "stop_loss": "$310",
+        "target": "$380",
+        "position_size": "max 4 % satelitu",
+        "risk_level": "3",
+        "catalyst": "Propad po výsledcích kvůli obavám z AI capexu – silný cloud backlog nabízí příležitost k odkupu poklesu.",
+        "action_note": "Sledovat dnešní otevření, případně nakupovat do poklesu k $325–330 se stopem pod $310."
       },
       "pros": [
-        "Silný AI produktový cyklus",
-        "Historicky konzistentní beaty",
-        "Velký diskont k cíli"
+        "Dominance v cloudu a vyhledávání",
+        "Silný backlog v Google Cloud",
+        "Investice do Anthropic zvyšuje hodnotu portfolia"
       ],
       "cons": [
-        "Vysoké P/E",
-        "Citlivost na snížení IT rozpočtů při vyšších sazbách"
+        "Rostoucí kapex tíží marže krátkodobě",
+        "Regulatorní tlaky (DOJ, EU pokuty)"
       ]
     },
     {
-      "name": "IBM",
-      "ticker": "IBM",
-      "region": "usa",
-      "sector": "tech",
-      "recommendation": "Sledovat",
-      "price": {
-        "current": "$209.36",
-        "fair_value": "$255.00",
-        "discount": "+22%",
-        "signal": "Prudký propad po výsledcích, kontrariánská příležitost",
-        "signal_reason": "Akcie spadla po varování a slabších Q2 výsledcích, ale software/cloud segment stále roste a analytici drží Buy rating.",
-        "buy_zone": {
-          "low": "$200",
-          "high": "$215"
-        }
-      },
-      "moat": {
-        "score": "6",
-        "verdict": "Silná pozice v enterprise software (Red Hat, watsonx)",
-        "summary": "Software segment rostl 5 % r/r, i když mainframe (Z) propadl 42 %."
-      },
-      "intrinsic": {
-        "annual_return": "+15%",
-        "verdict": "orientační odhad",
-        "summary": "Cíle analytiků byly po varování sníženy, ale stále implikují dvouciferný upside.",
-        "risk": "3"
-      },
-      "metrics": {
-        "Aktuální cena": "$209.36",
-        "Fair value (cíl analytiků)": "$255.00",
-        "P/E": "n/a",
-        "Beta": "n/a",
-        "52t max/min": "n/a / n/a"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "n/a"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "n/a"
-        },
-        "Div. yield": {
-          "value": "n/a",
-          "note": "Dividenda od 1916"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "n/a"
-        }
-      },
-      "analysis": "IBM zveřejnil Q2 výsledky pod odhady kvůli propadu mainframe hardwaru (zákazníci nakupovali dříve kvůli očekávaným zdražením), akcie spadla o 25 % po předběžném varování minulý týden. Software a AI bookings (12,5 mld. USD generative AI) ale rostou.",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "2–4 týdny",
-        "entry": "$200–215",
-        "stop_loss": "$190",
-        "target": "$240",
-        "position_size": "max 2 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Prudký propad po varování/výsledcích vytvořil možný kontrariánský dip-buy na pozadí silného AI/cloud tématu z výsledků Alphabetu",
-        "action_note": "Malá počáteční pozice, potvrdit stabilizaci nad $200 před navýšením."
-      },
-      "pros": [
-        "Silný AI bookings pipeline",
-        "Software segment roste",
-        "Historicky spolehlivá dividenda"
-      ],
-      "cons": [
-        "Mainframe cyklus slábne",
-        "Snížený výhled růstu na 2026"
-      ]
-    },
-    {
-      "name": "SLB N.V.",
+      "name": "SLB (Schlumberger)",
       "ticker": "SLB",
       "region": "usa",
       "sector": "energy",
       "recommendation": "Držet",
       "price": {
-        "current": "$47.67",
-        "fair_value": "$60.00",
-        "discount": "+26% upside",
-        "signal": "Ropný servis těží z konfliktu, ale výsledky zítra",
-        "signal_reason": "Cena ropy roste kvůli íránské eskalaci, ale Q2 výsledky (24.7.) přinášejí binární riziko.",
+        "current": "$50.32",
+        "fair_value": "$54.00",
+        "discount": "+7.3% upside",
+        "signal": "AI data centra + eskalace na Blízkém východě",
+        "signal_reason": "Nová aliance na modulární datacentra a nárůst cen ropy podporují oilfield services sektor.",
         "buy_zone": {
-          "low": "$54",
-          "high": "$58"
+          "low": "$47",
+          "high": "$51"
         }
       },
       "moat": {
         "score": "7",
-        "verdict": "Vedoucí pozice v ropných servisech",
-        "summary": "Dominance v digitálních a servisních řešeních pro ropný a plynárenský sektor."
+        "verdict": "Solidní",
+        "summary": "Lídr v oilfield services s rostoucí digitální/energetickou infrastrukturní nohou."
       },
       "intrinsic": {
-        "annual_return": "+8%",
+        "annual_return": "+7%",
         "verdict": "orientační odhad",
-        "summary": "Konsensus Strong Buy, ale cíle se v posledních týdnech snižovaly kvůli výpadkům na Blízkém východě.",
+        "summary": "Umírněný upside, ale silný katalyzátor v podobě AI datacenter kontraktů.",
         "risk": "3"
       },
       "metrics": {
-        "Aktuální cena": "$47.67",
-        "Fair value (cíl analytiků)": "$60.00",
-        "P/E": "24.6",
+        "Aktuální cena": "$50.32",
+        "Fair value (cíl analytiků)": "$54.00",
+        "P/E": "n/a",
         "Beta": "n/a",
-        "52t max/min": "n/a / n/a"
+        "52t max/min": "n/a"
       },
       "indicators": {
         "P/E": {
-          "value": "24.6",
+          "value": "n/a",
+          "note": "n/a"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "n/a"
+        },
+        "Div. yield": {
+          "value": "n/a",
+          "note": "n/a"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "n/a"
+        }
+      },
+      "analysis": "SLB oznámil 14. července strategickou alianci s Liberty Energy na dodávky modulární infrastruktury pro datacentra a plynové elektrárny – přímá sázka na energetickou poptávku AI hyperscalerů.",
+      "trade": {
+        "action": "Držet",
+        "horizon": "2–4 týdny",
+        "entry": "$48–$51",
+        "stop_loss": "$44",
+        "target": "$56",
+        "position_size": "max 3 % satelitu",
+        "risk_level": "3",
+        "catalyst": "Q2 výsledky 24. července + rostoucí ceny ropy kvůli eskalaci konfliktu s Íránem.",
+        "action_note": "Vstup před výsledky 24.7., stop pod $44 kdyby výsledky zklamaly."
+      },
+      "pros": [
+        "AI datacentrová diverzifikace",
+        "Rostoucí ceny ropy podporují aktivitu",
+        "Silná institucionální podpora"
+      ],
+      "cons": [
+        "Výsledky 24.7. mohou zvýšit volatilitu",
+        "Historicky slabší mezinárodní aktivita"
+      ]
+    },
+    {
+      "name": "NRG Energy",
+      "ticker": "NRG",
+      "region": "usa",
+      "sector": "energy",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$139.64",
+        "fair_value": "$188.86",
+        "discount": "+35% upside",
+        "signal": "AI datacentra a rostoucí poptávka po elektřině",
+        "signal_reason": "Rostoucí ceny elektřiny a data center poptávka podporují Strong Buy konsensus.",
+        "buy_zone": {
+          "low": "$140",
+          "high": "$155"
+        }
+      },
+      "moat": {
+        "score": "7",
+        "verdict": "Solidní",
+        "summary": "Diverzifikovaný výrobce a prodejce elektřiny s expozicí na data center a smart home segment."
+      },
+      "intrinsic": {
+        "annual_return": "+18%",
+        "verdict": "orientační odhad",
+        "summary": "Analytici vidí silný upside díky rostoucí poptávce po energii pro AI.",
+        "risk": "3"
+      },
+      "metrics": {
+        "Aktuální cena": "$139.64",
+        "Fair value (cíl analytiků)": "$188.86",
+        "P/E": "22.1x",
+        "Beta": "n/a",
+        "52t max/min": "$189.96 / $120.11"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "22.1x",
           "note": "Férové"
         },
         "Beta": {
@@ -362,69 +213,143 @@
         },
         "Div. yield": {
           "value": "n/a",
-          "note": "Kvartální dividenda $0,295/akcii"
+          "note": "n/a"
+        },
+        "Net Margin": {
+          "value": "4.8%",
+          "note": "Nízká, ale rostoucí"
+        }
+      },
+      "analysis": "NRG spravuje velký retailový a generační portfolio v Texasu a na východním pobřeží, s rostoucím segmentem smart home a rostoucí expozicí na poptávku datacenter po elektřině.",
+      "trade": {
+        "action": "Koupit",
+        "horizon": "2–5 týdnů",
+        "entry": "$145–$155",
+        "stop_loss": "$132",
+        "target": "$175",
+        "position_size": "max 3 % satelitu",
+        "risk_level": "3",
+        "catalyst": "Výsledky Q2 4. srpna + pokračující téma rostoucí spotřeby elektřiny kvůli AI datacentrům.",
+        "action_note": "Postupný nákup do pásma $145–155, sledovat výsledky 4.8."
+      },
+      "pros": [
+        "Silný Strong Buy konsensus",
+        "Rostoucí segment smart home",
+        "Data center poptávka po elektřině"
+      ],
+      "cons": [
+        "Volatilní cena elektřiny",
+        "Konkurence ostatních utilit o kontrakty s datacentry"
+      ]
+    },
+    {
+      "name": "Applied Materials",
+      "ticker": "AMAT",
+      "region": "usa",
+      "sector": "tech",
+      "recommendation": "Držet",
+      "price": {
+        "current": "$569.28",
+        "fair_value": "$606.20",
+        "discount": "+6% upside",
+        "signal": "AI capex debata",
+        "signal_reason": "Cena je už blízko konsenzuálnímu cíli, upside je minimální navzdory silné AI tezi.",
+        "buy_zone": {
+          "low": "$560",
+          "high": "$600"
+        }
+      },
+      "moat": {
+        "score": "8",
+        "verdict": "Silný",
+        "summary": "Lídr ve výrobním zařízení pro polovodiče, klíčový hráč AI capexové vlny."
+      },
+      "intrinsic": {
+        "annual_return": "+5%",
+        "verdict": "orientační odhad",
+        "summary": "Valuace už z velké části odráží AI boom, malý prostor k dalšímu růstu krátkodobě.",
+        "risk": "3"
+      },
+      "metrics": {
+        "Aktuální cena": "$569.28",
+        "Fair value (cíl analytiků)": "$606.20",
+        "P/E": "~29x",
+        "Beta": "n/a",
+        "52t max/min": "n/a"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "~29x",
+          "note": "Drahé"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "n/a"
+        },
+        "Div. yield": {
+          "value": "n/a",
+          "note": "n/a"
         },
         "Net Margin": {
           "value": "n/a",
           "note": "n/a"
         }
       },
-      "analysis": "SLB je největší ropný servisní gigant, který profituje z vyšších cen ropy vyvolaných konfliktem USA-Írán, ale krátkodobě čelí provozním výpadkům na Blízkém východě a tlaku na Q2 EPS (očekáváno $0,52, pokles o 30 % r/r).",
+      "analysis": "AMAT profituje z AI a datacenter kapexu, ale po silném růstu je ocenění už blízko konsenzuálním cílům – vhodné spíš na dip než honit cenu nahoru.",
       "trade": {
         "action": "Držet",
-        "horizon": "1–2 týdny",
-        "entry": "$54–58",
-        "stop_loss": "$50",
-        "target": "$62",
+        "horizon": "sledovat na pokles",
+        "entry": "$560–$580 (na dip)",
+        "stop_loss": "$540",
+        "target": "$650",
         "position_size": "max 2 % satelitu",
         "risk_level": "3",
-        "catalyst": "Q2 výsledky 24.7. ráno, Iranská eskalace tlačí ropu k $94/barel",
-        "action_note": "Čekat na reakci na výsledky před navýšením pozice, riziko binárního propadu při zklamání EPS."
+        "catalyst": "Pokračující AI capex debata po výsledcích Alphabetu/Tesly, volatilita v čipovém sektoru.",
+        "action_note": "Nekupovat za current cenu, čekat na korekci k $560–580."
       },
       "pros": [
-        "Silný beneficient vysokých cen ropy",
-        "Strong Buy konsensus",
-        "Akvizice Tachyus posiluje portfolio"
+        "Klíčový dodavatel pro AI polovodiče",
+        "Silná poptávka po WFE"
       ],
       "cons": [
-        "Blízkovýchodní výpadky tlačí marže",
-        "Q2 EPS očekáván výrazně níž r/r"
+        "Minimální upside při aktuální ceně",
+        "Vysoká valuace (P/E ~29x)"
       ]
     },
     {
-      "name": "Micron Technology",
-      "ticker": "MU",
+      "name": "Intel",
+      "ticker": "INTC",
       "region": "usa",
       "sector": "tech",
-      "recommendation": "Držet",
+      "recommendation": "Sledovat",
       "price": {
-        "current": "$959.48",
-        "fair_value": "$1050.00",
-        "discount": "+9.4%",
-        "signal": "Pokračující momentum z AI paměťového boomu",
-        "signal_reason": "Asijský chip rally (Samsung, SK Hynix) potvrzuje sílu poptávky po HBM/DRAM pro AI čipy.",
+        "current": "n/a",
+        "fair_value": "n/a",
+        "discount": "n/a",
+        "signal": "Výsledky dnes",
+        "signal_reason": "Zacks Rank #3 (Hold), trh čeká na výsledky dnes odpoledne uprostřed slabosti čipového sektoru.",
         "buy_zone": {
-          "low": "$920",
-          "high": "$970"
+          "low": "n/a",
+          "high": "n/a"
         }
       },
       "moat": {
-        "score": "7",
-        "verdict": "Klíčový hráč v HBM/DRAM pro AI",
-        "summary": "Nedostatek paměťových kapacit posiluje cenovou sílu Micronu."
+        "score": "5",
+        "verdict": "Průměrný",
+        "summary": "Turnaround story v pokročilé výrobě čipů, zatím bez jasného momenta."
       },
       "intrinsic": {
-        "annual_return": "+12%",
+        "annual_return": "n/a",
         "verdict": "orientační odhad",
-        "summary": "Otevřená pozice z minulého reportu pokračuje v růstu díky sektorovému momentu.",
+        "summary": "Bez jasného konsenzu upside před výsledky.",
         "risk": "4"
       },
       "metrics": {
-        "Aktuální cena": "$959.48",
-        "Fair value (cíl analytiků)": "$1050.00",
+        "Aktuální cena": "n/a",
+        "Fair value (cíl analytiků)": "n/a",
         "P/E": "n/a",
         "Beta": "n/a",
-        "52t max/min": "n/a / n/a"
+        "52t max/min": "n/a"
       },
       "indicators": {
         "P/E": {
@@ -444,519 +369,592 @@
           "note": "n/a"
         }
       },
-      "analysis": "Micron je klíčovým beneficientem globálního boomu poptávky po paměťových čipech pro AI servery, což potvrzuje i dnešní rally asijských chipmakerů (Samsung, SK Hynix +3 %).",
+      "analysis": "Intel reportuje výsledky dnes uprostřed prudkého propadu Nasdaqu kvůli obavám z AI capexu – akcie udržuje Zacks Rank #3 (Hold), jde o čistě event-driven volatilní hru.",
       "trade": {
         "action": "Držet",
-        "horizon": "1–3 týdny",
-        "entry": "$920–970",
-        "stop_loss": "$880",
-        "target": "$1050",
-        "position_size": "max 3 % satelitu (navazuje na existující pozici)",
-        "risk_level": "4",
-        "catalyst": "Asijský chip rally posiluje sentiment kolem AI paměťového cyklu",
-        "action_note": "Posunout stop z $800 na $880 k ochraně zisku, zvážit malé přikoupení při korekci."
+        "horizon": "1 den (earnings)",
+        "entry": "n/a",
+        "stop_loss": "n/a",
+        "target": "n/a",
+        "position_size": "n/a",
+        "risk_level": "5",
+        "catalyst": "Výsledky za Q2 2026 dnes odpoledne.",
+        "action_note": "Nevstupovat před výsledky, sledovat reakci a případně obchodovat gap zítra."
       },
       "pros": [
-        "Silný AI memory tailwind",
-        "Rally konkurentů v Asii",
-        "Cenová síla díky nedostatku kapacit"
+        "Turnaround potenciál",
+        "Vysoká pozornost trhu dnes"
       ],
       "cons": [
-        "Cyklický sektor",
-        "Vysoká volatilita"
+        "Chybí jasný katalyzátor upside",
+        "Historicky volatilní reakce na výsledky"
+      ]
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "region": "usa",
+      "sector": "consumer",
+      "recommendation": "Sledovat",
+      "price": {
+        "current": "n/a",
+        "fair_value": "n/a",
+        "discount": "n/a",
+        "signal": "Výsledky pod odhady",
+        "signal_reason": "Tesla reportovala výsledky pod očekáváním, akcie kolísala ve pozdním obchodování.",
+        "buy_zone": {
+          "low": "n/a",
+          "high": "n/a"
+        }
+      },
+      "moat": {
+        "score": "6",
+        "verdict": "Silný brand, slabší momentum",
+        "summary": "Lídr v EV a robotice, ale poslední výsledky zklamaly."
+      },
+      "intrinsic": {
+        "annual_return": "n/a",
+        "verdict": "orientační odhad",
+        "summary": "Bez jasného upside po slabých výsledcích, čeká se na reakci trhu.",
+        "risk": "5"
+      },
+      "metrics": {
+        "Aktuální cena": "n/a",
+        "Fair value (cíl analytiků)": "n/a",
+        "P/E": "n/a",
+        "Beta": "n/a",
+        "52t max/min": "n/a"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "n/a",
+          "note": "n/a"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "n/a"
+        },
+        "Div. yield": {
+          "value": "n/a",
+          "note": "n/a"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "n/a"
+        }
+      },
+      "analysis": "Teslin zisk zaostal za odhady a akcie kolísala v pozdním obchodování – potenciální krátkodobá volatilní příležitost, ale bez jasné analytické konfirmace ceny/cíle.",
+      "trade": {
+        "action": "Držet",
+        "horizon": "dny",
+        "entry": "n/a",
+        "stop_loss": "n/a",
+        "target": "n/a",
+        "position_size": "n/a",
+        "risk_level": "5",
+        "catalyst": "Slabší než čekané Q2 výsledky, reakce trhu na AI/robotaxi guidance.",
+        "action_note": "Čekat na potvrzení směru po dnešním otevření, nevstupovat naslepo."
+      },
+      "pros": [
+        "Silná značka a inovační potenciál",
+        "Robotaxi/AI opce dlouhodobě"
+      ],
+      "cons": [
+        "Zisk pod odhady",
+        "Vysoká volatilita kolem výsledků"
       ]
     }
   ],
   "themes": [
     {
-      "event": "Eskalace konfliktu USA-Írán (11. kolo úderů), Brent přes $94, WTI $86,83",
-      "thesis": "Vyšší geopolitické riziko → rostoucí ceny ropy → benefit pro ropné servisní firmy a producenty, tlak na náklady dopravy/cestovního ruchu",
-      "tickers": "SLB, LDOS"
+      "event": "Eskalace útoků USA na Írán, 11. kolo úderů, ropa (Brent) přes $94–95",
+      "thesis": "Konflikt na Blízkém východě → vyšší rizikové prémie v ropě → benefit pro producenty ropy, oilfield services a tankery, tlak na letecké a spotřebitelské firmy",
+      "tickers": "SLB, XOM, CVX, OXY, COP, EQT, FRO, STNG, DHT, INSW"
     },
     {
-      "event": "Fed drží sazby 3,50-3,75 %, trh cení nulovou pravděpodobnost snížení v roce 2026 kvůli inflaci ~4 %",
-      "thesis": "Vyšší sazby déle → tlak na růstové/software valuace → přeprodané kvalitní tituly nabízejí kontrariánskou příležitost po korekci",
-      "tickers": "NOW, IBM"
+      "event": "Obavy z AI kapexu po výsledcích Alphabetu a Tesly, Nasdaq -1,9%",
+      "thesis": "Vyšší kapexová guidance tíží sentiment krátkodobě, ale silný cloud/AI backlog nabízí příležitost k odkupu poklesu u kvalitních AI hráčů",
+      "tickers": "GOOGL, AMAT, NVDA, MU, AVGO"
     },
     {
-      "event": "Q2 earnings season Big Tech: Alphabet cloud blowout (backlog přes $500 mld.), Tesla zklamala, IBM propadl 25 % po varování",
-      "thesis": "AI infrastrukturní capex pokračuje navzdory smíšeným earnings → dodavatelé AI hardwaru profitují, zatímco legacy IT firmy jsou pod tlakem",
-      "tickers": "ASML, MU, IBM"
+      "event": "Fed drží sazby na 3,50–3,75%, žádný červencový cut, inflace nad cílem",
+      "thesis": "Jestřábí Fed → vyšší sazby delší dobu → benefit pro banky a energetiku s cash flow, tlak na růstové/dluhem financované firmy",
+      "tickers": "SCHW, WFC, HAL"
     },
     {
-      "event": "Rally asijských chipmakerů (Samsung, SK Hynix +3 %, Kospi +2,8 %) kvůli AI investicím",
-      "thesis": "Globální AI capex boom → beneficienti v dodavatelském řetězci polovodičů napříč regiony",
-      "tickers": "ASML, MU"
+      "event": "Rostoucí poptávka po elektřině pro AI datacentra (NRG, Vistra, Constellation)",
+      "thesis": "Hyperscaleři potřebují masivní energetickou kapacitu → utility a energetické infrastrukturní firmy s data center kontrakty rostou",
+      "tickers": "NRG, VST, CEG, GEV"
     }
   ],
   "follow_up": [
     {
       "ticker": "ACN",
-      "action": "Posuň stop na $130",
-      "note": "Zisk +9,5 %, blízko cíle $150, chránit profit.",
+      "action": "Posuň stop na $128",
+      "note": "Akcie +6,9 % nad vstupem, zajistit zisk posunem stopu na vstupní cenu.",
       "entry": 127.98,
-      "current": 140.09,
-      "pl_pct": 9.5,
+      "current": 136.76,
+      "pl_pct": 6.9,
       "stop": 118.0
     },
     {
       "ticker": "COIN",
       "action": "Drž",
-      "note": "Mírný zisk, teze na krypto/institucionální adopci stále platí.",
+      "note": "Cena flat kolem vstupu, teze i stop stále platí.",
       "entry": 163.47,
-      "current": 166.12,
-      "pl_pct": 1.6,
+      "current": 162.47,
+      "pl_pct": -0.6,
       "stop": 138.0
     },
     {
-      "ticker": "KR",
-      "action": "Drž",
-      "note": "Blízko stopu, ale teze o defenzivním retailu zatím platí, sledovat pozorně.",
-      "entry": 60.5,
-      "current": 57.54,
-      "pl_pct": -4.9,
-      "stop": 55.5
-    },
-    {
       "ticker": "SHEL",
-      "action": "Posuň stop na $80",
-      "note": "Blízko cíle $95 díky vyšší ropě, zajistit zisk.",
+      "action": "Posuň stop na $84",
+      "note": "Blízko cíli $95, zajistit část zisku.",
       "entry": 81.16,
-      "current": 87.77,
-      "pl_pct": 8.1,
+      "current": 89.26,
+      "pl_pct": 10.0,
       "stop": 72.0
     },
     {
       "ticker": "EPAM",
       "action": "Drž",
-      "note": "Blízko stopu, teze na IT outsourcing stále nezměněna, sledovat pozorně.",
+      "note": "Stále nad stopem $83, ale blízko – sledovat pozorně.",
       "entry": 89.94,
-      "current": 86.57,
-      "pl_pct": -3.7,
+      "current": 85.3,
+      "pl_pct": -5.2,
       "stop": 83.0
-    },
-    {
-      "ticker": "GOOGL",
-      "action": "Drž",
-      "note": "Cloud backlog přes $500 mld. potvrzuje sílu tezí, propad je krátkodobý šum.",
-      "entry": 356.0,
-      "current": 342.09,
-      "pl_pct": -3.9,
-      "stop": 330.0
     },
     {
       "ticker": "RKT",
       "action": "Drž",
-      "note": "Cena stabilní kolem vstupu, teze beze změny.",
+      "note": "Mírně pod vstupem, stop nedotčen.",
       "entry": 13.47,
-      "current": 13.44,
-      "pl_pct": -0.2,
+      "current": 12.87,
+      "pl_pct": -4.5,
       "stop": 11.5
     },
     {
       "ticker": "TTWO",
       "action": "Drž",
-      "note": "Mírný pokles, herní katalyzátor zatím neplatný, čekat.",
+      "note": "Pokles -4,5 %, stop stále daleko, teze platí.",
       "entry": 243.0,
-      "current": 233.58,
-      "pl_pct": -3.9,
+      "current": 232.18,
+      "pl_pct": -4.5,
       "stop": 218.0
     },
     {
       "ticker": "META",
       "action": "Drž",
-      "note": "Zisk, AI monetizace pokračuje, cíl $700 stále v dosahu.",
+      "note": "Mírný pokles, thesis (AI/reklama) beze změny.",
       "entry": 619.0,
-      "current": 627.17,
-      "pl_pct": 1.3,
+      "current": 606.46,
+      "pl_pct": -2.0,
       "stop": 570.0
     },
     {
       "ticker": "PLTR",
       "action": "Drž",
-      "note": "Pokles v rámci volatility sektoru, teze na vládní AI kontrakty trvá.",
+      "note": "-5,5 % ale nad stopem, sledovat momentum.",
       "entry": 130.64,
-      "current": 124.57,
-      "pl_pct": -4.6,
+      "current": 123.48,
+      "pl_pct": -5.5,
       "stop": 108.0
     },
     {
       "ticker": "MSTR",
       "action": "Drž",
-      "note": "Mírný zisk, korelace s BTC pokračuje.",
+      "note": "Téměř beze změny, teze na BTC platí.",
       "entry": 96.95,
-      "current": 100.01,
-      "pl_pct": 3.2,
+      "current": 95.54,
+      "pl_pct": -1.5,
       "stop": 80.0
     },
     {
       "ticker": "VST",
       "action": "Posuň stop na $158",
-      "note": "Silný zisk +10,4 %, zajistit část profitu.",
+      "note": "Silný zisk +10,6 %, zajistit část zisku.",
       "entry": 151.05,
-      "current": 166.74,
-      "pl_pct": 10.4,
+      "current": 167.02,
+      "pl_pct": 10.6,
       "stop": 148.0
     },
     {
       "ticker": "CCL",
-      "action": "Utni",
-      "note": "Rostoucí cena ropy zvyšuje palivové náklady cruise sektoru, teze oslabena, blízko stopu.",
+      "action": "Drž",
+      "note": "Blízko stopu $25, sledovat pozorně, případně utnout při proražení.",
       "entry": 28.51,
-      "current": 26.1,
-      "pl_pct": -8.5,
+      "current": 25.48,
+      "pl_pct": -10.6,
       "stop": 25.0
     },
     {
       "ticker": "GEV",
-      "action": "Utni",
-      "note": "Propad -10,4 % a slabá reakce na Q2 výsledky (-7 % po zveřejnění), teze oslabena, blízko stopu.",
+      "action": "Drž",
+      "note": "Pokles -7,3 %, ale stále nad stopem $980.",
       "entry": 1099.0,
-      "current": 985.03,
-      "pl_pct": -10.4,
+      "current": 1018.63,
+      "pl_pct": -7.3,
       "stop": 980.0
     },
     {
       "ticker": "NOC",
       "action": "Drž",
-      "note": "Obranný sektor zůstává v centru pozornosti kvůli íránskému konfliktu.",
+      "note": "Mírný pokles, teze na obranu beze změny.",
       "entry": 550.0,
-      "current": 525.28,
-      "pl_pct": -4.5,
+      "current": 541.51,
+      "pl_pct": -1.5,
       "stop": 505.0
     },
     {
       "ticker": "NVDA",
-      "action": "Posuň stop na $195",
-      "note": "Zisk +8,2 %, blízko cíle, zajistit profit.",
+      "action": "Posuň stop na $190",
+      "note": "Solidní zisk, zajistit část profitu vyšším stopem.",
       "entry": 196.0,
-      "current": 212.06,
-      "pl_pct": 8.2,
+      "current": 208.76,
+      "pl_pct": 6.5,
       "stop": 178.0
     },
     {
       "ticker": "LMT",
-      "action": "Drž",
-      "note": "Blízko stopu, ale obranná teze podpořena eskalací v Íránu.",
+      "action": "Posuň stop na $555",
+      "note": "Blízko cíli $580, zajistit zisk.",
       "entry": 538.0,
-      "current": 514.36,
-      "pl_pct": -4.4,
+      "current": 571.82,
+      "pl_pct": 6.3,
       "stop": 505.0
     },
     {
       "ticker": "OXY",
       "action": "Drž",
-      "note": "Zisk díky vyšší ropě, teze platí.",
+      "note": "Zisk +4,8 % v souladu s tezí na ropu.",
       "entry": 56.0,
-      "current": 57.5,
-      "pl_pct": 2.7,
+      "current": 58.68,
+      "pl_pct": 4.8,
       "stop": 50.0
     },
     {
       "ticker": "HAL",
       "action": "Drž",
-      "note": "Mírný pokles, sledovat výsledky sektoru (SLB 24.7.) jako indikátor.",
+      "note": "Prakticky beze změny, teze platí.",
       "entry": 33.79,
-      "current": 33.03,
-      "pl_pct": -2.2,
+      "current": 33.62,
+      "pl_pct": -0.5,
       "stop": 29.5
     },
     {
       "ticker": "FRO",
       "action": "Drž",
-      "note": "Tanker sektor stabilní, teze na vyšší sazby za přepravu ropy platí.",
+      "note": "Mírný zisk, thesis na tankery beze změny.",
       "entry": 38.44,
-      "current": 37.96,
-      "pl_pct": -1.2,
+      "current": 38.91,
+      "pl_pct": 1.2,
       "stop": 33.5
     },
     {
       "ticker": "NEM",
       "action": "Drž",
-      "note": "Mírný pokles, zlato jako hedge zůstává relevantní.",
+      "note": "Pokles -3,8 %, stop daleko, zlato zůstává hedge.",
       "entry": 98.2,
-      "current": 95.75,
-      "pl_pct": -2.5,
+      "current": 94.44,
+      "pl_pct": -3.8,
       "stop": 88.0
     },
     {
       "ticker": "INSW",
       "action": "Vezmi zisk",
-      "note": "Blízko cíle $92 (+11,8 %), realizovat část zisku.",
+      "note": "Blízko cíli $92 se ziskem +14,2 %, doporučeno realizovat část.",
       "entry": 79.51,
-      "current": 88.91,
-      "pl_pct": 11.8,
+      "current": 90.79,
+      "pl_pct": 14.2,
       "stop": 70.0
     },
     {
       "ticker": "SCHW",
       "action": "Drž",
-      "note": "Stabilní, finanční sektor bez zásadní změny tezí.",
+      "note": "Flat, teze na finanční sektor platí.",
       "entry": 101.7,
-      "current": 100.8,
-      "pl_pct": -0.9,
+      "current": 102.06,
+      "pl_pct": 0.4,
       "stop": 92.0
     },
     {
       "ticker": "CRCL",
       "action": "Drž",
-      "note": "Zisk, krypto/stablecoin teze pokračuje.",
+      "note": "Mírný zisk, thesis platí.",
       "entry": 63.0,
-      "current": 66.16,
-      "pl_pct": 5.0,
+      "current": 63.7,
+      "pl_pct": 1.1,
       "stop": 54.0
     },
     {
       "ticker": "XOM",
-      "action": "Posuň stop na $145",
-      "note": "Silný zisk díky ropě, zajistit profit blízko cíle.",
+      "action": "Posuň stop na $150",
+      "note": "Silný zisk +13,9 %, zajistit profit.",
       "entry": 138.47,
-      "current": 154.45,
-      "pl_pct": 11.5,
+      "current": 157.66,
+      "pl_pct": 13.9,
       "stop": 132.0
     },
     {
       "ticker": "STNG",
       "action": "Drž",
-      "note": "Tanker sektor stabilní.",
+      "note": "Flat, thesis na tankery beze změny.",
       "entry": 79.32,
-      "current": 78.46,
-      "pl_pct": -1.1,
+      "current": 79.41,
+      "pl_pct": 0.1,
       "stop": 68.0
     },
     {
       "ticker": "COP",
-      "action": "Posuň stop na $110",
-      "note": "Blízko cíle $128, zajistit zisk.",
+      "action": "Posuň stop na $115",
+      "note": "Zisk +10,8 %, blízko cíli $128.",
       "entry": 110.0,
-      "current": 118.79,
-      "pl_pct": 8.0,
+      "current": 121.87,
+      "pl_pct": 10.8,
       "stop": 99.0
     },
     {
       "ticker": "HUM",
       "action": "Drž",
-      "note": "Stabilní, beze změny tezí.",
+      "note": "Mírný pokles, stop daleko.",
       "entry": 397.0,
-      "current": 397.6,
-      "pl_pct": 0.2,
+      "current": 391.06,
+      "pl_pct": -1.5,
       "stop": 360.0
     },
     {
       "ticker": "CVX",
       "action": "Drž",
-      "note": "Mírný zisk, ropná teze pokračuje.",
+      "note": "Zisk +4 % v souladu s ropnou tezí.",
       "entry": 189.79,
-      "current": 192.98,
-      "pl_pct": 1.7,
+      "current": 197.38,
+      "pl_pct": 4.0,
       "stop": 178.0
     },
     {
       "ticker": "DHT",
       "action": "Posuň stop na $16.5",
-      "note": "Blízko cíle $20,5, zajistit zisk.",
+      "note": "Solidní zisk +5,7 %, zajistit část profitu.",
       "entry": 17.5,
-      "current": 18.13,
-      "pl_pct": 3.6,
+      "current": 18.5,
+      "pl_pct": 5.7,
       "stop": 15.0
     },
     {
       "ticker": "RTX",
-      "action": "Drž",
-      "note": "Obranná teze podpořena eskalací konfliktu.",
+      "action": "Posuň stop na $200",
+      "note": "Zisk +6,9 %, blízko cíli $218.",
       "entry": 195.93,
-      "current": 194.88,
-      "pl_pct": -0.5,
+      "current": 209.41,
+      "pl_pct": 6.9,
       "stop": 180.0
     },
     {
       "ticker": "CEG",
-      "action": "Posuň stop na $250",
-      "note": "Blízko cíle $300, zajistit velký zisk.",
+      "action": "Posuň stop na $260",
+      "note": "Zisk +6,9 %, thesis na AI energii dál platí.",
       "entry": 256.3,
-      "current": 274.9,
-      "pl_pct": 7.3,
+      "current": 274.11,
+      "pl_pct": 6.9,
       "stop": 232.0
     },
     {
       "ticker": "HCI",
       "action": "Drž",
-      "note": "Mírný pokles, beze změny tezí.",
+      "note": "Pokles -3,6 %, stop daleko.",
       "entry": 179.94,
-      "current": 175.61,
-      "pl_pct": -2.4,
+      "current": 173.38,
+      "pl_pct": -3.6,
       "stop": 160.0
     },
     {
       "ticker": "WFC",
       "action": "Drž",
-      "note": "Stabilní, bankovní sektor bez katalyzátoru změny.",
+      "note": "Mírný pokles, teze na banky platí.",
       "entry": 87.67,
-      "current": 86.42,
-      "pl_pct": -1.4,
+      "current": 85.84,
+      "pl_pct": -2.1,
       "stop": 80.0
     },
     {
       "ticker": "MU",
-      "action": "Posuň stop na $880",
-      "note": "Silný zisk podpořený AI/pamětovým rally, zajistit profit.",
+      "action": "Posuň stop na $950",
+      "note": "Silný zisk +11,5 %, blízko cíli $1050.",
       "entry": 896.1,
-      "current": 959.48,
-      "pl_pct": 7.1,
+      "current": 999.42,
+      "pl_pct": 11.5,
       "stop": 800.0
     },
     {
       "ticker": "BABA",
       "action": "Drž",
-      "note": "Mírný pokles, čínská expozice zůstává rizikovým faktorem.",
+      "note": "Pokles -3,4 %, stop daleko.",
       "entry": 119.16,
-      "current": 116.56,
-      "pl_pct": -2.2,
+      "current": 115.08,
+      "pl_pct": -3.4,
       "stop": 101.8
     },
     {
       "ticker": "GD",
-      "action": "Posuň stop na $350",
-      "note": "Blízko cíle $390, zajistit zisk z obranné teze.",
+      "action": "Posuň stop na $370",
+      "note": "Zisk +9,6 %, blízko cíli $390.",
       "entry": 350.13,
-      "current": 373.16,
-      "pl_pct": 6.6,
+      "current": 383.76,
+      "pl_pct": 9.6,
       "stop": 325.0
     },
     {
       "ticker": "TSM",
       "action": "Drž",
-      "note": "Silný zisk, AI čipová teze potvrzena asijským rally.",
+      "note": "Zisk +4,9 %, teze na AI čipy platí.",
       "entry": 398.98,
-      "current": 421.21,
-      "pl_pct": 5.6,
+      "current": 418.43,
+      "pl_pct": 4.9,
       "stop": 395.0
     },
     {
       "ticker": "ABT",
       "action": "Drž",
-      "note": "Stabilní, beze změny tezí.",
+      "note": "Flat, thesis platí.",
       "entry": 101.39,
-      "current": 100.57,
-      "pl_pct": -0.8,
+      "current": 101.11,
+      "pl_pct": -0.3,
       "stop": 85.0
     },
     {
       "ticker": "AVGO",
-      "action": "Posuň stop na $370",
-      "note": "Blízko cíle $430, zajistit zisk z AI chip tématu.",
+      "action": "Posuň stop na $375",
+      "note": "Zisk +6,7 %, zajistit profit.",
       "entry": 370.82,
-      "current": 396.81,
-      "pl_pct": 7.0,
+      "current": 395.77,
+      "pl_pct": 6.7,
       "stop": 340.0
     },
     {
       "ticker": "BIDU",
       "action": "Drž",
-      "note": "Mírný pokles, čínská AI teze zůstává v platnosti.",
+      "note": "Pokles -4 %, stop daleko.",
       "entry": 112.0,
-      "current": 107.52,
+      "current": 107.5,
       "pl_pct": -4.0,
       "stop": 95.0
     },
     {
       "ticker": "ECHO",
       "action": "Drž",
-      "note": "Mírný zisk, beze změny tezí.",
+      "note": "Flat, thesis platí.",
       "entry": 91.45,
-      "current": 92.28,
-      "pl_pct": 0.9,
+      "current": 91.58,
+      "pl_pct": 0.1,
       "stop": 78.0
     },
     {
       "ticker": "LHX",
-      "action": "Drž",
-      "note": "Stabilní, obranná teze pokračuje.",
+      "action": "Posuň stop na $280",
+      "note": "Zisk +4,9 %, zajistit profit.",
       "entry": 287.1,
-      "current": 285.16,
-      "pl_pct": -0.7,
+      "current": 301.17,
+      "pl_pct": 4.9,
       "stop": 268.0
     },
     {
       "ticker": "HOOD",
       "action": "Drž",
-      "note": "Mírný zisk, retailová/krypto teze pokračuje.",
+      "note": "Flat, thesis platí.",
       "entry": 102.25,
-      "current": 104.48,
-      "pl_pct": 2.2,
+      "current": 102.46,
+      "pl_pct": 0.2,
       "stop": 90.0
     },
     {
       "ticker": "EQT",
-      "action": "Posuň stop na $49",
-      "note": "Silný zisk +9,9 %, zajistit profit z energetické teze.",
+      "action": "Posuň stop na $50",
+      "note": "Zisk +10,6 %, blízko cíli $58.",
       "entry": 49.15,
-      "current": 54.01,
-      "pl_pct": 9.9,
+      "current": 54.38,
+      "pl_pct": 10.6,
       "stop": 44.0
     },
     {
       "ticker": "VRT",
       "action": "Drž",
-      "note": "Mírný pokles, datacentrová teze pokračuje.",
+      "note": "Flat, thesis na AI infrastrukturu platí.",
       "entry": 308.0,
-      "current": 301.16,
-      "pl_pct": -2.2,
+      "current": 310.82,
+      "pl_pct": 0.9,
       "stop": 278.0
     },
     {
       "ticker": "GM",
-      "action": "Posuň stop na $76",
-      "note": "Silný zisk +8,1 %, zajistit profit.",
+      "action": "Drž",
+      "note": "Zisk +4,2 %, stop daleko.",
       "entry": 76.0,
-      "current": 82.13,
-      "pl_pct": 8.1,
+      "current": 79.22,
+      "pl_pct": 4.2,
       "stop": 68.0
     },
     {
       "ticker": "CRWV",
-      "action": "Posuň stop na $70",
-      "note": "Silný zisk +11,7 %, zajistit profit z AI cloud teze.",
+      "action": "Posuň stop na $75",
+      "note": "Silný zisk +14,2 %, zajistit profit.",
       "entry": 74.0,
-      "current": 82.64,
-      "pl_pct": 11.7,
+      "current": 84.5,
+      "pl_pct": 14.2,
       "stop": 63.0
-    },
-    {
-      "ticker": "TSLA",
-      "action": "Drž",
-      "note": "Zklamání z Q2 výsledků krátkodobě tlačí cenu, sledovat reakci trhu, stop stále platný.",
-      "entry": 379.5,
-      "current": 374.01,
-      "pl_pct": -1.4,
-      "stop": 355.0
     },
     {
       "ticker": "LNG",
       "action": "Drž",
-      "note": "Mírný zisk, energetická teze pokračuje díky vyšším cenám plynu/ropy.",
+      "note": "Zisk +4,2 % v souladu s LNG tezí.",
       "entry": 261.42,
-      "current": 267.4,
-      "pl_pct": 2.3,
+      "current": 272.49,
+      "pl_pct": 4.2,
       "stop": 240.0
     },
     {
       "ticker": "NUE",
       "action": "Drž",
-      "note": "Mírný zisk, ocelářská teze beze změny.",
+      "note": "Zisk +4,1 %, stop daleko.",
       "entry": 230.99,
-      "current": 235.9,
-      "pl_pct": 2.1,
+      "current": 240.38,
+      "pl_pct": 4.1,
       "stop": 210.0
     },
     {
       "ticker": "TM",
       "action": "Drž",
-      "note": "Mírný zisk, automobilová teze stabilní.",
+      "note": "Mírný pokles, thesis platí.",
       "entry": 178.54,
-      "current": 179.94,
-      "pl_pct": 0.8,
+      "current": 176.81,
+      "pl_pct": -1.0,
       "stop": 168.0
+    },
+    {
+      "ticker": "ASML",
+      "action": "Drž",
+      "note": "Flat, thesis na AI čipy platí.",
+      "entry": 1802.0,
+      "current": 1817.27,
+      "pl_pct": 0.8,
+      "stop": 1750.0
+    },
+    {
+      "ticker": "NOW",
+      "action": "Drž",
+      "note": "Flat, thesis platí.",
+      "entry": 95.46,
+      "current": 96.41,
+      "pl_pct": 1.0,
+      "stop": 92.0
+    },
+    {
+      "ticker": "IBM",
+      "action": "Drž",
+      "note": "Mírný pokles, stop daleko.",
+      "entry": 209.36,
+      "current": 205.96,
+      "pl_pct": -1.6,
+      "stop": 190.0
     }
   ],
   "generated_at": "2026-07-23"
