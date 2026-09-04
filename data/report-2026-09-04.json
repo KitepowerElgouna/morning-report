@@ -1,67 +1,143 @@
 {
   "date": "4. září 2026",
-  "summary": "Trh je nervózní z eskalace Írán–USA v Hormuzském průlivu, rostoucích výnosů dluhopisů (10Y na 4,82 %) a nejistoty kolem Fedu (spor Vance vs. Warsh o zářijovou sazbu), zatímco AI kapex boom (Nvidia, MediaTek, Hugging Face) dál táhne technologie a zlato i ropa jsou na vícemesíčních maximech. Toto jsou KRÁTKODOBÉ RIZIKOVÉ tipy pouze pro 'satelitní' část portfolia – drž striktně stop-lossy, neriskuj víc než pár procent na pozici a nepřehazuj portfolio zbytečně často. Fair value = konsensus cílů analytiků, jde o orientační vodítko, NIKOLI investiční doporučení.",
+  "summary": "Trh je dnes nervózní: silnější než čekaná zpráva o pracovních místech (+162 tis.) zvýšila šance na ZVÝŠENÍ sazeb Fedu v září místo snížení, výnosy 10Y zůstávají u vícedekádních maxim a konflikt Írán–USA–Izrael drží ropu i LNG nahoře. Tyto tipy jsou KRÁTKODOBÉ a RIZIKOVÉ příležitosti pro 'satelitní' část portfolia – vždy drž stop-loss a nepřekračuj doporučenou velikost pozice, časté přeobchodování škodí výkonnosti. Fair value = konsensus cílů analytiků, jde o orientační vodítko, NIKOLI investiční doporučení.",
   "sources": [
-    "CNBC",
-    "Bloomberg",
-    "TradingEconomics",
-    "OilPrice.com",
-    "Forbes Advisor",
     "Yahoo Finance",
-    "USAGold",
     "StockAnalysis.com",
-    "MarketBeat",
     "TipRanks",
-    "Simply Wall St",
-    "RockFlow"
+    "MarketBeat",
+    "Zacks",
+    "Bloomberg",
+    "CNBC",
+    "TheStreet",
+    "OilPrice.com",
+    "TradingEconomics",
+    "247wallst.com",
+    "Benzinga",
+    "Robinhood/CNN Markets"
   ],
   "firms": [
     {
-      "name": "SLB (Schlumberger)",
-      "ticker": "SLB",
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "usa",
+      "sector": "tech",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$228.45",
+        "fair_value": "$320.00",
+        "discount": "+40 %",
+        "signal": "Silný nákupní konsensus",
+        "signal_reason": "Analytici napříč zdroji drží cíl mezi $315–326 při ratingu Strong Buy.",
+        "buy_zone": {
+          "low": "$220",
+          "high": "$232"
+        }
+      },
+      "moat": {
+        "score": "9",
+        "verdict": "Dominantní",
+        "summary": "CUDA ekosystém a datacenter GPU monopol drží obrovský náskok."
+      },
+      "intrinsic": {
+        "annual_return": "+30 %",
+        "verdict": "orientační odhad",
+        "summary": "Rostoucí AI capex hyperscalerů podporuje dlouhodobý růst tržeb.",
+        "risk": "3"
+      },
+      "metrics": {
+        "Aktuální cena": "$228.45",
+        "Fair value (cíl analytiků)": "$320.00",
+        "P/E": "n/a",
+        "Beta": "n/a",
+        "52t max/min": "n/a"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "n/a",
+          "note": "n/a"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "Volatilní"
+        },
+        "Div. yield": {
+          "value": "n/a",
+          "note": "Malá dividenda ($0.25 ex-div 10.9.)"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "n/a"
+        }
+      },
+      "analysis": "NVIDIA dodává naprostou většinu GPU pro AI datacentra a nedávno oznámila akvizici Hugging Face za ~13 mld. USD, což posiluje její softwarovou nabídku.",
+      "trade": {
+        "action": "Koupit",
+        "horizon": "2–4 týdny",
+        "entry": "$220–232",
+        "stop_loss": "$205",
+        "target": "$260",
+        "position_size": "max 4 % satelitu",
+        "risk_level": "3",
+        "catalyst": "Pokračující AI capex hyperscalerů (Broadcom potvrdil rekordní bookings) a blížící se výsledky 17.11.",
+        "action_note": "Vstoupit v pásmu, sledovat reakci trhu na sazby Fedu 15.-16.9."
+      },
+      "pros": [
+        "Dominance v AI GPU trhu",
+        "Silný konsensus Strong Buy",
+        "Akvizice Hugging Face rozšiřuje ekosystém"
+      ],
+      "cons": [
+        "Vysoké ocenění citlivé na sazby",
+        "Konkurence custom čipů (Broadcom, Google TPU)"
+      ]
+    },
+    {
+      "name": "ExxonMobil",
+      "ticker": "XOM",
       "region": "usa",
       "sector": "energy",
       "recommendation": "Držet",
       "price": {
-        "current": "$57.41",
-        "fair_value": "$62.00",
-        "discount": "+8% upside",
-        "signal": "Silné momentum z ropného šoku",
-        "signal_reason": "Eskalace Írán–USA u Hormuzu žene ropu i oilfield services nahoru.",
+        "current": "$163.07",
+        "fair_value": "$170.00",
+        "discount": "+4 %",
+        "signal": "Mírné zvýšení cílů po eskalaci na Blízkém východě",
+        "signal_reason": "Piper Sandler i Morgan Stanley zvedly cíl po zprávách o vyšších rizicích dodávek.",
         "buy_zone": {
-          "low": "$49",
-          "high": "$53"
+          "low": "$158",
+          "high": "$165"
         }
       },
       "moat": {
         "score": "7",
-        "verdict": "Solidní",
-        "summary": "Lídr v oilfield services s rostoucím digitálním/AI segmentem pro datacentra."
+        "verdict": "Silný",
+        "summary": "Integrovaný gigant s nízkým dluhem a nízkonákladovou produkcí v Permian a Guyaně."
       },
       "intrinsic": {
-        "annual_return": "+20%",
+        "annual_return": "+8 %",
         "verdict": "orientační odhad",
-        "summary": "Analytici vidí dvouciferný upside při stabilizaci marží.",
+        "summary": "Geopolitická prémie na ropě podporuje krátkodobé zisky.",
         "risk": "3"
       },
       "metrics": {
-        "Aktuální cena": "$57.41",
-        "Fair value (cíl analytiků)": "$62.00",
-        "P/E": "24.6",
-        "Beta": "1.3",
-        "52t max/min": "$57.05 / $34.00"
+        "Aktuální cena": "$163.07",
+        "Fair value (cíl analytiků)": "$170.00",
+        "P/E": "21.1",
+        "Beta": "n/a",
+        "52t max/min": "n/a"
       },
       "indicators": {
         "P/E": {
-          "value": "24.6",
+          "value": "21.1",
           "note": "Férové"
         },
         "Beta": {
-          "value": "1.3",
-          "note": "Volatilní"
+          "value": "n/a",
+          "note": "n/a"
         },
         "Div. yield": {
-          "value": "2.3%",
+          "value": "2.5 %",
           "note": "Dividenda"
         },
         "Net Margin": {
@@ -69,62 +145,62 @@
           "note": "n/a"
         }
       },
-      "analysis": "SLB je globální lídr oilfield services s rostoucí expozicí na AI/datacentra přes digitální segment. Renovovaná eskalace v Hormuzu a Brent přes $95 dělá z ropných služeb krátkodobý momentum hrát.",
+      "analysis": "ExxonMobil je největší integrovaný ropný gigant a přímo profituje z eskalace konfliktu Írán–USA–Izrael, který tlačí Brent nad $95.",
       "trade": {
         "action": "Držet",
         "horizon": "1–3 týdny",
-        "entry": "$50–53",
-        "stop_loss": "$46.0",
-        "target": "$58.0",
-        "position_size": "max 4 % satelitu",
+        "entry": "$158–165",
+        "stop_loss": "$150",
+        "target": "$178",
+        "position_size": "max 3 % satelitu",
         "risk_level": "3",
-        "catalyst": "Eskalace Írán-USA u Strait of Hormuz, Brent nad $95/barel, US strikes na Írán",
-        "action_note": "Otevřít pozici dnes v rámci uvedené zóny, sledovat vývoj v Hormuzu."
+        "catalyst": "Írán a USA si vyměnily raketové útoky, Brent míří k $96, hrozba narušení Hormuzského průlivu.",
+        "action_note": "Vstoupit na poklesu k $158-160, sledovat vývoj konfliktu."
       },
       "pros": [
-        "Konsensus Buy s 20%+ upside",
-        "Roste digitální/AI segment",
-        "Silný FCF a dividenda"
+        "Přímý beneficient geopolitické rizikové prémie",
+        "Nízké zadlužení",
+        "Stabilní dividenda"
       ],
       "cons": [
-        "Citlivost na pokles ropy při deeskalaci",
-        "Historicky volatilní cílové odhady analytiků"
+        "Cíle analytiků se výrazně liší ($130–200)",
+        "Riziko rychlého uklidnění konfliktu a poklesu ropy"
       ]
     },
     {
-      "name": "Newmont Corporation",
-      "ticker": "NEM",
+      "name": "General Dynamics",
+      "ticker": "GD",
       "region": "usa",
-      "sector": "energy",
+      "sector": "industry",
       "recommendation": "Držet",
       "price": {
-        "current": "$130.43",
-        "fair_value": "$137.00",
-        "discount": "+5% upside",
-        "signal": "Bezpečný přístav při geopolitickém riziku",
-        "signal_reason": "Zlato u $4 490/oz díky eskalaci na Blízkém východě a nejistotě Fedu.",
+        "current": "$360.01",
+        "fair_value": "$412.00",
+        "discount": "+14% upside",
+        "signal": "Zvyšování cílů po silných výsledcích",
+        "signal_reason": "JPMorgan, Baird a TD Cowen v posledních týdnech zvedly cíle na $420–435.",
         "buy_zone": {
-          "low": "$122",
-          "high": "$132"
+          "low": "$385",
+          "high": "$405"
         }
       },
       "moat": {
-        "score": "6",
-        "verdict": "Solidní",
-        "summary": "Největší zlatý těžař profituje přímo z rekordních cen zlata."
+        "score": "7",
+        "verdict": "Silný",
+        "summary": "Klíčový dodavatel ponorek a bojové techniky pro US Navy s dlouhými kontrakty."
       },
       "intrinsic": {
-        "annual_return": "n/a",
+        "annual_return": "+7 %",
         "verdict": "orientační odhad",
-        "summary": "Cena zlata blízko rekordů podpírá marže.",
+        "summary": "Rostoucí obranné rozpočty kvůli konfliktu na Blízkém východě podporují zakázky.",
         "risk": "2"
       },
       "metrics": {
-        "Aktuální cena": "$130.43",
-        "Fair value (cíl analytiků)": "$137.00",
+        "Aktuální cena": "$360.01",
+        "Fair value (cíl analytiků)": "$412.00",
         "P/E": "n/a",
-        "Beta": "0.4",
-        "52t max/min": "$137.0 / $112.0"
+        "Beta": "n/a",
+        "52t max/min": "$400 / $307"
       },
       "indicators": {
         "P/E": {
@@ -132,368 +208,442 @@
           "note": "n/a"
         },
         "Beta": {
-          "value": "0.4",
+          "value": "n/a",
           "note": "Defenzivní"
         },
         "Div. yield": {
-          "value": "n/a",
-          "note": "n/a"
+          "value": "1.6 %",
+          "note": "Dividenda"
         },
         "Net Margin": {
           "value": "n/a",
           "note": "n/a"
         }
       },
-      "analysis": "Newmont je největší zlatý těžař, přímo profitující z rekordní ceny zlata (nad $4 400/oz) hnané geopolitickým rizikem a centrálními bankami skupujícími zlato.",
+      "analysis": "General Dynamics těží ze zvýšených obranných výdajů v důsledku eskalace na Blízkém východě, nedávno získala 76,6 mld. USD kontrakt od Navy pro Electric Boat.",
       "trade": {
-        "action": "Držet",
-        "horizon": "1–3 týdny",
-        "entry": "držet stávající pozici",
-        "stop_loss": "$112.0",
-        "target": "$137.0",
+        "action": "Držet/Přikoupit na poklesu",
+        "horizon": "2–4 týdny",
+        "entry": "$385–400",
+        "stop_loss": "$370",
+        "target": "$430",
         "position_size": "max 3 % satelitu",
         "risk_level": "2",
-        "catalyst": "Zlato blízko historických maxim, DNB přesouvá 86 tun zlata z USA do UK kvůli geopolitickému riziku",
-        "action_note": "Nepřidávat, teze stále platí, sledovat cíl $137."
+        "catalyst": "Eskalace konfliktu Írán-Izrael-USA zvyšuje poptávku po obranné technice a lodích.",
+        "action_note": "Čekat na pullback k $385-390 před vstupem, pozice je blízko 52týdenního maxima."
       },
       "pros": [
-        "Bezpečný přístav v době napětí",
-        "Centrální banky skupují zlato",
-        "Nízké beta"
+        "Silné Q2 výsledky nad odhady",
+        "Rostoucí backlog zakázek",
+        "Obranný sektor v centru pozornosti"
       ],
       "cons": [
-        "Limitovaný upside blízko cíle",
-        "Citlivost na dolar a sazby"
+        "Titul je blízko historických maxim",
+        "Konsensus rating je jen 'Hold' u některých firem"
+      ]
+    },
+    {
+      "name": "Snowflake",
+      "ticker": "SNOW",
+      "region": "usa",
+      "sector": "tech",
+      "recommendation": "Sledovat",
+      "price": {
+        "current": "n/a",
+        "fair_value": "n/a",
+        "discount": "n/a",
+        "signal": "Silný earnings beat",
+        "signal_reason": "Snowflake porazila odhady EPS i tržeb, trh reagoval pozitivně na sílu enterprise AI/data poptávky.",
+        "buy_zone": {
+          "low": "n/a",
+          "high": "n/a"
+        }
+      },
+      "moat": {
+        "score": "6",
+        "verdict": "Rostoucí",
+        "summary": "Cloud datová platforma s expanzí do AI/agentic workloadů."
+      },
+      "intrinsic": {
+        "annual_return": "n/a",
+        "verdict": "orientační odhad",
+        "summary": "Krátkodobý momentum hraje roli po earnings beatu.",
+        "risk": "4"
+      },
+      "metrics": {
+        "Aktuální cena": "n/a",
+        "Fair value (cíl analytiků)": "n/a",
+        "P/E": "n/a",
+        "Beta": "n/a",
+        "52t max/min": "n/a"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "n/a",
+          "note": "n/a"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "Volatilní"
+        },
+        "Div. yield": {
+          "value": "0 %",
+          "note": "Bez dividendy"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "n/a"
+        }
+      },
+      "analysis": "Snowflake ohlásila upravený EPS $0,62 (odhad $0,45) a tržby $1,55 mld., což přesáhlo Zacks konsensus o téměř 5 %, což zvedlo sentiment kolem enterprise datových/AI firem.",
+      "trade": {
+        "action": "Sledovat",
+        "horizon": "1–2 týdny",
+        "entry": "n/a - čekat na potvrzení ceny",
+        "stop_loss": "n/a",
+        "target": "n/a",
+        "position_size": "max 2 % satelitu",
+        "risk_level": "4",
+        "catalyst": "Earnings beat a rostoucí poptávka po enterprise AI/datové infrastruktuře.",
+        "action_note": "Ověřit aktuální cenu a reakci trhu před vstupem, chybí ověřená čísla ceny/cíle."
+      },
+      "pros": [
+        "Silný earnings beat",
+        "Momentum v softwarovém sektoru"
+      ],
+      "cons": [
+        "Chybí ověřená aktuální cena/cíl analytiků",
+        "Vysoké ocenění softwarových AI titulů obecně"
       ]
     }
   ],
   "themes": [
     {
-      "event": "Eskalace Írán–USA v Hormuzském průlivu, ropa (Brent ~$95-97, WTI ~$90-93) na vícetýdenních maximech",
-      "thesis": "Konflikt → riziko přerušení dodávek → vyšší ceny ropy/energie → profitují oilfield services a producenti ropy, roste inflační tlak",
-      "tickers": "SLB, COP, OXY, DVN, HAL"
+      "event": "Silnější než čekaná zpráva o pracovních místech v USA (+162 tis. proti odhadu 55 tis.), nezaměstnanost stabilní na 4,1 %",
+      "thesis": "Trh nyní cení pravděpodobnost ZVÝŠENÍ sazeb Fedu (ne snížení) na cca 50 %, což tlačí výnosy dluhopisů nahoru → tlak na růstové/technologické akcie s vysokým P/E, ale posiluje banky a dolar.",
+      "tickers": "NVDA, TLT (follow-up)"
     },
     {
-      "event": "Nejistota kolem Fedu – Vance tlačí na snížení sazeb, zatímco Warsh (nový šéf Fedu) naznačuje možnost hike; výnosy 10Y u 4,82%",
-      "thesis": "Vyšší výnosy → tlak na růstové tituly a duraci → volatilita v technologiích a dluhopisech, TLT/TBT jako sázka na směr sazeb",
-      "tickers": "TLT, TBT, AMZN, AMD"
+      "event": "Eskalace konfliktu Írán–USA–Izrael, útoky na infrastrukturu, hrozba uzavření Hormuzského průlivu",
+      "thesis": "Riziko narušení dodávek ropy a LNG → ropné a obranné firmy profitují z geopolitické prémie, letecké/průmyslové firmy citlivé na palivové náklady trpí.",
+      "tickers": "XOM, GD, COP (follow-up), LMT/RTX/NOC (follow-up)"
     },
     {
-      "event": "AI kapex boom pokračuje – Nvidia investuje do MediaTek, jedná o akvizici Hugging Face za $14B, Anthropic uzavřel $35B cloud deal s Lambda",
-      "thesis": "Masivní AI infrastruktura kapex → poptávka po čipech, síťování a datacentrech → profitují AI hardware a energetické firmy pro datacentra",
-      "tickers": "AVGO, MRVL, ANET, CEG, VST, MU"
+      "event": "Rekordní AI capex hyperscalerů potvrzený výsledky Broadcomu (AI segment +221 % r/r) i Nvidia",
+      "thesis": "Pokračující investice do AI infrastruktury → poptávka po GPU, custom čipech i cloudové/datové infrastruktuře zůstává silná, i když krátkodobě volatilní kvůli guidance.",
+      "tickers": "NVDA, SNOW, AVGO/MU/TSM (follow-up)"
     },
     {
-      "event": "Rekordní ceny zlata (~$4 490/oz) kvůli geopolitickému riziku a centrálním bankám přesouvajícím rezervy (DNB stěhuje zlato z USA do UK)",
-      "thesis": "Geopolitická nejistota + de-dolarizace centrálních bank → bezpečný přístav → profitují zlatí těžaři",
-      "tickers": "NEM"
+      "event": "Výnosy 10Y u vícedekádních maxim (~4,77-4,82 %) kvůli obavám z inflace a sazeb",
+      "thesis": "Vysoké výnosy tlačí na drahé růstové akcie, ale podporují banky a hodnotové sektory; volatilita na dluhopisovém trhu zvyšuje riziko napříč portfoliem.",
+      "tickers": "NVDA, TLT (follow-up), SCHW (follow-up)"
     }
   ],
   "follow_up": [
     {
       "ticker": "CCJ",
       "action": "Drž",
-      "note": "V zisku +6,9 %, stop i cíl platí, uranová/jaderná teze intaktní.",
+      "note": "Cena $101 stále pod cílem $110, teze o uranu/jaderné energii platí, stop neporušen.",
       "entry": 94.09,
-      "current": 100.62,
-      "pl_pct": 6.9,
+      "current": 101.01,
+      "pl_pct": 7.4,
       "stop": 82.0
     },
     {
       "ticker": "AMZN",
-      "action": "Drž",
-      "note": "Ztráta -5 %, ale nad stopem, AI/cloud teze stále platí, sledovat úrovně.",
+      "action": "Posuň stop na $250",
+      "note": "Pokles -5,6 % pod vstup, zpřísnit stop kvůli slabosti a vyššímu riziku sazeb.",
       "entry": 272.65,
-      "current": 258.9,
-      "pl_pct": -5.0,
+      "current": 257.37,
+      "pl_pct": -5.6,
       "stop": 245.0
     },
     {
       "ticker": "ANET",
       "action": "Drž",
-      "note": "Prakticky na vstupu, AI infra teze funguje, čekej na potvrzení směru.",
+      "note": "Cena těsně nad vstupem, AI infrastruktura téma stále silné.",
       "entry": 192.59,
-      "current": 191.44,
-      "pl_pct": -0.6,
+      "current": 193.67,
+      "pl_pct": 0.6,
       "stop": 172.0
     },
     {
       "ticker": "TSM",
       "action": "Drž",
-      "note": "Blízko vstupu, klíčový AI chip hráč, geopolitika Taiwan riziko i katalyzátor.",
+      "note": "Pozitivní +1,5 %, poptávka po pokročilých čipech pokračuje.",
       "entry": 420.0,
-      "current": 417.01,
-      "pl_pct": -0.7,
+      "current": 426.5,
+      "pl_pct": 1.5,
       "stop": 395.0
     },
     {
       "ticker": "META",
-      "action": "Posuň stop na $560",
-      "note": "Solidní zisk +5,3 %, zajisti část zisku posunutím stopu nahoru.",
+      "action": "Drž",
+      "note": "+5 % zisk, AI capex téma podporuje, stop v bezpečné vzdálenosti.",
       "entry": 580.0,
-      "current": 610.68,
-      "pl_pct": 5.3,
+      "current": 609.03,
+      "pl_pct": 5.0,
       "stop": 520.0
     },
     {
       "ticker": "COP",
-      "action": "Posuň stop na $120",
-      "note": "Zisk +8,3 % podpořený ropným rally, zajisti profit vyšším stopem.",
+      "action": "Drž",
+      "note": "+6,9 % díky ropné geopolitické prémii, teze stále platí.",
       "entry": 125.37,
-      "current": 135.72,
-      "pl_pct": 8.3,
+      "current": 134.07,
+      "pl_pct": 6.9,
       "stop": 113.0
     },
     {
       "ticker": "HAL",
-      "action": "Vezmi zisk",
-      "note": "+13,3 % a blízko cíle $40, oilfield services rally může zpomalit při deeskalaci.",
+      "action": "Vezmi zisk (částečně)",
+      "note": "+13,2 % blízko cíle, doporučeno zajistit část zisku a posunout stop nahoru.",
       "entry": 32.9,
-      "current": 37.29,
-      "pl_pct": 13.3,
+      "current": 37.24,
+      "pl_pct": 13.2,
       "stop": 28.0
     },
     {
       "ticker": "MU",
       "action": "Drž",
-      "note": "Mírný pokles -1,4 %, AI memory teze (HBM) stále silná.",
+      "note": "AI memory poptávka silná, cena stále pod cílem.",
       "entry": 971.66,
-      "current": 958.16,
-      "pl_pct": -1.4,
+      "current": 998.97,
+      "pl_pct": 2.8,
       "stop": 850.0
     },
     {
       "ticker": "SNDK",
-      "action": "Posuň stop na $1450",
-      "note": "Pokles -13,3 % blízko stopu, ale nad ním; utáhni riziko.",
+      "action": "Posuň stop na $1550",
+      "note": "-7 % pod vstupem, zpřísnit riziko, ale teze o paměťových čipech trvá.",
       "entry": 1793.0,
-      "current": 1554.99,
-      "pl_pct": -13.3,
+      "current": 1667.18,
+      "pl_pct": -7.0,
       "stop": 1420.0
     },
     {
       "ticker": "VST",
       "action": "Drž",
-      "note": "Mírně pod vstupem, poptávka po elektřině pro AI datacentra trvá.",
+      "note": "Téměř na vstupu, energetika/datacentra téma nezměněno.",
       "entry": 148.36,
-      "current": 144.22,
-      "pl_pct": -2.8,
+      "current": 147.78,
+      "pl_pct": -0.4,
       "stop": 132.0
     },
     {
       "ticker": "OKLO",
       "action": "Utni",
-      "note": "-9,5 % a blíží se ke stopu $36, momentum slábne, omez ztrátu.",
+      "note": "-9,1 % a blízko stop-lossu $36, momentum slábne, lepší uzavřít a čekat na nový setup.",
       "entry": 44.0,
-      "current": 39.84,
-      "pl_pct": -9.5,
+      "current": 39.98,
+      "pl_pct": -9.1,
       "stop": 36.0
     },
     {
       "ticker": "AMD",
       "action": "Drž",
-      "note": "-6,7 % ale nad stopem $450, AI čipová teze stále platí.",
+      "note": "-4 % ale nad stopem, AI chip téma stále živé.",
       "entry": 488.89,
-      "current": 456.16,
-      "pl_pct": -6.7,
+      "current": 469.28,
+      "pl_pct": -4.0,
       "stop": 450.0
     },
     {
       "ticker": "TLT",
       "action": "Drž",
-      "note": "Mírně v zisku, sázka na pokles sazeb funguje při nejistotě Fedu.",
+      "note": "Mírný zisk, sázka na dluhopisy citlivá na sazby Fedu 15.-16.9.",
       "entry": 81.54,
-      "current": 82.07,
-      "pl_pct": 0.6,
+      "current": 82.47,
+      "pl_pct": 1.1,
       "stop": 77.0
     },
     {
       "ticker": "ORCL",
-      "action": "Posuň stop na $145",
-      "note": "Solidní zisk +8 %, cloud/AI kapex teze silná, zajisti profit.",
+      "action": "Vezmi zisk (částečně)",
+      "note": "+10,9 % pěkný zisk, doporučeno realizovat část a posunout stop nahoru.",
       "entry": 142.67,
-      "current": 154.04,
-      "pl_pct": 8.0,
+      "current": 158.28,
+      "pl_pct": 10.9,
       "stop": 135.0
     },
     {
       "ticker": "COIN",
       "action": "Drž",
-      "note": "+8,1 %, krypto sentiment zůstává příznivý.",
+      "note": "+3,5 %, krypto sentiment stabilní.",
       "entry": 178.29,
-      "current": 192.7,
-      "pl_pct": 8.1,
+      "current": 184.58,
+      "pl_pct": 3.5,
       "stop": 155.0
     },
     {
       "ticker": "NUE",
       "action": "Drž",
-      "note": "+7,7 %, ocel/infrastruktura teze funguje.",
+      "note": "+7,7 %, ocel/komodity téma funguje.",
       "entry": 243.63,
-      "current": 262.47,
+      "current": 262.4,
       "pl_pct": 7.7,
       "stop": 225.0
     },
     {
       "ticker": "AVGO",
       "action": "Drž",
-      "note": "-3,1 % ale nad stopem, AI čipová/síťová teze intaktní.",
+      "note": "-2,9 % po slabší guidance, ale AI bookings enormní, teze dlouhodobě platí.",
       "entry": 368.5,
-      "current": 357.16,
-      "pl_pct": -3.1,
+      "current": 357.86,
+      "pl_pct": -2.9,
       "stop": 330.0
     },
     {
       "ticker": "SCHW",
       "action": "Drž",
-      "note": "Prakticky bez pohybu, finanční sektor stabilní.",
+      "note": "Mírný pokles, vyšší sazby mohou pomoci finančnímu sektoru.",
       "entry": 110.88,
-      "current": 110.38,
-      "pl_pct": -0.5,
+      "current": 108.98,
+      "pl_pct": -1.7,
       "stop": 100.0
     },
     {
       "ticker": "INTC",
       "action": "Drž",
-      "note": "+1,9 %, obrat teze pokračuje.",
+      "note": "+5,6 %, momentum pozitivní.",
       "entry": 89.99,
-      "current": 91.67,
-      "pl_pct": 1.9,
+      "current": 95.07,
+      "pl_pct": 5.6,
       "stop": 80.0
     },
     {
       "ticker": "DHI",
-      "action": "Drž",
-      "note": "Bez větší změny, sledovat vliv vyšších výnosů na hypotéky.",
+      "action": "Utni",
+      "note": "Stavební sektor trpí vysokými sazbami a hrozbou hike, teze o poklesu sazeb neplatí.",
       "entry": 144.77,
-      "current": 144.41,
-      "pl_pct": -0.2,
+      "current": 143.62,
+      "pl_pct": -0.8,
       "stop": 130.0
     },
     {
       "ticker": "LMT",
       "action": "Drž",
-      "note": "-4,9 %, geopolitické napětí na Blízkém východě podporuje obrannou tezi.",
+      "note": "-5,7 % ale obranný sektor posílen eskalací na Blízkém východě, stop neporušen.",
       "entry": 560.35,
-      "current": 532.95,
-      "pl_pct": -4.9,
+      "current": 528.35,
+      "pl_pct": -5.7,
       "stop": 470.0
     },
     {
       "ticker": "BABA",
       "action": "Drž",
-      "note": "-3,9 %, nad stopem, čínská AI/tech teze stále platí.",
+      "note": "-3,5 %, sledovat čínská makro data, stop v bezpečí.",
       "entry": 116.4,
-      "current": 111.81,
-      "pl_pct": -3.9,
+      "current": 112.34,
+      "pl_pct": -3.5,
       "stop": 102.0
     },
     {
       "ticker": "MRVL",
-      "action": "Utni",
-      "note": "-7 % a blízko stopu $205, momentum slábne, omez riziko.",
+      "action": "Drž",
+      "note": "-2,8 %, AI síťování téma trvá.",
       "entry": 224.58,
-      "current": 208.83,
-      "pl_pct": -7.0,
+      "current": 218.39,
+      "pl_pct": -2.8,
       "stop": 205.0
     },
     {
       "ticker": "NOC",
       "action": "Drž",
-      "note": "-3,9 %, obranná teze podpořená geopolitikou trvá.",
+      "note": "-5,1 %, obranný sektor profituje z geopolitiky, blízko stopu $510 - sledovat.",
       "entry": 549.6,
-      "current": 528.24,
-      "pl_pct": -3.9,
+      "current": 521.52,
+      "pl_pct": -5.1,
       "stop": 510.0
     },
     {
       "ticker": "UEC",
-      "action": "Utni",
-      "note": "-7,2 % a blízko stopu $11, uranová teze slábne krátkodobě.",
+      "action": "Posuň stop na $10.5",
+      "note": "-6,6 % a blízko stopu, dát trochu více prostoru kvůli volatilitě uranového sektoru.",
       "entry": 12.4,
-      "current": 11.51,
-      "pl_pct": -7.2,
+      "current": 11.59,
+      "pl_pct": -6.6,
       "stop": 11.0
     },
     {
       "ticker": "RTX",
       "action": "Drž",
-      "note": "-4,2 %, ale nad stopem, obranná/geopolitická teze intaktní.",
+      "note": "-5 %, obranná teze intaktní díky Blízkému východu.",
       "entry": 211.1,
-      "current": 202.13,
-      "pl_pct": -4.2,
+      "current": 200.62,
+      "pl_pct": -5.0,
       "stop": 195.0
     },
     {
       "ticker": "CEG",
       "action": "Drž",
-      "note": "Mírně pod vstupem, poptávka po energii pro AI datacentra trvá.",
+      "note": "Mírný zisk, jaderná/datacentrová energetika téma pokračuje.",
       "entry": 287.75,
-      "current": 285.05,
-      "pl_pct": -0.9,
+      "current": 290.2,
+      "pl_pct": 0.9,
       "stop": 260.0
     },
     {
       "ticker": "OXY",
       "action": "Drž",
-      "note": "Mírně v zisku, ropný rally z Hormuzu podporuje tezi.",
+      "note": "Stabilní, ropná geopolitická prémie podporuje.",
       "entry": 60.19,
-      "current": 60.61,
-      "pl_pct": 0.7,
+      "current": 60.06,
+      "pl_pct": -0.2,
       "stop": 54.0
     },
     {
       "ticker": "UUUU",
-      "action": "Utni",
-      "note": "-5,2 % a blíží se stopu $12.5, slábnoucí momentum uranové teze.",
+      "action": "Drž",
+      "note": "-4,1 % ale nad stopem, uranová teze trvá.",
       "entry": 15.14,
-      "current": 14.35,
-      "pl_pct": -5.2,
+      "current": 14.52,
+      "pl_pct": -4.1,
       "stop": 12.5
     },
     {
       "ticker": "DVN",
       "action": "Drž",
-      "note": "Bez větší změny, ropná teze z Hormuzu podporuje.",
+      "note": "-2,5 %, ropný sektor profituje z Blízkého východu.",
       "entry": 49.0,
-      "current": 48.79,
-      "pl_pct": -0.4,
+      "current": 47.77,
+      "pl_pct": -2.5,
       "stop": 44.0
     },
     {
       "ticker": "PANW",
       "action": "Drž",
-      "note": "Mírně v zisku, kybersecurity teze stále silná.",
+      "note": "Mírně nad vstupem, kybernetická bezpečnost silné momentum (Okta, CrowdStrike beaty).",
       "entry": 330.3,
-      "current": 331.94,
-      "pl_pct": 0.5,
+      "current": 333.1,
+      "pl_pct": 0.8,
       "stop": 305.0
     },
     {
       "ticker": "TBT",
       "action": "Drž",
-      "note": "Mírně v zisku, sázka na vyšší výnosy funguje při rostoucích 10Y výnosech.",
+      "note": "Sázka na růst výnosů dluhopisů stále relevantní kvůli riziku hike Fedu.",
       "entry": 38.0,
-      "current": 38.26,
-      "pl_pct": 0.7,
+      "current": 37.86,
+      "pl_pct": -0.4,
       "stop": 36.0
     },
     {
       "ticker": "NEM",
       "action": "Drž",
-      "note": "+4,4 %, zlato blízko rekordů díky geopolitice, teze silná.",
+      "note": "+2,7 %, zlato jako hedge proti nejistotě sazeb a geopolitice.",
       "entry": 124.9,
-      "current": 130.43,
-      "pl_pct": 4.4,
+      "current": 128.22,
+      "pl_pct": 2.7,
       "stop": 112.0
     },
     {
       "ticker": "LEU",
       "action": "Drž",
-      "note": "-4,6 % ale nad stopem, jaderná/uranová teze dlouhodobě intaktní.",
+      "note": "-3,9 % ale nad stopem, uranová/jaderná teze pokračuje.",
       "entry": 178.7,
-      "current": 170.46,
-      "pl_pct": -4.6,
+      "current": 171.7,
+      "pl_pct": -3.9,
       "stop": 160.0
     }
   ],
