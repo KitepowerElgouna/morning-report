@@ -1,16 +1,48 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "stats": {
-    "closed": 165,
-    "wins": 91,
-    "losses": 74,
-    "win_rate": 55.2,
-    "avg_win": 19.3,
+    "closed": 167,
+    "wins": 92,
+    "losses": 75,
+    "win_rate": 55.1,
+    "avg_win": 19.1,
     "avg_loss": -6.6,
-    "avg_pl": 7.7,
+    "avg_pl": 7.6,
     "open": 39
   },
   "open": [
+    {
+      "id": "2026-09-08-GEV",
+      "date": "2026-09-08",
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "action": "Koupit",
+      "entry": 930.0,
+      "stop": 840.0,
+      "target": 1050.0,
+      "horizon_days": 42,
+      "status": "open",
+      "outcome": null,
+      "last_price": 941.95,
+      "pl_pct": 1.3,
+      "closed_date": null
+    },
+    {
+      "id": "2026-09-08-FANG",
+      "date": "2026-09-08",
+      "ticker": "FANG",
+      "name": "Diamondback Energy",
+      "action": "Koupit",
+      "entry": 199.22,
+      "stop": 168.0,
+      "target": 210.0,
+      "horizon_days": 28,
+      "status": "open",
+      "outcome": null,
+      "last_price": 199.22,
+      "pl_pct": 0.0,
+      "closed_date": null
+    },
     {
       "id": "2026-09-07-GD",
       "date": "2026-09-07",
@@ -396,22 +428,6 @@
       "closed_date": null
     },
     {
-      "id": "2026-08-24-COIN",
-      "date": "2026-08-24",
-      "ticker": "COIN",
-      "name": "Coinbase Global",
-      "action": "Koupit",
-      "entry": 178.29,
-      "stop": 155.0,
-      "target": 210.0,
-      "horizon_days": 14,
-      "status": "open",
-      "outcome": null,
-      "last_price": 184.64,
-      "pl_pct": 3.6,
-      "closed_date": null
-    },
-    {
       "id": "2026-08-24-NUE",
       "date": "2026-08-24",
       "ticker": "NUE",
@@ -505,22 +521,6 @@
       "outcome": null,
       "last_price": 1016.59,
       "pl_pct": 4.6,
-      "closed_date": null
-    },
-    {
-      "id": "2026-08-17-SNDK",
-      "date": "2026-08-17",
-      "ticker": "SNDK",
-      "name": "Sandisk",
-      "action": "Koupit",
-      "entry": 1793.0,
-      "stop": 1420.0,
-      "target": 1900.0,
-      "horizon_days": 21,
-      "status": "open",
-      "outcome": null,
-      "last_price": 1740.0,
-      "pl_pct": -3.0,
       "closed_date": null
     },
     {
@@ -637,6 +637,38 @@
     }
   ],
   "closed": [
+    {
+      "id": "2026-08-17-SNDK",
+      "date": "2026-08-17",
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "action": "Koupit",
+      "entry": 1793.0,
+      "stop": 1420.0,
+      "target": 1900.0,
+      "horizon_days": 21,
+      "status": "closed",
+      "outcome": "vypršel",
+      "last_price": 1740.0,
+      "pl_pct": -3.0,
+      "closed_date": "2026-09-08"
+    },
+    {
+      "id": "2026-08-24-COIN",
+      "date": "2026-08-24",
+      "ticker": "COIN",
+      "name": "Coinbase Global",
+      "action": "Koupit",
+      "entry": 178.29,
+      "stop": 155.0,
+      "target": 210.0,
+      "horizon_days": 14,
+      "status": "closed",
+      "outcome": "vypršel",
+      "last_price": 184.64,
+      "pl_pct": 3.6,
+      "closed_date": "2026-09-08"
+    },
     {
       "id": "2026-08-07-ANET",
       "date": "2026-08-07",
@@ -2204,38 +2236,6 @@
       "last_price": 152.33,
       "pl_pct": 11.6,
       "closed_date": "2026-07-30"
-    },
-    {
-      "id": "2026-07-06-VST",
-      "date": "2026-07-06",
-      "ticker": "VST",
-      "name": "Vistra Corp",
-      "action": "Koupit",
-      "entry": 151.05,
-      "stop": 148.0,
-      "target": 195.0,
-      "horizon_days": 42,
-      "status": "closed",
-      "outcome": "stop",
-      "last_price": 144.44,
-      "pl_pct": -2.0,
-      "closed_date": "2026-07-29"
-    },
-    {
-      "id": "2026-07-13-HUM",
-      "date": "2026-07-13",
-      "ticker": "HUM",
-      "name": "Humana",
-      "action": "Koupit",
-      "entry": 397.0,
-      "stop": 360.0,
-      "target": 450.0,
-      "horizon_days": 203,
-      "status": "closed",
-      "outcome": "stop",
-      "last_price": 359.25,
-      "pl_pct": -9.3,
-      "closed_date": "2026-07-29"
     }
   ]
 }

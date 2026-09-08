@@ -2601,11 +2601,11 @@
     "stop": 1420.0,
     "target": 1900.0,
     "horizon_days": 21,
-    "status": "open",
-    "outcome": null,
+    "status": "closed",
+    "outcome": "vypršel",
     "last_price": 1740.0,
     "pl_pct": -3.0,
-    "closed_date": null
+    "closed_date": "2026-09-08"
   },
   {
     "id": "2026-08-17-VST",
@@ -2809,11 +2809,11 @@
     "stop": 155.0,
     "target": 210.0,
     "horizon_days": 14,
-    "status": "open",
-    "outcome": null,
+    "status": "closed",
+    "outcome": "vypršel",
     "last_price": 184.64,
     "pl_pct": 3.6,
-    "closed_date": null
+    "closed_date": "2026-09-08"
   },
   {
     "id": "2026-08-24-NUE",
@@ -3261,6 +3261,38 @@
     "outcome": null,
     "last_price": 338.46,
     "pl_pct": -1.1,
+    "closed_date": null
+  },
+  {
+    "id": "2026-09-08-GEV",
+    "date": "2026-09-08",
+    "ticker": "GEV",
+    "name": "GE Vernova",
+    "action": "Koupit",
+    "entry": 930.0,
+    "stop": 840.0,
+    "target": 1050.0,
+    "horizon_days": 42,
+    "status": "open",
+    "outcome": null,
+    "last_price": 941.95,
+    "pl_pct": 1.3,
+    "closed_date": null
+  },
+  {
+    "id": "2026-09-08-FANG",
+    "date": "2026-09-08",
+    "ticker": "FANG",
+    "name": "Diamondback Energy",
+    "action": "Koupit",
+    "entry": 199.22,
+    "stop": 168.0,
+    "target": 210.0,
+    "horizon_days": 28,
+    "status": "open",
+    "outcome": null,
+    "last_price": 199.22,
+    "pl_pct": 0.0,
     "closed_date": null
   }
 ]
