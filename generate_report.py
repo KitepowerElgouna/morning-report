@@ -11,15 +11,14 @@ Co dělá:
   - Uloží data/report-RRRR-MM-DD.json a data/report-latest.json.
 
 Spouští se každé ráno přes GitHub Actions (.github/workflows/daily-report.yml).
-Lokálně:  ANTHROPIC_API_KEY=... python3 generate_report.py
+Od 13. 9. 2026 přes Claude Code na předplatném (CLAUDE_CODE_OAUTH_TOKEN);
+placené API jen s REPORT_CESTA=api (a ANTHROPIC_API_KEY).
 
 Poctivě: čísla jsou reálná z webu, ale 'fair value' = konsensus analytiků (odhad),
 doporučení je strojová heuristika. Není to investiční rada.
 """
 
 import os, re, json, sys, datetime
-
-import anthropic
 
 # ── Konfigurace ───────────────────────────────────────────────────────────────
 MODEL = os.environ.get("REPORT_MODEL", "claude-opus-4-8")   # levnější: claude-sonnet-4-6
@@ -150,7 +149,56 @@ def extract_json(text: str) -> dict:
     raise ValueError("V odpovědi nebyl nalezen validní JSON objekt.")
 
 
+def _cli_model(model: str) -> str:
+    """claude-sonnet-5 → sonnet; Claude Code bere aliasy."""
+    for alias in ("opus", "sonnet", "haiku"):
+        if alias in model:
+            return alias
+    return "sonnet"
+
+
+def generate_predplatne(followup_ctx: str = "") -> dict:
+    """★ 13. 9. 2026: report přes Claude Code na předplatném (Max na info@),
+    ne přes placené API. Token z `claude setup-token` je v GitHub secretu
+    CLAUDE_CODE_OAUTH_TOKEN. Stejný prompt, stejné web hledání, stejné
+    deterministické pojistky (Yahoo) po něm. Návrat na API: REPORT_CESTA=api.
+    """
+    import subprocess, tempfile
+    prompt = PROMPT + (("\n\n" + followup_ctx) if followup_ctx else "")
+    cmd = ["claude", "-p", "--model", _cli_model(MODEL),
+           "--tools", "WebSearch,WebFetch", "--allowedTools", "WebSearch,WebFetch",
+           "--setting-sources", "", "--strict-mcp-config", "--disable-slash-commands",
+           "--permission-mode", "dontAsk", "--max-turns", "40",
+           "--output-format", "json", "-"]
+    env = dict(os.environ, CLAUDE_CODE_DISABLE_AUTO_MEMORY="1",
+               CLAUDE_CODE_DISABLE_CLAUDE_MDS="1",
+               CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC="1")
+    env.pop("ANTHROPIC_API_KEY", None)   # jinak by CLI jelo na placený klíč
+    with tempfile.TemporaryDirectory() as prac:
+        p = subprocess.run(cmd, input=prompt, capture_output=True, text=True,
+                           timeout=45 * 60, cwd=prac, env=env)
+    try:
+        vysledek = json.loads(p.stdout)
+    except json.JSONDecodeError:
+        raise RuntimeError(f"claude CLI nevrátilo JSON (kód {p.returncode}): {p.stderr[-300:]}")
+    if p.returncode != 0 or vysledek.get("is_error"):
+        raise RuntimeError(f"claude CLI selhalo: {str(vysledek.get('subtype') or vysledek.get('result'))[:300]}")
+    print(f"   předplatné: {vysledek.get('num_turns')} kol, odhad ceny API "
+          f"{vysledek.get('total_cost_usd')} $ (neplatí se)", file=sys.stderr)
+    report = extract_json(vysledek.get("result") or "")
+    if not report.get("firms"):
+        raise ValueError("Report neobsahuje pole 'firms'.")
+    return report
+
+
 def generate(followup_ctx: str = "") -> dict:
+    if os.environ.get("REPORT_CESTA", "predplatne") != "api":
+        if os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
+            return generate_predplatne(followup_ctx)
+        # Než majitel vloží token, report nesmí vypadnout — jede ještě přes API.
+        print("⚠️ chybí secret CLAUDE_CODE_OAUTH_TOKEN — tento běh ještě přes placené API",
+              file=sys.stderr)
+    import anthropic
     client = anthropic.Anthropic()  # bere ANTHROPIC_API_KEY z prostředí
     # Levné + spolehlivé: jen web search bez "dynamic filtering" (verze 20250305).
     # Novější web_search/web_fetch_20260209 spouští na serveru kód (code execution) →

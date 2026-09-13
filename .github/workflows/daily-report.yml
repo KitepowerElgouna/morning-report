@@ -27,8 +27,17 @@ jobs:
       - name: Install deps
         run: pip install -r requirements.txt
 
+      # ★ 13. 9. 2026: report jede přes Claude Code na předplatném, ne API.
+      - name: Install Claude Code
+        run: |
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
       - name: Generate report
         env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          REPORT_CESTA: ${{ vars.REPORT_CESTA || 'predplatne' }}
+          # Jen pojistka, dokud není vložený token (a pro REPORT_CESTA=api).
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           REPORT_MODEL: ${{ vars.REPORT_MODEL || 'claude-opus-4-8' }}
           REPORT_NUM_STOCKS: ${{ vars.REPORT_NUM_STOCKS || '10' }}
