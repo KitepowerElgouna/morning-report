@@ -33,6 +33,11 @@ jobs:
           curl -fsSL https://claude.ai/install.sh | bash
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
+      # Rozbor odpovědi modelu (bez sítě, pár sekund) — ať se nestane, že
+      # report doběhne a pak ho zahodí chyba v hledání JSONu.
+      - name: Kontrola extrakce
+        run: python test_extrakce.py
+
       - name: Generate report
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -42,6 +47,18 @@ jobs:
           REPORT_MODEL: ${{ vars.REPORT_MODEL || 'claude-opus-4-8' }}
           REPORT_NUM_STOCKS: ${{ vars.REPORT_NUM_STOCKS || '10' }}
         run: python generate_report.py
+
+      # ★ 18. 9. 2026: když report spadne, v logu byl jen počet kol a cena —
+      # samotná odpověď modelu se nikam neukládala a nebylo co zkoumat.
+      # Teď se při selhání pověsí k běhu jako artefakt.
+      - name: Surová odpověď modelu (jen při selhání)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: surova-odpoved
+          path: surova-odpoved.txt
+          if-no-files-found: ignore
+          retention-days: 14
 
       - name: Commit & push report
         run: |

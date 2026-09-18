@@ -118,8 +118,8 @@ DŮLEŽITÉ:
 """
 
 
-def extract_json(text: str) -> dict:
-    """Vytáhne první vyvážený {...} JSON objekt z textu."""
+def _json_objekty(text: str):
+    """Postupně vrací VŠECHNY vyvážené {...} objekty, které se dají načíst."""
     start = text.find("{")
     while start != -1:
         depth, in_str, esc = 0, False, False
@@ -140,13 +140,73 @@ def extract_json(text: str) -> dict:
                 elif c == "}":
                     depth -= 1
                     if depth == 0:
-                        candidate = text[start:i + 1]
                         try:
-                            return json.loads(candidate)
+                            yield json.loads(text[start:i + 1])
                         except json.JSONDecodeError:
-                            break  # zkus další '{'
+                            pass
+                        break  # objekt dojedený (nebo vadný) → zkus další '{'
         start = text.find("{", start + 1)
-    raise ValueError("V odpovědi nebyl nalezen validní JSON objekt.")
+
+
+def _s_firmami(obj, hloubka: int = 0):
+    """Vrátí report, ve kterém je pole `firms` — i když ho model zabalil.
+
+    ★ 18. 9. 2026: oba dnešní běhy spadly na „Report neobsahuje pole 'firms'"
+    (kód se od 13. 9. neměnil, včera prošly). Model po hodině rešerše vrátí
+    platný JSON, jen ne vždy s `firms` NAHOŘE — typicky ho obalí
+    (`{"report": {...}}`) nebo pošle víc objektů za sebou a ten první nese
+    jen `date`/`summary`. Hledá se proto REPORT, ne „první JSON v textu":
+    to je jediné, co po modelu opravdu chceme.
+    """
+    if not isinstance(obj, dict) or hloubka > 3:
+        return None
+    if isinstance(obj.get("firms"), list) and obj["firms"]:
+        return obj
+    for hodnota in obj.values():
+        nalez = _s_firmami(hodnota, hloubka + 1)
+        if nalez:
+            return nalez
+    return None
+
+
+def extract_json(text: str) -> dict:
+    """Report z odpovědi modelu: první objekt, který má neprázdné `firms`.
+
+    Když ho žádný nemá, vyhodí `ValueError` — a NIKDY ne report bez titulů:
+    prázdný report je horší než žádný (majitel podle něj obchoduje).
+    """
+    prvni = None
+    for obj in _json_objekty(text):
+        if prvni is None:
+            prvni = obj
+        report = _s_firmami(obj)
+        if report is not None:
+            return report
+    if prvni is None:
+        raise ValueError("V odpovědi nebyl nalezen validní JSON objekt.")
+    raise ValueError("Report neobsahuje pole 'firms'. Klíče prvního JSONu: "
+                     + ", ".join(list(prvni)[:12]))
+
+
+def uloz_surovou_odpoved(text: str, znacka: str = "") -> str:
+    """Odpověď modelu na disk, ať je při selhání co čtenářsky prozkoumat.
+
+    ★ 18. 9. 2026: když report spadl, v logu byl jen počet kol a cena —
+    samotná odpověď se nikam neukládala, takže se nedalo zjistit, CO model
+    vlastně vrátil. Workflow ji při selhání pošle jako artefakt běhu.
+    """
+    cil = os.environ.get("REPORT_SUROVA", "surova-odpoved.txt")
+    try:
+        with open(cil, "a", encoding="utf-8") as f:
+            f.write(f"\n===== {znacka or 'odpoved'} "
+                    f"({datetime.datetime.now(datetime.timezone.utc):%Y-%m-%d %H:%M:%S}"
+                    f" UTC) =====\n")
+            f.write(text or "(prázdná odpověď)")
+            f.write("\n")
+    except OSError as exc:
+        print(f"⚠️ surovou odpověď nešlo uložit: {exc}", file=sys.stderr)
+        return ""
+    return cil
 
 
 def _cli_model(model: str) -> str:
@@ -157,14 +217,33 @@ def _cli_model(model: str) -> str:
     return "sonnet"
 
 
+# Když model vrátí odpověď bez `firms`, zkusí se to JEDNOU znovu s touhle
+# přípomínkou. Druhý pokus stojí jen čas (předplatné), a majitel by jinak
+# přišel o celý report kvůli jednomu špatně zabalenému výstupu.
+DORAZ = ("\n\nPOZOR: předchozí pokus vrátil JSON BEZ pole \"firms\" na nejvyšší "
+         "úrovni. Vrať POUZE jeden JSON objekt, kde je \"firms\" polem hned "
+         "nahoře (ne zabalený v jiném klíči), a žádný text okolo.")
+
+
 def generate_predplatne(followup_ctx: str = "") -> dict:
     """★ 13. 9. 2026: report přes Claude Code na předplatném (Max na info@),
     ne přes placené API. Token z `claude setup-token` je v GitHub secretu
     CLAUDE_CODE_OAUTH_TOKEN. Stejný prompt, stejné web hledání, stejné
     deterministické pojistky (Yahoo) po něm. Návrat na API: REPORT_CESTA=api.
     """
+    zaklad = PROMPT + (("\n\n" + followup_ctx) if followup_ctx else "")
+    posledni_chyba = None
+    for pokus in (1, 2):
+        try:
+            return _predplatne_jednou(zaklad + (DORAZ if pokus == 2 else ""), pokus)
+        except ValueError as exc:      # JSON dorazil, ale report v něm není
+            posledni_chyba = exc
+            print(f"⚠️ pokus {pokus}: {exc}", file=sys.stderr)
+    raise posledni_chyba
+
+
+def _predplatne_jednou(prompt: str, pokus: int = 1) -> dict:
     import subprocess, tempfile
-    prompt = PROMPT + (("\n\n" + followup_ctx) if followup_ctx else "")
     cmd = ["claude", "-p", "--model", _cli_model(MODEL),
            "--tools", "WebSearch,WebFetch", "--allowedTools", "WebSearch,WebFetch",
            "--setting-sources", "", "--strict-mcp-config", "--disable-slash-commands",
@@ -185,10 +264,15 @@ def generate_predplatne(followup_ctx: str = "") -> dict:
         raise RuntimeError(f"claude CLI selhalo: {str(vysledek.get('subtype') or vysledek.get('result'))[:300]}")
     print(f"   předplatné: {vysledek.get('num_turns')} kol, odhad ceny API "
           f"{vysledek.get('total_cost_usd')} $ (neplatí se)", file=sys.stderr)
-    report = extract_json(vysledek.get("result") or "")
-    if not report.get("firms"):
-        raise ValueError("Report neobsahuje pole 'firms'.")
-    return report
+    odpoved = vysledek.get("result") or ""
+    try:
+        return extract_json(odpoved)
+    except ValueError:
+        kde = uloz_surovou_odpoved(odpoved, f"predplatne pokus {pokus}")
+        print(f"   odpověď modelu ({len(odpoved)} znaků"
+              + (f", uložena do {kde}" if kde else "") + "), začátek:\n"
+              + odpoved[:500].replace("\n", " ")[:500], file=sys.stderr)
+        raise
 
 
 def generate(followup_ctx: str = "") -> dict:
@@ -241,10 +325,14 @@ def generate(followup_ctx: str = "") -> dict:
         raise RuntimeError("Model odmítl požadavek (stop_reason=refusal).")
 
     text = "".join(b.text for b in msg.content if b.type == "text")
-    report = extract_json(text)
-    if not report.get("firms"):
-        raise ValueError("Report neobsahuje pole 'firms'.")
-    return report
+    try:
+        return extract_json(text)
+    except ValueError:
+        kde = uloz_surovou_odpoved(text, "api")
+        print(f"   odpověď modelu ({len(text)} znaků"
+              + (f", uložena do {kde}" if kde else "") + "), začátek:\n"
+              + text[:500].replace("\n", " ")[:500], file=sys.stderr)
+        raise
 
 
 def _yahoo_price(ticker):
