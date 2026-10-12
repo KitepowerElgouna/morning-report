@@ -1,168 +1,170 @@
 {
   "date": "12. října 2026",
-  "summary": "Americké akcie jsou u rekordů (S&P 500 ~7 840 bodů, minulý týden +1,2 %), ale 10letý výnos kolem 5,24 %, ropa Brent kolem 103–105 USD (Hútíové, Hormuz) a Fed, který v září zvedl sazby a v prosinci pravděpodobně zvedne znovu, drží trh nervózní. Zítra začíná sezóna výsledků bank (GS) a ve středu vychází CPI. Jde o KRÁTKODOBÉ RIZIKOVÉ tipy pro „satelitní“ peníze: drž stop-lossy a velikost pozice a nepřetrádovat. Fair value = konsensus analytiků a je to jen orientační vodítko, ne investiční rada. Cenové údaje jsou z uzavření 9. 10., protože ranní data pro 12. 10. nebyla k dispozici.",
+  "summary": "Trh je smíšený: S&P 500 a Nasdaq jsou po minulém týdnu u rekordů, ale ropa je nad 100 USD po útoku Húsíů na letiště v Saúdské Arábii, výnos 10letých dluhopisů je kolem 5,2 % a trh sází na zvýšení sazeb Fedu. Tento týden vyjdou výsledky bank (GS, JPM, C, WFC) a zářijová inflace. Jde o KRÁTKODOBÉ RIZIKOVÉ tipy pro „satelitní“ peníze, tak drž stop-lossy a velikost pozice a nepřetrádovávej. Fair value = konsensus analytiků a je to jen orientační vodítko, ne investiční rada. Ceny jsem ověřoval hlavně přes StockAnalysis a další zdroje z vyhledávání. U několika titulů je cena nad konsensem (VLO, FRO, PLTR, XOM), což snižuje jejich upside.",
   "sources": [
     "StockAnalysis.com",
-    "Finviz",
-    "Trading Economics",
-    "Fortune",
+    "Yahoo Finance",
+    "TheStreet",
+    "MarketBeat",
+    "Defense World",
+    "Gotrade",
+    "Chartmill",
+    "Investing.com",
     "Rio Times",
-    "Admiral Markets",
-    "EIA",
-    "Tradingkey",
-    "Sunday Guardian"
+    "OilPrice.com",
+    "Alphastreet",
+    "Tickflow",
+    "Public.com"
   ],
   "firms": [
     {
-      "name": "Goldman Sachs",
-      "ticker": "GS",
+      "name": "Pan American Silver",
+      "ticker": "PAAS",
+      "region": "usa",
+      "sector": "industry",
+      "recommendation": "Koupit",
+      "price": {
+        "current": "$45.91",
+        "fair_value": "$59.33",
+        "discount": "+29% upside",
+        "signal": "Koupit na slabosti",
+        "signal_reason": "Stříbro drží kolem 61 USD, ale akcie je daleko pod loňským maximem 69.99 USD.",
+        "buy_zone": {
+          "low": "$44",
+          "high": "$46.5"
+        }
+      },
+      "moat": {
+        "score": "6",
+        "verdict": "Průměrný",
+        "summary": "Diverzifikovaný producent stříbra s několika doly v Americe, ale výsledky závisí na ceně komodity."
+      },
+      "intrinsic": {
+        "annual_return": "+15%",
+        "verdict": "orientační odhad",
+        "summary": "Při konzervativnějším cíli 59 USD (Gotrade; StockAnalysis má 63 USD) zůstává prostor kolem 29 %.",
+        "risk": "4"
+      },
+      "metrics": {
+        "Aktuální cena": "$45.91",
+        "Fair value (cíl analytiků)": "$59.33",
+        "P/E": "13.7",
+        "Beta": "1.59",
+        "52t max/min": "$69.99 / $33.08"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "13.7",
+          "note": "Levné"
+        },
+        "Beta": {
+          "value": "1.59",
+          "note": "Volatilní"
+        },
+        "Div. yield": {
+          "value": "1.5%",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "~32%",
+          "note": "Spočteno z TTM čistého zisku a tržeb"
+        }
+      },
+      "analysis": "Těžař stříbra a zlata s doly v Latinské Americe. V hledáčku je kvůli geopolitickému napětí a vysoké ceně stříbra při současném odskoku akcie od minima.",
+      "trade": {
+        "action": "Koupit",
+        "horizon": "2–4 týdny",
+        "entry": "$44–46.5",
+        "stop_loss": "$41.5",
+        "target": "$53",
+        "position_size": "max 3 % satelitu",
+        "risk_level": "4",
+        "catalyst": "Teze 3: útok Húsíů na Saúdskou Arábii a konflikt USA–Írán zvyšují poptávku po bezpečných komoditách, stříbro je kolem 61 USD.",
+        "action_note": "Vstup po částech v pásmu 44–46.5 USD se stopem pod 41.5 USD."
+      },
+      "pros": [
+        "Dolů je u stříbra malý prostor kvůli vysoké ceně komodity",
+        "Čistá marže kolem 32 %",
+        "Konsensus Buy s cílem přes 59 USD"
+      ],
+      "cons": [
+        "Silný dolar a rostoucí výnosy tlačí na drahé kovy",
+        "Zdroje se v cílech rozcházejí (Chartmill ~47.6 USD)"
+      ]
+    },
+    {
+      "name": "Citigroup",
+      "ticker": "C",
       "region": "usa",
       "sector": "finance",
       "recommendation": "Koupit",
       "price": {
-        "current": "$895.32",
-        "fair_value": "$1069.10",
-        "discount": "+19.4% upside",
-        "signal": "Výsledky před otevřením 13. 10.",
-        "signal_reason": "Akcie je pod všemi klouzavými průměry (RSI ~35), ale cíl analytiků je o 19–22 % výš.",
+        "current": "$130.49",
+        "fair_value": "$149.22",
+        "discount": "+14% upside",
+        "signal": "Výsledky zítra",
+        "signal_reason": "Akcie je měsíc o 6.6 % níž před Q3 výsledky, které vyjdou 13. října.",
         "buy_zone": {
-          "low": "$870",
-          "high": "$900"
+          "low": "$126",
+          "high": "$131"
         }
       },
       "moat": {
-        "score": "8",
-        "verdict": "Silný",
-        "summary": "Elitní investiční banka s dominancí v M&A, obchodování a správě aktiv."
+        "score": "6",
+        "verdict": "Solidní",
+        "summary": "Globální banka s velkou transakční bankou a obchodováním, ale s historicky nižší ziskovostí než konkurence."
       },
       "intrinsic": {
-        "annual_return": "+19%",
+        "annual_return": "+12%",
         "verdict": "orientační odhad",
-        "summary": "Odpovídá konsensu cíle ($1069 StockAnalysis, $1097 Finviz); vzal jsem konzervativnější.",
+        "summary": "Forward P/E 11.2 a konsensus Buy s cílem kolem 149–152 USD.",
         "risk": "4"
       },
       "metrics": {
-        "Aktuální cena": "$895.32",
-        "Fair value (cíl analytiků)": "$1069.10",
-        "P/E": "13.85",
-        "Beta": "1.28",
-        "52t max/min": "$1153.99 / $740.01"
+        "Aktuální cena": "$130.49",
+        "Fair value (cíl analytiků)": "$149.22",
+        "P/E": "14.1",
+        "Beta": "1.11",
+        "52t max/min": "$147.96 / $95.00"
       },
       "indicators": {
         "P/E": {
-          "value": "13.85",
-          "note": "Levné"
+          "value": "14.1",
+          "note": "Férové"
         },
         "Beta": {
-          "value": "1.28",
+          "value": "1.11",
           "note": "Volatilní"
         },
         "Div. yield": {
-          "value": "2.2%",
+          "value": "2.05%",
           "note": "Dividenda"
         },
         "Net Margin": {
-          "value": "~29.6%",
-          "note": "Dopočteno z výnosů a zisku"
+          "value": "~20%",
+          "note": "Spočteno z TTM čistého zisku a tržeb"
         }
       },
-      "analysis": "Goldman Sachs je velká investiční banka (M&A, trading, správa aktiv). V hledáčku je kvůli výsledkům 13. 10. před otevřením, které otevírají sezónu výsledků velkých bank. Konsensus je ale jen „Hold“, takže jde o sázku na pozitivní překvapení.",
+      "analysis": "Velká americká banka, která zítra před otevřením trhu reportuje Q3. Konsensus čeká EPS kolem 2.65 USD a tržby 23.7 mld. USD, banka překonala odhady čtyři kvartály po sobě.",
       "trade": {
         "action": "Koupit",
         "horizon": "1–3 týdny",
-        "entry": "$870–900",
-        "stop_loss": "$835",
-        "target": "$970",
-        "position_size": "max 2 % satelitu (kvůli gapu po výsledcích)",
+        "entry": "$126–131",
+        "stop_loss": "$122",
+        "target": "$142",
+        "position_size": "max 2 % satelitu (před výsledky)",
         "risk_level": "4",
-        "catalyst": "Teze 2: výsledky bank 13. 10. při zdražování peněz (Fed zvyšuje sazby) a vysokých výnosech; akcie je výprodaná.",
-        "action_note": "Nekupuj celou pozici před výsledky, polovinu vezmi po reakci trhu."
+        "catalyst": "Teze 2: Q3 výsledky bank 13.–15. 10., vysoké výnosy a obchodní příjmy. Poslední beat ale skončil poklesem o 4 %.",
+        "action_note": "Zvaž polovinu pozice před výsledky a zbytek po reakci trhu."
       },
       "pros": [
-        "Nízké P/E (~13,8) a cíl +19 %",
-        "Výprodaná akcie (RSI ~35)",
-        "Dividenda ~2,2 %"
+        "Forward P/E 11.2",
+        "Čtyři překonané odhady po sobě",
+        "Konsensus Buy"
       ],
       "cons": [
-        "Konsensus jen Hold",
-        "Výsledky 13. 10. mohou způsobit gap oběma směry",
-        "Vysoké výnosy a pokles trhu bank"
-      ]
-    },
-    {
-      "name": "Freeport-McMoRan",
-      "ticker": "FCX",
-      "region": "usa",
-      "sector": "industry",
-      "recommendation": "Držet",
-      "price": {
-        "current": "$73.69",
-        "fair_value": "$77.91",
-        "discount": "+5.7% upside",
-        "signal": "Silné momentum",
-        "signal_reason": "Akcie je +45,6 % YTD a upside k cíli je jen ~6 %.",
-        "buy_zone": {
-          "low": "$68",
-          "high": "$72"
-        }
-      },
-      "moat": {
-        "score": "7",
-        "verdict": "Solidní",
-        "summary": "Velký producent mědi s kvalitními doly a vysokými vstupními bariérami."
-      },
-      "intrinsic": {
-        "annual_return": "+6%",
-        "verdict": "orientační odhad",
-        "summary": "Cíle $77.91 (StockAnalysis) a $80.45 (Finviz); vzal jsem nižší.",
-        "risk": "4"
-      },
-      "metrics": {
-        "Aktuální cena": "$73.69",
-        "Fair value (cíl analytiků)": "$77.91",
-        "P/E": "36.12",
-        "Beta": "1.39",
-        "52t max/min": "$80.24 / $38.54"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "36.12",
-          "note": "Drahé"
-        },
-        "Beta": {
-          "value": "1.39",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "0.8%",
-          "note": "Dividenda (ex-date 15. 10.)"
-        },
-        "Net Margin": {
-          "value": "~11.4%",
-          "note": "Dopočteno"
-        }
-      },
-      "analysis": "Freeport je jeden z největších producentů mědi. Je v hledáčku jako komoditní sázka při vyšší inflaci a drahých surovinách. Další výsledky vyjdou 27. 10.",
-      "trade": {
-        "action": "Držet",
-        "horizon": "2–4 týdny",
-        "entry": "$69–72 (pullback)",
-        "stop_loss": "$66",
-        "target": "$79",
-        "position_size": "max 2 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Teze 1: komoditní a inflační prostředí (ropa nad $100); konkrétní zprávu k mědi jsem neověřil.",
-        "action_note": "Za $73,7 nehoň, čekej na pullback; výsledky jsou 27. 10."
-      },
-      "pros": [
-        "Silný trend a konsensus Buy",
-        "Expozice na měď",
-        "Cíl Finviz $80.45"
-      ],
-      "cons": [
-        "P/E ~36 je vysoké",
-        "Citlivost na čínskou poptávku a dolar",
-        "Malý upside ke konsensu"
+        "Odhady EPS za 90 dní klesly o 2.6 %",
+        "Riziko zvýšení sazeb a růstu výnosů nad 5 %"
       ]
     },
     {
@@ -172,38 +174,38 @@
       "sector": "energy",
       "recommendation": "Držet",
       "price": {
-        "current": "$168.94",
-        "fair_value": "$173.17",
-        "discount": "+2.5% upside",
-        "signal": "Neutrální",
-        "signal_reason": "Akcie je 4 % pod maximem a vzrostla s ropou; Wells Fargo snížil rating na Equal Weight.",
+        "current": "$171.45",
+        "fair_value": "$173.64",
+        "discount": "+1% upside",
+        "signal": "Blízko maxima",
+        "signal_reason": "Cena je jen 3 % pod 52t maximem 176.41 USD a konsensus je těsně nad ní.",
         "buy_zone": {
-          "low": "$158",
-          "high": "$165"
+          "low": "$163",
+          "high": "$170"
         }
       },
       "moat": {
         "score": "8",
-        "verdict": "Silný",
-        "summary": "Integrovaný gigant s velkou škálou, nízkými náklady a silnou rozvahou."
+        "verdict": "Široký",
+        "summary": "Integrovaný gigant s rafinériemi, petrochemií a levnou těžbou."
       },
       "intrinsic": {
-        "annual_return": "+5%",
+        "annual_return": "+4%",
         "verdict": "orientační odhad",
-        "summary": "Cíl ~$173 (StockAnalysis $173.64, Finviz $173.17).",
+        "summary": "Upside k cíli je minimální, zisk závisí na ceně ropy.",
         "risk": "3"
       },
       "metrics": {
-        "Aktuální cena": "$168.94",
-        "Fair value (cíl analytiků)": "$173.17",
-        "P/E": "21.78",
+        "Aktuální cena": "$171.45",
+        "Fair value (cíl analytiků)": "$173.64",
+        "P/E": "21.8",
         "Beta": "0.21",
         "52t max/min": "$176.41 / $110.39"
       },
       "indicators": {
         "P/E": {
-          "value": "21.78",
-          "note": "Férové"
+          "value": "21.8",
+          "note": "Drahé"
         },
         "Beta": {
           "value": "0.21",
@@ -214,31 +216,30 @@
           "note": "Dividenda"
         },
         "Net Margin": {
-          "value": "~9.1%",
-          "note": "Dopočteno"
+          "value": "~9%",
+          "note": "Spočteno z TTM čistého zisku a tržeb"
         }
       },
-      "analysis": "Exxon je největší západní ropná firma, těží, rafinuje a vyrábí chemii. Je v hledáčku kvůli ropě Brent nad $100 po útoku Hútíů na saúdskou infrastrukturu. Většina růstu je ale už v ceně.",
+      "analysis": "Největší západní ropná firma, profitující z ropy nad 100 USD. Je v hledáčku jako hedge proti eskalaci na Blízkém východě, ale zisky už jsou z velké části v ceně.",
       "trade": {
         "action": "Držet",
         "horizon": "1–4 týdny",
-        "entry": "$160–166 (pullback)",
-        "stop_loss": "$156",
-        "target": "$176",
+        "entry": "$163–170 (nehonit nahoru)",
+        "stop_loss": "$158",
+        "target": "$178",
         "position_size": "max 2 % satelitu",
         "risk_level": "3",
-        "catalyst": "Teze 1: napětí v regionu (Hormuz, Hútíové) → ropa nad $100 → příjmy ropných majorů.",
-        "action_note": "Nekupuj na maximech; ropa může rychle klesnout při dohodě s Íránem (Trump zmínil „produktivní jednání“)."
+        "catalyst": "Teze 1: Húsíové zaútočili na Saúdskou Arábii, ropa je nad 100 USD a USA–Írán zůstává napjatý.",
+        "action_note": "Nekupuj na maximech, přidej jen při poklesu do pásma 163–170 USD."
       },
       "pros": [
-        "Silná rozvaha a dividenda ~2,4 %",
-        "Nízká beta",
-        "Těží z vysoké ropy"
+        "Silná bilance a dividenda",
+        "Nízká beta 0.21",
+        "Zisk z vysoké ceny ropy"
       ],
       "cons": [
-        "Malý upside (+2,5 %)",
-        "Downgrade Wells Fargo",
-        "Riziko poklesu ropy při uvolnění napětí"
+        "Cena je blízko konsensu a maxima",
+        "Uklidnění konfliktu by srazilo ropu"
       ]
     },
     {
@@ -248,37 +249,37 @@
       "sector": "tech",
       "recommendation": "Držet",
       "price": {
-        "current": "$209.05",
+        "current": "$207.01",
         "fair_value": "$203.35",
-        "discount": "-2.7% upside",
-        "signal": "Průraz na maxima",
-        "signal_reason": "Akcie vzrostla o 5,2 % po upgradu GS (cíl $230) a zahájení Barclays (cíl $265), je ale nad konsensem.",
+        "discount": "-2% upside",
+        "signal": "Momentum po upgradu",
+        "signal_reason": "Goldman 8. 10. zvýšil rating na Buy s cílem 230 USD, ale cena je nad konsensem.",
         "buy_zone": {
           "low": "$190",
-          "high": "$202"
+          "high": "$200"
         }
       },
       "moat": {
         "score": "8",
-        "verdict": "Silný",
-        "summary": "Softwarové platformy pro vládu a firmy s vysokými náklady na přechod."
+        "verdict": "Široký",
+        "summary": "Softwarové platformy pro vládu a firmy s vysokými náklady na přechod jinam."
       },
       "intrinsic": {
-        "annual_return": "-3%",
+        "annual_return": "+5%",
         "verdict": "orientační odhad",
-        "summary": "Konsensus ($203–206) je pod cenou; krátkodobě tahá momentum a nové cíle bank.",
+        "summary": "Hodnocení P/E 179 nechává minimální bezpečnostní polštář, konsensus je pod cenou.",
         "risk": "5"
       },
       "metrics": {
-        "Aktuální cena": "$209.05",
+        "Aktuální cena": "$207.01",
         "Fair value (cíl analytiků)": "$203.35",
-        "P/E": "178.79",
+        "P/E": "178.8",
         "Beta": "1.60",
-        "52t max/min": "$209.58 / $106.37"
+        "52t max/min": "$212.47 / $106.37"
       },
       "indicators": {
         "P/E": {
-          "value": "178.79",
+          "value": "178.8",
           "note": "Drahé"
         },
         "Beta": {
@@ -287,34 +288,108 @@
         },
         "Div. yield": {
           "value": "n/a",
-          "note": "Bez dividendy"
+          "note": "Dividenda"
         },
         "Net Margin": {
           "value": "~49%",
-          "note": "Dopočteno"
+          "note": "Spočteno z TTM čistého zisku a tržeb"
         }
       },
-      "analysis": "Palantir dodává analytický software (Gotham, Foundry, AIP) vládám a firmám. V hledáčku je po upgradech a novém pokrytí bankami. Valuace je extrémní, takže jde o čistě momentovou sázku.",
+      "analysis": "Dodavatel analytického a AI softwaru hlavně pro vládu a obranu. Akcie je při 52t maximu po upgradu Goldmanu, ale je velmi drahá.",
+      "trade": {
+        "action": "Držet",
+        "horizon": "1–3 týdny",
+        "entry": "$190–200 (při poklesu)",
+        "stop_loss": "$184",
+        "target": "$225",
+        "position_size": "max 2 % satelitu",
+        "risk_level": "5",
+        "catalyst": "Teze 4: AI a vládní/obranné rozpočty v době konfliktu, upgrade Goldmanu s cílem 230 USD.",
+        "action_note": "Nehonit; kup jen při korekci do pásma 190–200 USD, jinak čekej."
+      },
+      "pros": [
+        "Silné momentum a 49% čistá marže",
+        "Goldman upgrade na Buy",
+        "Konsensus Buy (32 analytiků)"
+      ],
+      "cons": [
+        "P/E kolem 179",
+        "Cena je nad průměrným cílem analytiků"
+      ]
+    },
+    {
+      "name": "Frontline",
+      "ticker": "FRO",
+      "region": "europe",
+      "sector": "energy",
+      "recommendation": "Sledovat",
+      "price": {
+        "current": "$59.30",
+        "fair_value": "$54.25",
+        "discount": "-9% upside",
+        "signal": "Přehřáté",
+        "signal_reason": "Akcie je +161 % YTD a nad konsensem, dnes +5.7 %.",
+        "buy_zone": {
+          "low": "$50",
+          "high": "$55"
+        }
+      },
+      "moat": {
+        "score": "5",
+        "verdict": "Úzký",
+        "summary": "Moderní flotila VLCC, ale tanker byznys je cyklický."
+      },
+      "intrinsic": {
+        "annual_return": "-3%",
+        "verdict": "orientační odhad",
+        "summary": "Konsensus je pod cenou, jen BTIG má cíl 70 USD.",
+        "risk": "5"
+      },
+      "metrics": {
+        "Aktuální cena": "$59.30",
+        "Fair value (cíl analytiků)": "$54.25",
+        "P/E": "8.9",
+        "Beta": "0.18",
+        "52t max/min": "$59.49 / $20.47"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "8.9",
+          "note": "Levné"
+        },
+        "Beta": {
+          "value": "0.18",
+          "note": "Defenzivní"
+        },
+        "Div. yield": {
+          "value": "3.0%",
+          "note": "Dividenda (jiný zdroj uvádí TTM ~10 %)"
+        },
+        "Net Margin": {
+          "value": "~55%",
+          "note": "Spočteno z TTM čistého zisku a tržeb"
+        }
+      },
+      "analysis": "Přepravce ropy tankery VLCC. Těží z narušených tras kvůli konfliktu, ale po parabolickém růstu je riziko prudké korekce.",
       "trade": {
         "action": "Držet",
         "horizon": "1–2 týdny",
-        "entry": "$192–202 (pullback)",
-        "stop_loss": "$182",
-        "target": "$230",
-        "position_size": "max 1,5 % satelitu",
+        "entry": "$50–55 (jen při korekci)",
+        "stop_loss": "$49",
+        "target": "$62",
+        "position_size": "max 1–2 % satelitu",
         "risk_level": "5",
-        "catalyst": "Teze 3: AI a software; upgrade Goldman Sachs (8. 10.) a start pokrytí Barclays (9. 10.).",
-        "action_note": "Nehoň maximum, vstup jen na ústupu k $200."
+        "catalyst": "Teze 1: útoky v Rudém moři/Saúdské Arábii a napětí USA–Írán zvyšují sazby za přepravu ropy.",
+        "action_note": "Dnes nekupuj; čekej na pullback do 50–55 USD."
       },
       "pros": [
-        "Momentum a nové cíle $230–265",
-        "Vysoká marže",
-        "Konsensus Buy"
+        "P/E 8.9 a vysoká marže",
+        "Silný sentiment v tankerech",
+        "BTIG cíl 70 USD"
       ],
       "cons": [
-        "P/E ~179",
-        "Cena nad konsensem",
-        "Vysoká volatilita"
+        "Cena je nad konsensem 54 USD",
+        "Po +161 % hrozí ostrá korekce"
       ]
     },
     {
@@ -324,37 +399,37 @@
       "sector": "energy",
       "recommendation": "Sledovat",
       "price": {
-        "current": "$433.75",
+        "current": "$437.50",
         "fair_value": "$388.74",
-        "discount": "-10.4% upside",
-        "signal": "Nad cíli analytiků",
-        "signal_reason": "Cena je nad konsensem (Finviz $400, StockAnalysis $389) a Jefferies snížil rating na Hold.",
+        "discount": "-11% upside",
+        "signal": "Nad konsensem",
+        "signal_reason": "Několik nových cílů (UBS 467, Barclays 441) je ale nad cenou, konsensus zaostává za rally.",
         "buy_zone": {
-          "low": "$395",
-          "high": "$410"
+          "low": "$400",
+          "high": "$425"
         }
       },
       "moat": {
         "score": "6",
-        "verdict": "Průměrný",
-        "summary": "Největší nezávislý rafinér, ale cyklický byznys s nízkou cenovou silou."
+        "verdict": "Solidní",
+        "summary": "Velká nezávislá rafinérie s dobrou logistikou, zisk závisí na rafinačních maržích."
       },
       "intrinsic": {
-        "annual_return": "-10%",
+        "annual_return": "-2%",
         "verdict": "orientační odhad",
-        "summary": "Konsensus je pod cenou, akcie je +180 % od ročního minima.",
+        "summary": "Forward P/E 7.5 je lákavé, ale cena je po +161 % YTD nad průměrným cílem.",
         "risk": "4"
       },
       "metrics": {
-        "Aktuální cena": "$433.75",
+        "Aktuální cena": "$437.50",
         "Fair value (cíl analytiků)": "$388.74",
-        "P/E": "18.13",
+        "P/E": "18.1",
         "Beta": "0.59",
         "52t max/min": "$449.77 / $155.29"
       },
       "indicators": {
         "P/E": {
-          "value": "18.13",
+          "value": "18.1",
           "note": "Férové"
         },
         "Beta": {
@@ -366,546 +441,456 @@
           "note": "Dividenda"
         },
         "Net Margin": {
-          "value": "~5.4%",
-          "note": "Dopočteno"
+          "value": "~5%",
+          "note": "Spočteno z TTM čistého zisku a tržeb"
         }
       },
-      "analysis": "Valero je rafinér ropy a výrobce paliv. Ropa a marže rafinérií ho vynesly blízko maxima. Po dnešním poklesu o 2,3 % a downgradu Jefferies je lepší počkat.",
+      "analysis": "Největší nezávislý americký rafinér. Vysoké marže při narušených dodávkách produktů, ale cena je blízko maxima před výsledky 22. října.",
       "trade": {
         "action": "Držet",
         "horizon": "1–3 týdny",
-        "entry": "nevstupovat; pullback $395–410",
-        "stop_loss": "$378",
-        "target": "$445",
-        "position_size": "max 1,5 % satelitu",
+        "entry": "$400–425 (při korekci)",
+        "stop_loss": "$385",
+        "target": "$470",
+        "position_size": "max 2 % satelitu",
         "risk_level": "4",
-        "catalyst": "Teze 1: ropa nad $100 a napětí na trhu s palivy.",
-        "action_note": "Jen sleduj; vstup až po ústupu do pásma."
+        "catalyst": "Teze 1: ropa nad 100 USD a napjaté trhy s produkty; Q3 výsledky 22. 10.",
+        "action_note": "Čekej na korekci a nekupuj na maximu před výsledky."
       },
       "pros": [
-        "Vysoké marže rafinérií",
-        "Nízké forward P/E (~7,5–9,8)",
-        "Silný trend"
+        "Forward P/E 7.5",
+        "Zvyšování cílů (UBS, Barclays, Mizuho)",
+        "Rafinační marže zůstávají vysoké"
       ],
       "cons": [
-        "Cena nad cílem analytiků",
-        "Downgrade Jefferies",
-        "Cyklické riziko"
-      ]
-    },
-    {
-      "name": "Frontline",
-      "ticker": "FRO",
-      "region": "europe",
-      "sector": "energy",
-      "recommendation": "Sledovat",
-      "price": {
-        "current": "$56.10",
-        "fair_value": "$48.97",
-        "discount": "-12.7% upside",
-        "signal": "U maxima",
-        "signal_reason": "Akcie je 0,8 % pod ročním maximem a cíle analytiků jsou $49–54, tedy pod cenou.",
-        "buy_zone": {
-          "low": "$50",
-          "high": "$53"
-        }
-      },
-      "moat": {
-        "score": "5",
-        "verdict": "Slabší",
-        "summary": "Tankerový dopravce s cyklickými sazbami a malou cenovou silou."
-      },
-      "intrinsic": {
-        "annual_return": "-13%",
-        "verdict": "orientační odhad",
-        "summary": "Konsensus pod cenou (StockAnalysis $54.25, Finviz $48.97); vzal jsem nižší.",
-        "risk": "5"
-      },
-      "metrics": {
-        "Aktuální cena": "$56.10",
-        "Fair value (cíl analytiků)": "$48.97",
-        "P/E": "8.40",
-        "Beta": "0.18",
-        "52t max/min": "$56.86 / $20.47"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "8.40",
-          "note": "Levné"
-        },
-        "Beta": {
-          "value": "0.18",
-          "note": "Defenzivní"
-        },
-        "Div. yield": {
-          "value": "3.1%",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "~55%",
-          "note": "Dopočteno"
-        }
-      },
-      "analysis": "Frontline provozuje tankery na ropu. Zvýšená rizika v dopravě přes Hormuz a Rudé moře podporují sazby, akcie ale už vyrostla na maximum.",
-      "trade": {
-        "action": "Držet",
-        "horizon": "1–3 týdny",
-        "entry": "nevstupovat; pullback $50–53",
-        "stop_loss": "$47",
-        "target": "$57",
-        "position_size": "max 1 % satelitu",
-        "risk_level": "5",
-        "catalyst": "Teze 1: napětí kolem Hormuzu a útoky Hútíů zvyšují rizikové a dopravní sazby tankerů.",
-        "action_note": "Jen sleduj; při dohodě s Íránem hrozí prudký pokles."
-      },
-      "pros": [
-        "Nízké P/E ~8,4",
-        "Dividenda ~3,1 %",
-        "Těží z námořních rizik"
-      ],
-      "cons": [
-        "Cena nad cíli analytiků",
-        "Vysoce cyklické",
-        "Riziko uvolnění napětí"
+        "Konsensus 389 USD je pod cenou",
+        "Po +161 % YTD je riziko korekce"
       ]
     }
   ],
   "themes": [
     {
-      "event": "Brent kolem $103–105 po útoku Hútíů na saúdskou infrastrukturu a napětí kolem Hormuzu; Trump zároveň mluví o „produktivních jednáních“ s Íránem.",
-      "thesis": "Drahá ropa → vyšší příjmy producentů a rafinérských a tankerových sazeb → XOM, VLO, FRO a komoditní FCX těží; riziko je prudký pokles při dohodě.",
-      "tickers": "XOM, VLO, FRO, FCX"
+      "event": "Útok Húsíů na letiště v Saúdské Arábii a napětí USA–Írán drží ropu nad 100 USD",
+      "thesis": "Geopolitický šok → vyšší cena ropy a narušení dodávek → vyděláváme na těžařích, rafinérech a tankerech; ztrácejí aerolinky a spotřebitelé.",
+      "tickers": "XOM, VLO, FRO"
     },
     {
-      "event": "Fed v září zvedl sazby na 3,75–4,00 %, další zvýšení se čeká v prosinci, 10letý výnos ~5,24 %; zítra výsledky GS, ve středu CPI.",
-      "thesis": "Vyšší sazby a výnosy tlačí na růstové akcie, ale zvyšují úrokové marže a obchodní příjmy bank → sezóna výsledků může zvednout výprodané banky jako GS.",
-      "tickers": "GS"
+      "event": "Výnos 10letých dluhopisů kolem 5,2 %, trh sází na zvýšení sazeb Fedu a tento týden vyjde inflace a výsledky bank",
+      "thesis": "Vyšší výnosy → tlak na ocenění akcií, ale banky mohou těžit z úrokových marží a obchodování → Citi je sázka na výsledky 13. 10.",
+      "tickers": "C"
     },
     {
-      "event": "AI a software: upgrade Goldman Sachs a zahájení pokrytí Barclays u Palantiru, zatímco polovodiče a mega-cap tech zažívají prodeje zisků.",
-      "thesis": "Rotace uvnitř tech → peníze jdou do AI softwaru s vládními kontrakty (PLTR), ale valuace je extrémní.",
+      "event": "Silné bezpečné komodity: stříbro kolem 61 USD při geopolitickém napětí",
+      "thesis": "Napětí a nejistota → poptávka po drahých kovech → těžaři stříbra mají vyšší marže.",
+      "tickers": "PAAS"
+    },
+    {
+      "event": "AI a vládní/obranné rozpočty při konfliktu; Goldman 8. 10. zvýšil rating na Palantir",
+      "thesis": "Rostoucí obranné a AI výdaje → dodavatelé softwaru pro vládu těží z růstu zakázek, ale ocenění už je extrémní.",
       "tickers": "PLTR"
     }
   ],
   "follow_up": [
     {
       "ticker": "GEV",
-      "action": "Posuň stop na $930",
-      "note": "+8 % a cíl $1050 je blízko, zajisti vstupní cenu.",
+      "action": "Posuň stop na $900",
+      "note": "Cena 995 je blízko cíle 1050, tak chraň zisk.",
       "entry": 930.0,
-      "current": 1004.73,
-      "pl_pct": 8.0,
+      "current": 995.12,
+      "pl_pct": 7.0,
       "stop": 840.0
     },
     {
       "ticker": "LNG",
-      "action": "Drž",
-      "note": "Blízko vstupu, cíl $285 je nablízku a teze s vysokou energií platí.",
+      "action": "Vezmi zisk",
+      "note": "Cena 282 je těsně pod cílem 285, riziko se nevyplatí.",
       "entry": 275.93,
-      "current": 278.18,
-      "pl_pct": 0.8,
+      "current": 282.15,
+      "pl_pct": 2.3,
       "stop": 235.0
     },
     {
       "ticker": "SLB",
       "action": "Drž",
-      "note": "-11,8 %, ale stop $43 drží a vysoká ropa podporuje servis; při uzavření pod $43 vystup.",
+      "note": "Je -11.9 %, ale stop 43 USD drží a ropa nad 100 USD teze podporuje.",
       "entry": 55.48,
-      "current": 48.95,
-      "pl_pct": -11.8,
+      "current": 48.86,
+      "pl_pct": -11.9,
       "stop": 43.0
     },
     {
       "ticker": "VRT",
       "action": "Drž",
-      "note": "-5,6 % je nad stopem $228, AI infrastruktura platí.",
+      "note": "Cena 240.96 je nad stopem 228 a teze AI infrastruktury platí.",
       "entry": 257.06,
-      "current": 242.78,
-      "pl_pct": -5.6,
+      "current": 240.96,
+      "pl_pct": -6.3,
       "stop": 228.0
     },
     {
       "ticker": "ASML",
       "action": "Drž",
-      "note": "+4,8 %, trend platí, stop $1520 dostatečně daleko.",
+      "note": "Je +3.7 % a teze platí, stop 1520 není ohrožen.",
       "entry": 1698.3,
-      "current": 1780.34,
-      "pl_pct": 4.8,
+      "current": 1761.34,
+      "pl_pct": 3.7,
       "stop": 1520.0
     },
     {
       "ticker": "KLAC",
-      "action": "Posuň stop na $180",
-      "note": "+8,3 %, zajisti vstup; polovodiče procházejí prodeji zisků.",
+      "action": "Drž",
+      "note": "Je +5.6 % a daleko od cíle 215.",
       "entry": 180.64,
-      "current": 195.57,
-      "pl_pct": 8.3,
+      "current": 190.82,
+      "pl_pct": 5.6,
       "stop": 160.0
     },
     {
       "ticker": "KTOS",
       "action": "Drž",
-      "note": "-9,3 %, ale nad stopem $40; při uzavření pod $40 vystup.",
+      "note": "Je -9.5 % a stop 40 je nad cenou 42.27, ale obranná teze platí; při průrazu stopu utni.",
       "entry": 46.69,
-      "current": 42.36,
-      "pl_pct": -9.3,
+      "current": 42.27,
+      "pl_pct": -9.5,
       "stop": 40.0
     },
     {
       "ticker": "DAL",
-      "action": "Drž",
-      "note": "+4 %, ale vysoká ropa je riziko pro aerolinky; hlídej stop $70.",
+      "action": "Posuň stop na $75",
+      "note": "Ropa nad 100 USD je riziko pro aerolinky, tak utáhni stop.",
       "entry": 79.02,
-      "current": 82.17,
-      "pl_pct": 4.0,
+      "current": 80.86,
+      "pl_pct": 2.3,
       "stop": 70.0
     },
     {
       "ticker": "GD",
       "action": "Drž",
-      "note": "-7,5 %, těsně nad stopem $325; při proražení vystup.",
+      "note": "Je -6.5 % a nad stopem 325, obranná teze platí.",
       "entry": 358.1,
-      "current": 331.27,
-      "pl_pct": -7.5,
+      "current": 334.68,
+      "pl_pct": -6.5,
       "stop": 325.0
     },
     {
       "ticker": "LHX",
       "action": "Drž",
-      "note": "-4,8 %, stop $230 je ještě daleko.",
+      "note": "Je -4.6 % a nad stopem 230, teze platí.",
       "entry": 248.93,
-      "current": 236.97,
-      "pl_pct": -4.8,
+      "current": 237.41,
+      "pl_pct": -4.6,
       "stop": 230.0
     },
     {
       "ticker": "EQT",
       "action": "Drž",
-      "note": "Na vstupu, teze plyn platí.",
+      "note": "Cena je u vstupu a plyn těží z napětí na energetickém trhu.",
       "entry": 52.67,
-      "current": 52.83,
-      "pl_pct": 0.3,
+      "current": 52.94,
+      "pl_pct": 0.5,
       "stop": 48.0
     },
     {
       "ticker": "CEG",
-      "action": "Vezmi zisk",
-      "note": "+14,7 % a cena u cíle $310; vezmi aspoň polovinu a stop posuň na $270.",
+      "action": "Posuň stop na $270",
+      "note": "Je +14.4 % a blízko cíle 310, tak chraň zisk.",
       "entry": 259.89,
-      "current": 298.07,
-      "pl_pct": 14.7,
+      "current": 297.43,
+      "pl_pct": 14.4,
       "stop": 235.0
     },
     {
       "ticker": "RTX",
       "action": "Drž",
-      "note": "-4,8 %, nad stopem $180.",
+      "note": "Je -4.4 % a nad stopem 180, teze platí.",
       "entry": 195.34,
-      "current": 185.97,
-      "pl_pct": -4.8,
+      "current": 186.75,
+      "pl_pct": -4.4,
       "stop": 180.0
-    },
-    {
-      "ticker": "AVAV",
-      "action": "Utni",
-      "note": "-12,4 % a cena je těsně nad stopem $135, teze se nepotvrzuje.",
-      "entry": 156.45,
-      "current": 137.11,
-      "pl_pct": -12.4,
-      "stop": 135.0
     },
     {
       "ticker": "HOOD",
       "action": "Drž",
-      "note": "+1,3 %, teze platí.",
+      "note": "Cena je nad vstupem a stop 95 není ohrožen.",
       "entry": 107.58,
-      "current": 109.02,
-      "pl_pct": 1.3,
+      "current": 109.26,
+      "pl_pct": 1.6,
       "stop": 95.0
     },
     {
       "ticker": "CCJ",
       "action": "Drž",
-      "note": "-5,8 %, stop $84 je ještě dost daleko.",
+      "note": "Je -7 %, ale 86.89 je nad stopem 84; pozor na průraz.",
       "entry": 93.46,
-      "current": 88.06,
-      "pl_pct": -5.8,
+      "current": 86.89,
+      "pl_pct": -7.0,
       "stop": 84.0
     },
     {
       "ticker": "PDD",
       "action": "Drž",
-      "note": "+3,1 %, trend platí.",
+      "note": "Je +2.3 % a teze platí.",
       "entry": 78.9,
-      "current": 81.35,
-      "pl_pct": 3.1,
+      "current": 80.7,
+      "pl_pct": 2.3,
       "stop": 70.0
     },
     {
       "ticker": "DRS",
       "action": "Drž",
-      "note": "-2,6 %, bez změny.",
+      "note": "Je -3.3 % a nad stopem 34.",
       "entry": 37.19,
-      "current": 36.24,
-      "pl_pct": -2.6,
+      "current": 35.96,
+      "pl_pct": -3.3,
       "stop": 34.0
     },
     {
       "ticker": "ANET",
-      "action": "Posuň stop na $200",
-      "note": "+8,7 % a cíl $230 je blízko.",
+      "action": "Posuň stop na $195",
+      "note": "Je +6.7 %, tak zvedni stop nad vstupní cenu.",
       "entry": 199.39,
-      "current": 216.74,
-      "pl_pct": 8.7,
+      "current": 212.75,
+      "pl_pct": 6.7,
       "stop": 180.0
     },
     {
       "ticker": "ROOT",
       "action": "Drž",
-      "note": "-1,4 %, bez změny.",
+      "note": "Je -1.6 % a daleko nad stopem 44.",
       "entry": 49.84,
-      "current": 49.13,
-      "pl_pct": -1.4,
+      "current": 49.05,
+      "pl_pct": -1.6,
       "stop": 44.0
     },
     {
       "ticker": "BA",
       "action": "Drž",
-      "note": "-4,8 %, nad stopem $182.",
+      "note": "Je -4.6 % a nad stopem 182, teze platí.",
       "entry": 200.04,
-      "current": 190.37,
-      "pl_pct": -4.8,
+      "current": 190.9,
+      "pl_pct": -4.6,
       "stop": 182.0
     },
     {
       "ticker": "MSTR",
       "action": "Drž",
-      "note": "-8,4 %, těsně nad stopem $150; při proražení vystup.",
+      "note": "Je -7.1 %, ale nad stopem 150; při pádu pod 150 utni.",
       "entry": 168.5,
-      "current": 154.34,
-      "pl_pct": -8.4,
+      "current": 156.55,
+      "pl_pct": -7.1,
       "stop": 150.0
     },
     {
       "ticker": "TSM",
       "action": "Drž",
-      "note": "+1,8 %, teze platí.",
+      "note": "Cena je u vstupu, stop 405 není ohrožen.",
       "entry": 445.14,
-      "current": 453.31,
-      "pl_pct": 1.8,
+      "current": 448.1,
+      "pl_pct": 0.7,
       "stop": 405.0
     },
     {
       "ticker": "MU",
       "action": "Drž",
-      "note": "-1,4 %, daleko od stopu $920.",
+      "note": "Je -6 % a nad stopem 920, teze AI paměti platí.",
       "entry": 1043.96,
-      "current": 1029.0,
-      "pl_pct": -1.4,
+      "current": 981.81,
+      "pl_pct": -6.0,
       "stop": 920.0
     },
     {
       "ticker": "UAL",
-      "action": "Drž",
-      "note": "-6,7 %, drahá ropa je riziko; hlídej stop $102.",
+      "action": "Utni",
+      "note": "Je -8 % těsně nad stopem 102 a ropa nad 100 USD teze aerolinek podkopává.",
       "entry": 115.21,
-      "current": 107.45,
-      "pl_pct": -6.7,
+      "current": 106.05,
+      "pl_pct": -8.0,
       "stop": 102.0
     },
     {
       "ticker": "LRCX",
       "action": "Drž",
-      "note": "+2,5 %, teze platí.",
+      "note": "Cena je u vstupu, stop 280 není ohrožen.",
       "entry": 310.96,
-      "current": 318.84,
-      "pl_pct": 2.5,
+      "current": 311.05,
+      "pl_pct": 0.0,
       "stop": 280.0
     },
     {
       "ticker": "CCL",
       "action": "Vezmi zisk",
-      "note": "+18,3 % a cena je blízko cíle $27, ropa nad $100 je riziko pro výletní lodě.",
+      "note": "Je +20 % a 26.73 je těsně pod cílem 27, ropa nad 100 USD je riziko.",
       "entry": 22.28,
-      "current": 26.35,
-      "pl_pct": 18.3,
+      "current": 26.73,
+      "pl_pct": 20.0,
       "stop": 20.5
     },
     {
       "ticker": "OXY",
-      "action": "Drž",
-      "note": "+4,2 %, ropa nad $100 podporuje tezi.",
+      "action": "Posuň stop na $57",
+      "note": "Je +5.8 % a ropa podporuje, ale chraň zisk.",
       "entry": 57.7,
-      "current": 60.11,
-      "pl_pct": 4.2,
+      "current": 61.06,
+      "pl_pct": 5.8,
       "stop": 53.0
     },
     {
       "ticker": "JPM",
       "action": "Drž",
-      "note": "-2,3 %, výsledky bank jsou katalyzátor.",
+      "note": "Je -1.8 % a výsledky tento týden mohou být katalyzátorem.",
       "entry": 341.0,
-      "current": 332.99,
-      "pl_pct": -2.3,
+      "current": 334.98,
+      "pl_pct": -1.8,
       "stop": 322.0
     },
     {
       "ticker": "ON",
       "action": "Drž",
-      "note": "+4,6 %, teze platí.",
+      "note": "Je +2.9 % a teze platí.",
       "entry": 74.1,
-      "current": 77.53,
-      "pl_pct": 4.6,
+      "current": 76.25,
+      "pl_pct": 2.9,
       "stop": 65.0
     },
     {
       "ticker": "WFC",
       "action": "Drž",
-      "note": "+2 %, výsledky bank jsou katalyzátor.",
+      "note": "Je +2.6 % a výsledky tento týden jsou katalyzátor.",
       "entry": 81.9,
-      "current": 83.55,
-      "pl_pct": 2.0,
+      "current": 84.03,
+      "pl_pct": 2.6,
       "stop": 76.0
     },
     {
       "ticker": "STNG",
-      "action": "Drž",
-      "note": "+4,8 %, tankery těží z napětí kolem Hormuzu.",
+      "action": "Posuň stop na $80",
+      "note": "Je +7.6 % a tankery těží z napětí, ale chraň zisk.",
       "entry": 81.25,
-      "current": 85.14,
-      "pl_pct": 4.8,
+      "current": 87.42,
+      "pl_pct": 7.6,
       "stop": 70.0
-    },
-    {
-      "ticker": "MP",
-      "action": "Drž",
-      "note": "-5,6 %, nad stopem $44.",
-      "entry": 48.86,
-      "current": 46.14,
-      "pl_pct": -5.6,
-      "stop": 44.0
     },
     {
       "ticker": "CRSP",
       "action": "Drž",
-      "note": "-5,5 %, nad stopem $50.",
+      "note": "Je -7.2 % a nad stopem 50.",
       "entry": 56.49,
-      "current": 53.39,
-      "pl_pct": -5.5,
+      "current": 52.45,
+      "pl_pct": -7.2,
       "stop": 50.0
     },
     {
       "ticker": "BAC",
       "action": "Drž",
-      "note": "-3,7 %, výsledky bank jsou katalyzátor; stop $52.",
+      "note": "Je -3.4 % a nad stopem 52, výsledky tento týden.",
       "entry": 56.41,
-      "current": 54.32,
-      "pl_pct": -3.7,
+      "current": 54.49,
+      "pl_pct": -3.4,
       "stop": 52.0
     },
     {
       "ticker": "ETN",
       "action": "Drž",
-      "note": "-1,1 %, bez změny.",
+      "note": "Cena je u vstupu a stop 400 není ohrožen.",
       "entry": 434.58,
-      "current": 429.65,
-      "pl_pct": -1.1,
+      "current": 432.04,
+      "pl_pct": -0.6,
       "stop": 400.0
     },
     {
       "ticker": "AZN",
       "action": "Drž",
-      "note": "-2,5 %, nad stopem $150.",
+      "note": "Je -3.1 % a nad stopem 150.",
       "entry": 163.33,
-      "current": 159.2,
-      "pl_pct": -2.5,
+      "current": 158.33,
+      "pl_pct": -3.1,
       "stop": 150.0
     },
     {
       "ticker": "COP",
-      "action": "Drž",
-      "note": "+3,7 %, vysoká ropa podporuje tezi.",
+      "action": "Posuň stop na $126",
+      "note": "Je +5.2 % a blíží se cíli 142, tak chraň zisk.",
       "entry": 129.34,
-      "current": 134.1,
-      "pl_pct": 3.7,
+      "current": 136.07,
+      "pl_pct": 5.2,
       "stop": 118.0
     },
     {
       "ticker": "JD",
       "action": "Drž",
-      "note": "+2,3 %, bez změny.",
+      "note": "Je +1.3 % a stop 23.5 není ohrožen.",
       "entry": 26.49,
-      "current": 27.09,
-      "pl_pct": 2.3,
+      "current": 26.82,
+      "pl_pct": 1.3,
       "stop": 23.5
     },
     {
       "ticker": "CRCL",
       "action": "Drž",
-      "note": "-4,6 %, nad stopem $78.",
+      "note": "Je -3.4 % a nad stopem 78.",
       "entry": 88.6,
-      "current": 84.51,
-      "pl_pct": -4.6,
+      "current": 85.59,
+      "pl_pct": -3.4,
       "stop": 78.0
     },
     {
       "ticker": "ALAB",
       "action": "Drž",
-      "note": "-4,8 %, nad stopem $310, polovodiče jsou pod tlakem.",
+      "note": "Je -8 %, ale nad stopem 310; při průrazu utni.",
       "entry": 359.35,
-      "current": 342.21,
-      "pl_pct": -4.8,
+      "current": 330.73,
+      "pl_pct": -8.0,
       "stop": 310.0
     },
     {
       "ticker": "CRWV",
       "action": "Drž",
-      "note": "-5,9 %, stop $72 je dost daleko.",
+      "note": "Je -8.6 %, ale nad stopem 72.",
       "entry": 87.22,
-      "current": 82.08,
-      "pl_pct": -5.9,
+      "current": 79.7,
+      "pl_pct": -8.6,
       "stop": 72.0
     },
     {
       "ticker": "PWR",
-      "action": "Posuň stop na $660",
-      "note": "+8,8 % a cíl $720 je blízko.",
+      "action": "Vezmi zisk",
+      "note": "Je +8.7 % a 705.69 je blízko cíle 720.",
       "entry": 649.13,
-      "current": 705.94,
-      "pl_pct": 8.8,
+      "current": 705.69,
+      "pl_pct": 8.7,
       "stop": 590.0
     },
     {
       "ticker": "DLR",
       "action": "Drž",
-      "note": "-4,1 %, vyšší výnosy tlačí na REIT; hlídej stop $172.",
+      "note": "Je -4 % a nad stopem 172, ale vysoké výnosy jsou riziko.",
       "entry": 186.33,
-      "current": 178.76,
-      "pl_pct": -4.1,
+      "current": 178.95,
+      "pl_pct": -4.0,
       "stop": 172.0
     },
     {
       "ticker": "SCHW",
       "action": "Drž",
-      "note": "-2,7 %, nad stopem $93.",
+      "note": "Je -2.2 % a nad stopem 93.",
       "entry": 99.38,
-      "current": 96.7,
-      "pl_pct": -2.7,
+      "current": 97.16,
+      "pl_pct": -2.2,
       "stop": 93.0
     },
     {
       "ticker": "MS",
       "action": "Drž",
-      "note": "-2,4 %, výsledky bank jsou katalyzátor.",
+      "note": "Je -2.5 % a nad stopem 178.",
       "entry": 194.76,
-      "current": 190.02,
-      "pl_pct": -2.4,
+      "current": 189.89,
+      "pl_pct": -2.5,
       "stop": 178.0
     },
     {
       "ticker": "RHM",
       "action": "Drž",
-      "note": "Beze změny, teze obrana platí.",
+      "note": "Cena je u vstupu a obranná teze platí.",
       "entry": 982.0,
       "current": 982.0,
       "pl_pct": 0.0,
@@ -913,336 +898,345 @@
     },
     {
       "ticker": "FANG",
-      "action": "Drž",
-      "note": "+2,9 %, ropa nad $100 podporuje tezi.",
+      "action": "Posuň stop na $183",
+      "note": "Je +5.6 % a ropa nad 100 USD podporuje, chraň zisk.",
       "entry": 186.67,
-      "current": 192.13,
-      "pl_pct": 2.9,
+      "current": 197.2,
+      "pl_pct": 5.6,
       "stop": 170.0
     },
     {
       "ticker": "LLY",
       "action": "Drž",
-      "note": "+1 %, bez změny.",
+      "note": "Je +1.2 % a stop 1080 není ohrožen.",
       "entry": 1167.18,
-      "current": 1179.27,
-      "pl_pct": 1.0,
+      "current": 1181.55,
+      "pl_pct": 1.2,
       "stop": 1080.0
     },
     {
       "ticker": "COST",
       "action": "Drž",
-      "note": "+2,6 %, cíl $1000 je blízko.",
+      "note": "Je +3.2 % a teze platí.",
       "entry": 922.77,
-      "current": 946.92,
-      "pl_pct": 2.6,
+      "current": 952.1,
+      "pl_pct": 3.2,
       "stop": 850.0
     },
     {
       "ticker": "NKE",
       "action": "Drž",
-      "note": "-4,6 %, nad stopem $32.",
+      "note": "Je -4.1 % a nad stopem 32.",
       "entry": 36.4,
-      "current": 34.71,
-      "pl_pct": -4.6,
+      "current": 34.92,
+      "pl_pct": -4.1,
       "stop": 32.0
     },
     {
       "ticker": "ORCL",
       "action": "Drž",
-      "note": "-0,5 %, bez změny.",
+      "note": "Je -2.9 % a nad stopem 124.",
       "entry": 142.04,
-      "current": 141.4,
-      "pl_pct": -0.5,
+      "current": 137.97,
+      "pl_pct": -2.9,
       "stop": 124.0
     },
     {
       "ticker": "AVGO",
       "action": "Drž",
-      "note": "+1,8 %, teze platí.",
+      "note": "Cena je u vstupu a stop 322 není ohrožen.",
       "entry": 355.1,
-      "current": 361.54,
-      "pl_pct": 1.8,
+      "current": 355.98,
+      "pl_pct": 0.2,
       "stop": 322.0
     },
     {
       "ticker": "EOG",
-      "action": "Posuň stop na $140",
-      "note": "+6,1 % a cena je blízko cíle $152, zajisti zisk.",
+      "action": "Vezmi zisk",
+      "note": "Je +7.5 % a 150.06 je těsně pod cílem 152.",
       "entry": 139.66,
-      "current": 148.16,
-      "pl_pct": 6.1,
+      "current": 150.06,
+      "pl_pct": 7.5,
       "stop": 130.0
     },
     {
       "ticker": "CB",
-      "action": "Drž",
-      "note": "+2,7 %, bez změny.",
+      "action": "Posuň stop na $330",
+      "note": "Je +4 % a blízko cíle 352, chraň zisk.",
       "entry": 332.08,
-      "current": 341.2,
-      "pl_pct": 2.7,
+      "current": 345.52,
+      "pl_pct": 4.0,
       "stop": 315.0
     },
     {
       "ticker": "JBL",
       "action": "Drž",
-      "note": "+3,5 %, teze platí.",
+      "note": "Je +4 % a daleko od cíle 340.",
       "entry": 295.8,
-      "current": 306.28,
-      "pl_pct": 3.5,
+      "current": 307.61,
+      "pl_pct": 4.0,
       "stop": 272.0
     },
     {
       "ticker": "NOC",
       "action": "Drž",
-      "note": "-0,4 %, bez změny.",
+      "note": "Cena je u vstupu a obranná teze platí.",
       "entry": 482.65,
-      "current": 480.72,
-      "pl_pct": -0.4,
+      "current": 484.18,
+      "pl_pct": 0.3,
       "stop": 458.0
     },
     {
       "ticker": "CAT",
       "action": "Drž",
-      "note": "-1,3 %, bez změny.",
+      "note": "Cena je u vstupu a stop 755 není ohrožen.",
       "entry": 810.79,
-      "current": 800.47,
-      "pl_pct": -1.3,
+      "current": 810.17,
+      "pl_pct": -0.1,
       "stop": 755.0
     },
     {
       "ticker": "AEM",
       "action": "Drž",
-      "note": "+3,1 %, teze zlato platí.",
+      "note": "Je +2.8 % a zlato těží z geopolitického napětí.",
       "entry": 183.27,
-      "current": 189.02,
-      "pl_pct": 3.1,
+      "current": 188.41,
+      "pl_pct": 2.8,
       "stop": 168.0
     },
     {
       "ticker": "UTHR",
       "action": "Drž",
-      "note": "Beze změny, daleko od stopu.",
+      "note": "Cena je u vstupu a stop 500 není ohrožen.",
       "entry": 549.69,
-      "current": 549.16,
-      "pl_pct": -0.1,
+      "current": 550.28,
+      "pl_pct": 0.1,
       "stop": 500.0
     },
     {
       "ticker": "AMAT",
       "action": "Drž",
-      "note": "-3,7 %, polovodiče jsou pod tlakem, ale stop $480 drží.",
+      "note": "Je -5.5 %, ale 497 je nad stopem 480; při průrazu utni.",
       "entry": 526.48,
-      "current": 507.03,
-      "pl_pct": -3.7,
+      "current": 497.37,
+      "pl_pct": -5.5,
       "stop": 480.0
     },
     {
       "ticker": "DVN",
-      "action": "Drž",
-      "note": "+3,6 %, ropa podporuje tezi.",
+      "action": "Posuň stop na $45",
+      "note": "Je +4.9 % a ropa podporuje, utáhni stop nad vstup.",
       "entry": 46.6,
-      "current": 48.26,
-      "pl_pct": 3.6,
+      "current": 48.88,
+      "pl_pct": 4.9,
       "stop": 43.0
     },
     {
       "ticker": "NEM",
       "action": "Drž",
-      "note": "+2,8 %, teze zlato platí.",
+      "note": "Je +2.6 % a zlato těží z geopolitiky.",
       "entry": 114.67,
-      "current": 117.84,
-      "pl_pct": 2.8,
+      "current": 117.64,
+      "pl_pct": 2.6,
       "stop": 110.0
     },
     {
       "ticker": "HII",
       "action": "Drž",
-      "note": "Beze změny.",
+      "note": "Cena je u vstupu a obranná teze platí.",
       "entry": 265.0,
-      "current": 264.8,
-      "pl_pct": -0.1,
+      "current": 266.93,
+      "pl_pct": 0.7,
       "stop": 248.0
     },
     {
       "ticker": "PGR",
-      "action": "Drž",
-      "note": "+4,5 %, cíl $228 je blízko; zvaž posun stopu.",
+      "action": "Posuň stop na $208",
+      "note": "Je +5.9 % a blízko cíle 228, chraň zisk.",
       "entry": 208.0,
-      "current": 217.43,
-      "pl_pct": 4.5,
+      "current": 220.33,
+      "pl_pct": 5.9,
       "stop": 195.0
     },
     {
       "ticker": "ABT",
       "action": "Drž",
-      "note": "+3 %, bez změny.",
+      "note": "Je +4.3 % a stop 90 není ohrožen.",
       "entry": 96.69,
-      "current": 99.6,
-      "pl_pct": 3.0,
+      "current": 100.82,
+      "pl_pct": 4.3,
       "stop": 90.0
     },
     {
       "ticker": "ABNB",
       "action": "Drž",
-      "note": "+3,4 %, bez změny.",
+      "note": "Je +2.6 % a nad stopem 148.",
       "entry": 160.47,
-      "current": 165.87,
-      "pl_pct": 3.4,
+      "current": 164.64,
+      "pl_pct": 2.6,
       "stop": 148.0
     },
     {
       "ticker": "NVDA",
       "action": "Drž",
-      "note": "-2 %, slabost čipů je riziko, ale stop $214 je daleko.",
+      "note": "Je -3.6 % a nad stopem 214, AI teze platí.",
       "entry": 233.95,
-      "current": 229.28,
-      "pl_pct": -2.0,
+      "current": 225.46,
+      "pl_pct": -3.6,
       "stop": 214.0
     },
     {
       "ticker": "AMZN",
       "action": "Drž",
-      "note": "+4,3 %, teze platí.",
+      "note": "Je +4 % a daleko od cíle 285.",
       "entry": 251.52,
-      "current": 262.43,
-      "pl_pct": 4.3,
+      "current": 261.48,
+      "pl_pct": 4.0,
       "stop": 233.0
     },
     {
       "ticker": "DHI",
       "action": "Drž",
-      "note": "-1,6 %, vysoké výnosy jsou riziko pro stavitele; hlídej stop $126.",
+      "note": "Je -1.8 % a nad stopem 126, ale výnosy 5,2 % jsou riziko pro stavitele.",
       "entry": 137.06,
-      "current": 134.88,
-      "pl_pct": -1.6,
+      "current": 134.66,
+      "pl_pct": -1.8,
       "stop": 126.0
     },
     {
       "ticker": "HAL",
       "action": "Drž",
-      "note": "Beze změny, ropa podporuje tezi.",
+      "note": "Cena je u vstupu a ropa nad 100 USD teze podporuje.",
       "entry": 32.66,
-      "current": 32.55,
-      "pl_pct": -0.3,
+      "current": 32.64,
+      "pl_pct": -0.1,
       "stop": 29.5
     },
     {
       "ticker": "NEE",
       "action": "Drž",
-      "note": "+0,8 %, bez změny.",
+      "note": "Je +1.7 % a nad stopem 72.5.",
       "entry": 76.79,
-      "current": 77.38,
-      "pl_pct": 0.8,
+      "current": 78.11,
+      "pl_pct": 1.7,
       "stop": 72.5
     },
     {
       "ticker": "BP",
-      "action": "Drž",
-      "note": "+3,3 %, ropa nad $100 podporuje tezi.",
+      "action": "Posuň stop na $43",
+      "note": "Je +4.7 % a ropa podporuje, chraň zisk.",
       "entry": 44.79,
-      "current": 46.25,
-      "pl_pct": 3.3,
+      "current": 46.89,
+      "pl_pct": 4.7,
       "stop": 41.0
     },
     {
       "ticker": "VST",
       "action": "Drž",
-      "note": "+2,7 %, bez změny.",
+      "note": "Je +3.2 % a stop 128 je daleko.",
       "entry": 157.16,
-      "current": 161.48,
-      "pl_pct": 2.7,
+      "current": 162.24,
+      "pl_pct": 3.2,
       "stop": 128.0
     },
     {
       "ticker": "RCL",
       "action": "Drž",
-      "note": "+2,6 %, drahá ropa je riziko; stop $252.",
+      "note": "Je +3.1 % a nad stopem 252, ale sleduj ropu.",
       "entry": 275.03,
-      "current": 282.26,
-      "pl_pct": 2.6,
+      "current": 283.45,
+      "pl_pct": 3.1,
       "stop": 252.0
     },
     {
       "ticker": "GOOGL",
       "action": "Drž",
-      "note": "+1,1 %, bez změny.",
+      "note": "Je +1.7 % a stop 318 není ohrožen.",
       "entry": 347.68,
-      "current": 351.66,
-      "pl_pct": 1.1,
+      "current": 353.69,
+      "pl_pct": 1.7,
       "stop": 318.0
     },
     {
       "ticker": "GLW",
-      "action": "Drž",
-      "note": "-7,2 %, nad stopem $148; při proražení vystup.",
+      "action": "Utni",
+      "note": "Je -11.5 % a 149.29 je skoro u stopu 148, teze oslabila.",
       "entry": 168.75,
-      "current": 156.68,
-      "pl_pct": -7.2,
+      "current": 149.29,
+      "pl_pct": -11.5,
       "stop": 148.0
     },
     {
       "ticker": "KMI",
-      "action": "Drž",
-      "note": "+1 %, bez změny.",
+      "action": "Posuň stop na $31",
+      "note": "Je +2.2 % a blízko cíle 34.8, utáhni stop.",
       "entry": 32.16,
-      "current": 32.49,
-      "pl_pct": 1.0,
+      "current": 32.85,
+      "pl_pct": 2.2,
       "stop": 29.8
     },
     {
       "ticker": "LMT",
       "action": "Drž",
-      "note": "+1,5 %, bez změny.",
+      "note": "Je +2.7 % a obranná teze platí.",
       "entry": 502.0,
-      "current": 509.59,
-      "pl_pct": 1.5,
+      "current": 515.5,
+      "pl_pct": 2.7,
       "stop": 468.0
     },
     {
       "ticker": "TRGP",
       "action": "Drž",
-      "note": "+1 %, bez změny.",
+      "note": "Je +2.5 % a stop 262 není ohrožen.",
       "entry": 284.0,
-      "current": 286.7,
-      "pl_pct": 1.0,
+      "current": 291.13,
+      "pl_pct": 2.5,
       "stop": 262.0
     },
     {
       "ticker": "CIEN",
       "action": "Drž",
-      "note": "+0,7 %, bez změny.",
+      "note": "Je -6 %, ale 419.56 je nad stopem 398.",
       "entry": 446.45,
-      "current": 449.77,
-      "pl_pct": 0.7,
+      "current": 419.56,
+      "pl_pct": -6.0,
       "stop": 398.0
     },
     {
       "ticker": "PEP",
       "action": "Drž",
-      "note": "+1,8 %, bez změny.",
+      "note": "Je +1.9 % a stop 116 není ohrožen.",
       "entry": 123.73,
-      "current": 125.97,
-      "pl_pct": 1.8,
+      "current": 126.1,
+      "pl_pct": 1.9,
       "stop": 116.0
     },
     {
       "ticker": "WPM",
       "action": "Drž",
-      "note": "+2,1 %, bez změny.",
+      "note": "Je +1.9 % a drahé kovy těží z napětí.",
       "entry": 135.75,
-      "current": 138.65,
-      "pl_pct": 2.1,
+      "current": 138.3,
+      "pl_pct": 1.9,
       "stop": 124.0
     },
     {
       "ticker": "ISRG",
       "action": "Drž",
-      "note": "+2,1 %, bez změny.",
+      "note": "Je +2.7 % a stop 385 není ohrožen.",
       "entry": 415.41,
-      "current": 423.96,
-      "pl_pct": 2.1,
+      "current": 426.45,
+      "pl_pct": 2.7,
       "stop": 385.0
+    },
+    {
+      "ticker": "GS",
+      "action": "Drž",
+      "note": "Cena je u vstupu a výsledky tento týden jsou katalyzátor; stop 835 platí.",
+      "entry": 895.32,
+      "current": 893.61,
+      "pl_pct": -0.2,
+      "stop": 835.0
     }
   ],
   "generated_at": "2026-10-12"
