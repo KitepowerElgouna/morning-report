@@ -1,245 +1,94 @@
 {
   "date": "16. listopadu 2026",
-  "summary": "Makro: trh je v režimu rizika. Hotová inflace a PPI tlačí 10letý výnos k ~5,15 %, dolar je na 19měsíčním maximu a trh sází na prosincové zvýšení sazeb Fedu (~92 % na +25 bp). Technologie ve futures klesají před výsledky Nvidie a očekávaným IPO Anthropicu, zlato je na 13měsíčním minimu a ropa slábne kvůli očekávanému přebytku nabídky, i když válka s Íránem pokračuje. Jde o KRÁTKODOBÉ RIZIKOVÉ tipy pro „satelitní“ peníze: drž stop-lossy a velikost pozic, časté přetrádování škodí. Fair value = konsensus analytiků, je to jen orientační vodítko, ne investiční rada. Ceny se u některých titulů nepodařilo ověřit ve dvou zdrojích, což je u každého uvedeno.",
+  "summary": "Trh dnes klesá kvůli výprodeji AI a technologií. Nasdaq 100 je zhruba o 1,8 % níž a technologický sektor ztrácí asi 3 %. Před zítřejšími výsledky Nvidie, kterou navíc opouští CEO Huang, a před čtvrtečním debutem Anthropicu se peníze přesouvají do defenzivních sektorů (zdravotnictví, základní spotřeba). Výnosy dluhopisů jsou nad 5 %, trh sází na prosincové zvýšení sazeb Fedu a Brent je kolem $96 kvůli válce s Íránem. Proto je dnešních 6 tipů defenzivních (MRK, WMT, LLY, PG, KO, JNJ). Jde o KRÁTKODOBÉ RIZIKOVÉ tipy pro „satelitní“ peníze: drž stop-lossy a velikost pozice, časté přetrádování škodí. Fair value je konsensus analytiků a jde o orientační vodítko, ne investiční radu. Většina cen u nových tipů vychází z jednoho až dvou zdrojů, takže je před vstupem ověř u brokera. Upside je u většiny nízký, proto jsou všechny nové tituly „Držet“ a obchoduj je jen malými pozicemi na poklesech.",
   "sources": [
-    "Bloomberg",
-    "CNBC",
-    "Yahoo Finance",
+    "Yahoo Finance (živý přehled trhu)",
+    "Stockopedia",
+    "StockTitan",
     "StockAnalysis.com",
     "MarketBeat",
-    "TipRanks",
     "Benzinga",
-    "Fortune",
-    "FXStreet",
-    "Trading Economics",
-    "Invezz",
-    "ABC News Australia",
-    "24/7 Wall St."
+    "Morningstar",
+    "24/7 Wall St.",
+    "WallStreetZen",
+    "Defense World",
+    "JournalArta",
+    "Xe / FXStreet / ActionForex (makro výhled)"
   ],
   "firms": [
     {
-      "name": "NVIDIA",
-      "ticker": "NVDA",
+      "name": "Merck & Co.",
+      "ticker": "MRK",
       "region": "usa",
-      "sector": "tech",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$170",
-        "fair_value": "$274",
-        "discount": "+61% upside",
-        "signal": "Binární výsledky 17. 11.",
-        "signal_reason": "Akcie je ~30 % pod říjnovým maximem a konsensus je výrazně výš, ale po odchodu CEO a řadě downgradů je riziko extrémní.",
-        "buy_zone": {
-          "low": "$150",
-          "high": "$170"
-        }
-      },
-      "moat": {
-        "score": "9",
-        "verdict": "Velmi silný",
-        "summary": "Dominance v AI akcelerátorech a ekosystém CUDA; nově riziko vedení (Huang rezignoval 12. 11., Kress je interim CEO)."
-      },
-      "intrinsic": {
-        "annual_return": "+25%",
-        "verdict": "orientační odhad",
-        "summary": "Odhad vychází z poloviny mezery k konsensu; velmi nejistý.",
-        "risk": "5"
-      },
-      "metrics": {
-        "Aktuální cena": "$170",
-        "Fair value (cíl analytiků)": "$274",
-        "P/E": "n/a",
-        "Beta": "n/a",
-        "52t max/min": "$243.37 / $148.80"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "n/a",
-          "note": "Neověřeno"
-        },
-        "Beta": {
-          "value": "n/a",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "n/a",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Neověřeno"
-        }
-      },
-      "analysis": "Dominantní dodavatel AI čipů, který zítra po zavření trhu hlásí výsledky (konsens ~$109 mld. tržeb, EPS ~$2,47). V hledáčku je kvůli propadu o ~30 % a zprávám o možném návratu Huanga; ceny se v zdrojích lišily ($163–$174), vzal jsem konzervativnější $170.",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "1–3 týdny",
-        "entry": "$160–$170 (nejlépe po výsledcích)",
-        "stop_loss": "$146",
-        "target": "$195",
-        "position_size": "max 1,5 % satelitu (polovina před výsledky, zbytek po nich)",
-        "risk_level": "5",
-        "catalyst": "Výsledky 17. 11. po zavření, vedení po odchodu Huanga a technologický výprodej (teze AI/technologie).",
-        "action_note": "Dnes případně otevři jen poloviční pozici, nebo počkej na reakci po výsledcích; stop pod lowem $148,80."
-      },
-      "pros": [
-        "Konsensus cíl výrazně nad cenou",
-        "Akcie po ~32% propadu",
-        "Silná AI poptávka"
-      ],
-      "cons": [
-        "Nejistota ve vedení po rezignaci CEO",
-        "Výsledky padaly po 3 z posledních 4 reportů, několik downgradů"
-      ]
-    },
-    {
-      "name": "Palo Alto Networks",
-      "ticker": "PANW",
-      "region": "usa",
-      "sector": "tech",
-      "recommendation": "Koupit",
-      "price": {
-        "current": "$322.24",
-        "fair_value": "$398.63",
-        "discount": "+24% upside",
-        "signal": "Výsledky 18. 11.",
-        "signal_reason": "Akcie je ~25 % pod maximem a konsensus je Buy s cílem ~$399.",
-        "buy_zone": {
-          "low": "$305",
-          "high": "$325"
-        }
-      },
-      "moat": {
-        "score": "8",
-        "verdict": "Silný",
-        "summary": "Široká platforma kyberbezpečnosti s vysokými náklady na přechod."
-      },
-      "intrinsic": {
-        "annual_return": "+15%",
-        "verdict": "orientační odhad",
-        "summary": "Odvozeno z části mezery ke konsensu.",
-        "risk": "4"
-      },
-      "metrics": {
-        "Aktuální cena": "$322.24",
-        "Fair value (cíl analytiků)": "$398.63",
-        "P/E": "~805 (GAAP)",
-        "Beta": "0.97 (Yahoo) / 1.53 (TipRanks)",
-        "52t max/min": "$432.33 / $139.57"
-      },
-      "indicators": {
-        "P/E": {
-          "value": "~805",
-          "note": "Drahé (GAAP EPS jen $0,40)"
-        },
-        "Beta": {
-          "value": "0.97–1.53",
-          "note": "Volatilní"
-        },
-        "Div. yield": {
-          "value": "n/a",
-          "note": "Dividenda"
-        },
-        "Net Margin": {
-          "value": "n/a",
-          "note": "Neověřeno"
-        }
-      },
-      "analysis": "Největší dodavatel platforem kybernetické bezpečnosti. V hledáčku je kvůli válce s Íránem (kybernetické hrozby) a blížícím se výsledkům 18. 11.; cena ověřena z jednoho zdroje (zavírací cena 13. 11.).",
-      "trade": {
-        "action": "Koupit",
-        "horizon": "1–3 týdny",
-        "entry": "$315–$325",
-        "stop_loss": "$295",
-        "target": "$370",
-        "position_size": "max 2 % satelitu",
-        "risk_level": "4",
-        "catalyst": "Výsledky 18. 11. a poptávka po kybernetické bezpečnosti kvůli konfliktu s Íránem.",
-        "action_note": "Vstup rozděl: půlku před výsledky, půlku po nich; stop $295."
-      },
-      "pros": [
-        "Konsensus Buy, cíl ~+24 %",
-        "Geopolitická poptávka po kyberbezpečnosti",
-        "Silná platforma"
-      ],
-      "cons": [
-        "Extrémně vysoké GAAP P/E",
-        "Rostoucí výnosy tlačí na růstové valuace"
-      ]
-    },
-    {
-      "name": "Cheniere Energy",
-      "ticker": "LNG",
-      "region": "usa",
-      "sector": "energy",
+      "sector": "healthcare",
       "recommendation": "Držet",
       "price": {
-        "current": "$308.75",
-        "fair_value": "$318.71",
-        "discount": "+3% upside",
-        "signal": "Blízko maxima",
-        "signal_reason": "Cena je blízko 52t maxima a upside k konzervativnímu cíli je malý.",
+        "current": "$147.76",
+        "fair_value": "$161.53",
+        "discount": "+9.3% upside",
+        "signal": "Defenzivní růst",
+        "signal_reason": "Konsensus Buy s upsidem blízko 10 %, ale cena je blízko 52t maxima ($156.92) a upside nedosahuje pravidla pro Koupit.",
         "buy_zone": {
-          "low": "$285",
-          "high": "$300"
+          "low": "$141",
+          "high": "$147"
         }
       },
       "moat": {
         "score": "8",
         "verdict": "Silný",
-        "summary": "Největší americký exportér LNG s dlouhodobými kontrakty."
+        "summary": "Patenty, globální farmaceutická distribuce a onkologické portfolio."
       },
       "intrinsic": {
-        "annual_return": "+6%",
+        "annual_return": "+9%",
         "verdict": "orientační odhad",
-        "summary": "Malá mezera ke konsensu.",
-        "risk": "3"
+        "summary": "Odpovídá upsidu k cíli analytiků, bez započtení dividendy.",
+        "risk": "2"
       },
       "metrics": {
-        "Aktuální cena": "$308.75",
-        "Fair value (cíl analytiků)": "$318.71",
-        "P/E": "21.98",
+        "Aktuální cena": "$147.76",
+        "Fair value (cíl analytiků)": "$161.53",
+        "P/E": "n/a",
         "Beta": "n/a",
-        "52t max/min": "$330.73 / $186.20"
+        "52t max/min": "$156.92 / $91.49"
       },
       "indicators": {
         "P/E": {
-          "value": "21.98",
-          "note": "Férové"
+          "value": "n/a",
+          "note": "Nezjištěno"
         },
         "Beta": {
           "value": "n/a",
-          "note": "Neověřeno"
+          "note": "Nezjištěno"
         },
         "Div. yield": {
-          "value": "0.81%",
+          "value": "n/a",
           "note": "Dividenda"
         },
         "Net Margin": {
           "value": "n/a",
-          "note": "Neověřeno"
+          "note": "Nezjištěno"
         }
       },
-      "analysis": "Vyváží LNG z USA, kam proudí poptávka při napětí kolem Hormuzu. Cíle: StockAnalysis $318.71 vs Yahoo $335.70; vzal jsem konzervativnější.",
+      "analysis": "Velká farmaceutická firma (onkologie, vakcíny). Při výprodeji AI technologií se do ní přesouvá kapitál z rotace do zdravotnictví a konsensus je Buy (28 analytiků) s cílem $161.53. Cena se mezi zdroji lišila o 0,5 %, vzal jsem vyšší, konzervativnější.",
       "trade": {
         "action": "Držet",
-        "horizon": "2–4 týdny",
-        "entry": "$285–$300 (na poklesu)",
-        "stop_loss": "$280",
-        "target": "$330",
+        "horizon": "1–4 týdny",
+        "entry": "$141–147 (raději na poklesu)",
+        "stop_loss": "$138",
+        "target": "$158",
         "position_size": "max 2 % satelitu",
-        "risk_level": "3",
-        "catalyst": "Válka s Íránem a energetická bezpečnost; riziko je pokles ropy při očekávaném přebytku.",
-        "action_note": "Nehoň cenu, nakupuj jen při poklesu k $285–$300."
+        "risk_level": "2",
+        "catalyst": "Rotace z AI technologií do defenziv (téma 1) a nadprůměrný konsensus analytiků; JPMorgan cíl $175.",
+        "action_note": "Vstupuj po částech u spodní poloviny pásma, ne při proražení $150 v jednom dni."
       },
       "pros": [
-        "Konsensus Buy",
-        "Zvyšování cílů analytiků",
-        "Geopolitická poptávka po LNG"
+        "Konsensus Buy, 28 analytiků",
+        "Defenzivní sektor v dnešní rotaci",
+        "Upside ~9 % ke konsensu"
       ],
       "cons": [
         "Blízko 52t maxima",
-        "Slábnoucí ceny energií"
+        "Část analytiků snižuje cíle (MS $174, DZ Bank Hold)"
       ]
     },
     {
@@ -251,40 +100,40 @@
       "price": {
         "current": "$128.09",
         "fair_value": "$130.40",
-        "discount": "+2% upside",
-        "signal": "Výsledky 19. 11.",
-        "signal_reason": "Trh očekává pohyb ~7 %, ale konsensus cíl je jen těsně nad cenou.",
+        "discount": "+1.8% upside",
+        "signal": "Předvýsledkové momentum",
+        "signal_reason": "Analytici před výsledky příští týden zvedají cíle (Wells $135, UBS $149), ale konsensus je zatím jen těsně nad cenou.",
         "buy_zone": {
-          "low": "$120",
-          "high": "$126"
+          "low": "$124",
+          "high": "$128"
         }
       },
       "moat": {
         "score": "9",
         "verdict": "Velmi silný",
-        "summary": "Měřítko, logistika a cenová pozice."
+        "summary": "Škála, logistika a cenová síla v diskontním prodeji potravin."
       },
       "intrinsic": {
-        "annual_return": "+6%",
+        "annual_return": "+2%",
         "verdict": "orientační odhad",
-        "summary": "Defenzivní růst, ale drahé ohodnocení.",
-        "risk": "3"
+        "summary": "Konsensus StockAnalysis je blízko ceně, upside spočívá v možném zvyšování cílů po výsledcích.",
+        "risk": "2"
       },
       "metrics": {
         "Aktuální cena": "$128.09",
         "Fair value (cíl analytiků)": "$130.40",
-        "P/E": "46.4",
+        "P/E": "n/a",
         "Beta": "n/a",
-        "52t max/min": "n/a"
+        "52t max/min": "n/a / n/a"
       },
       "indicators": {
         "P/E": {
-          "value": "46.4",
-          "note": "Drahé"
+          "value": "n/a",
+          "note": "Nezjištěno"
         },
         "Beta": {
           "value": "n/a",
-          "note": "Defenzivní"
+          "note": "Nezjištěno"
         },
         "Div. yield": {
           "value": "n/a",
@@ -292,74 +141,149 @@
         },
         "Net Margin": {
           "value": "n/a",
-          "note": "Neověřeno"
+          "note": "Nezjištěno"
         }
       },
-      "analysis": "Největší maloobchodník, defenzivní při vysoké inflaci a sazbách. Před výsledky 19. 11. několik bank zvýšilo cíle; valuace ale už hodně počítá.",
+      "analysis": "Největší maloobchodník s potravinami a diskontním zbožím. Přitahuje peníze jako defenziva při vysokých výnosech a výprodeji tech. Výsledky Q3 vyjdou příští týden. Poslední čtvrtletí překonalo odhady (EPS $0.81 vs $0.74).",
       "trade": {
         "action": "Držet",
-        "horizon": "1–2 týdny",
-        "entry": "$120–$126",
-        "stop_loss": "$118",
-        "target": "$140",
+        "horizon": "1–2 týdny (přes výsledky)",
+        "entry": "$124–128",
+        "stop_loss": "$120",
+        "target": "$135",
         "position_size": "max 2 % satelitu",
-        "risk_level": "3",
-        "catalyst": "Výsledky 19. 11. v prostředí vysoké inflace a rostoucích sazeb (defenzivní teze).",
-        "action_note": "Před výsledky nekupuj; počkej na pokles nebo reakci."
+        "risk_level": "2",
+        "catalyst": "Rotace do defenziv (téma 1) a zvyšování cílů analytiků před výsledky příští týden.",
+        "action_note": "Zvaž menší vstup před výsledky. Výsledky jsou binární událost, nepřikupuj nad $130."
       },
       "pros": [
-        "25 Buy z 27 analytiků",
-        "Zvyšování cílů před výsledky",
+        "44 analytiků, konsensus Buy",
+        "Překonání odhadů minule",
         "Defenzivní profil"
       ],
       "cons": [
-        "P/E ~46",
-        "Upside k cíli jen ~2 %"
+        "Konsensus těsně nad cenou",
+        "Riziko výsledků příští týden, vstupní náklady z ropy"
       ]
     },
     {
-      "name": "Home Depot",
-      "ticker": "HD",
+      "name": "Eli Lilly",
+      "ticker": "LLY",
+      "region": "usa",
+      "sector": "healthcare",
+      "recommendation": "Držet",
+      "price": {
+        "current": "$1443.50",
+        "fair_value": "$1463.40",
+        "discount": "+1.4% upside",
+        "signal": "Silný trend, drahé",
+        "signal_reason": "Cena je u 52t maxima ($1460) a konsensus je těsně nad ní, i když medián cílů je $1508.",
+        "buy_zone": {
+          "low": "$1380",
+          "high": "$1420"
+        }
+      },
+      "moat": {
+        "score": "9",
+        "verdict": "Velmi silný",
+        "summary": "Dominance v GLP-1 (obezita/diabetes) a silné portfolio."
+      },
+      "intrinsic": {
+        "annual_return": "+1%",
+        "verdict": "orientační odhad",
+        "summary": "Podle konsensu málo prostoru, upside závisí na dalším zvyšování cílů (Jefferies $1700).",
+        "risk": "3"
+      },
+      "metrics": {
+        "Aktuální cena": "$1443.50",
+        "Fair value (cíl analytiků)": "$1463.40",
+        "P/E": "n/a",
+        "Beta": "n/a",
+        "52t max/min": "$1460.00 / $850.51"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "n/a",
+          "note": "Nezjištěno"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "Nezjištěno"
+        },
+        "Div. yield": {
+          "value": "n/a",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "Nezjištěno"
+        }
+      },
+      "analysis": "Farmaceutický lídr v obezitě a diabetu. Q3 překonalo odhady (EPS $7.48, tržby $24.4 mld, +38,6 % meziročně) a analytici zvedají cíle. Konsensus se mezi zdroji liší ($1343–$1463).",
+      "trade": {
+        "action": "Držet",
+        "horizon": "2–4 týdny",
+        "entry": "$1380–1420 (na poklesu)",
+        "stop_loss": "$1340",
+        "target": "$1520",
+        "position_size": "max 2 % satelitu",
+        "risk_level": "3",
+        "catalyst": "Rotace do zdravotnictví (téma 1) a růst cílů po výsledcích.",
+        "action_note": "Nehoň cenu u maxima, počkej na pokles do pásma."
+      },
+      "pros": [
+        "Tržby +38,6 % meziročně",
+        "Cíle analytiků rostou",
+        "Defenzivní rotace"
+      ],
+      "cons": [
+        "U 52t maxima, konsensus jen +1,4 %",
+        "Vysoká absolutní cena = velké denní pohyby"
+      ]
+    },
+    {
+      "name": "Procter & Gamble",
+      "ticker": "PG",
       "region": "usa",
       "sector": "consumer",
       "recommendation": "Držet",
       "price": {
-        "current": "$348.69",
-        "fair_value": "$377.59",
-        "discount": "+8% upside",
-        "signal": "Citlivé na sazby",
-        "signal_reason": "Upside pod 10 % a vysoké hypoteční sazby tlačí na trh bydlení.",
+        "current": "$169.80",
+        "fair_value": "$174.04",
+        "discount": "+2.5% upside",
+        "signal": "Defenzivní",
+        "signal_reason": "Dividendový aristokrat, analytici zvedají cíle (UBS $190), konsensus je jen mírně nad cenou.",
         "buy_zone": {
-          "low": "$330",
-          "high": "$345"
+          "low": "$164",
+          "high": "$168"
         }
       },
       "moat": {
-        "score": "8",
-        "verdict": "Silný",
-        "summary": "Lídr trhu s vybavením domácností a silná pozice u profesionálů."
+        "score": "9",
+        "verdict": "Velmi silný",
+        "summary": "Globální značky a cenová síla."
       },
       "intrinsic": {
-        "annual_return": "+7%",
+        "annual_return": "+3%",
         "verdict": "orientační odhad",
-        "summary": "Odpovídá mezeře ke konsensu.",
-        "risk": "3"
+        "summary": "Mírný upside ke konsensu, přidává se dividenda.",
+        "risk": "2"
       },
       "metrics": {
-        "Aktuální cena": "$348.69",
-        "Fair value (cíl analytiků)": "$377.59",
+        "Aktuální cena": "$169.80",
+        "Fair value (cíl analytiků)": "$174.04",
         "P/E": "n/a",
         "Beta": "n/a",
-        "52t max/min": "$397.63 / $277.15"
+        "52t max/min": "n/a / n/a"
       },
       "indicators": {
         "P/E": {
           "value": "n/a",
-          "note": "Neověřeno"
+          "note": "Nezjištěno"
         },
         "Beta": {
           "value": "n/a",
-          "note": "Neověřeno"
+          "note": "Nezjištěno"
         },
         "Div. yield": {
           "value": "n/a",
@@ -367,63 +291,213 @@
         },
         "Net Margin": {
           "value": "n/a",
-          "note": "Neověřeno"
+          "note": "Nezjištěno"
         }
       },
-      "analysis": "Maloobchodník s bydlením, který měl hlásit výsledky 17. 11. před otevřením; reakci jsem nenašel. Hawkish Fed a výnosy 5 % jsou proti sektoru.",
+      "analysis": "Výrobce spotřebního zboží s 70 lety růstu dividendy. Dnes spotřební základ roste o ~1 % při propadu tech. Cena se mezi zdroji lišila (~$167.7 vs ~$169.8), vzal jsem vyšší.",
       "trade": {
         "action": "Držet",
-        "horizon": "1–2 týdny",
-        "entry": "$330–$345",
-        "stop_loss": "$320",
-        "target": "$375",
+        "horizon": "1–4 týdny",
+        "entry": "$164–168",
+        "stop_loss": "$160",
+        "target": "$178",
         "position_size": "max 2 % satelitu",
-        "risk_level": "3",
-        "catalyst": "Výsledky a dopad zvyšování sazeb Fedu na trh bydlení.",
-        "action_note": "Počkej na reakci na výsledky, neotevírej dnes."
+        "risk_level": "2",
+        "catalyst": "Rotace do defenziv (téma 1); riziko: ropa a vstupní náklady (téma 3).",
+        "action_note": "Kupuj jen na poklesu, upside je skromný."
       },
       "pros": [
-        "36 analytiků v průměru Buy",
-        "Zvyšování cílů (JPM, UBS)",
-        "Cena 12 % pod maximem"
+        "Stabilní dividenda",
+        "Cíle analytiků rostou",
+        "Defenzivní"
       ],
       "cons": [
-        "Vysoké hypoteční sazby",
-        "Slabé prodeje existujících domů"
+        "Tlak vstupních nákladů (~$1.4 mld) při drahé ropě",
+        "Nízký upside"
+      ]
+    },
+    {
+      "name": "Coca-Cola",
+      "ticker": "KO",
+      "region": "usa",
+      "sector": "consumer",
+      "recommendation": "Držet",
+      "price": {
+        "current": "$99.25",
+        "fair_value": "$98.43",
+        "discount": "-0.8% upside",
+        "signal": "Plně oceněno",
+        "signal_reason": "Cena je nad konsensem cílů, zdroje dávají $98–99.",
+        "buy_zone": {
+          "low": "$95",
+          "high": "$98"
+        }
+      },
+      "moat": {
+        "score": "9",
+        "verdict": "Velmi silný",
+        "summary": "Globální značka a distribuční síť."
+      },
+      "intrinsic": {
+        "annual_return": "0%",
+        "verdict": "orientační odhad",
+        "summary": "Podle konsensu žádný upside, hodnota je v dividendě a stabilitě.",
+        "risk": "2"
+      },
+      "metrics": {
+        "Aktuální cena": "$99.25",
+        "Fair value (cíl analytiků)": "$98.43",
+        "P/E": "n/a",
+        "Beta": "n/a",
+        "52t max/min": "n/a / n/a"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "n/a",
+          "note": "Nezjištěno"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "Nezjištěno"
+        },
+        "Div. yield": {
+          "value": "n/a",
+          "note": "Dividenda"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "Nezjištěno"
+        }
+      },
+      "analysis": "Nápojový gigant, po výsledcích Q3 analytici zvedají cíle (TD Cowen $104, UBS $106). Je v hledáčku jako defenzivní přístav při výprodeji tech.",
+      "trade": {
+        "action": "Držet",
+        "horizon": "1–3 týdny",
+        "entry": "$95–98",
+        "stop_loss": "$93",
+        "target": "$103",
+        "position_size": "max 1,5 % satelitu",
+        "risk_level": "2",
+        "catalyst": "Rotace do defenziv (téma 1) a zvýšené cíle po výsledcích.",
+        "action_note": "Při dnešní ceně nekupuj, čekej na pokles do pásma."
+      },
+      "pros": [
+        "Zvýšené cíle po výsledcích",
+        "Defenzivní",
+        "Silná značka"
+      ],
+      "cons": [
+        "Konsensus pod cenou",
+        "Omezený upside"
+      ]
+    },
+    {
+      "name": "Johnson & Johnson",
+      "ticker": "JNJ",
+      "region": "usa",
+      "sector": "healthcare",
+      "recommendation": "Držet",
+      "price": {
+        "current": "$287.41",
+        "fair_value": "$279.41",
+        "discount": "-2.8% upside",
+        "signal": "Nový 52t high",
+        "signal_reason": "Cena vystřelila nad konsensus cílů, vysoké riziko návratu k průměru.",
+        "buy_zone": {
+          "low": "$272",
+          "high": "$282"
+        }
+      },
+      "moat": {
+        "score": "9",
+        "verdict": "Velmi silný",
+        "summary": "Diverzifikace (léky, zdravotnické prostředky) a bilance."
+      },
+      "intrinsic": {
+        "annual_return": "-3%",
+        "verdict": "orientační odhad",
+        "summary": "Cena je nad konsensem, rozumné je čekat na pokles.",
+        "risk": "2"
+      },
+      "metrics": {
+        "Aktuální cena": "$287.41",
+        "Fair value (cíl analytiků)": "$279.41",
+        "P/E": "n/a",
+        "Beta": "n/a",
+        "52t max/min": "$289.75 / $195.90"
+      },
+      "indicators": {
+        "P/E": {
+          "value": "n/a",
+          "note": "Nezjištěno"
+        },
+        "Beta": {
+          "value": "n/a",
+          "note": "Nezjištěno"
+        },
+        "Div. yield": {
+          "value": "~1,9 %",
+          "note": "Dividenda ($1.34/čtvrtletí, ex-div 24.11.)"
+        },
+        "Net Margin": {
+          "value": "n/a",
+          "note": "Nezjištěno"
+        }
+      },
+      "analysis": "Zdravotnický konglomerát, dnes na novém ročním maximu při rotaci do zdravotnictví. Individuální cíle jsou výš (Scotiabank $305, TD Cowen $300), ale konsensus ($275–279) je pod cenou.",
+      "trade": {
+        "action": "Držet",
+        "horizon": "1–3 týdny",
+        "entry": "$272–282 (na poklesu)",
+        "stop_loss": "$268",
+        "target": "$300",
+        "position_size": "max 1,5 % satelitu",
+        "risk_level": "2",
+        "catalyst": "Rotace do zdravotnictví (téma 1), nový 52t high a blížící se ex-dividenda 24.11.",
+        "action_note": "Dnes nehoň cenu, vstup jen při poklesu k $282 a níž."
+      },
+      "pros": [
+        "Silný momentum, nové maximum",
+        "Dividenda",
+        "Defenzivní"
+      ],
+      "cons": [
+        "Cena nad konsensem",
+        "Po dosažení maxima hrozí korekce"
       ]
     }
   ],
   "themes": [
     {
-      "event": "Hotová inflace, PPI 6,5 %, výnos 10letých dluhopisů ~5,15 % a sázky na zvýšení sazeb Fedu v prosinci",
-      "thesis": "Vyšší sazby → tlak na růstové a technologické valuace a zlato, silný dolar → vítězí banky a defenzivní tituly, nejistota u citlivých na sazby (bydlení).",
-      "tickers": "NVDA, PANW, WMT, HD"
+      "event": "Výprodej AI/tech před výsledky Nvidie (17.11.), odchod CEO Huanga a očekávaný debut Anthropicu (19.11.); tech sektor ~-3 %",
+      "thesis": "Nejistota kolem AI lídra → odliv z technologií → rotace do defenzivních sektorů → vydělávají zdravotnictví a základní spotřeba, ztrácí tech s vysokým oceněním.",
+      "tickers": "MRK, LLY, JNJ, WMT, KO, PG"
     },
     {
-      "event": "Válka USA/Izraele s Íránem v 9. měsíci, Írán útočí na americkou základnu v Bahrajnu",
-      "thesis": "Geopolitické riziko → poptávka po kyberbezpečnosti a LNG → těží PANW a LNG; ropa ale klesá kvůli očekávanému přebytku nabídky.",
-      "tickers": "PANW, LNG"
+      "event": "Výnosy dluhopisů nad 5 % a vysoká pravděpodobnost zvýšení sazeb Fedu 9. prosince (inflace se zrychluje)",
+      "thesis": "Dražší peníze → tlak na drahé růstové tituly → kvalitní firmy s cenovou silou a dividendou jsou relativně odolnější.",
+      "tickers": "WMT, PG, KO, JNJ"
     },
     {
-      "event": "Technologický výprodej před výsledky Nvidie 17. 11. a očekávaným IPO Anthropicu; Huang opustil funkci CEO",
-      "thesis": "Nejistota ve vedení → vysoká volatilita AI řetězce; velký pohyb v obou směrech po výsledcích → malá pozice se stopem.",
-      "tickers": "NVDA"
+      "event": "Válka s Íránem (8. měsíc), Brent ~$96, riziko v Hormuzu",
+      "thesis": "Drahá ropa → vyšší vstupní náklady spotřebitelských firem (balení, doprava) → tlak na marže PG/KO, zatímco zdravotnictví je vůči ropě odolnější; WMT těží z toho, že spotřebitelé šetří.",
+      "tickers": "PG, KO, WMT, MRK, LLY"
     }
   ],
   "follow_up": [
     {
       "ticker": "JD",
-      "action": "Drž",
-      "note": "Zisk +5,4 %, stop $23,5 je daleko, teze platí.",
+      "action": "Posuň stop na $25.5",
+      "note": "+4,9 % nad vstupem, chraň zisk, teze čínské spotřeby platí.",
       "entry": 26.49,
-      "current": 27.91,
-      "pl_pct": 5.4,
+      "current": 27.79,
+      "pl_pct": 4.9,
       "stop": 23.5
     },
     {
       "ticker": "RHM",
       "action": "Drž",
-      "note": "Cena beze změny na $982, stop i cíl daleko; cena může být neaktuální.",
+      "note": "Cena na vstupu, stop $900 je daleko a obranná teze platí.",
       "entry": 982.0,
       "current": 982.0,
       "pl_pct": 0.0,
@@ -431,462 +505,462 @@
     },
     {
       "ticker": "GE",
-      "action": "Posuň stop na $308",
-      "note": "Zisk +7,7 % a blízko cíle $345, zajisti část zisku.",
+      "action": "Posuň stop na $305",
+      "note": "+6,4 %, stop nad vstup zajistí zisk.",
       "entry": 308.11,
-      "current": 331.81,
-      "pl_pct": 7.7,
+      "current": 327.73,
+      "pl_pct": 6.4,
       "stop": 285.0
     },
     {
       "ticker": "SLB",
       "action": "Drž",
-      "note": "Zisk +4,4 %, ale ropa slábne, hlídej stop $45,5.",
+      "note": "+2,5 % a ropa kolem $96 podporuje teze.",
       "entry": 49.5,
-      "current": 51.67,
-      "pl_pct": 4.4,
+      "current": 50.74,
+      "pl_pct": 2.5,
       "stop": 45.5
     },
     {
       "ticker": "FITB",
-      "action": "Posuň stop na $51,4",
-      "note": "Zisk +6,1 %, stop na vstup eliminuje ztrátu.",
+      "action": "Posuň stop na $50.5",
+      "note": "+5,1 %, chraň zisk, vysoké výnosy bankám pomáhají.",
       "entry": 51.37,
-      "current": 54.5,
-      "pl_pct": 6.1,
+      "current": 54.0,
+      "pl_pct": 5.1,
       "stop": 47.5
     },
     {
       "ticker": "NOC",
-      "action": "Posuň stop na $542",
-      "note": "Cena $550 je blízko cíle $570, stop na vstup.",
+      "action": "Drž",
+      "note": "Obranná teze platí, cena daleko od stopu i cíle.",
       "entry": 542.46,
-      "current": 550.43,
-      "pl_pct": 1.5,
+      "current": 546.88,
+      "pl_pct": 0.8,
       "stop": 462.0
     },
     {
       "ticker": "UNH",
       "action": "Drž",
-      "note": "Ztráta -2,9 %, stop $385 platí, teze nenaplněna ale ne porušena.",
+      "note": "Zdravotnictví je dnes ve výhodě, cena -2,1 % nad stopem $385.",
       "entry": 419.79,
-      "current": 407.46,
-      "pl_pct": -2.9,
+      "current": 410.98,
+      "pl_pct": -2.1,
       "stop": 385.0
     },
     {
       "ticker": "JPM",
       "action": "Drž",
-      "note": "Zisk +3,3 %, hawkish Fed je pro banky příznivý.",
+      "note": "+2,4 %, vysoké výnosy jsou pro banky přínos.",
       "entry": 335.19,
-      "current": 346.19,
-      "pl_pct": 3.3,
+      "current": 343.22,
+      "pl_pct": 2.4,
       "stop": 318.0
     },
     {
       "ticker": "NEM",
       "action": "Drž",
-      "note": "Zlato je na 13měsíčním minimu; stop $104 přísně hlídej.",
+      "note": "Zlato kolem $3850 drží tezi, cena -1,4 % nad stopem.",
       "entry": 113.5,
-      "current": 113.14,
-      "pl_pct": -0.3,
+      "current": 111.93,
+      "pl_pct": -1.4,
       "stop": 104.0
     },
     {
       "ticker": "BABA",
-      "action": "Drž",
-      "note": "Ztráta -5,9 %, cena blízko stopu $91; při proražení utni, asijské technologie dnes klesají.",
+      "action": "Utni",
+      "note": "-8,4 % a cena jen ~1 % nad stopem $91, drž disciplínu.",
       "entry": 100.25,
-      "current": 94.38,
-      "pl_pct": -5.9,
+      "current": 91.83,
+      "pl_pct": -8.4,
       "stop": 91.0
     },
     {
       "ticker": "GOOGL",
       "action": "Drž",
-      "note": "Zisk +3 %, stop daleko, teze platí.",
+      "note": "Cena +0,6 %, stop $262 je daleko, ale sleduj tech výprodej.",
       "entry": 287.05,
-      "current": 295.77,
-      "pl_pct": 3.0,
+      "current": 288.64,
+      "pl_pct": 0.6,
       "stop": 262.0
     },
     {
       "ticker": "UAL",
       "action": "Drž",
-      "note": "Slábnoucí ropa pomáhá, stop $101 platí.",
+      "note": "Cena na vstupu; drahá ropa je riziko, ale stop $101 je dostatečně daleko.",
       "entry": 111.69,
-      "current": 109.31,
-      "pl_pct": -2.1,
+      "current": 111.53,
+      "pl_pct": -0.1,
       "stop": 101.0
     },
     {
       "ticker": "CCL",
       "action": "Drž",
-      "note": "Ztráta -3,3 %, stop $27,5 platí; levnější palivo pomáhá.",
+      "note": "-4,3 %, stop $27.5 drží, ale drahá ropa je riziko.",
       "entry": 30.22,
-      "current": 29.23,
-      "pl_pct": -3.3,
+      "current": 28.93,
+      "pl_pct": -4.3,
       "stop": 27.5
     },
     {
       "ticker": "ORCL",
       "action": "Drž",
-      "note": "Zisk +2,6 %, před výsledky Nvidie je technologický sektor volatilní, stop $110.",
+      "note": "-0,9 %, stop $110 je daleko, ale sleduj AI sentiment.",
       "entry": 122.18,
-      "current": 125.35,
-      "pl_pct": 2.6,
+      "current": 121.14,
+      "pl_pct": -0.9,
       "stop": 110.0
     },
     {
       "ticker": "B",
       "action": "Drž",
-      "note": "Mírná ztráta -1 %, stop $34 daleko.",
+      "note": "-2,4 %, stop $34 je daleko, teze platí.",
       "entry": 37.97,
-      "current": 37.59,
-      "pl_pct": -1.0,
+      "current": 37.08,
+      "pl_pct": -2.4,
       "stop": 34.0
     },
     {
       "ticker": "AMZN",
-      "action": "Posuň stop na $251",
-      "note": "Zisk +6,4 %, zajisti vstup.",
+      "action": "Posuň stop na $245",
+      "note": "+4,4 %, zajisti zisk před zítřejšími výsledky Nvidie.",
       "entry": 250.69,
-      "current": 266.66,
-      "pl_pct": 6.4,
+      "current": 261.67,
+      "pl_pct": 4.4,
       "stop": 232.0
     },
     {
       "ticker": "UBER",
       "action": "Drž",
-      "note": "Ztráta -2,1 %, stop $64 platí.",
+      "note": "-0,9 %, stop $64 daleko.",
       "entry": 71.21,
-      "current": 69.69,
-      "pl_pct": -2.1,
+      "current": 70.58,
+      "pl_pct": -0.9,
       "stop": 64.0
     },
     {
       "ticker": "AEM",
       "action": "Drž",
-      "note": "Cena beze změny, ale zlato klesá; stop $163 hlídej.",
+      "note": "-2,5 %, zlatá teze platí, stop $163 je daleko.",
       "entry": 178.69,
-      "current": 178.45,
-      "pl_pct": -0.1,
+      "current": 174.16,
+      "pl_pct": -2.5,
       "stop": 163.0
     },
     {
       "ticker": "CI",
       "action": "Drž",
-      "note": "Ztráta -2,8 %, stop $288 je blízko; při proražení utni.",
+      "note": "-1,9 %, zdravotnictví je dnes silné, stop $288 drží.",
       "entry": 305.41,
-      "current": 297.0,
-      "pl_pct": -2.8,
+      "current": 299.52,
+      "pl_pct": -1.9,
       "stop": 288.0
     },
     {
       "ticker": "COP",
-      "action": "Drž",
-      "note": "Zisk +3,9 %, cíl $148 blízko, ale ropa slábne.",
+      "action": "Posuň stop na $132",
+      "note": "+2,9 %, chraň zisk při ropě kolem $96.",
       "entry": 136.94,
-      "current": 142.28,
-      "pl_pct": 3.9,
+      "current": 140.96,
+      "pl_pct": 2.9,
       "stop": 126.0
     },
     {
       "ticker": "DLR",
       "action": "Drž",
-      "note": "Beze změny, stop $166 platí.",
+      "note": "-0,9 %, riziko: výnosy nad 5 %, stop $166 je dost daleko.",
       "entry": 180.25,
-      "current": 179.99,
-      "pl_pct": -0.1,
+      "current": 178.56,
+      "pl_pct": -0.9,
       "stop": 166.0
     },
     {
       "ticker": "PDD",
       "action": "Drž",
-      "note": "Ztráta -5,9 % nad stopem $76; při proražení utni.",
+      "note": "-6,9 %, stop $76 je jen ~2,8 % pod cenou, při průrazu utni.",
       "entry": 83.95,
-      "current": 78.97,
-      "pl_pct": -5.9,
+      "current": 78.19,
+      "pl_pct": -6.9,
       "stop": 76.0
     },
     {
       "ticker": "LRCX",
-      "action": "Posuň stop na $207",
-      "note": "Zisk +9,1 % a technologie před výsledky Nvidie volatilní, zajisti vstup.",
+      "action": "Posuň stop na $195",
+      "note": "+4,3 %, chraň zisk před výsledky Nvidie.",
       "entry": 207.0,
-      "current": 225.92,
-      "pl_pct": 9.1,
+      "current": 215.99,
+      "pl_pct": 4.3,
       "stop": 178.0
     },
     {
       "ticker": "NET",
-      "action": "Posuň stop na $282",
-      "note": "Zisk +8,4 %, stop na vstup.",
+      "action": "Posuň stop na $275",
+      "note": "+5,1 %, zajisti zisk ve volatilním tech.",
       "entry": 282.0,
-      "current": 305.81,
-      "pl_pct": 8.4,
+      "current": 296.31,
+      "pl_pct": 5.1,
       "stop": 250.0
     },
     {
       "ticker": "WFC",
       "action": "Drž",
-      "note": "Zisk +2,5 %, vyšší sazby pomáhají bankám.",
+      "note": "+1,9 %, teze bank platí.",
       "entry": 83.94,
-      "current": 86.05,
-      "pl_pct": 2.5,
+      "current": 85.53,
+      "pl_pct": 1.9,
       "stop": 78.0
     },
     {
       "ticker": "XOM",
       "action": "Drž",
-      "note": "Zisk +2,8 %, ale ropa slábne, stop $156.",
+      "note": "+1,2 %, ropa kolem $96 podporuje.",
       "entry": 165.87,
-      "current": 170.59,
-      "pl_pct": 2.8,
+      "current": 167.94,
+      "pl_pct": 1.2,
       "stop": 156.0
     },
     {
       "ticker": "NRG",
-      "action": "Vezmi zisk",
-      "note": "Cena $97,1 je těsně pod cílem $100 a stop $78 je příliš daleko.",
+      "action": "Posuň stop na $88",
+      "note": "Cena je blízko cíle $100 a stop $78 je příliš daleko.",
       "entry": 95.69,
-      "current": 97.1,
-      "pl_pct": 1.5,
+      "current": 94.49,
+      "pl_pct": -1.3,
       "stop": 78.0
     },
     {
       "ticker": "LUV",
-      "action": "Drž",
-      "note": "Zisk +1,1 %, levnější palivo pomáhá.",
+      "action": "Posuň stop na $43",
+      "note": "+4,4 %, chraň zisk blížící se cíli $49.",
       "entry": 44.45,
-      "current": 44.94,
-      "pl_pct": 1.1,
+      "current": 46.41,
+      "pl_pct": 4.4,
       "stop": 40.5
     },
     {
       "ticker": "FCX",
-      "action": "Drž",
-      "note": "Ztráta -4,1 %, těžaři klesají, stop $56 platí.",
+      "action": "Utni",
+      "note": "-8,6 % a cena je jen ~0,8 % nad stopem $56, drž disciplínu.",
       "entry": 61.8,
-      "current": 59.24,
-      "pl_pct": -4.1,
+      "current": 56.45,
+      "pl_pct": -8.6,
       "stop": 56.0
     },
     {
       "ticker": "CSCO",
       "action": "Drž",
-      "note": "Zisk +1,9 %, stop $87 platí.",
+      "note": "+0,5 %, stop $87 je daleko.",
       "entry": 93.85,
-      "current": 95.64,
-      "pl_pct": 1.9,
+      "current": 94.28,
+      "pl_pct": 0.5,
       "stop": 87.0
     },
     {
       "ticker": "GS",
       "action": "Drž",
-      "note": "Beze změny, teze platí.",
+      "note": "-1,5 %, stop $850 je daleko.",
       "entry": 912.5,
-      "current": 916.56,
-      "pl_pct": 0.4,
+      "current": 898.57,
+      "pl_pct": -1.5,
       "stop": 850.0
-    },
-    {
-      "ticker": "WPM",
-      "action": "Utni",
-      "note": "Cena $131,45 je těsně nad stopem $131 a zlato je na 13měsíčním minimu.",
-      "entry": 143.8,
-      "current": 131.45,
-      "pl_pct": -8.6,
-      "stop": 131.0
     },
     {
       "ticker": "SCHW",
       "action": "Drž",
-      "note": "Beze změny, stop $86 platí.",
+      "note": "+0,5 %, teze platí.",
       "entry": 93.22,
-      "current": 92.98,
-      "pl_pct": -0.3,
+      "current": 93.67,
+      "pl_pct": 0.5,
       "stop": 86.0
     },
     {
       "ticker": "LMT",
       "action": "Drž",
-      "note": "Zisk +1,7 %, geopolitika podporuje obranu.",
+      "note": "Cena na vstupu, obranná teze platí.",
       "entry": 586.0,
-      "current": 596.04,
-      "pl_pct": 1.7,
+      "current": 584.61,
+      "pl_pct": -0.2,
       "stop": 550.0
     },
     {
       "ticker": "PLTR",
       "action": "Drž",
-      "note": "Beze změny, ale technologie klesají; stop $153.",
+      "note": "-2,7 %, stop $153 je daleko, ale tech je volatilní.",
       "entry": 168.82,
-      "current": 167.99,
-      "pl_pct": -0.5,
+      "current": 164.24,
+      "pl_pct": -2.7,
       "stop": 153.0
     },
     {
       "ticker": "CAT",
       "action": "Drž",
-      "note": "Zisk +2,8 %, stop $545 platí.",
+      "note": "-0,4 %, stop $545 je daleko.",
       "entry": 584.0,
-      "current": 600.2,
-      "pl_pct": 2.8,
+      "current": 581.5,
+      "pl_pct": -0.4,
       "stop": 545.0
     },
     {
       "ticker": "BKNG",
       "action": "Drž",
-      "note": "Ztráta -2,1 %, stop $148 platí.",
+      "note": "-3,2 %, stop $148 je daleko.",
       "entry": 163.0,
-      "current": 159.58,
-      "pl_pct": -2.1,
+      "current": 157.79,
+      "pl_pct": -3.2,
       "stop": 148.0
     },
     {
       "ticker": "MU",
       "action": "Drž",
-      "note": "Ztráta -3,2 %, stop $640 je daleko, ale čipy jsou před výsledky Nvidie volatilní.",
+      "note": "-8,4 %, ale stop $640 je 13 % pod cenou. Počkej na výsledky Nvidie, pak přehodnoť.",
       "entry": 803.8,
-      "current": 778.31,
-      "pl_pct": -3.2,
+      "current": 736.17,
+      "pl_pct": -8.4,
       "stop": 640.0
     },
     {
       "ticker": "CRWV",
       "action": "Drž",
-      "note": "Ztráta -8,4 %, stop $46 platí; při proražení utni, vysoké riziko před výsledky Nvidie.",
+      "note": "-11,5 %, stop $46 je 10 % pod cenou. Při průrazu utni, zítra výsledky Nvidie.",
       "entry": 58.0,
-      "current": 53.13,
-      "pl_pct": -8.4,
+      "current": 51.33,
+      "pl_pct": -11.5,
       "stop": 46.0
     },
     {
       "ticker": "VRT",
       "action": "Drž",
-      "note": "Ztráta -2,4 %, stop $180 platí.",
+      "note": "-7,4 %, stop $180 je 6 % pod cenou. AI teze platí, ale výprodej tech pokračuje.",
       "entry": 207.0,
-      "current": 202.07,
-      "pl_pct": -2.4,
+      "current": 191.59,
+      "pl_pct": -7.4,
       "stop": 180.0
     },
     {
       "ticker": "VLO",
-      "action": "Vezmi zisk",
-      "note": "Cena $379,83 dosáhla cíle $380 a ropa slábne.",
+      "action": "Posuň stop na $350",
+      "note": "+5,7 % a cena blízko cíle $380, chraň zisk.",
       "entry": 351.0,
-      "current": 379.83,
-      "pl_pct": 8.2,
+      "current": 370.84,
+      "pl_pct": 5.7,
       "stop": 328.0
     },
     {
       "ticker": "AMD",
       "action": "Drž",
-      "note": "Ztráta -3,4 %, stop $495 platí, vyčkej na Nvidii.",
+      "note": "-7,0 %, stop $495 je jen 3,7 % pod cenou, při průrazu utni.",
       "entry": 552.9,
-      "current": 534.06,
-      "pl_pct": -3.4,
+      "current": 514.29,
+      "pl_pct": -7.0,
       "stop": 495.0
-    },
-    {
-      "ticker": "TSM",
-      "action": "Drž",
-      "note": "Ztráta -3,5 %; asijské technologie dnes výrazně klesají, stop $380 hlídej.",
-      "entry": 413.35,
-      "current": 398.73,
-      "pl_pct": -3.5,
-      "stop": 380.0
     },
     {
       "ticker": "RTX",
       "action": "Drž",
-      "note": "Beze změny, stop $188 platí.",
+      "note": "-1,8 %, stop $188 daleko, obranná teze platí.",
       "entry": 200.27,
-      "current": 198.58,
-      "pl_pct": -0.8,
+      "current": 196.63,
+      "pl_pct": -1.8,
       "stop": 188.0
     },
     {
       "ticker": "DVN",
       "action": "Drž",
-      "note": "Zisk +4,7 %, stop $41 platí.",
+      "note": "+1,9 %, ropa kolem $96 teze podporuje.",
       "entry": 44.48,
-      "current": 46.58,
-      "pl_pct": 4.7,
+      "current": 45.33,
+      "pl_pct": 1.9,
       "stop": 41.0
     },
     {
       "ticker": "AVGO",
       "action": "Drž",
-      "note": "Ztráta -4,1 %, stop $330 platí, hlídej reakci na Nvidii.",
+      "note": "-7,1 %, stop $330 je jen ~1,9 % pod cenou. Zítřejší výsledky Nvidie ho pravděpodobně otestují, stop dodrž.",
       "entry": 362.0,
-      "current": 347.01,
-      "pl_pct": -4.1,
+      "current": 336.34,
+      "pl_pct": -7.1,
       "stop": 330.0
     },
     {
       "ticker": "BA",
       "action": "Drž",
-      "note": "Ztráta -1,4 %, stop $160 platí.",
+      "note": "-4,3 %, stop $160 je 3,9 % pod cenou, dodrž ho.",
       "entry": 174.0,
-      "current": 171.5,
-      "pl_pct": -1.4,
+      "current": 166.46,
+      "pl_pct": -4.3,
       "stop": 160.0
     },
     {
       "ticker": "ASML",
       "action": "Drž",
-      "note": "Beze změny, stop $1370 platí.",
+      "note": "-3,9 %, stop $1370 je ~4,8 % pod cenou, sleduj výsledky Nvidie.",
       "entry": 1497.12,
-      "current": 1495.16,
-      "pl_pct": -0.1,
+      "current": 1438.52,
+      "pl_pct": -3.9,
       "stop": 1370.0
     },
     {
       "ticker": "CVX",
       "action": "Drž",
-      "note": "Zisk +1,6 %, stop $204 platí.",
+      "note": "+0,6 %, ropná teze platí.",
       "entry": 216.35,
-      "current": 219.89,
-      "pl_pct": 1.6,
+      "current": 217.75,
+      "pl_pct": 0.6,
       "stop": 204.0
     },
     {
       "ticker": "GD",
       "action": "Drž",
-      "note": "Beze změny, geopolitika podporuje obranu.",
+      "note": "-0,6 %, obranná teze platí.",
       "entry": 363.07,
-      "current": 363.46,
-      "pl_pct": 0.1,
+      "current": 360.9,
+      "pl_pct": -0.6,
       "stop": 340.0
     },
     {
       "ticker": "OXY",
       "action": "Drž",
-      "note": "Zisk +1,3 %, ropa slábne, stop $53,5 hlídej.",
+      "note": "+0,4 %, ropa kolem $96 podporuje.",
       "entry": 58.0,
-      "current": 58.75,
-      "pl_pct": 1.3,
+      "current": 58.25,
+      "pl_pct": 0.4,
       "stop": 53.5
     },
     {
       "ticker": "HAL",
       "action": "Drž",
-      "note": "Zisk +2,4 %, stop $30,5 platí.",
+      "note": "+0,4 %, ropná teze platí.",
       "entry": 33.0,
-      "current": 33.78,
-      "pl_pct": 2.4,
+      "current": 33.13,
+      "pl_pct": 0.4,
       "stop": 30.5
     },
     {
       "ticker": "KMI",
       "action": "Drž",
-      "note": "Beze změny, stop $29,8 platí.",
+      "note": "-1,2 %, stop $29.8 daleko.",
       "entry": 32.0,
-      "current": 31.92,
-      "pl_pct": -0.2,
+      "current": 31.62,
+      "pl_pct": -1.2,
       "stop": 29.8
+    },
+    {
+      "ticker": "NVDA",
+      "action": "Drž",
+      "note": "-6,0 % a zítra výsledky s CEO nejistotou. Stop $146 je 8,6 % pod cenou, zvaž snížení pozice před výsledky.",
+      "entry": 170.0,
+      "current": 159.75,
+      "pl_pct": -6.0,
+      "stop": 146.0
+    },
+    {
+      "ticker": "PANW",
+      "action": "Drž",
+      "note": "-2,3 %, stop $295 je 6 % pod cenou, teze kybernetické bezpečnosti platí.",
+      "entry": 322.24,
+      "current": 314.96,
+      "pl_pct": -2.3,
+      "stop": 295.0
     }
   ],
   "generated_at": "2026-11-16"
