@@ -1,16 +1,80 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "stats": {
-    "closed": 426,
+    "closed": 427,
     "wins": 182,
-    "losses": 244,
-    "win_rate": 42.7,
+    "losses": 245,
+    "win_rate": 42.6,
     "avg_win": 13.8,
     "avg_loss": -8.2,
     "avg_pl": 1.2,
-    "open": 45
+    "open": 48
   },
   "open": [
+    {
+      "id": "2026-11-27-PLTR",
+      "date": "2026-11-27",
+      "ticker": "PLTR",
+      "name": "Palantir Technologies",
+      "action": "Koupit",
+      "entry": 161.26,
+      "stop": 148.0,
+      "target": 185.0,
+      "horizon_days": 28,
+      "status": "open",
+      "outcome": null,
+      "last_price": 163.59,
+      "pl_pct": 1.4,
+      "closed_date": null
+    },
+    {
+      "id": "2026-11-27-AVGO",
+      "date": "2026-11-27",
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "action": "Koupit",
+      "entry": 300.86,
+      "stop": 276.0,
+      "target": 345.0,
+      "horizon_days": 21,
+      "status": "open",
+      "outcome": null,
+      "last_price": 300.86,
+      "pl_pct": 0.0,
+      "closed_date": null
+    },
+    {
+      "id": "2026-11-27-FCX",
+      "date": "2026-11-27",
+      "ticker": "FCX",
+      "name": "Freeport-McMoRan",
+      "action": "Koupit",
+      "entry": 48.55,
+      "stop": 44.0,
+      "target": 58.0,
+      "horizon_days": 28,
+      "status": "open",
+      "outcome": null,
+      "last_price": 48.55,
+      "pl_pct": 0.0,
+      "closed_date": null
+    },
+    {
+      "id": "2026-11-27-CCJ",
+      "date": "2026-11-27",
+      "ticker": "CCJ",
+      "name": "Cameco",
+      "action": "Koupit",
+      "entry": 61.55,
+      "stop": 55.5,
+      "target": 74.0,
+      "horizon_days": 28,
+      "status": "open",
+      "outcome": null,
+      "last_price": 61.55,
+      "pl_pct": 0.0,
+      "closed_date": null
+    },
     {
       "id": "2026-11-26-NVDA",
       "date": "2026-11-26",
@@ -652,22 +716,6 @@
       "closed_date": null
     },
     {
-      "id": "2026-11-05-COP",
-      "date": "2026-11-05",
-      "ticker": "COP",
-      "name": "ConocoPhillips",
-      "action": "Koupit",
-      "entry": 136.94,
-      "stop": 126.0,
-      "target": 148.0,
-      "horizon_days": 21,
-      "status": "open",
-      "outcome": null,
-      "last_price": 135.02,
-      "pl_pct": -1.4,
-      "closed_date": null
-    },
-    {
       "id": "2026-11-04-AMZN",
       "date": "2026-11-04",
       "ticker": "AMZN",
@@ -733,6 +781,22 @@
     }
   ],
   "closed": [
+    {
+      "id": "2026-11-05-COP",
+      "date": "2026-11-05",
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "action": "Koupit",
+      "entry": 136.94,
+      "stop": 126.0,
+      "target": 148.0,
+      "horizon_days": 21,
+      "status": "closed",
+      "outcome": "vypršel",
+      "last_price": 135.02,
+      "pl_pct": -1.4,
+      "closed_date": "2026-11-27"
+    },
     {
       "id": "2026-10-13-GE",
       "date": "2026-10-13",
@@ -2315,22 +2379,6 @@
       "outcome": "stop",
       "last_price": 227.56,
       "pl_pct": -9.9,
-      "closed_date": "2026-11-03"
-    },
-    {
-      "id": "2026-10-29-WDC",
-      "date": "2026-10-29",
-      "ticker": "WDC",
-      "name": "Western Digital",
-      "action": "Koupit",
-      "entry": 396.42,
-      "stop": 340.0,
-      "target": 450.0,
-      "horizon_days": 28,
-      "status": "closed",
-      "outcome": "stop",
-      "last_price": 338.59,
-      "pl_pct": -14.2,
       "closed_date": "2026-11-03"
     }
   ]
